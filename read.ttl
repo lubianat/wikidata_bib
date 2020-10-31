@@ -1,0 +1,7 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix wd: <http://www.wikidata.org/entity/>
+@prefix wb: <https://github.com/lubianat/wikidata_bib/tree/main/>
+@prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/>
+
+
+wd:Q28250597 wb:has_notes wbn:Q28250597.md
