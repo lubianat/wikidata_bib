@@ -4,8 +4,10 @@ This repo is a propotype for bibliography management using Wikidata.
 
 The overarching goal is to leverage linked open data to navigate your studies and personal notes. 
 
-For this prototype, I`ll select some of the papers from the list of "[The top 100 papers:
+For this prototype, I will select some of the papers from the list of "[The top 100 papers:
 Nature explores the most-cited research of all time](https://www.nature.com/news/the-top-100-papers-1.16224)" list from 2014 and take notes on them. 
+
+Moreover, I will add some of my notes on other topics to see how it scales.  
 
 # Repository structure
 
