@@ -62,4 +62,6 @@ Any general comments that did not fit inlinely.
 - Recording of claims: claims and the papers that support them
 - Recording of conceps: concepts and the papers that introduce (or use) them 
 
-
+- Auto update of csv based on filenames on notes folder
+- Auto adding of headers based on filenames on notes folder
+- Auto update o read.ttl
