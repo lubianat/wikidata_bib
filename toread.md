@@ -1,5 +1,11 @@
 # Papers to read
 
+## Cell types
+
+White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
+
+
+## Top 100 papers
 DNA sequencing with chain-terminating inhibitors.
 
 Clustal W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice.
