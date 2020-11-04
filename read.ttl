@@ -14,6 +14,9 @@ wd:Q43299861 wb:has_notes wbn:Q43299861.md ;
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
+wd:Q96817154 wb:has_notes wbn:Q96817154.md ;
+    wb:in_collection wbc:cell_types .
+
 wd:Q98665291 wb:has_notes wbn:Q98665291.md ;
     wb:in_collection wbc:cell_types .
 
