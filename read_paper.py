@@ -6,7 +6,7 @@ from mdutils.mdutils import MdUtils
 import pandas as pd
 import os.path
 import rdflib
- 
+from datetime import date
 
 def main():
     def get_title_df(wd_id):
@@ -59,7 +59,16 @@ def main():
                     o2 = rdflib.term.URIRef(wbc+collection)
                     g.add((s, p2, o2)) 
                     
+        today = date.today()
+        d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
+
+        s = rdflib.term.URIRef(wd+wd_id)
+        p3 = rdflib.term.URIRef(wb+"read_in")
+        o3 = rdflib.term.Literal(d1)
+        g.add((s, p3, o3)) 
+
         g.serialize(destination='read.ttl', format='turtle')
+
 
     def update_csv(df):
         df_stored = pd.read_csv("read.csv")
@@ -83,6 +92,8 @@ def main():
     
     create_markdown(file_path, title)
     update_turtle(wd_id)
+
+    
     
 
 

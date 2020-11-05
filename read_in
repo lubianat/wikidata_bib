@@ -1,0 +1,4 @@
+Links an URI pointing to a bibliographic item 
+(ex: An Wikidata item about a scientific article)
+to a the date it was read in in format eg +1967-01-17T00:00:00Z/11, 
+where /11 designates the precision of day.
