@@ -8,6 +8,10 @@ wd:Q28250597 wb:has_notes wbn:Q28250597.md .
 wd:Q38798014 wb:has_notes wbn:Q38798014.md ;
     wb:in_collection wbc:cell_types .
 
+wd:Q40967362 wb:has_notes wbn:Q40967362.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-05T00:00:00Z/11" .
+
 wd:Q43299861 wb:has_notes wbn:Q43299861.md ;
     wb:in_collection wbc:cell_types .
 
