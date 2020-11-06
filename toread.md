@@ -7,6 +7,10 @@ White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc.
 Sanes JR, Masland RH. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu Rev Neurosci. 2015; 38:221–246. [PubMed: 25897874]
 Schubert
 
+## Biocuration
+
+11. Guralnick RP, Cellinese N, Deck J, Pyle RL, Kunze J, Penev L, et al. Community next steps for making globally unique identifiers work for biocollections data. Zookeys. 2015; 133–154. https://doi.org/10. 3897/zookeys.494.9352 PMID: 25901117
+
 ## Top 100 papers
 DNA sequencing with chain-terminating inhibitors.
 
