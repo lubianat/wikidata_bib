@@ -26,6 +26,10 @@ wd:Q43299861 wb:has_notes wbn:Q43299861.md ;
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
+wd:Q93086971 wb:has_notes wbn:Q93086971.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-06T00:00:00Z/11" .
+
 wd:Q96817154 wb:has_notes wbn:Q96817154.md ;
     wb:in_collection wbc:cell_types .
 
