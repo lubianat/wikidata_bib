@@ -3,6 +3,10 @@
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
+wd:Q24678240 wb:has_notes wbn:Q24678240.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-05T00:00:00Z/11" .
+
 wd:Q28250597 wb:has_notes wbn:Q28250597.md .
 
 wd:Q33037209 wb:has_notes wbn:Q33037209.md ;
