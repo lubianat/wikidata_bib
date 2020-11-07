@@ -1,6 +1,6 @@
 # Papers to read
 
-## Cell types
+# Cell types
 
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
 
@@ -143,7 +143,6 @@ A community-based transcriptomics classification and nomenclature of neocortical
 Zeng H, Sanes JR. 2017. Neuronal cell-type classification: challenges, opportunities and the path forward. Nat Rev Neurosci 18:530–546. doi:10.1038/nrn.2017.85
 
 
-# Articles to read 
 
 ## Describing Species - Judith Winston
 [@doi:10.1017/CBO9781107415324.004]
@@ -206,7 +205,7 @@ https://senselab.med.yale.edu/NeuronDB
 
 https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691
 
-# Discovery of new cell types:
+## Discovery of new cell types:
 
 JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Single-cell profiling identifies myeloid cell subsets with distinct fates during neuroinflammation. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
@@ -217,11 +216,171 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
-## Biocuration
+# Biocuration
+Enabling Open Science: Wikidata for Research (Wiki4R)
 
-11. Guralnick RP, Cellinese N, Deck J, Pyle RL, Kunze J, Penev L, et al. Community next steps for making globally unique identifiers work for biocollections data. Zookeys. 2015; 133–154. https://doi.org/10. 3897/zookeys.494.9352 PMID: 25901117
+Ten tips for a text-mining-ready article: How to improve automated discoverability and interpretability
 
-## Top 100 papers
+Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
+
+Dovetailing biology and chemistry: integrating the Gene Ontology with the ChEBI chemical ontology
+
+Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://ontology.buffalo.edu/smith/articles/Ontologies_life_sciencesEnc.pdf
+Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
+
+http://bioportal.bioontology.org/annotatorplus
+
+Kim, J. J. & Rebholz-Schuhmann, D. Categorization of services for seeking information in biomedical literature: a typology for improvement of practice. Brief. Bioinformat. 9, 452–465 (2008). This manuscript exploits assumptions and observations linked to search behaviour from users of Web pages to judge the information-seeking behaviour of scientists. It judges available text-mining tools according to these assumptions.
+3.
+
+Attwood, T. K. et al. Prints and its automatic supplement, preprints. Nucleic Acids Res. 31, 400–402 (2003)
+
+Neumann, E. & Prusak, L. Knowledge networks in the age of the semantic Web. Brief. Bioinformat. 8, 141–149 (2007)
+
+
+Rzhetsky, A., Iossifov, I., Loh, J. M. & White, K. P. Microparadigms: chains of collective reasoning in publications about molecular interactions. Proc. Natl Acad. Sci. USA 103, 4940–4945 (2006). This article explores how authors report on their results and how the collection of reported facts can be traced, compared and evaluated against each other. It gives early indications of what results might be produced if we applied automatic reasoning to the information from scientific literature and other resources.
+
+Rzhetsky, A., Seringhaus, M. & Gerstein, M. Seeking a new biology through text mining. Cell 134, 9–13 (2008). The authors argue that the exploitation of the scientific literature will serve as an additional resource for the generation of hypotheses and the validation of human- driven hypotheses
+
+Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
+
+King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The authors mimicked genuine scientific work through automatic analysis of experimental results, derivation of novel hypotheses and by controlling a robot to execute novel experiments. Text mining and literature analysis played an important part in the interpretation of the results from the data mining step to generate valid hypotheses
+
+Rebholz-Schuhmann, D., Arregui, M., Gaudan, S., Kirsch, H. & Jimeno, A. Text processing through web services: calling Whatizit. Bioinformatics 24, 296–298 (2008).
+39. Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
+
+Cohen, K. B. & Hunter, L. Getting started in text mining. PLoS Comput. Biol. 4, e20 (2008).
+
+Jessop, D. M., Adams, S. E., Willighagen, E. L., Hawizy, L. & Murray-Rust, P. OSCAR4: a flexible architecture for chemical text-mining. J. Cheminform. 3, 41 (2011).
+
+Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
+
+Noy, N. F. et al. Bioportal: ontologies and integrated data resources at the click of a mouse. Nucleic Acids Res. 37, W170–W173 (2009
+
+Himmelstein,D. Integrating resources with disparate licensing into an open network. https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
+
+--
+Neumann EK, Quan D: Biodash: a semantic web dashboard for drug development. Pac Symp on Biocomput 2006, 11:176-187.
+--
+
+Dumontier,M., Callahan,A., Cruz-Toledo,J., Ansell,P., Emonet,V. and Belleau,F. (2014) Bio2RDF release 3: a larger connected
+
+https://academic.oup.com/nar/article/48/D1/D704/5614574
+
+https://www.nejm.org/doi/full/10.1056/NEJMra1615014
+
+ Ratnam,J., Zdrazil,B., Digles,D. et al. (2014) The applica- tion of the open pharmacological concepts triple store (open PHACTS) to support drug discovery research. PLOS ONE, 9, e115460.
+6.
+
+Lysenko,A., Roznov˘a¸t,I.A., Saqi,M. et al. (2016) Representing and querying disease networks using graph databases. BioData Min., 9, 23
+
+. Kilicoglu,H., Shin,D., Fiszman,M. et al. (2012) SemMedDB: a PubMed-scale repository of biomedical semantic predications. Bioinformatics, 28, 3158–3160.
+
+A behind‐the‐scenes tour of the IEDB curation process: an optimized process empirically integrating automation and human curation efforts
+
+Funding knowledgebases: Towards a sustainable funding model for the UniProt use case
+
+https://academic.oup.com/bioinformatics/article/23/13/i41/238103
+https://academic.oup.com/database/article/doi/10.1093/database/baaa006/5809234
+
+
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1626147/
+https://academic.oup.com/database/article/doi/10.1093/database/bar064/430006?searchresult=1
+
+https://academic.oup.com/database/article/doi/10.1093/database/bau039/2634247?searchresult=1
+
+https://academic.oup.com/database/article/doi/10.1093/database/baz085/5608006?searchresult=1
+https://academic.oup.com/database/article/doi/10.1093/databa/baaa022/5828001
+
+He Y, Yu H, Yang X, Shao C, Zhou W, Zhu Y, Wang H, Liu Q, Xie J, Zheng J, et al. Ontology: foundation of biomedical big data and precision medicine research. Chin J Bioinformatics. 2018;16(1):7–
+
+On expert curation and scalability: UniProtKB/Swiss-Prot as a case study.
+
+Guralnick RP, Cellinese N, Deck J, Pyle RL, Kunze J, Penev L, et al. Community next steps for making globally unique identifiers work for biocollections data. Zookeys. 2015; 133–154. https://doi.org/10. 3897/zookeys.494.9352 PMID: 25901117
+
+
+Leitner F, Krallinger M, Rodriguez-Penagos C. Introducing meta-services for biomedical information extraction. Genome Biol 2008;9:S6
+
+
+Crowdsourcing biomedical research: leveraging communities as innovation engines
+
+Nonetheless, some examples of systems that support the integration of text mining with manual annotation are Textpresso [65], PaperBrowser [11], GOAnnotator [70] and PreBIND [74]
+
+
+Mu¨ller H-M, Kenny EE, Sternberg PW. Textpresso: an ontology-based information retrieval and extraction system for biological literature. PLoS Biol 2004;2:e309.
+
+
+Tá aqui os papers dos dois:
+https://arxiv.org/abs/1902.07669
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3960092/
+
+Tem esse serviço que tenta automatizar o processo com machine learning, mas eu acho bem primitivo ainda https://scite.ai/ ... Uma ontologia que todo mundo usasse ia ser ótimo
+
+Arman Cohan, Waleed Ammar, Madeleine van Zuylen, and Field Cady. 2019. Structural scaffolds for ci- tation intent classification in scientific publications. CoRR, abs/1904.01608.
+Nigel
+
+Grenon P, Smith B, Goldberg L: Biodynamic Ontology: Applying BFO in the Biomedical Domain.In Ontologies in Medicine. Edited by Pisanelli DM. Amsterdam: Ios Press; 2004:20–38.
+75.
+
+1. Hakala, K., Kaewphan, S., Salakoski, T. & Ginter, F. Syntactic analyses and named entity recognition for PubMed and PubMed Central—up-to-the-minute. In Proceedings of the 15th Workshop on Biomedical Natural Language Processing 102–107, https://doi. org/10.18653/v1/W16-2913 (2016).
+2. Bell, L., Chowdhary, R., Liu, J. S., Niu, X. & Zhang, J. Integrated bio-entity network: a system for biological knowledge discovery. PLoS One 6, e21474 (2011).
+
+Lee, J. et al. BioBERT: a pre-trained biomedical language representation model for biomedical text mining. Bioinformatics 36, 1234–1240, https://doi.org/10.1093/bioinformatics/btz682 (2019).
+
+
+
+BioGPS: building your own mash-up of gene annotations and expression profiles 
+BioGPS and MyGene.info: organizing online, gene-centric information
+High-performance web services for querying gene and variant annotation
+
+
+## Reviews
+
+Text mining resources for the life sciences
+
+Pressing needs of biomedical text mining in biocuration and beyond: opportunities and challenges
+
+## Text mining
+
+Integrating text mining into the MGI biocuration workflow
+Accelerating literature curation with text-mining tools: a case study of using PubTator to curate genes in PubMed abstracts
+Collaborative biocuration--text-mining development task for document prioritization for curation
+Discovering biomedical semantic relations in PubMed queries for information retrieval and database curation
+Automated assessment of biological database assertions using the scientific literature
+LitSense: making sense of biomedical literature at sentence level
+
+
+## Ontology
+
+Semi-automated ontology generation within OBO-Edit
+
+The Confidence Information Ontology: a step towards a standard for asserting confidence in annotations
+
+## Other
+Knowledge engineering tools for reasoning with scientific observations and interpretations: a neural connectivity use case
+Making your database available through Wikipedia: the pros and cons
+Building a biomedical semantic network in Wikipedia with Semantic Wiki Links
+MyMiner: a web application for computer-assisted biocuration and text annotation
+GEOMetaCuration: a web-based application for accurate manual curation of Gene Expression Omnibus metadata
+Accelerating annotation of articles via automated approaches: evaluation of the neXtA5 curation-support tool by neXtProt
+
+## Biocreative
+
+BioCreative III interactive task: an overview
+Biocuration workflows and text mining: overview of the BioCreative 2012 Workshop Track II
+An overview of the BioCreative 2012 Workshop Track III: interactive text mining task
+Overview of the interactive task in BioCreative V
+BioCreative V BioC track overview: collaborative biocurator assistant task for BioGRID
+The BEL information extraction workflow (BELIEF): evaluation in the BioCreative V BEL and IAT track
+
+## Crowd
+Crowdsourcing in biomedicine: challenges and opportunities
+Crowdsourcing and curation: perspectives from biology and natural language processing
+Involving community in genes and pathway curation
+
+
+# Top 100 papers
 DNA sequencing with chain-terminating inhibitors.
 
 Clustal W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice.

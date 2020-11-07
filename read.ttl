@@ -3,9 +3,17 @@
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
+wd:Q101248419 wb:has_notes wbn:Q101248419.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-07T00:00:00Z/11" .
+
 wd:Q24678240 wb:has_notes wbn:Q24678240.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-05T00:00:00Z/11" .
+
+wd:Q28200510 wb:has_notes wbn:Q28200510.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-07T00:00:00Z/11" .
 
 wd:Q28250597 wb:has_notes wbn:Q28250597.md .
 
@@ -16,6 +24,10 @@ wd:Q28254676 wb:has_notes wbn:Q28254676.md ;
 wd:Q33037209 wb:has_notes wbn:Q33037209.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-05T00:00:00Z/11" .
+
+wd:Q33928865 wb:has_notes wbn:Q33928865.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-07T00:00:00Z/11" .
 
 wd:Q34065481 wb:has_notes wbn:Q34065481.md ;
     wb:in_collection wbc:cell_types ;
@@ -34,6 +46,14 @@ wd:Q40967362 wb:has_notes wbn:Q40967362.md ;
 
 wd:Q43299861 wb:has_notes wbn:Q43299861.md ;
     wb:in_collection wbc:cell_types .
+
+wd:Q47317210 wb:has_notes wbn:Q47317210.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-07T00:00:00Z/11" .
+
+wd:Q55483834 wb:has_notes wbn:Q55483834.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-07T00:00:00Z/11" .
 
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
