@@ -6,7 +6,6 @@ White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc.
 
 Sanes JR, Masland RH. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu Rev Neurosci. 2015; 38:221–246. [PubMed: 25897874]
 Schubert
-Tyner, C. F. The naming of neurons: applications of taxonomic theory to the study of cellular populations. Brain Behav. Evol. 12, 75–96 (1975). A prescient discussion of how taxonomic principles could be used to improve cell-type classification. Cast in terms of physiological properties (see also REFS 24, 28 and 29), it is even more applicable to modern molecular schemes.
 
 Jointly defining cell types from multiple single-cell datasets using LIGER
 
