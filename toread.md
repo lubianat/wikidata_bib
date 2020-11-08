@@ -24,8 +24,6 @@ A genetic and computational approach to structurally classify neuronal types
 Neuronal diversity and convergence in a visual system developmental atlas 
 Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu. Rev. Neurosci. 36, 183–215 (2013). This article summarizes the progress enabled by obtaining genetic access to specific cell types, which relied on molecular classification.
 
-Neuronal diversity and convergence in a visual system developmental atlas 
-
 Sanes, J. R. & Masland, R. H. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu. Rev. Neurosci. 38, 221–246 (2015). This article reviews the progress in classifying RGC types in mice. Remarkably, the estimated number has grown from ~30 to >50 in the two years since its publication
 
 
