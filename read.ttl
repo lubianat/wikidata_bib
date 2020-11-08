@@ -15,6 +15,10 @@ wd:Q24678240 wb:has_notes wbn:Q24678240.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-05T00:00:00Z/11" .
 
+wd:Q26707522 wb:has_notes wbn:Q26707522.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-11-08T00:00:00Z/11" .
+
 wd:Q28200510 wb:has_notes wbn:Q28200510.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
