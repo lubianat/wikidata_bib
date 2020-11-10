@@ -215,9 +215,7 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Enabling Open Science: Wikidata for Research (Wiki4R)
-
-Ten tips for a text-mining-ready article: How to improve automated discoverability and interpretability
+Pathway information extracted from 25 years of pathway figures
 
 Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
 
