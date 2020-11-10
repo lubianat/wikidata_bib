@@ -3,6 +3,10 @@
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
+wd:Q100526347 wb:has_notes wbn:Q100526347.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-09T00:00:00Z/11" .
+
 wd:Q101226729 wb:has_notes wbn:Q101226729.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-08T00:00:00Z/11" .

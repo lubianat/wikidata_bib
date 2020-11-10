@@ -2,7 +2,10 @@
 
 # Cell types
 
+Numerical Taxonomy: The Principles and Practice of Numerical Classification
+
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
+Numerical taxonomy. The principles and practice of numerical classification.
 
 Sanes JR, Masland RH. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu Rev Neurosci. 2015; 38:221–246. [PubMed: 25897874]
 Schubert
@@ -228,8 +231,6 @@ http://bioportal.bioontology.org/annotatorplus
 
 Kim, J. J. & Rebholz-Schuhmann, D. Categorization of services for seeking information in biomedical literature: a typology for improvement of practice. Brief. Bioinformat. 9, 452–465 (2008). This manuscript exploits assumptions and observations linked to search behaviour from users of Web pages to judge the information-seeking behaviour of scientists. It judges available text-mining tools according to these assumptions.
 3.
-
-Attwood, T. K. et al. Prints and its automatic supplement, preprints. Nucleic Acids Res. 31, 400–402 (2003)
 
 Neumann, E. & Prusak, L. Knowledge networks in the age of the semantic Web. Brief. Bioinformat. 8, 141–149 (2007)
 
