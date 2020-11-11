@@ -79,6 +79,10 @@ wd:Q55483834 wb:has_notes wbn:Q55483834.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
 
+wd:Q60137015 wb:has_notes wbn:Q60137015.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-11T00:00:00Z/11" .
+
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
