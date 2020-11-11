@@ -2,7 +2,31 @@
 
 # Cell types
 
+Published: 19 June 1937
+A Taxonomic Problem
+J. S. L. Gilmour 
+
+A Computer Program for Classifying Plants
+
+The Development of Taxonomic Theory Since 1851
+
+LOGIC AND MEMORY IN LINNAEUS'S SYSTEM OF TAXONOMY
+
+DEDUCTIVE AND INDUCTIVE METHODS IN POST-LINNAEAN TAXONOMY
+
 Numerical Taxonomy: The Principles and Practice of Numerical Classification
+
+Recent Developments in Theoretical and Quantitative Taxonomy
+P. H. A. Sneath
+Systematic Biology, Volume 10, Issue 3, September 1961, Pages 118–139, https://doi.org/10.2307/2411596
+Published: 01 September 1961
+
+
+Some Bases for Higher Categories in Classification
+
+Some Thoughts on Bacterial Classification Free
+P. H. A. Sneath
+Published: 01 August 1957
 
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
 Numerical taxonomy. The principles and practice of numerical classification.
