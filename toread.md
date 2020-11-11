@@ -2,15 +2,7 @@
 
 # Cell types
 
-Published: 19 June 1937
-A Taxonomic Problem
-J. S. L. Gilmour 
-
-A Computer Program for Classifying Plants
-
 The Development of Taxonomic Theory Since 1851
-
-LOGIC AND MEMORY IN LINNAEUS'S SYSTEM OF TAXONOMY
 
 DEDUCTIVE AND INDUCTIVE METHODS IN POST-LINNAEAN TAXONOMY
 
@@ -242,14 +234,19 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Pathway information extracted from 25 years of pathway figures
+
+A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open data
+
+Semantic Integration of Gene Expression Analysis Tools and Data Sources using Software Connectors
+
+C. Cross-linking BioThings APIs through JSON-LD to facilitate knowledge exploration.
 
 Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
 
-Dovetailing biology and chemistry: integrating the Gene Ontology with the ChEBI chemical ontology
-
 Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://ontology.buffalo.edu/smith/articles/Ontologies_life_sciencesEnc.pdf
 Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
+
+Hunter LE. Knowledge-based biomedical data science. Data Sci. 2017;1(1-2):19–25. https://doi.org/10.3233/DS- 170001. Accessed 20 May 2020.
 
 http://bioportal.bioontology.org/annotatorplus
 
