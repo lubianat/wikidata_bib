@@ -1,6 +1,10 @@
 # Papers to read
 
 # Cell types
+Dr. W. EH. Camp, in a stimulating paper entilled “Riosystematy” (Sridenta, 7, 113; 1951)
+
+The principles of science : a treatise on logic and scientific method
+https://archive.org/stream/principlesscien07jevogoog#page/n6/mode/2up
 
 The Development of Taxonomic Theory Since 1851
 
