@@ -83,6 +83,9 @@ wd:Q50735370 wb:has_notes wbn:Q50735370.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-10T00:00:00Z/11" .
 
+wd:Q51427139 wb:has_notes wbn:Q51427139.md ;
+    wb:read_in "+2020-11-13T00:00:00Z/11" .
+
 wd:Q55483834 wb:has_notes wbn:Q55483834.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
@@ -94,6 +97,10 @@ wd:Q59058260 wb:has_notes wbn:Q59058260.md ;
 wd:Q60137015 wb:has_notes wbn:Q60137015.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-11T00:00:00Z/11" .
+
+wd:Q74657187 wb:has_notes wbn:Q74657187.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-13T00:00:00Z/11" .
 
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .

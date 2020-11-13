@@ -1,14 +1,6 @@
 # Papers to read
 
 # Cell types
-Dr. W. EH. Camp, in a stimulating paper entilled “Riosystematy” (Sridenta, 7, 113; 1951)
-
-The principles of science : a treatise on logic and scientific method
-https://archive.org/stream/principlesscien07jevogoog#page/n6/mode/2up
-
-The Development of Taxonomic Theory Since 1851
-
-DEDUCTIVE AND INDUCTIVE METHODS IN POST-LINNAEAN TAXONOMY
 
 Numerical Taxonomy: The Principles and Practice of Numerical Classification
 
@@ -17,8 +9,6 @@ P. H. A. Sneath
 Systematic Biology, Volume 10, Issue 3, September 1961, Pages 118–139, https://doi.org/10.2307/2411596
 Published: 01 September 1961
 
-
-Some Bases for Higher Categories in Classification
 
 Some Thoughts on Bacterial Classification Free
 P. H. A. Sneath
