@@ -1,9 +1,6 @@
 # Papers to read
 
 # Cell types
-The Species Concept Among Viruses
-
-The application of computers to taxonomy
 
 Numerical Taxonomy: The Principles and Practice of Numerical Classification
 
@@ -12,10 +9,6 @@ P. H. A. Sneath
 Systematic Biology, Volume 10, Issue 3, September 1961, Pages 118–139, https://doi.org/10.2307/2411596
 Published: 01 September 1961
 
-
-Some Thoughts on Bacterial Classification Free
-P. H. A. Sneath
-Published: 01 August 1957
 
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
 Numerical taxonomy. The principles and practice of numerical classification.
