@@ -2,16 +2,25 @@
 
 # Cell types
 
-Numerical Taxonomy: The Principles and Practice of Numerical Classification
+Bacterial classification and taxonomy: a ‘primer’ for the new millennium
+Howard Gest
 
-Recent Developments in Theoretical and Quantitative Taxonomy
-P. H. A. Sneath
-Systematic Biology, Volume 10, Issue 3, September 1961, Pages 118–139, https://doi.org/10.2307/2411596
-Published: 01 September 1961
+The Main Outlines of Bacterial Classification
+R. Y. Stanier and C. B. Van Niel
 
+
+https://en.wikipedia.org/wiki/Bacterial_taxonomy
+
+
+The Use of Models in Bacterial Classification Free O. LYSENKO and P. H. A. SNEATH
+
+
+SNEATH, P. H. A. (1957a). Prejudice in bacterial classification. J. gen. Microbiol. 17, ii
 
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
 Numerical taxonomy. The principles and practice of numerical classification.
+
+RAO, C. R. (1948). The utilization of multiple measurements in problems of biological classification. J. R. statist. SOC. B, 10, 159
 
 Sanes JR, Masland RH. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu Rev Neurosci. 2015; 38:221–246. [PubMed: 25897874]
 Schubert
@@ -224,10 +233,28 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+
+C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
+neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
+
+Converting neXtProt into Linked Data and nanopublications, Semantic Web 6 (2015).
+
+E. Mina, M. Thompson, R. Kaliyaperumal, J. Zhao, E. Horst, Z. Tatum, K. Hettne, E.A. Schultes, B. Mons, M. Roos, Nanopublications for exposing experimental data in the life- sciences: a Huntington’s Disease case study, Journal of Biomedical Semantics 6 (2015), 5.
+
+T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digital Artifacts for Linked Data,
+
+À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
+
+B.M. Good, E.L. Clarke, S. Loguercio, A.I. Su, Building a biomedical semantic network in Wikipedia with Semantic Wiki Links, Database (Oxford) (2012), 2012:bar060.
+
+
+DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
+
+T. Beck, R.C. Free, G.A. Thorisson, A.J. Brookes, Semantically
+enabling a genome-wide association study database, Journal of Biomedical Semantics 3 (2012), 9
+
 https://sn-scigraph.figshare.com/
 Querying biomedical Linked Data with natural language questions
-
-Publishing DisGeNET as nanopublications
 
 A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open da
 Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
