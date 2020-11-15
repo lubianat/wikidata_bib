@@ -231,19 +231,16 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+https://sn-scigraph.figshare.com/
+Querying biomedical Linked Data with natural language questions
 
-A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open data
+Publishing DisGeNET as nanopublications
 
-Semantic Integration of Gene Expression Analysis Tools and Data Sources using Software Connectors
-
-C. Cross-linking BioThings APIs through JSON-LD to facilitate knowledge exploration.
-
+A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open da
 Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
 
 Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://ontology.buffalo.edu/smith/articles/Ontologies_life_sciencesEnc.pdf
 Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
-
-Hunter LE. Knowledge-based biomedical data science. Data Sci. 2017;1(1-2):19–25. https://doi.org/10.3233/DS- 170001. Accessed 20 May 2020.
 
 http://bioportal.bioontology.org/annotatorplus
 
