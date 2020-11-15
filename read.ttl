@@ -102,6 +102,10 @@ wd:Q59058260 wb:has_notes wbn:Q59058260.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-12T00:00:00Z/11" .
 
+wd:Q59063943 wb:has_notes wbn:Q59063943.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-15T00:00:00Z/11" .
+
 wd:Q60137015 wb:has_notes wbn:Q60137015.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-11T00:00:00Z/11" .
