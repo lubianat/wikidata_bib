@@ -2,16 +2,6 @@
 
 # Cell types
 
-SNEATH, P. H. A. (1957a). Prejudice in bacterial classification. J. gen. Microbiol. 17, ii
-
-White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
-Numerical taxonomy. The principles and practice of numerical classification.
-
-RAO, C. R. (1948). The utilization of multiple measurements in problems of biological classification. J. R. statist. SOC. B, 10, 159
-
-Sanes JR, Masland RH. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu Rev Neurosci. 2015; 38:221–246. [PubMed: 25897874]
-Schubert
-
 Jointly defining cell types from multiple single-cell datasets using LIGER
 
 Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types
@@ -221,7 +211,17 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Genuine semantic publishing
+The Anatomy of a Nano-publication
+
+T.K. Attwood, D.B. Kell, P. McDermott, J. Marsh, S. Pettifer and D. Thorne, Utopia documents: Linking scholarly litera- ture with research data, Bioinformatics 26(18) (2010), i568–i574. doi:10.1093/bioinformatics/btq383.
+
+T. Berners-Lee and J. Hendler, Publishing on the semantic web, Nature 410(6832) (2001), 1023–1024. doi:10.1038/ 35074206
+
+D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
+
+
+
+P. Groth, A. Gibson and J. Velterop, The anatomy of a nano-publication, Information Services and Use 30(1) (2010), 51–56. doi:10.3233/ISU-2010-0613
 
 Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked Data
 
