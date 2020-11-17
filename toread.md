@@ -2,19 +2,6 @@
 
 # Cell types
 
-Bacterial classification and taxonomy: a ‘primer’ for the new millennium
-Howard Gest
-
-The Main Outlines of Bacterial Classification
-R. Y. Stanier and C. B. Van Niel
-
-
-https://en.wikipedia.org/wiki/Bacterial_taxonomy
-
-
-The Use of Models in Bacterial Classification Free O. LYSENKO and P. H. A. SNEATH
-
-
 SNEATH, P. H. A. (1957a). Prejudice in bacterial classification. J. gen. Microbiol. 17, ii
 
 White, J. G., Southgate, E., Thomson, J. N. & Brenner, S. Philos. Trans. R. Soc. Lond., B 314,.1–340 (1986)
@@ -234,12 +221,21 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
+Genuine semantic publishing
+
+Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked Data
+
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
 neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
 
 Converting neXtProt into Linked Data and nanopublications, Semantic Web 6 (2015).
 
+Decentralized provenance-aware publishing with nanopublications
+
 E. Mina, M. Thompson, R. Kaliyaperumal, J. Zhao, E. Horst, Z. Tatum, K. Hettne, E.A. Schultes, B. Mons, M. Roos, Nanopublications for exposing experimental data in the life- sciences: a Huntington’s Disease case study, Journal of Biomedical Semantics 6 (2015), 5.
+
+Nanopublicação aplicada ao domínio de estudos de análise de redes de colaboração científica
+
 
 T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digital Artifacts for Linked Data,
 

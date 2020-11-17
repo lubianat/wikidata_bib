@@ -122,6 +122,14 @@ wd:Q74657187 wb:has_notes wbn:Q74657187.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-13T00:00:00Z/11" .
 
+wd:Q78658697 wb:has_notes wbn:Q78658697.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-16T00:00:00Z/11" .
+
+wd:Q79763269 wb:has_notes wbn:Q79763269.md ;
+    wb:in_collection wbc:filosofia ;
+    wb:read_in "+2020-11-16T00:00:00Z/11" .
+
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
