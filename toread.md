@@ -2,10 +2,6 @@
 
 # Cell types
 
-Jointly defining cell types from multiple single-cell datasets using LIGER
-
-Heritability enrichment of specifically expressed genes identifies disease-relevant tissues and cell types
-
 A gene expression atlas of the central nervous system based on bacterial artificial chromosomes
 
 Scala Naturae. Why there is no theory in com? parative psychology
@@ -210,8 +206,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-
-The Anatomy of a Nano-publication
 
 T.K. Attwood, D.B. Kell, P. McDermott, J. Marsh, S. Pettifer and D. Thorne, Utopia documents: Linking scholarly litera- ture with research data, Bioinformatics 26(18) (2010), i568–i574. doi:10.1093/bioinformatics/btq383.
 
