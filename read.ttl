@@ -166,6 +166,10 @@ wd:Q79763269 wb:has_notes wbn:Q79763269.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-16T00:00:00Z/11" .
 
+wd:Q90591926 wb:has_notes wbn:Q90591926.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-18T00:00:00Z/11" .
+
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
