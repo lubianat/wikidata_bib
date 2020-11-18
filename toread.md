@@ -2,8 +2,6 @@
 
 # Cell types
 
-Astrocyte layers in the mammalian cerebral cortex revealed by a single-cell in situ transcriptomic map
-
 A translational profiling approach for the molecular characterization of CNS cell types
 
 Scala Naturae. Why there is no theory in com? parative psychology
@@ -209,9 +207,11 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-T.K. Attwood, D.B. Kell, P. McDermott, J. Marsh, S. Pettifer and D. Thorne, Utopia documents: Linking scholarly litera- ture with research data, Bioinformatics 26(18) (2010), i568–i574. doi:10.1093/bioinformatics/btq383.
-
 T. Berners-Lee and J. Hendler, Publishing on the semantic web, Nature 410(6832) (2001), 1023–1024. doi:10.1038/ 35074206
+
+Shotton,D. et al. (2009) Adventures in semantic publishing: exemplar semantic enhancements of a research article. PLoS Comput. Biol., 5, e1000361.
+
+Bairoch,A. (2009) The future of annotation/biocuration. Nature Precedings [Epub ahead of print, doi:10.1038/npre.2009.3092.1
 
 D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
 
