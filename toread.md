@@ -2,7 +2,9 @@
 
 # Cell types
 
-A gene expression atlas of the central nervous system based on bacterial artificial chromosomes
+Astrocyte layers in the mammalian cerebral cortex revealed by a single-cell in situ transcriptomic map
+
+A translational profiling approach for the molecular characterization of CNS cell types
 
 Scala Naturae. Why there is no theory in com? parative psychology
 
