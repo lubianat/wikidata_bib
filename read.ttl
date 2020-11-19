@@ -166,6 +166,9 @@ wd:Q79763269 wb:has_notes wbn:Q79763269.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-16T00:00:00Z/11" .
 
+wd:Q86694255 wb:has_notes wbn:Q86694255.md ;
+    wb:read_in "+2020-11-19T00:00:00Z/11" .
+
 wd:Q90591926 wb:has_notes wbn:Q90591926.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-18T00:00:00Z/11" .
