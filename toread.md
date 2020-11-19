@@ -207,8 +207,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-T. Berners-Lee and J. Hendler, Publishing on the semantic web, Nature 410(6832) (2001), 1023–1024. doi:10.1038/ 35074206
-
 Shotton,D. et al. (2009) Adventures in semantic publishing: exemplar semantic enhancements of a research article. PLoS Comput. Biol., 5, e1000361.
 
 Bairoch,A. (2009) The future of annotation/biocuration. Nature Precedings [Epub ahead of print, doi:10.1038/npre.2009.3092.1
