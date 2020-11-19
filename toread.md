@@ -1,14 +1,14 @@
+# Books to read
+Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
+
+Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Kegan Paul, London 1962)
+
+
 # Papers to read
 
 # Cell types
 
-A translational profiling approach for the molecular characterization of CNS cell types
-
-Scala Naturae. Why there is no theory in com? parative psychology
-
-Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
-
-Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Kegan Paul, London 1962)
+Doyle, J.P., Dougherty, J.D., Heiman, M., Schmidt, E.F., Stevens, T.R., Ma, G., Bupp, S., Shrestha, P., Shah, R.D., Doughty, M.L., et al. (2008). Application of a translational profiling approach for the comparative analysis of CNS cell types. Cell 135, this issue, 749–762. Edgar,
 
 Rodieck, R. W. & Brening, R. K. Retinal ganglion cells: properties, types, genera, pathways and trans-species comparisons. Brain Behav. Evol. 23, 121–164 (1983).
 A genetic and computational approach to structurally classify neuronal types
