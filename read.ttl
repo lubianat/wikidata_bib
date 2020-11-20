@@ -134,6 +134,10 @@ wd:Q50735370 wb:has_notes wbn:Q50735370.md ;
 wd:Q51427139 wb:has_notes wbn:Q51427139.md ;
     wb:read_in "+2020-11-13T00:00:00Z/11" .
 
+wd:Q52374237 wb:has_notes wbn:Q52374237.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-11-19T00:00:00Z/11" .
+
 wd:Q52720499 wb:has_notes wbn:Q52720499.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-17T00:00:00Z/11" .
