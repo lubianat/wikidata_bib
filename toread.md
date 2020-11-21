@@ -206,9 +206,9 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Bourne P (2005) Will a biological database be different from a biological journal? PLoS Comput Biol 1: e34. http://dx.doi.org/10.1371/journal.pcbi.0010034.
 
-Shotton,D. et al. (2009) Adventures in semantic publishing: exemplar semantic enhancements of a research article. PLoS Comput. Biol., 5, e1000361.
-
+http://www.elseviergrandchallenge.com
 Bairoch,A. (2009) The future of annotation/biocuration. Nature Precedings [Epub ahead of print, doi:10.1038/npre.2009.3092.1
 
 D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
@@ -269,7 +269,7 @@ Shah, N. H. et al. Comparison of concept recognizers for building the open biome
 King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The authors mimicked genuine scientific work through automatic analysis of experimental results, derivation of novel hypotheses and by controlling a robot to execute novel experiments. Text mining and literature analysis played an important part in the interpretation of the results from the data mining step to generate valid hypotheses
 
 Rebholz-Schuhmann, D., Arregui, M., Gaudan, S., Kirsch, H. & Jimeno, A. Text processing through web services: calling Whatizit. Bioinformatics 24, 296–298 (2008).
-39. Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
+1.  Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
 
 Cohen, K. B. & Hunter, L. Getting started in text mining. PLoS Comput. Biol. 4, e20 (2008).
 
