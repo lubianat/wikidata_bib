@@ -11,6 +11,7 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 Doyle, J.P., Dougherty, J.D., Heiman, M., Schmidt, E.F., Stevens, T.R., Ma, G., Bupp, S., Shrestha, P., Shah, R.D., Doughty, M.L., et al. (2008). Application of a translational profiling approach for the comparative analysis of CNS cell types. Cell 135, this issue, 749–762. Edgar,
 
 Rodieck, R. W. & Brening, R. K. Retinal ganglion cells: properties, types, genera, pathways and trans-species comparisons. Brain Behav. Evol. 23, 121–164 (1983).
+
 A genetic and computational approach to structurally classify neuronal types
 Neuronal diversity and convergence in a visual system developmental atlas 
 Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu. Rev. Neurosci. 36, 183–215 (2013). This article summarizes the progress enabled by obtaining genetic access to specific cell types, which relied on molecular classification.
@@ -24,6 +25,7 @@ Crick, F. The impact of molecular biology on neuroscience. Phil. Trans. R. Soc. 
 The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells
 
 A maximum-likelihood approach for building cell-type trees by lifting
+
 Forcing cells to change lineages
 
 http://celltypes.brain-map.org/
@@ -55,8 +57,6 @@ CellMarker: a manually curated resource of cell markers in human and mouse
 Xinxin Zhang, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, Liwen Xu, Gaoming Liao, Min Yan, Yanyan Ping, Feng Li, Aiai Shi, Jing Bai, Tingting Zhao, Xia Li, Yun Xiao
 
 Implications of Epigenetic Variability within a Cell Population for “Cell Type” Classification
-
-Reproducibility of Flow Cytometry Through Standardization: Opportunities and Challenges Tomas Kalina
 
 Models of global gene expression define major domains of cell type and tissue identity 
 
