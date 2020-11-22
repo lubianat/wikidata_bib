@@ -206,13 +206,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-
-Brief Bioinform
-. 2004 Mar;5(1):39-55. doi: 10.1093/bib/5.1.39.
-Swiss-Prot: juggling between evolution and stability
+Protein ontology on the semantic web for knowledge discovery
 
 D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
-
 
 
 P. Groth, A. Gibson and J. Velterop, The anatomy of a nano-publication, Information Services and Use 30(1) (2010), 51–56. doi:10.3233/ISU-2010-0613
