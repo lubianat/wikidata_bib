@@ -8,7 +8,6 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 
 # Cell types
 
-Doyle, J.P., Dougherty, J.D., Heiman, M., Schmidt, E.F., Stevens, T.R., Ma, G., Bupp, S., Shrestha, P., Shah, R.D., Doughty, M.L., et al. (2008). Application of a translational profiling approach for the comparative analysis of CNS cell types. Cell 135, this issue, 749–762. Edgar,
 
 Rodieck, R. W. & Brening, R. K. Retinal ganglion cells: properties, types, genera, pathways and trans-species comparisons. Brain Behav. Evol. 23, 121–164 (1983).
 
@@ -206,7 +205,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Bourne P (2005) Will a biological database be different from a biological journal? PLoS Comput Biol 1: e34. http://dx.doi.org/10.1371/journal.pcbi.0010034.
 
 http://www.elseviergrandchallenge.com
 Bairoch,A. (2009) The future of annotation/biocuration. Nature Precedings [Epub ahead of print, doi:10.1038/npre.2009.3092.1
