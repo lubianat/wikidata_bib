@@ -206,8 +206,10 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-http://www.elseviergrandchallenge.com
-Bairoch,A. (2009) The future of annotation/biocuration. Nature Precedings [Epub ahead of print, doi:10.1038/npre.2009.3092.1
+
+Brief Bioinform
+. 2004 Mar;5(1):39-55. doi: 10.1093/bib/5.1.39.
+Swiss-Prot: juggling between evolution and stability
 
 D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
 
