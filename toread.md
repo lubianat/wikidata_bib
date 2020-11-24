@@ -12,11 +12,10 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/definitions/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
-The neuron classification problem
-Mihail Bota and Larry W. Swanson
+Petilla Interneuron Nomenclature Group, Ascoli, G.A., Alonso-Nanclares, L., Anderson, S.A., Barrionuevo, G., Benavides-Piccione, R., Burkhalter, A., Buz- sa´ ki, G., Cauli, B., Defelipe, J., Faire´ n, A., et al. (2008). Petilla terminology: nomenclature of features of GABAergic interneurons of the cerebral cortex. Nat. Rev. Neurosci. 9, 557–568.
 
-On classifying retinal ganglion cells by numerical methods.
 
 A genetic and computational approach to structurally classify neuronal types
 Neuronal diversity and convergence in a visual system developmental atlas 
@@ -36,9 +35,17 @@ Forcing cells to change lineages
 
 http://celltypes.brain-map.org/
 
+Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine consortium (DopaNet). BMC Bioinformatics 2004;5:174. [PubMed: 15518589]
+
 24. Chevrier, S. et al. An immune atlas of clear cell renal cell carcinoma. Cell 169, 736–749 (2017)
 
+Rosse C, Mejino JL Jr. A reference ontology for biomedical informatics: the Foundational Model of Anatomy. J. Biomed. Inform 2003;36:478–500. [PubMed: 14759820]
+
+Purkinje JE. Neueste Untersuchungen aus der Nerven- und Hirn-anatomie. Bericht über die Versammlung deutscher Naturforscher und Aerzte in Prag im September 1837 1883:177–180
+
 Schapiro, D. et al. histoCAT: analysis of cell phenotypes and interactions in multiplex image cytometry data. Nat. Methods 14, 873–876 (2017)
+
+Masland RH. The fundamental plan of the retina. Nat. Neurosci 2001a;4:877–886. [PubMed: 11528418]
 
 Tasic, B. et al. Adult mouse cortical cell taxonomy revealed by single cell transcriptomics. Nat. Neurosci. 19, 335–346 (2016)
 Habib, N. et al. Div-Seq: Single-nucleus RNA-Seq reveals dynamics of rare adult newborn neurons. Science 353, 925–928 (2016).
@@ -46,7 +53,6 @@ Korem, Y. et al. Geometry of the gene expression space of individual cells. PLOS
 
  A semi-supervised approach for cell phenotypic and functional estimation in tissue microenvironmen
 
-Petilla Interneuron Nomenclature Group, Ascoli, G.A., Alonso-Nanclares, L., Anderson, S.A., Barrionuevo, G., Benavides-Piccione, R., Burkhalter, A., Buz- sa´ ki, G., Cauli, B., Defelipe, J., Faire´ n, A., et al. (2008). Petilla terminology: nomenclature of features of GABAergic interneurons of the cerebral cortex. Nat. Rev. Neurosci. 9, 557–568.
 
 
 Kurtz A, Seltmann S, Bairoch A, Bittner MS, Bruce K, Capes-Davis A, Clarke L, Crook JM, Daheron L, Dewender J, Faulconbridge A, Fujibuchi W, Gutteridge A, Hei DJ, Kim YO, Kim JH, Kokocinski AK, Lekschas F, Lomax GP, Loring JF, Ludwig T, Mah N, Matsui T, Müller R, Parkinson H, Sheldon M, Smith K, Stachelscheid H, Stacey G, Streeter I, Veiga A, Xu RH.
@@ -212,8 +218,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-WikiPathways: connecting communities 
-
 Protein ontology on the semantic web for knowledge discovery
 
 van Iersel,M.P., Pico,A.R., Kelder,T., Gao,J., Ho,I., Hanspers,K., Conklin,B.R. and Evelo,C.T. (2010) The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMCBioinf., 11,5
