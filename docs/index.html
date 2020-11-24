@@ -72,7 +72,7 @@
     </section>
 	<div class="container">
     		<div id="one-tab-content">
-      			<h5 class="title is-5" style="text-align:center;"> Dash 1 </h5>
+      			<h5 class="title is-5" style="text-align:center;"> What I am reading </h5>
 				<div class="columns is-centered"
 					<p style="text-align: center">
 						<iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23defaultView%3ATable%0ASELECT%0A%20%20%28MIN%28%3Fdates%29%20AS%20%3Fdate%29%0A%20%20%3Fwork%20%3FworkLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Ftype_label%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Ftype%29%0A%20%20%28SAMPLE%28%3Fpages_%29%20AS%20%3Fpages%29%0A%20%20%3Fvenue%20%3FvenueLabel%0A%20%20%28GROUP_CONCAT%28DISTINCT%20%3Fauthor_label%3B%20separator%3D%22%2C%20%22%29%20AS%20%3Fauthors%29%0AWHERE%20%7B%0A%20%20VALUES%20%3Fwork%20%7B%20wd%3AQ47579749%20wd%3AQ24678240%20wd%3AQ31194033%20wd%3AQ29617753%20wd%3AQ101226729%20wd%3AQ90591926%20wd%3AQ35830509%20wd%3AQ28254676%20wd%3AQ74657187%20wd%3AQ42585641%20wd%3AQ26707522%20wd%3AQ56880438%20wd%3AQ96817154%20wd%3AQ52720499%20wd%3AQ34169535%20wd%3AQ2703462%20wd%3AQ38798014%20wd%3AQ37490532%20wd%3AQ28974693%20wd%3AQ57011346%20wd%3AQ28181838%20wd%3AQ30570244%20wd%3AQ28292614%20wd%3AQ33037209%20wd%3AQ28200510%20wd%3AQ29615252%20wd%3AQ98665291%20wd%3AQ98622035%20wd%3AQ91997728%20wd%3AQ34065481%20wd%3AQ79763269%20wd%3AQ38432885%20wd%3AQ96032351%20wd%3AQ101473819%20wd%3AQ55483834%20wd%3AQ21092566%20wd%3AQ49483648%20wd%3AQ78658697%20wd%3AQ34878068%20wd%3AQ86694255%20wd%3AQ52374237%20wd%3AQ42255083%20wd%3AQ51427139%20wd%3AQ59063943%20wd%3AQ43299861%20wd%3AQ36854753%20wd%3AQ28250597%20wd%3AQ40967362%20wd%3AQ28185770%20wd%3AQ100526347%20wd%3AQ102205677%20wd%3AQ93086975%20wd%3AQ93086971%20wd%3AQ21092584%20wd%3AQ60137015%20wd%3AQ48839876%20wd%3AQ91130546%20wd%3AQ90588777%20wd%3AQ50735370%20wd%3AQ47317210%20wd%3AQ48094767%20wd%3AQ59058260%20wd%3AQ46412887%20wd%3AQ33928865%20wd%3AQ57001498%20wd%3AQ99234140%20%7D.%0A%20%20%3Fwork%20wdt%3AP50%20%3Fauthor%20.%0A%20%20OPTIONAL%20%7B%0A%20%20%20%20%3Fauthor%20rdfs%3Alabel%20%3Fauthor_label_%20.%20FILTER%20%28LANG%28%3Fauthor_label_%29%20%3D%20%27en%27%29%0A%20%20%7D%0A%20%20BIND%28COALESCE%28%3Fauthor_label_%2C%20SUBSTR%28STR%28%3Fauthor%29%2C%2032%29%29%20AS%20%3Fauthor_label%29%0A%20%20OPTIONAL%20%7B%20%3Fwork%20wdt%3AP31%20%3Ftype_%20.%20%3Ftype_%20rdfs%3Alabel%20%3Ftype_label%20.%20FILTER%20%28LANG%28%3Ftype_label%29%20%3D%20%27en%27%29%20%7D%0A%20%20%3Fwork%20wdt%3AP577%20%3Fdatetimes%20.%0A%20%20BIND%28xsd%3Adate%28%3Fdatetimes%29%20AS%20%3Fdates%29%0A%20%20OPTIONAL%20%7B%20%3Fwork%20wdt%3AP1104%20%3Fpages_%20%7D%0A%20%20OPTIONAL%20%7B%20%3Fwork%20wdt%3AP1433%20%3Fvenue%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cda%2Cde%2Ces%2Cfr%2Cjp%2Cno%2Cru%2Csv%2Czh%22.%20%7D%20%20%0A%7D%0AGROUP%20BY%20%3Fwork%20%3FworkLabel%20%3Fvenue%20%3FvenueLabel%0AORDER%20BY%20DESC%28%3Fdate%29%20%20%0A%0A"></iframe>
@@ -80,7 +80,7 @@
 				</div>
     			</div>
     		<div class="is-hidden" id="two-tab-content">
-      			<<h5 class="title is-5" style="text-align:center;"> Dash 2 </h5>
+      			<<h5 class="title is-5" style="text-align:center;"> Topics I am reading in bubbles </h5>
 				<div class="columns is-centered"
 					<p style="text-align: center">
 						<iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23Pokemon%21%0A%23%20Updated%202020-06-17%0A%0A%23%20Gotta%20catch%20%27em%20all%0ASELECT%20DISTINCT%20%3Fpokemon%20%3FpokemonLabel%20%3FpokedexNumber%0AWHERE%0A%7B%0A%20%20%20%20%3Fpokemon%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ3966183%20.%0A%20%20%20%20%3Fpokemon%20p%3AP1685%20%3Fstatement.%0A%20%20%20%20%3Fstatement%20ps%3AP1685%20%3FpokedexNumber%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP972%20wd%3AQ20005020.%0A%20%20%20%20FILTER%20%28%21%20wikibase%3AisSomeValue%28%3FpokedexNumber%29%20%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20%28%3FpokedexNumber%29"></iframe>
@@ -88,7 +88,7 @@
 				</div>
                 </div>
             <div class="is-hidden" id="three-tab-content">
-                    <<h5 class="title is-5" style="text-align:center;"> Dash 2 </h5>
+                    <<h5 class="title is-5" style="text-align:center;"> Topics I am reading in a table </h5>
                   <div class="columns is-centered"
                       <p style="text-align: center">
                           <iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23Pokemon%21%0A%23%20Updated%202020-06-17%0A%0A%23%20Gotta%20catch%20%27em%20all%0ASELECT%20DISTINCT%20%3Fpokemon%20%3FpokemonLabel%20%3FpokedexNumber%0AWHERE%0A%7B%0A%20%20%20%20%3Fpokemon%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ3966183%20.%0A%20%20%20%20%3Fpokemon%20p%3AP1685%20%3Fstatement.%0A%20%20%20%20%3Fstatement%20ps%3AP1685%20%3FpokedexNumber%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP972%20wd%3AQ20005020.%0A%20%20%20%20FILTER%20%28%21%20wikibase%3AisSomeValue%28%3FpokedexNumber%29%20%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20%28%3FpokedexNumber%29"></iframe>
@@ -96,7 +96,7 @@
                   </div>
                   </div>
             <div class="is-hidden" id="four-tab-content">
-                    <<h5 class="title is-5" style="text-align:center;"> Dash 2 </h5>
+                    <<h5 class="title is-5" style="text-align:center;">  Which journals I am reading</h5>
                   <div class="columns is-centered"
                       <p style="text-align: center">
                           <iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23Pokemon%21%0A%23%20Updated%202020-06-17%0A%0A%23%20Gotta%20catch%20%27em%20all%0ASELECT%20DISTINCT%20%3Fpokemon%20%3FpokemonLabel%20%3FpokedexNumber%0AWHERE%0A%7B%0A%20%20%20%20%3Fpokemon%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ3966183%20.%0A%20%20%20%20%3Fpokemon%20p%3AP1685%20%3Fstatement.%0A%20%20%20%20%3Fstatement%20ps%3AP1685%20%3FpokedexNumber%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP972%20wd%3AQ20005020.%0A%20%20%20%20FILTER%20%28%21%20wikibase%3AisSomeValue%28%3FpokedexNumber%29%20%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20%28%3FpokedexNumber%29"></iframe>
@@ -104,7 +104,7 @@
                   </div>
                   </div>
             <div class="is-hidden" id="five-tab-content">
-                    <<h5 class="title is-5" style="text-align:center;"> Dash 2 </h5>
+                    <<h5 class="title is-5" style="text-align:center;"> Where are the authors I am reading </h5>
                   <div class="columns is-centered"
                       <p style="text-align: center">
                           <iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23Pokemon%21%0A%23%20Updated%202020-06-17%0A%0A%23%20Gotta%20catch%20%27em%20all%0ASELECT%20DISTINCT%20%3Fpokemon%20%3FpokemonLabel%20%3FpokedexNumber%0AWHERE%0A%7B%0A%20%20%20%20%3Fpokemon%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ3966183%20.%0A%20%20%20%20%3Fpokemon%20p%3AP1685%20%3Fstatement.%0A%20%20%20%20%3Fstatement%20ps%3AP1685%20%3FpokedexNumber%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP972%20wd%3AQ20005020.%0A%20%20%20%20FILTER%20%28%21%20wikibase%3AisSomeValue%28%3FpokedexNumber%29%20%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20%28%3FpokedexNumber%29"></iframe>
@@ -112,7 +112,7 @@
                   </div>
                   </div>
             <div class="is-hidden" id="six-tab-content">
-                    <<h5 class="title is-5" style="text-align:center;"> Dash 2 </h5>
+                    <<h5 class="title is-5" style="text-align:center;"> Who cites what I read </h5>
                   <div class="columns is-centered"
                       <p style="text-align: center">
                           <iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%23Pokemon%21%0A%23%20Updated%202020-06-17%0A%0A%23%20Gotta%20catch%20%27em%20all%0ASELECT%20DISTINCT%20%3Fpokemon%20%3FpokemonLabel%20%3FpokedexNumber%0AWHERE%0A%7B%0A%20%20%20%20%3Fpokemon%20wdt%3AP31%2Fwdt%3AP279%2a%20wd%3AQ3966183%20.%0A%20%20%20%20%3Fpokemon%20p%3AP1685%20%3Fstatement.%0A%20%20%20%20%3Fstatement%20ps%3AP1685%20%3FpokedexNumber%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20pq%3AP972%20wd%3AQ20005020.%0A%20%20%20%20FILTER%20%28%21%20wikibase%3AisSomeValue%28%3FpokedexNumber%29%20%29%0A%20%20%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22%5BAUTO_LANGUAGE%5D%2Cen%22%20%7D%0A%7D%0AORDER%20BY%20%28%3FpokedexNumber%29"></iframe>
