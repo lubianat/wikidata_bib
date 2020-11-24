@@ -1,5 +1,3 @@
-
-
 #defaultView:BubbleChart
 SELECT ?score ?topic ?topicLabel
 WITH {
