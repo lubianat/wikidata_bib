@@ -7,16 +7,17 @@ The overarching goal is to leverage linked open data to navigate your studies an
 
 You can check some queries on my notes at [lubianat.github.io/wikidata_bib](lubianat.github.io/wikidata_bib).
 
-# Repository structure
 
-- toread.md
-- read.ttl
-- read.csv
+# Repository structure
+- sparql
+- docs
+- collections
 - notes
     - Q1123.md
     - Q2234.md
-    - etc
-    - other.md
+- toread.md
+- read.ttl
+- read.csv
 
 ### Explanation
 
@@ -36,6 +37,16 @@ A csv file linking article titles/human readable info to Wikidata ids.
 - notes
 A folder containing markdown notes for each article. Each article get its on file, named by Wikidata ID. 
 If the material does not fit on Wikidata, just add it as a new header to other.md.
+
+- collections
+A series of URIs for the different topics that I am interested in. 
+
+- sparql
+Wikidata SPARQL queries for the dashboard on `docs`
+
+- docs
+  
+The html content for GitHub Pages, providing analytics on what I read. 
 
 ## Notes structure
 
@@ -58,6 +69,11 @@ Any general comments that did not fit inlinely.
 
 ## Features yet to be implemented
 - Recording of claims: claims and the papers that support them
-- Recording of conceps: concepts and the papers that introduce (or use) them 
-
+- Recording of concepst: concepts and the papers that introduce (or use) them 
 - Clean the code that makes the automatic updates
+
+- Auto update queries in GH Pages 
+I do not know how to embed the queries in the html directly yet.
+
+I am manually getting the urls from the Wikidata Query Service
+using queries in the sparql folder.
