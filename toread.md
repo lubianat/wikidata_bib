@@ -1,3 +1,6 @@
+# Blogs to read
+https://bioeticacomplexa.blogspot.com/2020/05/
+https://bioeticacomplexa.blogspot.com/2020/07/
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -6,7 +9,14 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 
 # Papers to read
 
+https://plato.stanford.edu/archives/win2019/entries/definitions/
+https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+
+The neuron classification problem
+Mihail Bota and Larry W. Swanson
+
+On classifying retinal ganglion cells by numerical methods.
 
 A genetic and computational approach to structurally classify neuronal types
 Neuronal diversity and convergence in a visual system developmental atlas 
@@ -202,13 +212,11 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+WikiPathways: connecting communities 
 
 Protein ontology on the semantic web for knowledge discovery
 
-D. Shotton, K. Portwin, G. Klyne and A. Miles, Adventures in semantic publishing: Exemplar semantic enhancements of a research article, PLoS computational biology 5(4) (2009), e1000361. doi:10.1371/journal.pcbi.1000361
-
-
-P. Groth, A. Gibson and J. Velterop, The anatomy of a nano-publication, Information Services and Use 30(1) (2010), 51–56. doi:10.3233/ISU-2010-0613
+van Iersel,M.P., Pico,A.R., Kelder,T., Gao,J., Ho,I., Hanspers,K., Conklin,B.R. and Evelo,C.T. (2010) The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMCBioinf., 11,5
 
 Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked Data
 
