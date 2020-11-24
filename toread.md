@@ -18,6 +18,9 @@ Petilla Interneuron Nomenclature Group, Ascoli, G.A., Alonso-Nanclares, L., Ande
 
 
 A genetic and computational approach to structurally classify neuronal types
+
+Distinction of Neurons, Glia and Endothelial Cells in the Cerebral Cortex: An Algorithm Based on Cytological Features
+
 Neuronal diversity and convergence in a visual system developmental atlas 
 Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu. Rev. Neurosci. 36, 183–215 (2013). This article summarizes the progress enabled by obtaining genetic access to specific cell types, which relied on molecular classification.
 
