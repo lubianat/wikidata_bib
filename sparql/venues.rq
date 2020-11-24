@@ -1,6 +1,3 @@
-
-
-
 # Venue statistics for a collection
 SELECT
   ?count (SAMPLE(?short_name_) AS ?short_name)
