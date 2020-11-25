@@ -14,9 +14,6 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
-Petilla Interneuron Nomenclature Group, Ascoli, G.A., Alonso-Nanclares, L., Anderson, S.A., Barrionuevo, G., Benavides-Piccione, R., Burkhalter, A., Buz- sa´ ki, G., Cauli, B., Defelipe, J., Faire´ n, A., et al. (2008). Petilla terminology: nomenclature of features of GABAergic interneurons of the cerebral cortex. Nat. Rev. Neurosci. 9, 557–568.
-
-
 A genetic and computational approach to structurally classify neuronal types
 
 Distinction of Neurons, Glia and Endothelial Cells in the Cerebral Cortex: An Algorithm Based on Cytological Features
@@ -221,7 +218,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Protein ontology on the semantic web for knowledge discovery
 
 van Iersel,M.P., Pico,A.R., Kelder,T., Gao,J., Ho,I., Hanspers,K., Conklin,B.R. and Evelo,C.T. (2010) The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMCBioinf., 11,5
 
