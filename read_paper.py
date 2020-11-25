@@ -31,6 +31,11 @@ def main():
         mdFile.new_line() 
         mdFile.new_header(1, "Highlights")
         mdFile.new_header(1, "Comments")
+        mdFile.new_header(1, "Links")
+        mdFile.new_line(" *[Scholia Profile](https://scholia.toolforge.org/work/" + wd_id + ")")
+        mdFile.new_line(" *[Wikidata](https://www.wikidata.org/wiki/" + wd_id + ")")
+        mdFile.new_line(" *[TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/" + wd_id + "/P921%3BP4510)")
+        mdFile.new_line() 
         mdFile.create_md_file()
 
 
