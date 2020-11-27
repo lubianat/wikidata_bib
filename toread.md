@@ -12,7 +12,8 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 https://portal.brain-map.org/explore/classes
-
+Single-Cell Profiling of an In Vitro Model of Human Interneuron Development Reveals Temporal Dynamics of Cell Type Production and Maturation
+Cell-type-specific consequences of Reelin deficiency in the mouse neocortex, hippocampus, and amygdala
 Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
 Single-nucleus and single-cell transcriptomes compared in matched cortical cell types
 Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type
@@ -225,10 +226,9 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+DisGeNET-RDF: harnessing the innovative power of the Semantic Web to explore the genetic basis of diseases
 
-van Iersel,M.P., Pico,A.R., Kelder,T., Gao,J., Ho,I., Hanspers,K., Conklin,B.R. and Evelo,C.T. (2010) The BridgeDb framework: standardized access to gene, protein and metabolite identifier mapping services. BMCBioinf., 11,5
-
-Nanopublications: A Growing Resource of Provenance-Centric Scientific Linked Data
+Identifiers.org - Compact Identifier Services in the Cloud
 
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
 neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
