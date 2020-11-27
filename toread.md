@@ -11,6 +11,14 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+https://portal.brain-map.org/explore/classes
+
+Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
+Single-nucleus and single-cell transcriptomes compared in matched cortical cell types
+Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type
+Genetic identification of brain cell types underlying schizophrenia
+Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
+
 Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
 A genetic and computational approach to structurally classify neuronal types
