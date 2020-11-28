@@ -16,9 +16,10 @@ Single-Cell Profiling of an In Vitro Model of Human Interneuron Development Reve
 Cell-type-specific consequences of Reelin deficiency in the mouse neocortex, hippocampus, and amygdala
 Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
 Single-nucleus and single-cell transcriptomes compared in matched cortical cell types
-Transcriptomic and morphophysiological evidence for a specialized human cortical GABAergic cell type
 Genetic identification of brain cell types underlying schizophrenia
 Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
+
+Integrated Single-Cell Atlases Reveal an Oral SARS-CoV-2 Infection and Transmission Axis
 
 Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
