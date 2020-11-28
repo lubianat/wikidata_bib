@@ -13,8 +13,6 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 https://portal.brain-map.org/explore/classes
 
-Single-Cell Profiling of an In Vitro Model of Human Interneuron Development Reveals Temporal Dynamics of Cell Type Production and Maturation
-Cell-type-specific consequences of Reelin deficiency in the mouse neocortex, hippocampus, and amygdala
 Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
 Single-nucleus and single-cell transcriptomes compared in matched cortical cell types
 Genetic identification of brain cell types underlying schizophrenia
@@ -228,7 +226,14 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Dumontier,M. et al. (2014) The Semanticscience Integrated Ontology (SIO) for biomedical research and knowledge discovery. J. Biomed. Seman., 5, 14.
+Gangemi A: Ontology design patterns for semantic web content.In The Semantic Web–ISWC 2005. Berlin Heidelberg: Springer; 2005:262–276.
+
+16. Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
+17. 
+18. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
+19. 
+Lord P, Stevens R: Adding a little reality to building ontologies for biology. PLoS One 2010, 5(9):e12258.
+39.
 
 Identifiers.org - Compact Identifier Services in the Cloud
 
