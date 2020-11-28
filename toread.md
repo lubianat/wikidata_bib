@@ -12,6 +12,7 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 https://portal.brain-map.org/explore/classes
+
 Single-Cell Profiling of an In Vitro Model of Human Interneuron Development Reveals Temporal Dynamics of Cell Type Production and Maturation
 Cell-type-specific consequences of Reelin deficiency in the mouse neocortex, hippocampus, and amygdala
 Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
@@ -227,7 +228,7 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-DisGeNET-RDF: harnessing the innovative power of the Semantic Web to explore the genetic basis of diseases
+Dumontier,M. et al. (2014) The Semanticscience Integrated Ontology (SIO) for biomedical research and knowledge discovery. J. Biomed. Seman., 5, 14.
 
 Identifiers.org - Compact Identifier Services in the Cloud
 
