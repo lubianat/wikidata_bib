@@ -11,10 +11,18 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-https://portal.brain-map.org/explore/classes
 
-Parallel RNA and DNA analysis after deep sequencing (PRDD-seq) reveals cell type-specific lineage patterns in human brain
-Single-nucleus and single-cell transcriptomes compared in matched cortical cell types
+Bernard A, Sorensen SA, Lein ES. Shifting the paradigm: new approaches for characterizing and classi- fying neurons. Current Opinion in Neurobiology. 2009. https://doi.org/10.1016/j.conb.2009.09.010 PMID: 19896835
+
+Tasic B, Menon V, Nguyen TN, Kim TK, Jarsky T, Yao Z, et al. Adult mouse cortical cell taxonomy revealed by single cell transcriptomics. Nat Neurosci. 2016; 19: 335–346. https://doi.org/10.1038/nn. 4216 PMID: 26727548
+
+
+Single cell transcriptomics in neuroscience: cell classification and beyond
+Cell types behaving in their natural habitat
+
+Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells
+
+A coupled autoencoder approach for multi-modal analysis of cell types
 Genetic identification of brain cell types underlying schizophrenia
 Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
 
@@ -226,7 +234,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Gangemi A: Ontology design patterns for semantic web content.In The Semantic Web–ISWC 2005. Berlin Heidelberg: Springer; 2005:262–276.
 
 16. Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 17. 
