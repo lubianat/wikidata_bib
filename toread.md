@@ -451,3 +451,7 @@ Isolation of mononuclear cells and granulocytes from human blood. Böyum, A. Sca
 A new and rapid colorimetric determination of acetylcholinesterase activity. Ellman, G. L., Courtney, K. D., Andres, V. Jr & Featherstone, R. M.Biochem. Pharmacol. 7, 88 (1961).
 
 The Protein Data Bank. Berman, H. M. et al. Nucleic Acids Res. 28, 235–242 (2000).
+
+# Random
+
+POINTS OF VIEW Visualizing biological data NATURE METHODS | VOL.9 NO.12 | DECEMBER 2012 | 1131
