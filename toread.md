@@ -12,7 +12,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Bernard A, Sorensen SA, Lein ES. Shifting the paradigm: new approaches for characterizing and classi- fying neurons. Current Opinion in Neurobiology. 2009. https://doi.org/10.1016/j.conb.2009.09.010 PMID: 19896835
 
 Tasic B, Menon V, Nguyen TN, Kim TK, Jarsky T, Yao Z, et al. Adult mouse cortical cell taxonomy revealed by single cell transcriptomics. Nat Neurosci. 2016; 19: 335–346. https://doi.org/10.1038/nn. 4216 PMID: 26727548
 
@@ -52,6 +51,8 @@ Forcing cells to change lineages
 http://celltypes.brain-map.org/
 
 Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine consortium (DopaNet). BMC Bioinformatics 2004;5:174. [PubMed: 15518589]
+
+4.Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL,Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA et al.: A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci 2008, 28:264-278.
 
 24. Chevrier, S. et al. An immune atlas of clear cell renal cell carcinoma. Cell 169, 736–749 (2017)
 
