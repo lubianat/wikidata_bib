@@ -17,7 +17,6 @@ Tasic B, Menon V, Nguyen TN, Kim TK, Jarsky T, Yao Z, et al. Adult mouse cortica
 
 
 Single cell transcriptomics in neuroscience: cell classification and beyond
-Cell types behaving in their natural habitat
 
 Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells
 
@@ -29,7 +28,6 @@ Integrated Single-Cell Atlases Reveal an Oral SARS-CoV-2 Infection and Transmiss
 
 Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
-A genetic and computational approach to structurally classify neuronal types
 
 Distinction of Neurons, Glia and Endothelial Cells in the Cerebral Cortex: An Algorithm Based on Cytological Features
 
