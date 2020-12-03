@@ -7,6 +7,10 @@
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
+wd:Q100500142 wb:has_notes wbn:Q100500142.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-12-02T00:00:00Z/11" .
+
 wd:Q100525924 wb:has_notes wbn:Q100525924.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-24T00:00:00Z/11" .

@@ -12,6 +12,9 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
+Single-nucleus RNA-seq identifies Huntington disease astrocyte states
+
+Generalized leaky integrate-and-fire models classify multiple neuron types.
 
 Single cell transcriptomics in neuroscience: cell classification and beyond
 
@@ -231,14 +234,21 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
+https://developers.google.com/search/docs/data-types/dataset
+
+editorial (2018). On the road to robust data citation. Scientific Data, 5(1), 180095.
+
+Juty et al. (2013). Towards the collaborative curation of the registry underlying identifiers. org. Database, 2013.
+
+Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
+
 16. Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
-17. 
-18. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
-19. 
+
+17. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
+
+
 Lord P, Stevens R: Adding a little reality to building ontologies for biology. PLoS One 2010, 5(9):e12258.
 39.
-
-Identifiers.org - Compact Identifier Services in the Cloud
 
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
 neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
