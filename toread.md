@@ -13,9 +13,6 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-Tasic B, Menon V, Nguyen TN, Kim TK, Jarsky T, Yao Z, et al. Adult mouse cortical cell taxonomy revealed by single cell transcriptomics. Nat Neurosci. 2016; 19: 335–346. https://doi.org/10.1038/nn. 4216 PMID: 26727548
-
-
 Single cell transcriptomics in neuroscience: cell classification and beyond
 
 Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells

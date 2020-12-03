@@ -75,6 +75,10 @@ wd:Q2703462 wb:has_notes wbn:Q2703462.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-09T00:00:00Z/11" .
 
+wd:Q27311570 wb:has_notes wbn:Q27311570.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-02T00:00:00Z/11" .
+
 wd:Q28181838 wb:has_notes wbn:Q28181838.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-15T00:00:00Z/11" .
