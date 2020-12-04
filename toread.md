@@ -12,8 +12,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Single-nucleus RNA-seq identifies Huntington disease astrocyte states
-
 Generalized leaky integrate-and-fire models classify multiple neuron types.
 
 Single cell transcriptomics in neuroscience: cell classification and beyond
