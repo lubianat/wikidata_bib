@@ -11,6 +11,17 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+Innovations present in the primate interneuron repertoire (Methods!)
+Xu, X. et al. Species and cell-type properties of classically defined human and rodent neurons and glia. eLife 7, e37551 (2018).
+4.
+Katz, P. S. & Harris-Warrick, R. M. The evolution of neuronal circuits underlying species-specific behavior. Curr. Opin. Neurobiol. 9, 628–633 (1999).
+
+Barkan, C. L., Kelley, D. B. & Zornik, E. Premotor neuron divergence reflects vocal evolution. J. Neurosci. 38, 5325–5337 (2018).
+8. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
+9. Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
+
+Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
+
 
 Generalized leaky integrate-and-fire models classify multiple neuron types.
 
@@ -50,7 +61,7 @@ Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine
 
 4.Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL,Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA et al.: A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci 2008, 28:264-278.
 
-24. Chevrier, S. et al. An immune atlas of clear cell renal cell carcinoma. Cell 169, 736–749 (2017)
+1.  Chevrier, S. et al. An immune atlas of clear cell renal cell carcinoma. Cell 169, 736–749 (2017)
 
 Rosse C, Mejino JL Jr. A reference ontology for biomedical informatics: the Foundational Model of Anatomy. J. Biomed. Inform 2003;36:478–500. [PubMed: 14759820]
 
@@ -250,8 +261,6 @@ Lord P, Stevens R: Adding a little reality to building ontologies for biology. P
 
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
 neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
-
-Converting neXtProt into Linked Data and nanopublications, Semantic Web 6 (2015).
 
 Decentralized provenance-aware publishing with nanopublications
 
