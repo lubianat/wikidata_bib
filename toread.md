@@ -11,7 +11,6 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-Innovations present in the primate interneuron repertoire (Methods!)
 Xu, X. et al. Species and cell-type properties of classically defined human and rodent neurons and glia. eLife 7, e37551 (2018).
 4.
 Katz, P. S. & Harris-Warrick, R. M. The evolution of neuronal circuits underlying species-specific behavior. Curr. Opin. Neurobiol. 9, 628–633 (1999).
