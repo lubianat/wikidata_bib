@@ -11,20 +11,34 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-Xu, X. et al. Species and cell-type properties of classically defined human and rodent neurons and glia. eLife 7, e37551 (2018).
-4.
-Katz, P. S. & Harris-Warrick, R. M. The evolution of neuronal circuits underlying species-specific behavior. Curr. Opin. Neurobiol. 9, 628–633 (1999).
 
-Barkan, C. L., Kelley, D. B. & Zornik, E. Premotor neuron divergence reflects vocal evolution. J. Neurosci. 38, 5325–5337 (2018).
+14. Armananzas R, Ascoli GA: Towards the automatic classification of neurons. Trends Neurosci 2015, 38:307-318.
+
+Zeisel A, Munoz-Manchado AB, Codeluppi S, Lonnerberg P, La
+??
+Manno G, Jureus A, Marques S, Munguba H, He L, Betsholtz C et al.: Brain structure. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. Science 2015, 347:1138-1142.
+
+Tang F, Barbacioru C, Wang Y, Nordman E, Lee C, Xu N, Wang X,
+?
+Bodeau J, Tuch BB, Siddiqui A et al.: mRNA-Seq whole- transcriptome analysis of a single cell. Nat Methods 2009, 6:377-382.
+
+83.
+Fuzik J, Zeisel A, Mate Z, Calvigioni D, Yanagawa Y, Szabo G,
+?
+Linnarsson S, Harkany T: Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 2016, 34:175-183.
+This paper together with [84?] paved the way to Patch-seq, a method for single cell bi-modal or tri-modal data acquisition (electrophysiology, morphology,
+
+Li H, Horns F, Wu B, Xie Q, Li J, Li T, Luginbuhl DJ, Quake SR,
+??
+Luo L: Classifying Drosophila olfactory projection neuron subtypes by single-cell RNA sequencing. Cell 2017, 171 1206-1220 e1222
+
 8. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
-9. Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
+9. 
+10. Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
 
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
 
-
 Generalized leaky integrate-and-fire models classify multiple neuron types.
-
-Single cell transcriptomics in neuroscience: cell classification and beyond
 
 Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells
 

@@ -348,6 +348,10 @@ wd:Q79763269 wb:has_notes wbn:Q79763269.md ;
 wd:Q86694255 wb:has_notes wbn:Q86694255.md ;
     wb:read_in "+2020-11-19T00:00:00Z/11" .
 
+wd:Q88605805 wb:has_notes wbn:Q88605805.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-06T00:00:00Z/11" .
+
 wd:Q89763874 wb:has_notes wbn:Q89763874.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-03T00:00:00Z/11" .
