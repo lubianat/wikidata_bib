@@ -262,17 +262,27 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
+Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
+
+Sealife: a semantic grid browser for the life sciences applied to the study of infectious diseases
+
+Data curation + process curation=data integration + science
+
+Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
+
+A Survey of Bioinformatics Database and Software Usage through Mining the Literature
+
 https://developers.google.com/search/docs/data-types/dataset
 
 Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
+The language of gene ontology: a Zipf's law analysis
 
 16. Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
+BioCatalogue: A Curated Web Service Registry For The Life Science Community
+
 17. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
 
-
-Lord P, Stevens R: Adding a little reality to building ontologies for biology. PLoS One 2010, 5(9):e12258.
-39.
 
 C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
 neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
