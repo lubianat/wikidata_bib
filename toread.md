@@ -11,8 +11,12 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
+19
+Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: lessons from the retina. Neuron 83, 1262–1272
 
-14. Armananzas R, Ascoli GA: Towards the automatic classification of neurons. Trends Neurosci 2015, 38:307-318.
+Mihaljevic, B. et al. (2014) Bayesian network classifiers for categorizing cortical GABAergic interneurons. Neuroinformatics Published online November 25, 2015. http://dx.doi.org/10.1007/ s12021-014-9254-1
+40
 
 Zeisel A, Munoz-Manchado AB, Codeluppi S, Lonnerberg P, La
 ??
@@ -257,10 +261,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 # Biocuration
 
 https://developers.google.com/search/docs/data-types/dataset
-
-editorial (2018). On the road to robust data citation. Scientific Data, 5(1), 180095.
-
-Juty et al. (2013). Towards the collaborative curation of the registry underlying identifiers. org. Database, 2013.
 
 Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
 
