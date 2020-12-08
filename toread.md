@@ -11,6 +11,10 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+A. Kepecs, G. Fishell, Interneuron cell types are fit to function. Nature 505, 318– 326 (2014). Medline doi:10.1038/nature12983
+
+B. Treutlein, D. G. Brownfield, A. R. Wu, N. F. Neff, G. L. Mantalas, F. H. Espinoza, T. J. Desai, M. A. Krasnow, S. R. Quake, Reconstructing lineage hierarchies of the distal lung epithelium using single-cell RNA-seq. Nature 509, 371–375 (2014). Medline doi:10.1038/nature13173
+
 8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
 19
 Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: lessons from the retina. Neuron 83, 1262–1272
@@ -18,9 +22,7 @@ Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: le
 Mihaljevic, B. et al. (2014) Bayesian network classifiers for categorizing cortical GABAergic interneurons. Neuroinformatics Published online November 25, 2015. http://dx.doi.org/10.1007/ s12021-014-9254-1
 40
 
-Zeisel A, Munoz-Manchado AB, Codeluppi S, Lonnerberg P, La
-??
-Manno G, Jureus A, Marques S, Munguba H, He L, Betsholtz C et al.: Brain structure. Cell types in the mouse cortex and hippocampus revealed by single-cell RNA-seq. Science 2015, 347:1138-1142.
+Probabilistic cell typing enables fine mapping of closely related cell types in situ
 
 Tang F, Barbacioru C, Wang Y, Nordman E, Lee C, Xu N, Wang X,
 ?
