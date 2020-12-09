@@ -261,6 +261,15 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Molecular biology gets wikified (https://www.nature.com/news/2008/080723/full/news.2008.971.html)
+
+Entity Linking for Biomedical Literature https://dl.acm.org/doi/abs/10.1145/2665970.2665974
+
+Concept Wikification for COVID-19 https://openreview.net/forum?id=ylgU9BB1vEd
+
+Review on Wikification methods https://content.iospress.com/articles/ai-communications/aic190581
+
+Abstract Meaning Representation for Sembanking https://www.aclweb.org/anthology/W13-2322.pdf
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
