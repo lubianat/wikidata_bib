@@ -264,10 +264,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
-Sealife: a semantic grid browser for the life sciences applied to the study of infectious diseases
-
-Data curation + process curation=data integration + science
-
 Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
 
 A Survey of Bioinformatics Database and Software Usage through Mining the Literature
