@@ -339,8 +339,6 @@ King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The a
 Rebholz-Schuhmann, D., Arregui, M., Gaudan, S., Kirsch, H. & Jimeno, A. Text processing through web services: calling Whatizit. Bioinformatics 24, 296–298 (2008).
 1.  Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
 
-Cohen, K. B. & Hunter, L. Getting started in text mining. PLoS Comput. Biol. 4, e20 (2008).
-
 Jessop, D. M., Adams, S. E., Willighagen, E. L., Hawizy, L. & Murray-Rust, P. OSCAR4: a flexible architecture for chemical text-mining. J. Cheminform. 3, 41 (2011).
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
