@@ -11,7 +11,7 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-A. Kepecs, G. Fishell, Interneuron cell types are fit to function. Nature 505, 318– 326 (2014). Medline doi:10.1038/nature12983
+Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
 B. Treutlein, D. G. Brownfield, A. R. Wu, N. F. Neff, G. L. Mantalas, F. H. Espinoza, T. J. Desai, M. A. Krasnow, S. R. Quake, Reconstructing lineage hierarchies of the distal lung epithelium using single-cell RNA-seq. Nature 509, 371–375 (2014). Medline doi:10.1038/nature13173
 

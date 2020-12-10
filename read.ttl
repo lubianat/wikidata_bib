@@ -103,6 +103,10 @@ wd:Q27010194 wb:has_notes wbn:Q27010194.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-08T00:00:00Z/11" .
 
+wd:Q27021885 wb:has_notes wbn:Q27021885.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-09T00:00:00Z/11" .
+
 wd:Q2703462 wb:has_notes wbn:Q2703462.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-09T00:00:00Z/11" .
