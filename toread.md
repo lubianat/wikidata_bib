@@ -11,9 +11,10 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+Northstar enables automatic classification of known and novel cell types from tumor samples
+
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
-B. Treutlein, D. G. Brownfield, A. R. Wu, N. F. Neff, G. L. Mantalas, F. H. Espinoza, T. J. Desai, M. A. Krasnow, S. R. Quake, Reconstructing lineage hierarchies of the distal lung epithelium using single-cell RNA-seq. Nature 509, 371–375 (2014). Medline doi:10.1038/nature13173
 
 8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
 19
@@ -268,8 +269,6 @@ Entity Linking for Biomedical Literature https://dl.acm.org/doi/abs/10.1145/2665
 Concept Wikification for COVID-19 https://openreview.net/forum?id=ylgU9BB1vEd
 
 Review on Wikification methods https://content.iospress.com/articles/ai-communications/aic190581
-
-Abstract Meaning Representation for Sembanking https://www.aclweb.org/anthology/W13-2322.pdf
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
