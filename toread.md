@@ -288,12 +288,10 @@ BioCatalogue: A Curated Web Service Registry For The Life Science Community
 17. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
 
 
-C. Chichester, P. Gaudet, O. Karch, P. Groth, L. Lane, A. Bairoch, B. Mons, A. Loizou, Querying
-neXtProt nanopublications and their value for insights on sequence variants and tissue expression, Journal of Web Semantics 29 (2014), 15
+Theoretical and technological building blocks for an innovation accelerator
+F. van Harmelen, G. Kampis, K. Börner, P. van den Besselaar, E. Schultes, C. Goble, P. Groth, B. Mons, S. Anderson, S. Decker, C. Hayes, T. Buecheler & D. Helbing 
 
 Decentralized provenance-aware publishing with nanopublications
-
-E. Mina, M. Thompson, R. Kaliyaperumal, J. Zhao, E. Horst, Z. Tatum, K. Hettne, E.A. Schultes, B. Mons, M. Roos, Nanopublications for exposing experimental data in the life- sciences: a Huntington’s Disease case study, Journal of Biomedical Semantics 6 (2015), 5.
 
 Nanopublicação aplicada ao domínio de estudos de análise de redes de colaboração científica
 

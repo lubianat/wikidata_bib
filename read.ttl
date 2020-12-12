@@ -320,6 +320,10 @@ wd:Q52720499 wb:has_notes wbn:Q52720499.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-17T00:00:00Z/11" .
 
+wd:Q54670808 wb:has_notes wbn:Q54670808.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-12-12T00:00:00Z/11" .
+
 wd:Q55483834 wb:has_notes wbn:Q55483834.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
