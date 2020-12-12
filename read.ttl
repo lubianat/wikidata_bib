@@ -440,6 +440,10 @@ wd:Q96032351 wb:has_notes wbn:Q96032351.md ;
 wd:Q96817154 wb:has_notes wbn:Q96817154.md ;
     wb:in_collection wbc:cell_types .
 
+wd:Q98568691 wb:has_notes wbn:Q98568691.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-12T00:00:00Z/11" .
+
 wd:Q98568692 wb:has_notes wbn:Q98568692.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-12T00:00:00Z/11" .
