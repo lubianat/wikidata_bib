@@ -11,6 +11,10 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+<<<<<<< HEAD
+=======
+Naming human genes
+>>>>>>> eb6415ecc553eb06796b51f87bf486e998d9ad76
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
