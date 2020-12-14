@@ -11,7 +11,6 @@ Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Ke
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-Northstar enables automatic classification of known and novel cell types from tumor samples
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
@@ -262,7 +261,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Molecular biology gets wikified (https://www.nature.com/news/2008/080723/full/news.2008.971.html)
 
 Entity Linking for Biomedical Literature https://dl.acm.org/doi/abs/10.1145/2665970.2665974
 
