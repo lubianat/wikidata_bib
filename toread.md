@@ -5,16 +5,12 @@ https://bioeticacomplexa.blogspot.com/2020/07/
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
 Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Kegan Paul, London 1962)
-
+Antonio D. Descarte’s Error. Vintage Press, 2006; 104–105.
 
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-<<<<<<< HEAD
-=======
-Naming human genes
->>>>>>> eb6415ecc553eb06796b51f87bf486e998d9ad76
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
@@ -266,6 +262,11 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
+Giles J. Internet encyclopaedias go head to head. Nature 2005;438:900–1
+
+Wenger E. Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press, 1999, 52–54.
+
+
 Entity Linking for Biomedical Literature https://dl.acm.org/doi/abs/10.1145/2665970.2665974
 
 Concept Wikification for COVID-19 https://openreview.net/forum?id=ylgU9BB1vEd
@@ -283,7 +284,7 @@ https://developers.google.com/search/docs/data-types/dataset
 Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
 The language of gene ontology: a Zipf's law analysis
 
-16. Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
+1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
 BioCatalogue: A Curated Web Service Registry For The Life Science Community
 
@@ -323,8 +324,6 @@ http://bioportal.bioontology.org/annotatorplus
 
 Kim, J. J. & Rebholz-Schuhmann, D. Categorization of services for seeking information in biomedical literature: a typology for improvement of practice. Brief. Bioinformat. 9, 452–465 (2008). This manuscript exploits assumptions and observations linked to search behaviour from users of Web pages to judge the information-seeking behaviour of scientists. It judges available text-mining tools according to these assumptions.
 3.
-
-Neumann, E. & Prusak, L. Knowledge networks in the age of the semantic Web. Brief. Bioinformat. 8, 141–149 (2007)
 
 
 Rzhetsky, A., Iossifov, I., Loh, J. M. & White, K. P. Microparadigms: chains of collective reasoning in publications about molecular interactions. Proc. Natl Acad. Sci. USA 103, 4940–4945 (2006). This article explores how authors report on their results and how the collection of reported facts can be traced, compared and evaluated against each other. It gives early indications of what results might be produced if we applied automatic reasoning to the information from scientific literature and other resources.
