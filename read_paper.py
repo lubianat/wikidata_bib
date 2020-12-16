@@ -98,6 +98,9 @@ def main():
     create_markdown(file_path, title)
     update_turtle(wd_id)
 
+    exec(open('update_dashboard.py').read())
+
+
     
     
 

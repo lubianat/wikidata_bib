@@ -419,3 +419,6 @@ html = """
 </body>
 </html>
 """
+
+with open("docs/index.html", "w") as f:
+    f.write(html)
