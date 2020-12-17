@@ -14,6 +14,9 @@ https://seop.illc.uva.nl/entries/models-science/
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
+Revisiting enigmatic cortical calretinin-expressing interneurons
+
+Name-calling in the hippocampus (and beyond): coming to terms with neuron types and properties
 
 8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
 19
@@ -262,10 +265,7 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Giles J. Internet encyclopaedias go head to head. Nature 2005;438:900–1
-
 Wenger E. Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press, 1999, 52–54.
-
 
 Entity Linking for Biomedical Literature https://dl.acm.org/doi/abs/10.1145/2665970.2665974
 
@@ -287,9 +287,6 @@ The language of gene ontology: a Zipf's law analysis
 1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
 BioCatalogue: A Curated Web Service Registry For The Life Science Community
-
-17. Aranguren ME, Antezana E, Kuiper M, Stevens R: Ontology design patterns for bio-ontologies: a case study on the cell cycle ontology. BMC Bioinformatics 2008, 9(Suppl 5):S1.
-
 
 Theoretical and technological building blocks for an innovation accelerator
 F. van Harmelen, G. Kampis, K. Börner, P. van den Besselaar, E. Schultes, C. Goble, P. Groth, B. Mons, S. Anderson, S. Decker, C. Hayes, T. Buecheler & D. Helbing 
