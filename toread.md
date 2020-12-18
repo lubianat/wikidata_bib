@@ -11,12 +11,18 @@ Antonio D. Descarte’s Error. Vintage Press, 2006; 104–105.
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
+Hippocampome.org: A knowledge base of neuron types in the rodent hippocampus.
+
+DeFelipe J, Lo´pez-Cruz PL, Benavides-Piccione R, Bielza C, Larran˜aga P, Anderson S, Burkhalter A, Cauli B, Faire´n A, Feld- meyer D, Fishell G, Fitzpatrick D, Freund TF, Gonza´lez-Burgos G, Hestrin S, Hill S, Hof PR, Huang J, Jones EG, Kawaguchi Y, Kisva´rday Z, Kubota Y, Lewis DA, Marı´n O, Markram H, McBain CJ, Meyer HS, Monyer H, Nelson SB, Rockland K, Rossier J, Rubenstein JL, Rudy B, Scanziani M, Shepherd GM, Sherwood CC, Staiger JF, Tama´s G, Thomson A, Wang Y, Yuste R, Ascoli GA(2013) New insights into the classification and nomenclature of cortical GABAergic interneurons. Nat Rev Neurosci 14(3):202–216. doi:10.1038/nrn3444
+
+
+
+Hamilton DJ, Shepherd GM, Martone ME, Ascoli GA (2012) An ontological approach to describing neurons and their relation- ships. Front Neuroinform 27(6):15. doi:10.3389/fninf.2012.00015
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
 
 Revisiting enigmatic cortical calretinin-expressing interneurons
 
-Name-calling in the hippocampus (and beyond): coming to terms with neuron types and properties
 
 8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
 19
@@ -41,9 +47,9 @@ Li H, Horns F, Wu B, Xie Q, Li J, Li T, Luginbuhl DJ, Quake SR,
 ??
 Luo L: Classifying Drosophila olfactory projection neuron subtypes by single-cell RNA sequencing. Cell 2017, 171 1206-1220 e1222
 
-8. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
-9. 
-10. Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
+1. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
+2. 
+3.  Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
 
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
 
@@ -264,6 +270,7 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Biocuration - mapping resources and needs
 
 Wenger E. Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press, 1999, 52–54.
 
