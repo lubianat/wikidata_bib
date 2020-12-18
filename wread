@@ -1,0 +1,4 @@
+#!/bin/bash
+
+python3 read_paper.py $@
+code "notes/${1}.md"
