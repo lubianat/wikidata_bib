@@ -270,7 +270,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Biocuration - mapping resources and needs
 
 Wenger E. Communities of Practice: Learning, Meaning, and Identity. Cambridge University Press, 1999, 52–54.
 
