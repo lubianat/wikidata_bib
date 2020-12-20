@@ -66,7 +66,12 @@
                         <a onclick="switchToSix()">
                             <span>Citing Authors</span>
                       </a>
-                  </li>  
+                      </li> 
+                      <li id="seven-tab">
+                        <a onclick="switchToSeven()">
+                            <span>Authors</span>
+                      </a>
+                      </li> 
     					</ul>
     					<!--/tabs is-centered-->
   				</div>
@@ -122,6 +127,14 @@
                       </p>
                   </div>
                   </div>
+            <div class="is-hidden" id="seven-tab-content">
+                    <<h5 class="title is-5" style="text-align:center;"> Who writes what I've been reading </h5>
+                  <div class="columns is-centered"
+                      <p style="text-align: center">
+                        <iframe width=92% height="500" src="https://query.wikidata.org/embed.html#%0A%23defaultView%3ATable%0ASELECT%20%28COUNT%28%3Fwork%29%20AS%20%3Fcount%29%20%3Fauthor%20%3FauthorLabel%20%3Forcids%20%20WHERE%20%7B%0A%20%20VALUES%20%3Fwork%20%7B%20wd%3AQ47579749%20wd%3AQ24678240%20wd%3AQ31194033%20wd%3AQ29617753%20wd%3AQ101226729%20wd%3AQ90591926%20wd%3AQ27021885%20wd%3AQ35830509%20wd%3AQ42778383%20wd%3AQ37301036%20wd%3AQ62924270%20wd%3AQ98148417%20wd%3AQ28254676%20wd%3AQ74657187%20wd%3AQ37629171%20wd%3AQ42585641%20wd%3AQ27010194%20wd%3AQ28709067%20wd%3AQ102232524%20wd%3AQ26707522%20wd%3AQ101217428%20wd%3AQ56880438%20wd%3AQ96817154%20wd%3AQ42776227%20wd%3AQ52720499%20wd%3AQ28595082%20wd%3AQ100525924%20wd%3AQ34169535%20wd%3AQ2703462%20wd%3AQ38798014%20wd%3AQ37490532%20wd%3AQ60017992%20wd%3AQ98568691%20wd%3AQ26253817%20wd%3AQ28974693%20wd%3AQ100395427%20wd%3AQ21093639%20wd%3AQ38622289%20wd%3AQ57011346%20wd%3AQ28181838%20wd%3AQ30570244%20wd%3AQ28842753%20wd%3AQ58084012%20wd%3AQ28292614%20wd%3AQ28596617%20wd%3AQ33037209%20wd%3AQ57462271%20wd%3AQ88605805%20wd%3AQ90109096%20wd%3AQ28200510%20wd%3AQ29615252%20wd%3AQ98665291%20wd%3AQ98622035%20wd%3AQ91997728%20wd%3AQ104092178%20wd%3AQ98568692%20wd%3AQ34065481%20wd%3AQ102926772%20wd%3AQ98196903%20wd%3AQ33926910%20wd%3AQ24239902%20wd%3AQ79763269%20wd%3AQ57774232%20wd%3AQ38432885%20wd%3AQ28842577%20wd%3AQ96032351%20wd%3AQ42156351%20wd%3AQ101473819%20wd%3AQ103964322%20wd%3AQ55483834%20wd%3AQ21092566%20wd%3AQ49483648%20wd%3AQ78658697%20wd%3AQ46221687%20wd%3AQ102542608%20wd%3AQ772056%20wd%3AQ99564826%20wd%3AQ64097544%20wd%3AQ27311570%20wd%3AQ34878068%20wd%3AQ86694255%20wd%3AQ34094294%20wd%3AQ52374237%20wd%3AQ42255083%20wd%3AQ51427139%20wd%3AQ59063943%20wd%3AQ103811380%20wd%3AQ24620160%20wd%3AQ19671659%20wd%3AQ43299861%20wd%3AQ36854753%20wd%3AQ104161380%20wd%3AQ28250597%20wd%3AQ40967362%20wd%3AQ102929379%20wd%3AQ28606409%20wd%3AQ28185770%20wd%3AQ89763874%20wd%3AQ100526347%20wd%3AQ103834013%20wd%3AQ102205677%20wd%3AQ34182035%20wd%3AQ93086975%20wd%3AQ21145382%20wd%3AQ93086971%20wd%3AQ21136172%20wd%3AQ64962407%20wd%3AQ93087299%20wd%3AQ48373178%20wd%3AQ100491078%20wd%3AQ21092584%20wd%3AQ54670808%20wd%3AQ60137015%20wd%3AQ48839876%20wd%3AQ103034964%20wd%3AQ91130546%20wd%3AQ90588777%20wd%3AQ101248419%20wd%3AQ100560109%20wd%3AQ50735370%20wd%3AQ100500142%20wd%3AQ37656899%20wd%3AQ28303099%20wd%3AQ47317210%20wd%3AQ64065346%20wd%3AQ48094767%20wd%3AQ60933812%20wd%3AQ59058260%20wd%3AQ46412887%20wd%3AQ33928865%20wd%3AQ101051363%20wd%3AQ57001498%20wd%3AQ99234140%20%7D.%0A%20%20%3Fwork%20wdt%3AP50%20%3Fauthor%20.%0A%20%20%20%20%20OPTIONAL%20%7B%20%3Fauthor%20wdt%3AP496%20%3Forcids%20%7D%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22en%2Cda%2Cde%2Ces%2Cfr%2Cjp%2Cnl%2Cno%2Cru%2Csv%2Czh%22.%20%7D%0A%0A%20%20%7D%0AGROUP%20BY%20%3Fauthor%20%3FauthorLabel%20%3Forcids%20%0AORDER%20BY%20DESC%28%3Fcount%29%0A%20%0A"></iframe>
+                      </p>
+                  </div>
+                  </div>
   	</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
@@ -166,6 +179,13 @@
       hideAll();
       $("#six-tab").addClass("is-active");
       $("#six-tab-content").removeClass("is-hidden");
+    }
+
+    function switchToSeven() {
+      removeActive();
+      hideAll();
+      $("#seven-tab").addClass("is-active");
+      $("#seven-tab-content").removeClass("is-hidden");
     }
 
     function removeActive() {

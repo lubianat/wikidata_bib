@@ -207,6 +207,19 @@ ORDER BY DESC(?count)
 
 """
 
+query_7 = """
+#defaultView:Table
+SELECT (COUNT(?work) AS ?count) ?author ?authorLabel ?orcids  WHERE {
+  VALUES ?work """ +  readings + """.
+  ?work wdt:P50 ?author .
+     OPTIONAL { ?author wdt:P496 ?orcids }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,da,de,es,fr,jp,nl,no,ru,sv,zh". }
+
+  }
+GROUP BY ?author ?authorLabel ?orcids 
+ORDER BY DESC(?count)
+ 
+"""
 
 url1 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_1, safe='')
 url2 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_2, safe='')
@@ -214,6 +227,7 @@ url3 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_3, sa
 url4 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_4, safe='')
 url5 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_5, safe='')
 url6 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_6, safe='')
+url7 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_7, safe='')
 
 html = """
 
@@ -283,7 +297,12 @@ html = """
                         <a onclick="switchToSix()">
                             <span>Citing Authors</span>
                       </a>
-                  </li>  
+                      </li> 
+                      <li id="seven-tab">
+                        <a onclick="switchToSeven()">
+                            <span>Authors</span>
+                      </a>
+                      </li> 
     					</ul>
     					<!--/tabs is-centered-->
   				</div>
@@ -339,6 +358,14 @@ html = """
                       </p>
                   </div>
                   </div>
+            <div class="is-hidden" id="seven-tab-content">
+                    <<h5 class="title is-5" style="text-align:center;"> Who writes what I've been reading </h5>
+                  <div class="columns is-centered"
+                      <p style="text-align: center">
+                        <iframe width=92% height="500" src=""" + '"'+ url7 +'"' + """></iframe>
+                      </p>
+                  </div>
+                  </div>
   	</div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script>
@@ -383,6 +410,13 @@ html = """
       hideAll();
       $("#six-tab").addClass("is-active");
       $("#six-tab-content").removeClass("is-hidden");
+    }
+
+    function switchToSeven() {
+      removeActive();
+      hideAll();
+      $("#seven-tab").addClass("is-active");
+      $("#seven-tab-content").removeClass("is-hidden");
     }
 
     function removeActive() {
