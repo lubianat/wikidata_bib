@@ -88,6 +88,8 @@ def main():
 
     
     wd_id = sys.argv[1]
+
+    print("======= Getting title from Wikidata =======")
     df = get_title_df(wd_id)
     update_csv(df)
    
@@ -95,10 +97,14 @@ def main():
     title = df["itemLabel"][0]
     file_path = "notes/" + wd_id
     
+    print("======= Creating markdown =======")
     create_markdown(file_path, title)
     update_turtle(wd_id)
 
+    print("======= Updating dashboard =======")
     exec(open('update_dashboard.py').read())
+
+    print("======= Done =======")
 
 
     
