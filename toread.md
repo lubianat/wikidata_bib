@@ -14,7 +14,6 @@ Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas schola
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3757470/
 
 DeFelipe J, Lo´pez-Cruz PL, Benavides-Piccione R, Bielza C, Larran˜aga P, Anderson S, Burkhalter A, Cauli B, Faire´n A, Feld- meyer D, Fishell G, Fitzpatrick D, Freund TF, Gonza´lez-Burgos G, Hestrin S, Hill S, Hof PR, Huang J, Jones EG, Kawaguchi Y, Kisva´rday Z, Kubota Y, Lewis DA, Marı´n O, Markram H, McBain CJ, Meyer HS, Monyer H, Nelson SB, Rockland K, Rossier J, Rubenstein JL, Rudy B, Scanziani M, Shepherd GM, Sherwood CC, Staiger JF, Tama´s G, Thomson A, Wang Y, Yuste R, Ascoli GA(2013) New insights into the classification and nomenclature of cortical GABAergic interneurons. Nat Rev Neurosci 14(3):202–216. doi:10.1038/nrn3444
 
@@ -267,6 +266,9 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+
+Krotzsch,M., Vrandecic, D., and Volkel, M. (2006). “Semantic MediaWiki,” in The Semantic Web - ISWC 2006. Lecture Notes in Computer Science Vol. 4273, eds I. Cruz, S. Decker, D. Allemang, C. Preist, D. Schwabe, P. Mika, M. Uschold and L. Aroyo (Berlin; Heidelberg: Springer Berlin Heidelberg), 935–942. doi: 10.1007/ 11926078
+Kuhn,
 
 Concept Wikification for COVID-19 https://openreview.net/forum?id=ylgU9BB1vEd
 
