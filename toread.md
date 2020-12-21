@@ -15,7 +15,7 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-DeFelipe J, Lo´pez-Cruz PL, Benavides-Piccione R, Bielza C, Larran˜aga P, Anderson S, Burkhalter A, Cauli B, Faire´n A, Feld- meyer D, Fishell G, Fitzpatrick D, Freund TF, Gonza´lez-Burgos G, Hestrin S, Hill S, Hof PR, Huang J, Jones EG, Kawaguchi Y, Kisva´rday Z, Kubota Y, Lewis DA, Marı´n O, Markram H, McBain CJ, Meyer HS, Monyer H, Nelson SB, Rockland K, Rossier J, Rubenstein JL, Rudy B, Scanziani M, Shepherd GM, Sherwood CC, Staiger JF, Tama´s G, Thomson A, Wang Y, Yuste R, Ascoli GA(2013) New insights into the classification and nomenclature of cortical GABAergic interneurons. Nat Rev Neurosci 14(3):202–216. doi:10.1038/nrn3444
+
 
 
 Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
@@ -72,6 +72,7 @@ Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu
 
 Sanes, J. R. & Masland, R. H. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu. Rev. Neurosci. 38, 221–246 (2015). This article reviews the progress in classifying RGC types in mice. Remarkably, the estimated number has grown from ~30 to >50 in the two years since its publication
 
+Ascoli, G. A. Mobilizing the base of neuroscience data: the case of neuronal morphologies. Nature Rev. Neurosci. 7, 318–324 (2006
 
 Bock, W. J.: Philosophical foundations of classical evolutionary classification. Syst. Zool. 22: 375-392 (1973).
 

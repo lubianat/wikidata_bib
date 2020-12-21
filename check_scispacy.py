@@ -98,6 +98,6 @@ df = get_title_df(wd_id)
 text = df["itemLabel"][0]
 doc = nlp(text)
 
-print("====== Ectracting UMLS entities ======")
+print("====== Extracting UMLS entities ======")
 
 print(get_wdt_items_from_umls_entities(doc))
