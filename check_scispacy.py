@@ -1,5 +1,6 @@
 # Adapted from https://github.com/lubianat/ann/blob/main/prototypes/notebooks/scispacy_linking_via_umls.ipynb
 
+print("====== Importing libraries ======")
 import scispacy
 import spacy
 import pandas as pd

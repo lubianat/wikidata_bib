@@ -187,9 +187,6 @@ Geirsdottir L, Cross-Species Single-Cell Analysis Reveals Divergence of the Prim
 
 Haendel MA,  2014. Unification of multi-species vertebrate anatomy ontologies for comparative biology in Uberon. J Biomed Semantics 5:21. doi:10.1186/2041-1480-5-21
 
-Hodge RD, 2019. Conserved cell types with divergent features in human versus mouse cortex. Nature 573:61–68. doi:10.1038/s41586-019-1506-7
-
-
 Yao Z,  2020b. A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation. bioRxiv. doi:10.1101/2020.03.30.015214
 A community-based transcriptomics classification and nomenclature of neocortical cell types. arXiv [q-bioGN].
 
