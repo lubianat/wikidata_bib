@@ -15,10 +15,15 @@ import os.path
 import rdflib
 from datetime import date
 import en_core_sci_sm
+
+print("====== Loading ScispaCy ======")
 nlp = en_core_sci_sm.load()
 
+print("====== Setting AbbreviationDetector ======")
 abbreviation_pipe = AbbreviationDetector(nlp)
 nlp.add_pipe(abbreviation_pipe)
+
+print("====== Setting EntityLinker ======")
 linker = EntityLinker(resolve_abbreviations=True, name="umls")
 nlp.add_pipe(linker)
 
@@ -49,7 +54,7 @@ def get_wikidata_item(wikidata_property, value):
     return qid
 
 
-def get_wdt_items_from_umls_entities(doc):
+def get_wdt_items_from_umls_entities(doc, wikidata=False):
     """Create a table from the UMLS entities and link them to WDT
     """
     identified = []
@@ -65,7 +70,8 @@ def get_wdt_items_from_umls_entities(doc):
     entity_df = pd.DataFrame.from_records(identified, 
                                         columns=['label', 'start_pos', 'end_pos', 'umls_id'])
     
-    entity_df['qid'] = entity_df['umls_id'].apply(lambda x: get_wikidata_item("P2892", x))
+    if wikidata:
+        entity_df['qid'] = entity_df['umls_id'].apply(lambda x: get_wikidata_item("P2892", x))
 
     return entity_df
 
@@ -84,7 +90,13 @@ def get_title_df(wd_id):
     return(df)
 
 wd_id = sys.argv[1]
+
+print("====== Getting title from Wikidata ======")
+
 df = get_title_df(wd_id)
 text = df["itemLabel"][0]
 doc = nlp(text)
-get_wdt_items_from_umls_entities(doc)
+
+print("====== Ectracting UMLS entities ======")
+
+print(get_wdt_items_from_umls_entities(doc))
