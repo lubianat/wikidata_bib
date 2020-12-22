@@ -261,8 +261,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Lev Ratinov, Dan Roth, Doug Downey, and Mike An- derson. 2011. Local and global algorithms for dis- ambiguation to Wikipedia. In Proceedings of the 49th Annual Meeting of the Association for Com- putational Linguistics: Human Language Technolo- gies, pages 1375–1384, Portland, Oregon, USA. As- sociation for Computational Linguistics.
-Dan
 
 Dan Roth, Heng Ji, Ming-Wei Chang, and Taylor Cas- sidy. 2014. Wikification and beyond: The chal- lenges of entity and concept grounding. In Proceed- ings of the 52nd Annual Meeting of the Association for Computational Linguistics: Tutorials, page 7, Baltimore, Maryland, USA. Association for Compu- tational Linguistics
 
