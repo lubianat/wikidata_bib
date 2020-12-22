@@ -503,6 +503,10 @@ wd:Q90591926 wb:has_notes wbn:Q90591926.md ;
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
+wd:Q91330127 wb:has_notes wbn:Q91330127.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-22T00:00:00Z/11" .
+
 wd:Q91997728 wb:has_notes wbn:Q91997728.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-19T00:00:00Z/11" .
