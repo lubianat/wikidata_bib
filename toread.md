@@ -17,7 +17,7 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
+8 Battaglia, D. et al. (2013)  Front. Neural Circuits 7, 13
 19
 Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: lessons from the retina. Neuron 83, 1262–1272
 
