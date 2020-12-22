@@ -176,6 +176,10 @@ wd:Q28200510 wb:has_notes wbn:Q28200510.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
 
+wd:Q28240611 wb:has_notes wbn:Q28240611.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-22T00:00:00Z/11" .
+
 wd:Q28250597 wb:has_notes wbn:Q28250597.md .
 
 wd:Q28254676 wb:has_notes wbn:Q28254676.md ;
