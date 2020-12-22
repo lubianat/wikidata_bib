@@ -17,12 +17,6 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-
-Kvitsiani, D., Ranade, S., Hangya, B., Taniguchi, H., Huang, J. Z. & Kepecs, A. Distinct behavioural and network correlates of two interneuron types in prefrontal cortex. Nature 498, 363–366 (2013). This study provides evidence that genetically identified interneuron classes are recruited at specific behavioural events
-
-Revisiting enigmatic cortical calretinin-expressing interneurons
-
-
 8 Battaglia, D. et al. (2013) Beyond the frontiers of neuronal types. Front. Neural Circuits 7, 13
 19
 Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: lessons from the retina. Neuron 83, 1262–1272
@@ -267,11 +261,15 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Lev Ratinov, Dan Roth, Doug Downey, and Mike An- derson. 2011. Local and global algorithms for dis- ambiguation to Wikipedia. In Proceedings of the 49th Annual Meeting of the Association for Com- putational Linguistics: Human Language Technolo- gies, pages 1375–1384, Portland, Oregon, USA. As- sociation for Computational Linguistics.
+Dan
 
-Krotzsch,M., Vrandecic, D., and Volkel, M. (2006). “Semantic MediaWiki,” in The Semantic Web - ISWC 2006. Lecture Notes in Computer Science Vol. 4273, eds I. Cruz, S. Decker, D. Allemang, C. Preist, D. Schwabe, P. Mika, M. Uschold and L. Aroyo (Berlin; Heidelberg: Springer Berlin Heidelberg), 935–942. doi: 10.1007/ 11926078
-Kuhn,
+Dan Roth, Heng Ji, Ming-Wei Chang, and Taylor Cas- sidy. 2014. Wikification and beyond: The chal- lenges of entity and concept grounding. In Proceed- ings of the 52nd Annual Meeting of the Association for Computational Linguistics: Tutorials, page 7, Baltimore, Maryland, USA. Association for Compu- tational Linguistics
 
-Concept Wikification for COVID-19 https://openreview.net/forum?id=ylgU9BB1vEd
+Jin G Zheng, Daniel Howsmon, Boliang Zhang, Juer- gen Hahn, Deborah McGuinness, James Hendler, and Heng Ji. 2015. Entity linking for biomedical literature. BMC medical informatics and decision making, 15(S1):S4
+
+Iz Beltagy, Kyle Lo, and Arman Cohan. 2019. Scib- ert: Pretrained language model for scientific text. In EMNLP.
+Samuel
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
