@@ -29,3 +29,4 @@ message = "read: " + df["alt"] + " " + df["year"] + " " + df["itemLabel"]
 
 bash_command = f'git add . && git commit -m "{message}"' 
 os.system(bash_command)
+os.system("git push")
