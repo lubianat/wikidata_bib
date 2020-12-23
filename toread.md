@@ -15,24 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
-
-8 Battaglia, D. et al. (2013)  Front. Neural Circuits 7, 13
-19
-Seung, H.S. and Su¨ mbu¨ l, U. (2014) Neuronal cell types and connectivity: lessons from the retina. Neuron 83, 1262–1272
-
-Mihaljevic, B. et al. (2014) Bayesian network classifiers for categorizing cortical GABAergic interneurons. Neuroinformatics Published online November 25, 2015. http://dx.doi.org/10.1007/ s12021-014-9254-1
-40
-
-Probabilistic cell typing enables fine mapping of closely related cell types in situ
-
-Tang F, Barbacioru C, Wang Y, Nordman E, Lee C, Xu N, Wang X,
-?
-Bodeau J, Tuch BB, Siddiqui A et al.: mRNA-Seq whole- transcriptome analysis of a single cell. Nat Methods 2009, 6:377-382.
-
-83.
-Fuzik J, Zeisel A, Mate Z, Calvigioni D, Yanagawa Y, Szabo G,
-?
 Linnarsson S, Harkany T: Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 2016, 34:175-183.
 This paper together with [84?] paved the way to Patch-seq, a method for single cell bi-modal or tri-modal data acquisition (electrophysiology, morphology,
 
@@ -262,9 +244,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Dan Roth, Heng Ji, Ming-Wei Chang, and Taylor Cas- sidy. 2014. Wikification and beyond: The chal- lenges of entity and concept grounding. In Proceed- ings of the 52nd Annual Meeting of the Association for Computational Linguistics: Tutorials, page 7, Baltimore, Maryland, USA. Association for Compu- tational Linguistics
-
-Jin G Zheng, Daniel Howsmon, Boliang Zhang, Juer- gen Hahn, Deborah McGuinness, James Hendler, and Heng Ji. 2015. Entity linking for biomedical literature. BMC medical informatics and decision making, 15(S1):S4
 
 Iz Beltagy, Kyle Lo, and Arman Cohan. 2019. Scib- ert: Pretrained language model for scientific text. In EMNLP.
 Samuel
