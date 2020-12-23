@@ -243,12 +243,14 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Text mining approaches for dealing with the rapidly expanding literature on COVID-19
 
+Arman Cohan, Waleed Ammar, Madeleine van Zuylen, and Field Cady. 2019. Structural scaffolds for citation intent classification in scientific public In NAACL-HLT, pages 3586–3596, Minneapolis, Minnesota. Association for Computational Linguis- tics.
 
-Iz Beltagy, Kyle Lo, and Arman Cohan. 2019. Scib- ert: Pretrained language model for scientific text. In EMNLP.
-Samuel
+Construction of the Literature Graph in Semantic Scholar
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
+
 
 Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
 
