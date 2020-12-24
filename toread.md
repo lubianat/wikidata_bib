@@ -15,9 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Linnarsson S, Harkany T: Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 2016, 34:175-183.
-This paper together with [84?] paved the way to Patch-seq, a method for single cell bi-modal or tri-modal data acquisition (electrophysiology, morphology,
-
 Li H, Horns F, Wu B, Xie Q, Li J, Li T, Luginbuhl DJ, Quake SR,
 ??
 Luo L: Classifying Drosophila olfactory projection neuron subtypes by single-cell RNA sequencing. Cell 2017, 171 1206-1220 e1222
