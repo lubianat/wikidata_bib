@@ -167,7 +167,7 @@ Zeng H, Sanes JR. 2017. Neuronal cell-type classification: challenges, opportuni
 
 
 
-## Describing Species - Judith Winston
+### Describing Species - Judith Winston
 [@doi:10.1017/CBO9781107415324.004]
 
 https://portal.brain-map.org/explore/classes
@@ -200,7 +200,7 @@ https://www.pnas.org/content/105/51/20067
 
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2662812/
 
-## Molecular taxonomy of major neuronal classes in the adult mouse forebrain 
+ Molecular taxonomy of major neuronal classes in the adult mouse forebrain 
 \cite{sugino2006molecular
 
 /Genes and homology in nervous system evolution: Comparing gene functions, expression patterns, and cell type molecular fingerprints   \cite{arendt2005genes
@@ -228,7 +228,7 @@ https://senselab.med.yale.edu/NeuronDB
 
 https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691
 
-## Discovery of new cell types:
+### Discovery of new cell types:
 
 JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Single-cell profiling identifies myeloid cell subsets with distinct fates during neuroinflammation. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
@@ -240,8 +240,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-
-Construction of the Literature Graph in Semantic Scholar
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
