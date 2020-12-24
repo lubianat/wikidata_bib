@@ -244,8 +244,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Arman Cohan, Waleed Ammar, Madeleine van Zuylen, and Field Cady. 2019. Structural scaffolds for citation intent classification in scientific public In NAACL-HLT, pages 3586–3596, Minneapolis, Minnesota. Association for Computational Linguis- tics.
-
 Construction of the Literature Graph in Semantic Scholar
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
