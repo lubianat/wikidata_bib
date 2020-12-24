@@ -88,6 +88,9 @@ wd:Q103964322 wb:has_notes wbn:Q103964322.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-12-06T00:00:00Z/11" .
 
+wd:Q104079663 wb:has_notes wbn:Q104079663.md ;
+    wb:read_in "+2020-12-23T00:00:00Z/11" .
+
 wd:Q104092178 wb:has_notes wbn:Q104092178.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-12-10T00:00:00Z/11" .
