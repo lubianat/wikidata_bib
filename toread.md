@@ -15,6 +15,7 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
+## Neuron types
 
 1. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
 
@@ -26,14 +27,16 @@ Generalized leaky integrate-and-fire models classify multiple neuron types.
 
 Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells
 
-A coupled autoencoder approach for multi-modal analysis of cell types
-Genetic identification of brain cell types underlying schizophrenia
-Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
 
+## Other
+A coupled autoencoder approach for multi-modal analysis of cell types
+
+Genetic identification of brain cell types underlying schizophrenia
+
+Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
 
 Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
 
-Dental cell type atlas reveals stem and differentiated cell types in mouse and human teeth
 
 Distinction of Neurons, Glia and Endothelial Cells in the Cerebral Cortex: An Algorithm Based on Cytological Features
 
