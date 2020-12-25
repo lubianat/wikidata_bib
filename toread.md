@@ -49,7 +49,7 @@ Ascoli, G. A. Mobilizing the base of neuroscience data: the case of neuronal mor
 
 Bock, W. J.: Philosophical foundations of classical evolutionary classification. Syst. Zool. 22: 375-392 (1973).
 
-Crick, F. The impact of molecular biology on neuroscience. Phil. Trans. R. Soc. Lond. B 354, 2021–2025 (1999).
+
 The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells
 
 A maximum-likelihood approach for building cell-type trees by lifting
@@ -90,8 +90,6 @@ Evolution of Cellular Differentiation: From Hypotheses to Models
 
 Theory of cell fate Michael J. Casey  Patrick S. Stumpf  Ben D. MacArthur
 
-CellMarker: a manually curated resource of cell markers in human and mouse 
-Xinxin Zhang, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, Liwen Xu, Gaoming Liao, Min Yan, Yanyan Ping, Feng Li, Aiai Shi, Jing Bai, Tingting Zhao, Xia Li, Yun Xiao
 
 Implications of Epigenetic Variability within a Cell Population for “Cell Type” Classification
 
