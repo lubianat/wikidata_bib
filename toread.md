@@ -76,12 +76,8 @@ Tasic, B. et al. Adult mouse cortical cell taxonomy revealed by single cell tran
 Habib, N. et al. Div-Seq: Single-nucleus RNA-Seq reveals dynamics of rare adult newborn neurons. Science 353, 925–928 (2016).
 Korem, Y. et al. Geometry of the gene expression space of individual cells. PLOS Comput. Biol. 11, e1004224 (2015).
 
- A semi-supervised approach for cell phenotypic and functional estimation in tissue microenvironmen
+A semi-supervised approach for cell phenotypic and functional estimation in tissue microenvironmen
 
-
-
-Kurtz A, Seltmann S, Bairoch A, Bittner MS, Bruce K, Capes-Davis A, Clarke L, Crook JM, Daheron L, Dewender J, Faulconbridge A, Fujibuchi W, Gutteridge A, Hei DJ, Kim YO, Kim JH, Kokocinski AK, Lekschas F, Lomax GP, Loring JF, Ludwig T, Mah N, Matsui T, Müller R, Parkinson H, Sheldon M, Smith K, Stachelscheid H, Stacey G, Streeter I, Veiga A, Xu RH.
-A Standard Nomenclature for Referencing and Authentication of Pluripotent Stem Cells.
 
 SFujibuchi,W., Kiseleva,L., Taniguchi,T. et al. (2005) Development of cell knowledge base and prediction of cell types and characteristics by gene expression profiles. IPSJ SIG Technical Reports 2005-BIO-2, 33–37 (in Japanese).
 14.
@@ -241,7 +237,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
-
 Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
 
 A Survey of Bioinformatics Database and Software Usage through Mining the Literature
@@ -249,6 +244,7 @@ A Survey of Bioinformatics Database and Software Usage through Mining the Litera
 https://developers.google.com/search/docs/data-types/dataset
 
 Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
+
 The language of gene ontology: a Zipf's law analysis
 
 1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
