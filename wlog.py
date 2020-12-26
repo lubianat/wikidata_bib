@@ -23,7 +23,7 @@ WHERE
 """
 
 df = wikidata2df(query)
-message = "read: " + df["itemLabel"]
+message = "read: " + df["itemLabel"].values[0]
 
 bash_command = f'git add . && git commit -m "{message}"' 
 os.system(bash_command)
