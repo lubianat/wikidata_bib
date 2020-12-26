@@ -5,7 +5,7 @@ This repo is a propotype for bibliography management using Wikidata.
 The overarching goal is to leverage linked open data to navigate your studies and personal notes. 
 
 
-You can check some queries on my notes at [lubianat.github.io/wikidata_bib](lubianat.github.io/wikidata_bib).
+You can check some queries on my notes at [https://lubianat.github.io/wikidata_bib](lubianat.github.io/wikidata_bib).
 
 
 # Repository structure

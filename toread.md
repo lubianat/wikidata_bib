@@ -29,7 +29,6 @@ Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergi
 
 
 ## Other
-A coupled autoencoder approach for multi-modal analysis of cell types
 
 Genetic identification of brain cell types underlying schizophrenia
 
@@ -257,7 +256,6 @@ F. van Harmelen, G. Kampis, K. Börner, P. van den Besselaar, E. Schultes, C. Go
 Decentralized provenance-aware publishing with nanopublications
 
 Nanopublicação aplicada ao domínio de estudos de análise de redes de colaboração científica
-
 
 T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digital Artifacts for Linked Data,
 

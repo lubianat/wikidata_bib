@@ -1,6 +1,22 @@
 import os
 import glob
 import urllib.parse
+import pandas as pd
+import unicodedata
+
+
+### Update table with notes
+
+articles = pd.read_csv("read.csv")
+articles = articles
+articles["wikidata_id"] = ["<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]]
+test = articles.to_html(escape="True")
+test = test.replace("&lt;", " <").replace("&gt;", ">")
+
+with open("notes.html", "w") as f:
+    f.write(test)
+
+### Update dashboard with queries
 
 arr = os.listdir("notes")
 txtfiles = []
@@ -302,7 +318,7 @@ html = """
                         <a onclick="switchToSeven()">
                             <span>Authors</span>
                       </a>
-                      </li> 
+                      </li>
     					</ul>
     					<!--/tabs is-centered-->
   				</div>
@@ -432,6 +448,8 @@ html = """
       $("#four-tab-content").addClass("is-hidden");
       $("#five-tab-content").addClass("is-hidden");
       $("#six-tab-content").addClass("is-hidden");
+      $("#seven-tab-content").addClass("is-hidden");
+      $("#eight-tab-content").addClass("is-hidden");
     }
 	
   </script>
@@ -446,6 +464,7 @@ html = """
         <p> Wikidata SPARQL Queries adapted from <a href="https://scholia.toolforge.org/">Scholia</a>  </p>
         <p> <strong>Dashboard</strong> adapted by <a href="https://www.wikidata.org/wiki/User:TiagoLubiana">TiagoLubiana</a>
 	  from the <a href="https://wikiproject-india.github.io/covid19dashboard/">COVID-19 in India dashboard </a>
+        <p> To see the links for all notes taken, go to <a href="./notes.html"> this draft page </a>. </p>
       </p>
     </div>
   </div>
