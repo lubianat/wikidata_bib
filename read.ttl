@@ -186,6 +186,10 @@ wd:Q2703462 wb:has_notes wbn:Q2703462.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-09T00:00:00Z/11" .
 
+wd:Q27062487 wb:has_notes wbn:Q27062487.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2020-12-26T00:00:00Z/11" .
+
 wd:Q27311570 wb:has_notes wbn:Q27311570.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-02T00:00:00Z/11" .
