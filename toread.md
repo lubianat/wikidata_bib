@@ -81,8 +81,6 @@ SFujibuchi,W., Kiseleva,L., Taniguchi,T. et al. (2005) Development of cell knowl
 
 Evolution of Cellular Differentiation: From Hypotheses to Models
 
-Theory of cell fate Michael J. Casey  Patrick S. Stumpf  Ben D. MacArthur
-
 
 Implications of Epigenetic Variability within a Cell Population for “Cell Type” Classification
 
