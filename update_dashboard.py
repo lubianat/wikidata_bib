@@ -454,5 +454,5 @@ html = """
 </html>
 """
 
-with open("docs/index.html", "w") as f:
+with open("index.html", "w") as f:
     f.write(html)
