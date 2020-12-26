@@ -1,3 +1,5 @@
+#!/usr/bin/ python3
+
 import pandas as pd
 from wikidata2df import wikidata2df
 import os  
@@ -21,11 +23,7 @@ WHERE
 """
 
 df = wikidata2df(query)
-df["alias_length"] = [len(i) for i in df["alt"]]
-df  = df[df['alias_length']==df['alias_length'].min()]
-df["year"] = df["date"].values[0].split("-")[0]
-
-message = "read: " df["itemLabel"]
+message = "read: " + df["itemLabel"]
 
 bash_command = f'git add . && git commit -m "{message}"' 
 os.system(bash_command)

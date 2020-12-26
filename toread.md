@@ -61,8 +61,6 @@ Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine
 
 4.Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL,Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA et al.: A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci 2008, 28:264-278.
 
-1.  Chevrier, S. et al. An immune atlas of clear cell renal cell carcinoma. Cell 169, 736–749 (2017)
-
 Rosse C, Mejino JL Jr. A reference ontology for biomedical informatics: the Foundational Model of Anatomy. J. Biomed. Inform 2003;36:478–500. [PubMed: 14759820]
 
 Purkinje JE. Neueste Untersuchungen aus der Nerven- und Hirn-anatomie. Bericht über die Versammlung deutscher Naturforscher und Aerzte in Prag im September 1837 1883:177–180
