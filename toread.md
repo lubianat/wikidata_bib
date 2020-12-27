@@ -256,10 +256,6 @@ Nanopublicação aplicada ao domínio de estudos de análise de redes de colabor
 T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digital Artifacts for Linked Data,
 
 À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
-
-B.M. Good, E.L. Clarke, S. Loguercio, A.I. Su, Building a biomedical semantic network in Wikipedia with Semantic Wiki Links, Database (Oxford) (2012), 2012:bar060.
-
-
 DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
 
 T. Beck, R.C. Free, G.A. Thorisson, A.J. Brookes, Semantically
@@ -313,8 +309,6 @@ https://www.nejm.org/doi/full/10.1056/NEJMra1615014
 6.
 
 Lysenko,A., Roznov˘a¸t,I.A., Saqi,M. et al. (2016) Representing and querying disease networks using graph databases. BioData Min., 9, 23
-
-. Kilicoglu,H., Shin,D., Fiszman,M. et al. (2012) SemMedDB: a PubMed-scale repository of biomedical semantic predications. Bioinformatics, 28, 3158–3160.
 
 A behind‐the‐scenes tour of the IEDB curation process: an optimized process empirically integrating automation and human curation efforts
 
