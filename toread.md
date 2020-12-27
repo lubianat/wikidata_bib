@@ -53,8 +53,6 @@ The dynamics and regulators of cell fate decisions are revealed by pseudotempora
 
 A maximum-likelihood approach for building cell-type trees by lifting
 
-Forcing cells to change lineages
-
 http://celltypes.brain-map.org/
 
 Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine consortium (DopaNet). BMC Bioinformatics 2004;5:174. [PubMed: 15518589]
