@@ -15,9 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Alshahrani M, Khan MA, Maddouri O, Kinjo AR, Queralt-Rosinach N, Hoehndorf R. 2017. Neuro-symbolic representation learning on biological knowledge graphs. Bioinformatics 33:2723–2730. doi:10.1093/bioinformatics/btx275
-
-
 FR-Match: robust matching of cell type clusters from single cell RNA sequencing data using the Friedman-Rafsky non-parametric test
 
 Lees JR, Azimzadeh AM, Ding Y, Webb TJ, Bromberg JS. 2015. Cells of the immune system In: Li XC, Jevnikar AM, editors. Transplant Immunology. Chichester, UK: John Wiley & Sons, Ltd. pp. 25–47. doi:10.1002/9781119072997.ch2
