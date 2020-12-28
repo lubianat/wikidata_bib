@@ -17,15 +17,9 @@ https://seop.illc.uva.nl/entries/models-science/
 
 ## Neuron types
 
-1. Peng, Y.-R. et al. Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina. Cell 176, 1222–1237 (2019).
-
-3.  Sousa, A. M. M. et al. Molecular and cellular reorganization of neural circuits in the human lineage.
-
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
 
-Generalized leaky integrate-and-fire models classify multiple neuron types.
-
-Integrated Morphoelectric and Transcriptomic Classification of Cortical GABAergic Cells
+Common Cell type Nomenclature for the mammalian brain: A systematic, extensible convention
 
 
 ## Other

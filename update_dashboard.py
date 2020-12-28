@@ -10,14 +10,14 @@ from mdutils.mdutils import MdUtils
 import pandas as pd
 import os.path
 import rdflib
-from datetime import date
+from datetime import date, datetime, timedelta
 import os
 import glob
 import urllib.parse
 import pandas as pd
 import unicodedata
 from wbib.wbib import render_dashboard
-
+from pathlib import Path
 ### Update table with notes
 
 articles = pd.read_csv("read.csv")
@@ -75,12 +75,10 @@ dat = pd.DataFrame(columns = cols)
 for row in qres:
     dat = dat.append({'item': str(row[0]), 'date_string':row[1]},ignore_index=True)
 
-from datetime import datetime, timedelta
 dat["date"] = [datetime.strptime(i, "+%Y-%m-%dT00:00:00Z/11") for i in dat["date_string"]]
 
 dat["month_year_pair"] = [date.strftime("%Y") + "/" + date.strftime("%B") for date in dat["date"]]
 
-from pathlib import Path
 for pair in set(dat["month_year_pair"]):
     year = pair.split("/")[0]
     Path(f"./{year}").mkdir(parents=True, exist_ok=True)
