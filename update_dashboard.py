@@ -111,7 +111,7 @@ with open("this_week.html", "w") as f:
     f.write(html)
 
 
-last_day = dat[dat["date"] > (datetime.today() - timedelta(days=1))]
+last_day = dat[dat["date"] == max(dat["date"])]
 ids = [i.split("/")[4] for i in last_day["item"]]
 
 readings = "{"
