@@ -15,10 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-FR-Match: robust matching of cell type clusters from single cell RNA sequencing data using the Friedman-Rafsky non-parametric test
-
-Lees JR, Azimzadeh AM, Ding Y, Webb TJ, Bromberg JS. 2015. Cells of the immune system In: Li XC, Jevnikar AM, editors. Transplant Immunology. Chichester, UK: John Wiley & Sons, Ltd. pp. 25–47. doi:10.1002/9781119072997.ch2
-
 ## Neuron types
 
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
