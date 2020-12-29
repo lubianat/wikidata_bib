@@ -489,6 +489,9 @@ wd:Q55483834 wb:has_notes wbn:Q55483834.md ;
 wd:Q56524364 wb:has_notes wbn:Q56524364.md ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q56524391 wb:has_notes wbn:Q56524391.md ;
+    wb:read_in "+2020-12-29T00:00:00Z/11" .
+
 wd:Q56880438 wb:has_notes wbn:Q56880438.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-21T00:00:00Z/11" .
