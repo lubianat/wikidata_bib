@@ -266,6 +266,9 @@ def render_dashboard(readings):
   <li class="nav-item">
     <a class="nav-link" href="/wikidata_bib/this_week.html">This week</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/wikidata_bib/last_day.html">Last day</a>
+  </li>
 </ul>
 </div>
     </br>

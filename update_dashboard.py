@@ -109,3 +109,17 @@ with open("this_week.html", "w") as f:
     html = render_dashboard(readings)
 
     f.write(html)
+
+
+last_day = dat[dat["date"] > (datetime.today() - timedelta(days=1))]
+ids = [i.split("/")[4] for i in last_day["item"]]
+
+readings = "{"
+for i in ids:
+    readings = readings + "wd:" + i + " "
+readings = readings + " }"
+
+with open("last_day.html", "w") as f:
+    html = render_dashboard(readings)
+
+    f.write(html)
