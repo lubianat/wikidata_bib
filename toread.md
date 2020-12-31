@@ -15,7 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Seltmann,S., Stachelscheid,H., Damaschun,A., Jansen,L., Lekschas,F., Fontaine,J.F., Nguyen-Dobinsky,T.N., Leser,U. and Kurtz,A. (2013) CELDA - an ontology for the comprehensive representation of cells in complex systems. BMC Bioinformatics, 14, 228.
 
 AliBaba: PubMed as a graph.
 ## Neuron types
@@ -223,7 +222,12 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
+Schulz SS-RD, Grewe N, Röhl J, Schober D, Boeker M, Jansen L: Guideline on developing good ontologies in the biomedical domain with description logics. 2012. Available at: http://purl.org/goodod/guideline (Accessed: 13.05.13.)
+
+37. Rogers JE: Quality assurance of medical ontologies. Methods Inf Med 2006, 45(Issue 3):267–274.
+38. Obrst L, Ceusters W, Mani I, Ray S, Smith B: The evaluation of ontologies. Springer US: Semantic Web; 2007:139–158.
+39. Hartmann J, Spyns P, Giboin A, Maynard D, Cuel R, Suárez-Figueroa MC, Sure Y: Methods for ontology evaluation.In Book methods for ontolog
+
 
 Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
 
