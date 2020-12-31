@@ -225,13 +225,8 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 
 
-What makes a gene name? Named entity recognition in the biomedical literature.
-
-Keeping Raw Data in Context
 
 Zika virus: designate standardized names
-
-
 
 
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
