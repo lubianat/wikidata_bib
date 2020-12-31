@@ -223,7 +223,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-A survey on annotation tools for the biomedical literature.
 
 
 What makes a gene name? Named entity recognition in the biomedical literature.
