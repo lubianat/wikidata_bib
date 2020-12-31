@@ -1,15 +1,12 @@
 #!/usr/bin/python3
 
-import requests
+from wikidata2df import wikidata2df
 from bs4 import BeautifulSoup
+import pandas as pd
+import requests
 import os
 import sys
-from wikidata2df import wikidata2df
-from mdutils.mdutils import MdUtils
-import pandas as pd
-import os.path
-import rdflib
-from datetime import date
+
 
 def main():
     def get_doi_df(wd_id):
@@ -34,21 +31,36 @@ def main():
     if doi_df.empty == True:
         print("No DOI found for " + wd_id +".")
     else:
-        base_url = "https://sci-hub.do/"+ doi_df["doi"].values[0]
-        print(base_url)
-
-        res = requests.get(base_url, verify=False)
-        s = BeautifulSoup(res.content, 'html.parser')
-        iframe = s.find('iframe')
-        if iframe:
-            url = iframe.get('src')
-        
-        filename = url.split("/")[-1].split("#")[0]
-        filepath = "./downloads/" + filename
-
-        os.system(f'wget -O {filepath} {url}' )
+        doi_suffix = doi_df["doi"].values[0]
+        print("DOI: " + doi_suffix)
+        download_paper(doi=doi_suffix, path="./downloads/")
+        print("====== Opening Mendeley ======")
         os.system('mendeleydesktop &')
 
+def download_paper(doi, path="~/Downloads/"):
+    """
+    Given a DOI, downloads an article to a folder.
+
+    Arguments:
+        doi: A doi suffix (ex="10.7287/PEERJ.PREPRINTS.3100V1").
+        path: The folder where the pdf will be saved.
+    """
+    base_url = "https://sci-hub.do/"+ doi
+    res = requests.get(base_url, verify=False)
+    s = BeautifulSoup(res.content, 'html.parser')
+
+    iframe = s.find('iframe')
+    if iframe:
+        url = iframe.get('src')
+    
+    filename = url.split("/")[-1].split("#")[0]
+    filepath = path + filename
+
+    print("====== Dowloading article from Sci-Hub ======")
+
+    os.system(f'wget -O {filepath} {url}' )
+
+    return 0
 
 
 
