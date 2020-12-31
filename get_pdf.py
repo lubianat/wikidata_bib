@@ -47,7 +47,7 @@ def main():
         filepath = "./downloads/" + filename
 
         os.system(f'wget -O {filepath} {url}' )
-        os.system('xdg-open '+filepath + "&")
+        os.system('mendeleydesktop &')
 
 
 

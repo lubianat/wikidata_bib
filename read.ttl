@@ -182,6 +182,10 @@ wd:Q104553080 wb:has_notes wbn:Q104553080.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q104591553 wb:has_notes wbn:Q104591553.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-30T00:00:00Z/11" .
+
 wd:Q19671659 wb:has_notes wbn:Q19671659.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-28T00:00:00Z/11" .
@@ -315,6 +319,10 @@ wd:Q28650204 wb:has_notes wbn:Q28650204.md ;
     wb:in_collection wbc:cell_types,
         wbc:cellosaurus ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
+
+wd:Q28660708 wb:has_notes wbn:Q28660708.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2020-12-30T00:00:00Z/11" .
 
 wd:Q28681367 wb:has_notes wbn:Q28681367.md ;
     wb:in_collection wbc:biocuration,

@@ -15,8 +15,9 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-CellFinder: a cell data repository  (Q28660708)
+Seltmann,S., Stachelscheid,H., Damaschun,A., Jansen,L., Lekschas,F., Fontaine,J.F., Nguyen-Dobinsky,T.N., Leser,U. and Kurtz,A. (2013) CELDA - an ontology for the comprehensive representation of cells in complex systems. BMC Bioinformatics, 14, 228.
 
+AliBaba: PubMed as a graph.
 ## Neuron types
 
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
@@ -221,6 +222,11 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+
+A survey on annotation tools for the biomedical literature.
+
+
+What makes a gene name? Named entity recognition in the biomedical literature.
 
 Keeping Raw Data in Context
 
