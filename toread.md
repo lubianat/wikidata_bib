@@ -223,12 +223,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-
-
-
-Zika virus: designate standardized names
-
-
 Rector A (2005) Representing specified values in owl: “value partitions” and “value sets”. W3C Working Group Note. URL http://www.w3.org/TR/swbp-specified-values/.
 
 Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
