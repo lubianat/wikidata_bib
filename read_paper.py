@@ -6,7 +6,7 @@ from mdutils.mdutils import MdUtils
 import pandas as pd
 import os.path
 import rdflib
-from datetime import date
+from datetime import date, datetime
 
 def main():
     def get_title_df(wd_id):
