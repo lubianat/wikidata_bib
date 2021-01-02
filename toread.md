@@ -226,14 +226,9 @@ Schulz SS-RD, Grewe N, Röhl J, Schober D, Boeker M, Jansen L: Guideline on deve
 38. Obrst L, Ceusters W, Mani I, Ray S, Smith B: The evaluation of ontologies. Springer US: Semantic Web; 2007:139–158.
 39. Hartmann J, Spyns P, Giboin A, Maynard D, Cuel R, Suárez-Figueroa MC, Sure Y: Methods for ontology evaluation.In Book methods for ontolog
 
-
-Comparing ontology authoring workflows with Protégé: In the laboratory, in the tutorial and in the ‘wild’
-
 A Survey of Bioinformatics Database and Software Usage through Mining the Literature
 
 https://developers.google.com/search/docs/data-types/dataset
-
-Wimalaratne et al. (2018). Uniform resolution of compact identifiers for biomedical data. Scientific data, 5, 180029.
 
 The language of gene ontology: a Zipf's law analysis
 
