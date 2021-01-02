@@ -15,7 +15,7 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
+9.↵Edgar R, Mazor Y, Rinon A, Blumenthal J, Golan Y, Buzhor E, et al. LifeMap Discovery TM: The Embryonic Development, Stem Cells, and Regenerative Medicine Research Portal. PLoS One. 2013;8(7).
 AliBaba: PubMed as a graph.
 ## Neuron types
 
@@ -23,8 +23,6 @@ Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communicat
 
 
 ## Other
-
-Genetic identification of brain cell types underlying schizophrenia
 
 Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
 
