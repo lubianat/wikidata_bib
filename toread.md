@@ -222,12 +222,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Schulz SS-RD, Grewe N, Röhl J, Schober D, Boeker M, Jansen L: Guideline on developing good ontologies in the biomedical domain with description logics. 2012. Available at: http://purl.org/goodod/guideline (Accessed: 13.05.13.)
 
-37. Rogers JE: Quality assurance of medical ontologies. Methods Inf Med 2006, 45(Issue 3):267–274.
-38. Obrst L, Ceusters W, Mani I, Ray S, Smith B: The evaluation of ontologies. Springer US: Semantic Web; 2007:139–158.
-39. Hartmann J, Spyns P, Giboin A, Maynard D, Cuel R, Suárez-Figueroa MC, Sure Y: Methods for ontology evaluation.In Book methods for ontolog
-
-A Survey of Bioinformatics Database and Software Usage through Mining the Literature
-
 https://developers.google.com/search/docs/data-types/dataset
 
 The language of gene ontology: a Zipf's law analysis
