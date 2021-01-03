@@ -902,6 +902,10 @@ wd:Q90665256 wb:has_notes wbn:Q90665256.md ;
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .
 
+wd:Q91179320 wb:has_notes wbn:Q91179320.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-01-02T00:00:00Z/11" .
+
 wd:Q91273803 wb:has_notes wbn:Q91273803.md ;
     wb:in_collection wbc:biocuration,
         wbc:cellosaurus,

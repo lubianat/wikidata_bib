@@ -248,8 +248,6 @@ T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digit
 À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
 DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
 
-T. Beck, R.C. Free, G.A. Thorisson, A.J. Brookes, Semantically
-enabling a genome-wide association study database, Journal of Biomedical Semantics 3 (2012), 9
 
 https://sn-scigraph.figshare.com/
 Querying biomedical Linked Data with natural language questions
