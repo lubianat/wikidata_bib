@@ -15,7 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-9.↵Edgar R, Mazor Y, Rinon A, Blumenthal J, Golan Y, Buzhor E, et al. LifeMap Discovery TM: The Embryonic Development, Stem Cells, and Regenerative Medicine Research Portal. PLoS One. 2013;8(7).
 AliBaba: PubMed as a graph.
 ## Neuron types
 
@@ -24,12 +23,7 @@ Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communicat
 
 ## Other
 
-Genes and pathways underlying regional and cell type changes in Alzheimer's disease.
 
-Bailey, KD. Typologies and Taxonomies: An Introduction to Classification Techniques. In Sage University Paper series on Quantitative Applications in the Social Sciences. Thousand Oaks; CA: 1994. p. 7-102.
-
-
-Distinction of Neurons, Glia and Endothelial Cells in the Cerebral Cortex: An Algorithm Based on Cytological Features
 
 Neuronal diversity and convergence in a visual system developmental atlas 
 Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu. Rev. Neurosci. 36, 183–215 (2013). This article summarizes the progress enabled by obtaining genetic access to specific cell types, which relied on molecular classification.
