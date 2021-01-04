@@ -41,7 +41,6 @@ A maximum-likelihood approach for building cell-type trees by lifting
 
 http://celltypes.brain-map.org/
 
-Le Novère N, Donizelli M. The molecular pages of the mesotelencephalic dopamine consortium (DopaNet). BMC Bioinformatics 2004;5:174. [PubMed: 15518589]
 
 4.Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL,Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA et al.: A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci 2008, 28:264-278.
 
