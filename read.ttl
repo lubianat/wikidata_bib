@@ -11,6 +11,10 @@ wd:Q100395427 wb:has_notes wbn:Q100395427.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-04T00:00:00Z/11" .
 
+wd:Q100429893 wb:has_notes wbn:Q100429893.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-04T00:00:00Z/11" .
+
 wd:Q100491078 wb:has_notes wbn:Q100491078.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-12T00:00:00Z/11" .
