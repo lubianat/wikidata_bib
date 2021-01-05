@@ -211,7 +211,7 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
+1.  Egaña M, Rector A, Stevens R, Antezana E: .In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
 Mulas F, Curk T, Bellazzi R, Zupan B: On quality of different annotation sources for gene expression analysis.In Artificial Intelligence in Medicine 2009. Edited by Combi C, Shahar Y, Abu-Hanna A. Heidelberg: Springer- Verlag Berlin; 2009.
 
