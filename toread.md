@@ -15,7 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-AliBaba: PubMed as a graph.
 ## Neuron types
 
 Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
@@ -71,7 +70,6 @@ Models of global gene expression define major domains of cell type and tissue id
 
 Genomic and molecular control of cell type and cell type conversions
 
-SC2disease: a manually curated database of single-cell transcriptome for human diseases
 
 Phylogenetic analysis of cell types using histone modifications
 
@@ -213,11 +211,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Schulz SS-RD, Grewe N, Röhl J, Schober D, Boeker M, Jansen L: Guideline on developing good ontologies in the biomedical domain with description logics. 2012. Available at: http://purl.org/goodod/guideline (Accessed: 13.05.13.)
 
 https://developers.google.com/search/docs/data-types/dataset
 
-The language of gene ontology: a Zipf's law analysis
 
 1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
