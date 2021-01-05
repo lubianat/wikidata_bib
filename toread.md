@@ -15,28 +15,14 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-## Neuron types
-
-Huang, Z. J. & Paul, A. The diversity of GABAergic neurons and neural communication elements. Nat. Rev. Neurosci. 20, 563–572 (2019)
-
-
 ## Other
 
+Nair NU, Lin Y, Bucher P, Moret BM. Phylogenetic Analysis of Cell Types using Histone Modifications. In: Proc. 13th Workshop on Algorithms in Bioinformatics (WABI), Sophia Antipolis, France, in Lecture Notes in Computer Science 8126. Berlin: Springer-Verlag; 2013. p. 326–337
+
+2. Kin K, Nnamani MC, Lynch VJ, Michaelides E, Wagner GP. Cell-type phylogenetics and the origin of endometrial stromal cells. Cell Rep. 2015;10(8):1398–1409
+Mulas F, Curk T, Bellazzi R, Zupan B: On quality of different annotation sources for gene expression analysis.In Artificial Intelligence in Medicine 2009. Edited by Combi C, Shahar Y, Abu-Hanna A. Heidelberg: Springer- Verlag Berlin; 2009.
 
 
-Neuronal diversity and convergence in a visual system developmental atlas 
-Huang, Z. J. & Zeng, H. Genetic approaches to neural circuits in the mouse. Annu. Rev. Neurosci. 36, 183–215 (2013). This article summarizes the progress enabled by obtaining genetic access to specific cell types, which relied on molecular classification.
-
-Sanes, J. R. & Masland, R. H. The types of retinal ganglion cells: current status and implications for neuronal classification. Annu. Rev. Neurosci. 38, 221–246 (2015). This article reviews the progress in classifying RGC types in mice. Remarkably, the estimated number has grown from ~30 to >50 in the two years since its publication
-
-Ascoli, G. A. Mobilizing the base of neuroscience data: the case of neuronal morphologies. Nature Rev. Neurosci. 7, 318–324 (2006
-
-Bock, W. J.: Philosophical foundations of classical evolutionary classification. Syst. Zool. 22: 375-392 (1973).
-
-
-The dynamics and regulators of cell fate decisions are revealed by pseudotemporal ordering of single cells
-
-A maximum-likelihood approach for building cell-type trees by lifting
 
 http://celltypes.brain-map.org/
 
@@ -210,10 +196,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-
-1.  Egaña M, Rector A, Stevens R, Antezana E: .In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
-
-Mulas F, Curk T, Bellazzi R, Zupan B: On quality of different annotation sources for gene expression analysis.In Artificial Intelligence in Medicine 2009. Edited by Combi C, Shahar Y, Abu-Hanna A. Heidelberg: Springer- Verlag Berlin; 2009.
 
 
 Decentralized provenance-aware publishing with nanopublications
