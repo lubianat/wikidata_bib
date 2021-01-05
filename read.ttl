@@ -316,6 +316,10 @@ wd:Q28254676 wb:has_notes wbn:Q28254676.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-07T00:00:00Z/11" .
 
+wd:Q28268340 wb:has_notes wbn:Q28268340.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-01-04T00:00:00Z/11" .
+
 wd:Q28292614 wb:has_notes wbn:Q28292614.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-18T00:00:00Z/11" .

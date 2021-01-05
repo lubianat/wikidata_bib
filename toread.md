@@ -211,16 +211,10 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-
-https://developers.google.com/search/docs/data-types/dataset
-
-
 1.  Egaña M, Rector A, Stevens R, Antezana E: Applying ontology design patterns in bio-ontologies.In Knowledge Engineering: Practice and Patterns. Berlin Heidelberg: Springer; 2008:7–16.
 
-BioCatalogue: A Curated Web Service Registry For The Life Science Community
+Mulas F, Curk T, Bellazzi R, Zupan B: On quality of different annotation sources for gene expression analysis.In Artificial Intelligence in Medicine 2009. Edited by Combi C, Shahar Y, Abu-Hanna A. Heidelberg: Springer- Verlag Berlin; 2009.
 
-Theoretical and technological building blocks for an innovation accelerator
-F. van Harmelen, G. Kampis, K. Börner, P. van den Besselaar, E. Schultes, C. Goble, P. Groth, B. Mons, S. Anderson, S. Decker, C. Hayes, T. Buecheler & D. Helbing 
 
 Decentralized provenance-aware publishing with nanopublications
 
