@@ -15,10 +15,9 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
+Q58836377
 Q29547320
 Q38637165
-
 Q41068482
 Q35688096
 Q91665384
@@ -27,7 +26,7 @@ Q64263662
 ## Other
 
 
-
+Kepecs, A., and Fishell, G. (2014). Interneuron cell types are fit to function. Nature 505, 318–326. doi: 10.1038/nature1298
 
 
 Models of global gene expression define major domains of cell type and tissue identity 
@@ -174,7 +173,7 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Q57339063
+
 Q56915510
 
 
