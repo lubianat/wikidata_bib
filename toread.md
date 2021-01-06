@@ -15,42 +15,20 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
+
+Q29547320
+Q38637165
+
+Q41068482
+Q35688096
+Q91665384
+Q98633613
+Q64263662
 ## Other
 
-Nair NU, Lin Y, Bucher P, Moret BM. Phylogenetic Analysis of Cell Types using Histone Modifications. In: Proc. 13th Workshop on Algorithms in Bioinformatics (WABI), Sophia Antipolis, France, in Lecture Notes in Computer Science 8126. Berlin: Springer-Verlag; 2013. p. 326–337
-
-2. Kin K, Nnamani MC, Lynch VJ, Michaelides E, Wagner GP. Cell-type phylogenetics and the origin of endometrial stromal cells. Cell Rep. 2015;10(8):1398–1409
-Mulas F, Curk T, Bellazzi R, Zupan B: On quality of different annotation sources for gene expression analysis.In Artificial Intelligence in Medicine 2009. Edited by Combi C, Shahar Y, Abu-Hanna A. Heidelberg: Springer- Verlag Berlin; 2009.
 
 
 
-http://celltypes.brain-map.org/
-
-
-4.Cahoy JD, Emery B, Kaushal A, Foo LC, Zamanian JL,Christopherson KS, Xing Y, Lubischer JL, Krieg PA, Krupenko SA et al.: A transcriptome database for astrocytes, neurons, and oligodendrocytes: a new resource for understanding brain development and function. J Neurosci 2008, 28:264-278.
-
-Rosse C, Mejino JL Jr. A reference ontology for biomedical informatics: the Foundational Model of Anatomy. J. Biomed. Inform 2003;36:478–500. [PubMed: 14759820]
-
-Purkinje JE. Neueste Untersuchungen aus der Nerven- und Hirn-anatomie. Bericht über die Versammlung deutscher Naturforscher und Aerzte in Prag im September 1837 1883:177–180
-
-Schapiro, D. et al. histoCAT: analysis of cell phenotypes and interactions in multiplex image cytometry data. Nat. Methods 14, 873–876 (2017)
-
-Masland RH. The fundamental plan of the retina. Nat. Neurosci 2001a;4:877–886. [PubMed: 11528418]
-
-Tasic, B. et al. Adult mouse cortical cell taxonomy revealed by single cell transcriptomics. Nat. Neurosci. 19, 335–346 (2016)
-Habib, N. et al. Div-Seq: Single-nucleus RNA-Seq reveals dynamics of rare adult newborn neurons. Science 353, 925–928 (2016).
-Korem, Y. et al. Geometry of the gene expression space of individual cells. PLOS Comput. Biol. 11, e1004224 (2015).
-
-A semi-supervised approach for cell phenotypic and functional estimation in tissue microenvironmen
-
-
-SFujibuchi,W., Kiseleva,L., Taniguchi,T. et al. (2005) Development of cell knowledge base and prediction of cell types and characteristics by gene expression profiles. IPSJ SIG Technical Reports 2005-BIO-2, 33–37 (in Japanese).
-14.
-
-Evolution of Cellular Differentiation: From Hypotheses to Models
-
-
-Implications of Epigenetic Variability within a Cell Population for “Cell Type” Classification
 
 Models of global gene expression define major domains of cell type and tissue identity 
 
@@ -196,13 +174,9 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Q57339063
+Q56915510
 
-
-Decentralized provenance-aware publishing with nanopublications
-
-Nanopublicação aplicada ao domínio de estudos de análise de redes de colaboração científica
-
-T. Kuhn and M. Dumontier, Trusty URIs: Verifiable,Immutable, and Permanent Digital Artifacts for Linked Data,
 
 À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
 DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
