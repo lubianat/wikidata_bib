@@ -25,6 +25,7 @@ Q98633613
 Q64263662
 ## Other
 
+CA1 pyramidal cells have diverse biophysical properties, affected by development, experience, and aging
 
 Kepecs, A., and Fishell, G. (2014). Interneuron cell types are fit to function. Nature 505, 318–326. doi: 10.1038/nature1298
 
@@ -174,8 +175,19 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Q56915510
+Mons B, Van Haagen H, Chichester C, Den Dunnen JT, Van Ommen G, Van Mulligen E, Singh B, Hooft R, Roos M, Hammond J, Kiesel B, Giardine B, Velterop J, Groth P, Schultes E. 2011. The value of data. Nature Genetics 43(4):281–283 DOI 10.1038/ng0411-281
 
+Kuhn T. 2014. A Survey and Classification ofControlled Natural Languages. Computa- tional Linguistics 40(1):121–170 DOI 10.1162/COLI_a_00168.
+
+Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
+
+Kuhn T, Barbano PE, Nagy ML, Krauthammer M. 2013. Broadening the scope of nanopublications. In: Proceedings ofESWC 2013. Berlin Heidelberg: Springer, 487–50
+
+Biotea, semantics for Pubmed Central
+
+Making Linked Data SPARQL with the InterMine Biological Data Warehouse
+
+An RDF/OWL knowledge base for query answering and decision support in clinical pharmacogenetics.
 
 À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
 DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
