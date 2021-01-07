@@ -15,13 +15,17 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
+
 Q38637165
+Q46388366
 Q41068482
 Q35688096
 Q91665384
 Q98633613
 Q64263662
 ## Other
+
+in ES, Hawrylycz MJ, Ao N, Ayres M, Bensinger A, Bernard A, Boe AF, Boguski MS, Brockway KS, Byrnes EJ, Chen L, Chen L, Chen TM, Chin MC, Chong J, Crook BE, Czaplinska A, Dang CN, Datta S, Dee NR, et al. (2007) Genome-wide atlas of gene expression in the adult mouse brain. Nature 445:168–176
 
 CA1 pyramidal cells have diverse biophysical properties, affected by development, experience, and aging
 
