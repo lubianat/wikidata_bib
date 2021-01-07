@@ -177,11 +177,26 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Knowledge.Bio: A Web application for exploring, building and sharing webs of biomedical relationships mined from PubMed
-
-Mons B, Van Haagen H, Chichester C, Den Dunnen JT, Van Ommen G, Van Mulligen E, Singh B, Hooft R, Roos M, Hammond J, Kiesel B, Giardine B, Velterop J, Groth P, Schultes E. 2011. . Nature Genetics 43(4):281–283 DOI 10.1038/ng0411-281
 
 Kuhn T. 2014. A Survey and Classification ofControlled Natural Languages. Computa- tional Linguistics 40(1):121–170 DOI 10.1162/COLI_a_00168.
+
+Swanson DR: Fish oil, Raynaud's syndrome, and undiscovered public knowledge. Perspectives in biology and medicine 1986, 30:7-18
+
+WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
+
+Effective mapping of biomedical text to the UMLS Metathesaurus: the MetaMap program
+
+Wu C, Macleod I, Su AI: BioGPS and MyGene.info: organizing online, gene-centric information. Nucleic Acids Res 2013, 41(Database issue):D561-565.
+Franz
+
+Weeber M, Kors JA, Mons B: Online tools to support literature-based discovery in the life sciences. Brief Bioinform 2005, 6(3):277-286.
+
+Jensen LJ, Saric J, Bork P: Literature mining for the biologist: from information retrieval to biological discovery. Nat Rev Genet 2006, 7(2):119- 129.
+
+Utilizing the Wikidata System to Improve the Quality of Medical Content in Wikipedia in Diverse Languages: A Pilot Study
+
+
+Kilicoglu H, Shin D, Fiszman M, Rosemblat G, Rindflesch TC: SemMedDB: a PubMed-scale repository of biomedical semantic predications. Bioinformatics 2012, 28(23):3158-3160
 
 Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
 
