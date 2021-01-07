@@ -15,8 +15,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q58836377
-Q29547320
 Q38637165
 Q41068482
 Q35688096
