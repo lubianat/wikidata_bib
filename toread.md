@@ -180,8 +180,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-Q57402167
-Q69703977
+Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
+
+67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
 
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
