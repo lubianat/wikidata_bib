@@ -36,6 +36,7 @@ Models of global gene expression define major domains of cell type and tissue id
 
 Genomic and molecular control of cell type and cell type conversions
 
+Proteome half-life dynamics in living human cells
 
 Phylogenetic analysis of cell types using histone modifications
 
@@ -48,6 +49,8 @@ Integrating resident memory into T cell differentiation models
 Visual cue-related activity of cells in the medial entorhinal cortex during navigation in virtual reality
 
 Inferring cell type innovations by phylogenetic methods-concepts, methods, and limitations Koryu Kin 1 2
+
+Principles of Cell Circuits for Tissue Repair and Fibrosis
 
 Genomic and molecular control of cell type and cell type conversions
 
@@ -178,8 +181,8 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 # Biocuration
 
 Q57402167
+Q69703977
 
-Swanson DR: Fish oil, Raynaud's syndrome, and undiscovered public knowledge. Perspectives in biology and medicine 1986, 30:7-18
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
 
