@@ -16,14 +16,16 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-Q41068482
-Q35688096
+
 Q91665384
 Q98633613
 Q64263662
+Q26253934
 ## Other
 
-in ES, Hawrylycz MJ, Ao N, Ayres M, Bensinger A, Bernard A, Boe AF, Boguski MS, Brockway KS, Byrnes EJ, Chen L, Chen L, Chen TM, Chin MC, Chong J, Crook BE, Czaplinska A, Dang CN, Datta S, Dee NR, et al. (2007) Genome-wide atlas of gene expression in the adult mouse brain. Nature 445:168–176
+Shoval O, Sheftel H, Shinar G, Hart Y, Ramote O, Mayo A, et al. Evolutionary Trade-Offs, Pareto Opti- mality, and the Geometry of Phenotype Space. Science. 2012; 336: 1157–1160. doi: 10.1126/science. 1217405 PMID: 22539553
+
+in ES, Hawrylycz MJ, Ao N, Ayres M, Bensinger A, Bernard A, Boe AF, Boguski MS, Brockway KS, Byrnes EJ, Chen L, Chen L, Chen TM, Chin MC, Chong J, Crook BE, Czaplinska A, Dang CN, Datta S, Dee NR, et al. (2007) . Nature 445:168–176
 
 CA1 pyramidal cells have diverse biophysical properties, affected by development, experience, and aging
 
@@ -175,8 +177,7 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
 
-
-Kuhn T. 2014. A Survey and Classification ofControlled Natural Languages. Computa- tional Linguistics 40(1):121–170 DOI 10.1162/COLI_a_00168.
+Q57402167
 
 Swanson DR: Fish oil, Raynaud's syndrome, and undiscovered public knowledge. Perspectives in biology and medicine 1986, 30:7-18
 
