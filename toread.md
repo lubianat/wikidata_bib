@@ -194,11 +194,8 @@ A global network of biomedical relationships derived from text
 
 Literature based discovery: models, methods, and trends
 
-Effective mapping of biomedical text to the UMLS Metathesaurus: the MetaMap program
-
-Wu C, Macleod I, Su AI: BioGPS and MyGene.info: organizing online, gene-centric information. Nucleic Acids Res 2013, 41(Database issue):D561-565.
-Franz
-
+6. Wu,C., Orozco,C., Boyer,J., Leglise,M., Goodale,J., Batalov,S., Hodge,C.L., Haase,J., Janes,J., Huss,J.W. 3rd et al. (2009) BioGPS: an extensible and customizable portal for querying and organizing gene annotation resources. Genome Biol., 10, R130.
+7. 
 Literature-based discovery of new candidates for drug repurposing
 
 Toward an epistemology of Wikipedia
