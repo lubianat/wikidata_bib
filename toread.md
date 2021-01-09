@@ -183,14 +183,25 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
 67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
+https://www.journals.uchicago.edu/doi/abs/10.1086/601720
 
+Undiscovered Public Knowledge: a Ten-Year Update 
+https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
+
+A global network of biomedical relationships derived from text
+
+Literature based discovery: models, methods, and trends
 
 Effective mapping of biomedical text to the UMLS Metathesaurus: the MetaMap program
 
 Wu C, Macleod I, Su AI: BioGPS and MyGene.info: organizing online, gene-centric information. Nucleic Acids Res 2013, 41(Database issue):D561-565.
 Franz
+
+Literature-based discovery of new candidates for drug repurposing
+
+Toward an epistemology of Wikipedia
 
 Weeber M, Kors JA, Mons B: Online tools to support literature-based discovery in the life sciences. Brief Bioinform 2005, 6(3):277-286.
 
