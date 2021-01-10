@@ -17,17 +17,23 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q91665384
+
 Q98633613
 Q64263662
 Q26253934
 ## Other
+
+Newman, A. M. et al. Robust enumeration of cell subsets from tissue expression profiles. Nat. Methods 12, 453–457 (2015)
+
+GiniClust2: a cluster-aware, weighted ensemble clustering method for cell-type detection.
 
 Shoval O, Sheftel H, Shinar G, Hart Y, Ramote O, Mayo A, et al. Evolutionary Trade-Offs, Pareto Opti- mality, and the Geometry of Phenotype Space. Science. 2012; 336: 1157–1160. doi: 10.1126/science. 1217405 PMID: 22539553
 
 in ES, Hawrylycz MJ, Ao N, Ayres M, Bensinger A, Bernard A, Boe AF, Boguski MS, Brockway KS, Byrnes EJ, Chen L, Chen L, Chen TM, Chin MC, Chong J, Crook BE, Czaplinska A, Dang CN, Datta S, Dee NR, et al. (2007) . Nature 445:168–176
 
 CA1 pyramidal cells have diverse biophysical properties, affected by development, experience, and aging
+
+Grün, D. et al. Single-cell messenger RNA sequencing reveals rare intestinal cell types. Nature 525, 251–255 (2015).
 
 Kepecs, A., and Fishell, G. (2014). Interneuron cell types are fit to function. Nature 505, 318–326. doi: 10.1038/nature1298
 
