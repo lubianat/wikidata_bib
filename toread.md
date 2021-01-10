@@ -23,7 +23,9 @@ Q64263662
 Q26253934
 ## Other
 
-Newman, A. M. et al. Robust enumeration of cell subsets from tissue expression profiles. Nat. Methods 12, 453–457 (2015)
+Determining cell type abundance and expression from bulk tissues with digital cytometry
+
+
 
 GiniClust2: a cluster-aware, weighted ensemble clustering method for cell-type detection.
 
