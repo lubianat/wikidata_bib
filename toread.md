@@ -23,7 +23,6 @@ Q64263662
 Q26253934
 ## Other
 
-Determining cell type abundance and expression from bulk tissues with digital cytometry
 
 
 
