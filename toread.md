@@ -188,6 +188,13 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+Situating Wikipedia as a health information resource in various contexts: A scoping review. PLOS ONE 2020
+
+Crowdsourced assessment of common genetic contribution to predicting anti-TNF treatment response in rheumatoid arthritis.
+
+A survey of how drug information experts search for evidence about potential drug-drug interactions (Preprint)
+
+An RDF/OWL knowledge base for query answering and decision support in clinical pharmacogenetics
 
 Gershenson, C. (2004) Introduction to random Boolean networks. arXiv. Published online August 2, 2004. https://arxiv.org/abs/nlin/ 0408006
 
@@ -215,7 +222,7 @@ Weeber M, Kors JA, Mons B: Online tools to support literature-based discovery in
 
 Jensen LJ, Saric J, Bork P: Literature mining for the biologist: from information retrieval to biological discovery. Nat Rev Genet 2006, 7(2):119- 129.
 
-Utilizing the Wikidata System to Improve the Quality of Medical Content in Wikipedia in Diverse Languages: A Pilot Study
+
 
 
 Kilicoglu H, Shin D, Fiszman M, Rosemblat G, Rindflesch TC: SemMedDB: a PubMed-scale repository of biomedical semantic predications. Bioinformatics 2012, 28(23):3158-3160
