@@ -18,13 +18,15 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q98633613
+
 Q64263662
 Q26253934
 ## Other
 
 
+Mendoza, L. (2006) A network model for the control of the dif- ferentiation process in Th cells. Biosystems 84, 101–114
 
+Fisher, R.M. et al. (2013) Group formation, relatedness, and the evolution of multicellularity. Curr. Biol. 23, 1120–1125
 
 GiniClust2: a cluster-aware, weighted ensemble clustering method for cell-type detection.
 
@@ -186,6 +188,8 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
+
+Gershenson, C. (2004) Introduction to random Boolean networks. arXiv. Published online August 2, 2004. https://arxiv.org/abs/nlin/ 0408006
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
