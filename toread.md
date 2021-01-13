@@ -16,14 +16,8 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 ## Other
-Sugino, K. et al. Molecular taxonomy of major neuronal classes in the adult mouse forebrain. Nature Neurosci. 9, 99–107 (2006).
 
-Cahan, P. et al. CellNet: Network Biology Applied to Stem Cell Engineering. Cell 158, 903–915 (2014).
-Mendoza, L. (2006) A network model for the control of the dif- ferentiation process in Th cells. Biosystems 84, 101–114
-
-Fisher, R.M. et al. (2013) Group formation, relatedness, and the evolution of multicellularity. Curr. Biol. 23, 1120–1125
-
-GiniClust2: a cluster-aware, weighted ensemble clustering method for cell-type detection.
+iang L, Chen H, Pinello L, Yuan GC. GiniClust: detecting rare cell types from single-cell gene expression data with Gini index. Genome Biol. 2016;17:144.
 
 Shoval O, Sheftel H, Shinar G, Hart Y, Ramote O, Mayo A, et al. Evolutionary Trade-Offs, Pareto Opti- mality, and the Geometry of Phenotype Space. Science. 2012; 336: 1157–1160. doi: 10.1126/science. 1217405 PMID: 22539553
 
