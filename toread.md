@@ -15,8 +15,8 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q26253934
 ## Other
+Sugino, K. et al. Molecular taxonomy of major neuronal classes in the adult mouse forebrain. Nature Neurosci. 9, 99–107 (2006).
 
 Cahan, P. et al. CellNet: Network Biology Applied to Stem Cell Engineering. Cell 158, 903–915 (2014).
 Mendoza, L. (2006) A network model for the control of the dif- ferentiation process in Th cells. Biosystems 84, 101–114
