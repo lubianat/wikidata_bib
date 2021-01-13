@@ -4,38 +4,44 @@ import urllib.parse
 import pandas as pd
 import unicodedata
 
-
-def render_dashboard(readings):
-  query_1 = """
+def render_url(query):
+  return "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query, safe='')
+  
+def get_query_url_for_articles(readings):
+  query = """
 
   #defaultView:Table
   SELECT
-    (MIN(?dates) AS ?date)
-    ?work ?workLabel
-    (GROUP_CONCAT(DISTINCT ?type_label; separator=", ") AS ?type)
-    (SAMPLE(?pages_) AS ?pages)
-    ?venue ?venueLabel
-    (GROUP_CONCAT(DISTINCT ?author_label; separator=", ") AS ?authors)
+  (MIN(?dates) AS ?date)
+  ?work ?workLabel
+  (GROUP_CONCAT(DISTINCT ?type_label; separator=", ") AS ?type)
+  (SAMPLE(?pages_) AS ?pages)
+  ?venue ?venueLabel
+  (GROUP_CONCAT(DISTINCT ?author_label; separator=", ") AS ?authors)
   WHERE {
-    VALUES ?work """ +  readings + """.
-    ?work wdt:P50 ?author .
-    OPTIONAL {
-      ?author rdfs:label ?author_label_ . FILTER (LANG(?author_label_) = 'en')
-    }
-    BIND(COALESCE(?author_label_, SUBSTR(STR(?author), 32)) AS ?author_label)
-    OPTIONAL { ?work wdt:P31 ?type_ . ?type_ rdfs:label ?type_label . FILTER (LANG(?type_label) = 'en') }
-    ?work wdt:P577 ?datetimes .
-    BIND(xsd:date(?datetimes) AS ?dates)
-    OPTIONAL { ?work wdt:P1104 ?pages_ }
-    OPTIONAL { ?work wdt:P1433 ?venue }
-    SERVICE wikibase:label { bd:serviceParam wikibase:language "en,da,de,es,fr,jp,no,ru,sv,zh". }  
+  VALUES ?work """ +  readings + """.
+  ?work wdt:P50 ?author .
+  OPTIONAL {
+    ?author rdfs:label ?author_label_ . FILTER (LANG(?author_label_) = 'en')
+  }
+  BIND(COALESCE(?author_label_, SUBSTR(STR(?author), 32)) AS ?author_label)
+  OPTIONAL { ?work wdt:P31 ?type_ . ?type_ rdfs:label ?type_label . FILTER (LANG(?type_label) = 'en') }
+  ?work wdt:P577 ?datetimes .
+  BIND(xsd:date(?datetimes) AS ?dates)
+  OPTIONAL { ?work wdt:P1104 ?pages_ }
+  OPTIONAL { ?work wdt:P1433 ?venue }
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "en,da,de,es,fr,jp,no,ru,sv,zh". }  
   }
   GROUP BY ?work ?workLabel ?venue ?venueLabel
   ORDER BY DESC(?date)  
 
   """
+  
+  return render_url(query)
 
-  query_2 = """
+def get_query_url_for_topic_bubble(readings):
+
+  query = """
 
   #defaultView:BubbleChart
   SELECT ?score ?topic ?topicLabel
@@ -69,6 +75,11 @@ def render_dashboard(readings):
   LIMIT 50
 
   """
+  return render_url(query) 
+
+
+
+def render_dashboard(readings):
 
   query_3 = """
 
@@ -206,8 +217,8 @@ def render_dashboard(readings):
   
   """
 
-  url1 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_1, safe='')
-  url2 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_2, safe='')
+  url1 = get_query_url_for_articles(readings)
+  url2 = get_query_url_for_topic_bubble(readings)
   url3 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_3, safe='')
   url4 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_4, safe='')
   url5 = "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query_5, safe='')
