@@ -178,14 +178,33 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Q52681328
-Q38371706
+
+
 Q21183895
 Q38817541
 Q101955295
 Q36280460
 Q30002370
 Q36432186
+
+ D. Hristovski, A. Kastrin, D. Dinevski, R. Thomas, Towards implementing
+semantic literature-based discovery with a graph databse, in: The Seventh
+International Conference on Advances in Databases, Knowledge, and Data
+Applications, 2015.
+
+M.M. Skeels, K. Henning, M.Y. Yildiz, W. Pratt, Interaction design for literaturebased discovery, in: CHI’05 Extended Abstracts on Human Factors in
+Computing Systems, ACM, 2005, pp. 1785–1788
+
+D.R. Swanson, N.R. Smalheiser, An interactive system for finding
+complementary literatures: a stimulus to scientific discovery, Artif. Intell. 91
+(2) (1997) 183–203.
+
+D. Hristovski, C. Friedman, T.C. Rindflesch, B. Peterlin, Exploiting semantic
+relations for literature-based discovery, in: Proceedings of the American
+Medical Informatics Association (AMIA) Annual Symposium, 2006
+
+P. Bruza, R. Cole, D. Song, Z. Bari, Towards operational abduction from a
+cognitive perspective, Logic J. IGPL 14 (2) (2006) 161–177
 
 67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
 https://www.journals.uchicago.edu/doi/abs/10.1086/601720
