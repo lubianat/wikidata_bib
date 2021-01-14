@@ -177,15 +177,6 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-Situating Wikipedia as a health information resource in various contexts: A scoping review. PLOS ONE 2020
-
-Crowdsourced assessment of common genetic contribution to predicting anti-TNF treatment response in rheumatoid arthritis.
-
-A survey of how drug information experts search for evidence about potential drug-drug interactions (Preprint)
-
-An RDF/OWL knowledge base for query answering and decision support in clinical pharmacogenetics
-
-Gershenson, C. (2004) Introduction to random Boolean networks. arXiv. Published online August 2, 2004. https://arxiv.org/abs/nlin/ 0408006
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
