@@ -34,8 +34,6 @@ def main():
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
         download_paper(doi=doi_suffix, path="./downloads/")
-        print("====== Opening PDF ======")
-        os.system('xdg-open &')
 
 def download_paper(doi, path="~/Downloads/"):
     """
@@ -59,6 +57,9 @@ def download_paper(doi, path="~/Downloads/"):
     print("====== Dowloading article from Sci-Hub ======")
 
     os.system(f'wget -O {filepath} {url}' )
+
+    print("====== Opening PDF ======")
+    os.system(f'xdg-open {filepath}&')
 
     return 0
 

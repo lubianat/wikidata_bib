@@ -9,6 +9,7 @@ Antonio D. Descarte’s Error. Vintage Press, 2006; 104–105.
 
 Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas scholastica Book 8. PublishedinSangalli.Trans.Sara L. Uckelman.
 
+Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
@@ -177,8 +178,14 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 # Biocuration
-
-Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
+Q52681328
+Q38371706
+Q21183895
+Q38817541
+Q101955295
+Q36280460
+Q30002370
+Q36432186
 
 67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
 https://www.journals.uchicago.edu/doi/abs/10.1086/601720
@@ -188,24 +195,6 @@ https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
 
-A global network of biomedical relationships derived from text
-
-Literature based discovery: models, methods, and trends
-
-6. Wu,C., Orozco,C., Boyer,J., Leglise,M., Goodale,J., Batalov,S., Hodge,C.L., Haase,J., Janes,J., Huss,J.W. 3rd et al. (2009) BioGPS: an extensible and customizable portal for querying and organizing gene annotation resources. Genome Biol., 10, R130.
-7. 
-Literature-based discovery of new candidates for drug repurposing
-
-Toward an epistemology of Wikipedia
-
-Weeber M, Kors JA, Mons B: Online tools to support literature-based discovery in the life sciences. Brief Bioinform 2005, 6(3):277-286.
-
-Jensen LJ, Saric J, Bork P: Literature mining for the biologist: from information retrieval to biological discovery. Nat Rev Genet 2006, 7(2):119- 129.
-
-
-
-
-Kilicoglu H, Shin D, Fiszman M, Rosemblat G, Rindflesch TC: SemMedDB: a PubMed-scale repository of biomedical semantic predications. Bioinformatics 2012, 28(23):3158-3160
 
 Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
 
