@@ -88,7 +88,6 @@ Computational methods for the integrative analysis of single-cell data
 
 Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse. bioRxiv. doi:10.1101/2020.03.31.016972
 
-Batiuk MY. 2020. Identification of region-specific astrocyte subtypes at single cell resolution. Nat Commun 11:1220. doi:10.1038/s41467-019-14198-8
 
 Fuzik J, Z. 2016. Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 34:175–183. doi:10.1038/nbt.3443
 
