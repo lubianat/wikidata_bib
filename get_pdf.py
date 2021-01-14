@@ -34,8 +34,8 @@ def main():
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
         download_paper(doi=doi_suffix, path="./downloads/")
-        print("====== Opening Mendeley ======")
-        os.system('mendeleydesktop &')
+        print("====== Opening PDF ======")
+        os.system('xdg-open &')
 
 def download_paper(doi, path="~/Downloads/"):
     """
