@@ -15,21 +15,12 @@ Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-
+Q31111856
+Q54337677
+Q41694511
+Q34490100
+Q27021885
 ## Other
-
-iang L, Chen H, Pinello L, Yuan GC. GiniClust: detecting rare cell types from single-cell gene expression data with Gini index. Genome Biol. 2016;17:144.
-
-Shoval O, Sheftel H, Shinar G, Hart Y, Ramote O, Mayo A, et al. Evolutionary Trade-Offs, Pareto Opti- mality, and the Geometry of Phenotype Space. Science. 2012; 336: 1157–1160. doi: 10.1126/science. 1217405 PMID: 22539553
-
-in ES, Hawrylycz MJ, Ao N, Ayres M, Bensinger A, Bernard A, Boe AF, Boguski MS, Brockway KS, Byrnes EJ, Chen L, Chen L, Chen TM, Chin MC, Chong J, Crook BE, Czaplinska A, Dang CN, Datta S, Dee NR, et al. (2007) . Nature 445:168–176
-
-CA1 pyramidal cells have diverse biophysical properties, affected by development, experience, and aging
-
-Grün, D. et al. Single-cell messenger RNA sequencing reveals rare intestinal cell types. Nature 525, 251–255 (2015).
-
-Kepecs, A., and Fishell, G. (2014). Interneuron cell types are fit to function. Nature 505, 318–326. doi: 10.1038/nature1298
-
 
 Models of global gene expression define major domains of cell type and tissue identity 
 
@@ -167,7 +158,7 @@ https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691
 
 ### Discovery of new cell types:
 
-JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Single-cell profiling identifies myeloid cell subsets with distinct fates during neuroinflammation. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
+JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
 24. Mrdjen D, Pavlovic A, Hartmann FJ, Schreiner B, Utz SG, Leung BP, Lelios I, Heppner FL, Kipnis J, Merkler D, et al. High-dimensional single-cell mapping of central nervous system immune cells reveals distinct myeloid subsets in health, aging, and disease. Immunity. 2018;48(2):380–95 e386.
 25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus nephritis. JCI Insight. 2017;2(9).
@@ -176,6 +167,7 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
+Mapping the physical network of cellular interactions
 # Biocuration
 
 
