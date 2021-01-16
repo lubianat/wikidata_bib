@@ -664,6 +664,10 @@ wd:Q41068482 wb:has_notes wbn:Q41068482.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-08T00:00:00Z/11" .
 
+wd:Q41694511 wb:has_notes wbn:Q41694511.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-16T00:00:00Z/11" .
+
 wd:Q41861103 wb:has_notes wbn:Q41861103.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-04T00:00:00Z/11" .

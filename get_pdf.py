@@ -59,7 +59,7 @@ def download_paper(doi, path="~/Downloads/"):
     os.system(f'wget -O {filepath} {url}' )
 
     print("====== Opening PDF ======")
-    os.system(f'xdg-open {filepath}&')
+    os.system(f'xdg-open {filepath} &')
 
     return 0
 
