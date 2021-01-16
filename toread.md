@@ -15,8 +15,7 @@ Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-Q31111856
-Q54337677
+
 Q41694511
 Q34490100
 Q27021885
@@ -171,8 +170,7 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
-Q21183895
-Q38817541
+
 Q101955295
 Q36280460
 Q30002370
