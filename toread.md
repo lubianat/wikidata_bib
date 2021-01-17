@@ -167,12 +167,13 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-
-
-Q101955295
-Q36280460
 Q30002370
 Q36432186
+
+Blaschke, C., Hirschman, L., Valencia, A. and
+Yeh, A. (2005), ‘A critical assessment of text
+mining methods in molecular biology’, BMC
+Bioinformatics, Vol. 6(Suppl 1)
 
  D. Hristovski, A. Kastrin, D. Dinevski, R. Thomas, Towards implementing
 semantic literature-based discovery with a graph databse, in: The Seventh
