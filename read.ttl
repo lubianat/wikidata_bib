@@ -537,6 +537,10 @@ wd:Q34490100 wb:has_notes wbn:Q34490100.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-16T00:00:00Z/11" .
 
+wd:Q34511374 wb:has_notes wbn:Q34511374.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-18T00:00:00Z/11" .
+
 wd:Q34537872 wb:has_notes wbn:Q34537872.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-17T00:00:00Z/11" .
