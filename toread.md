@@ -31,6 +31,16 @@ development and validation at the cellular level of body composition. Am J Physi
 
 Robin ED, Wong R. Mitochondrial DNA molecules and virtual number of mitochondria per cell in mammalian cells. J Cell Physiol 1988; 136:507–13. doi: 10.1002/jcp.1041360316 PMID: 3170646
 
+Molecular Biology of the CellVol. 25, No. 22PerspectivesFree Access
+The quantified cell
+
+SnapShot: Timescales in Cell Biology
+SnapShot: key numbers in biology
+BioNumbers—the database of key numbers in molecular and cell biology
+A feeling for the numbers in biology
+
+Variability and memory of protein levels in human cells
+
 Models of global gene expression define major domains of cell type and tissue identity 
 
 Genomic and molecular control of cell type and cell type conversions
@@ -179,7 +189,17 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Q30002370
+UniProt: the universal protein knowledgebase in 2021
+
+. Yeh AS, Hirschman L, Morgan AA: The evaluation of text data
+mining for database curation: lessons learned from the KDD
+challenge cup. Bioinformatics 2003, 19:i331-i339.
+
+. Hersh WR, Bhuptiraju RT, Johnson P, Cohen AM, Kraemer DF:
+TREC 2004 Genomics Track Overview. Proc of TREC 2004, to
+appear as NIST Special Publication 2005 [http://medir.ohsu.edu/
+~genomics/trec-04-genomics.pdf].
+
 Q36432186
 
 Blaschke, C., Hirschman, L., Valencia, A. and
