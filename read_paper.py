@@ -114,6 +114,7 @@ def main():
 
 if __name__ == "__main__":
     wd_id = sys.argv[1]
+    assert wd_id[0] == "Q"
     fname = "notes/" + wd_id + ".md"
 
     if os.path.isfile(fname):
