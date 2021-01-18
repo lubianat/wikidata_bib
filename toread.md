@@ -16,23 +16,18 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q27021885
 Q26782007
 Q34511374
+Q47579411
+Q34168557
+Q34504200
 ## Other
 
-Azevedo F a C, Carvalho LRB, Grinberg LT, Farfel JM, Ferretti REL, Leite REP, et al. Equal numbers of
-neuronal and nonneuronal cells make the human brain an isometrically scaled-up primate brain. J
-Comp Neurol 2009; 513:532–41. doi: 10.1002/cne.21974 PMID: 19226510
-
-Wang Z, St-Onge M-P, Lecumberri B, Pi-Sunyer FX, Heshka S, Wang J, et al. Body cell mass: model
-development and validation at the cellular level of body composition. Am J Physiol Endocrinol Metab
-2004; 286:E123–8. doi: 10.1152/ajpendo.00227.2003 PMID: 14532167
-
-Robin ED, Wong R. Mitochondrial DNA molecules and virtual number of mitochondria per cell in mammalian cells. J Cell Physiol 1988; 136:507–13. doi: 10.1002/jcp.1041360316 PMID: 3170646
+Finka A, Goloubinoff P. 2013. Proteomic
+data from human cell cultures refine mechanisms of chaperone-mediated protein homeostasis. Cell Stress Chaperones 18: 591-
+605
 
 Molecular Biology of the CellVol. 25, No. 22PerspectivesFree Access
-The quantified cell
 
 SnapShot: Timescales in Cell Biology
 SnapShot: key numbers in biology

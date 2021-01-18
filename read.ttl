@@ -306,6 +306,10 @@ wd:Q26770736 wb:has_notes wbn:Q26770736.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-05T00:00:00Z/11" .
 
+wd:Q26782007 wb:has_notes wbn:Q26782007.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-18T00:00:00Z/11" .
+
 wd:Q26782737 wb:has_notes wbn:Q26782737.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
