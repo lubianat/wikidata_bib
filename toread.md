@@ -22,6 +22,8 @@ Q34168557
 Q34504200
 ## Other
 
+Transcriptomes of the major human pancreatic cell types
+
 Finka A, Goloubinoff P. 2013. Proteomic
 data from human cell cultures refine mechanisms of chaperone-mediated protein homeostasis. Cell Stress Chaperones 18: 591-
 605
