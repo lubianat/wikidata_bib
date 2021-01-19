@@ -84,6 +84,10 @@ wd:Q102232524 wb:has_notes wbn:Q102232524.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-25T00:00:00Z/11" .
 
+wd:Q102383737 wb:has_notes wbn:Q102383737.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-01-18T00:00:00Z/11" .
+
 wd:Q102542608 wb:has_notes wbn:Q102542608.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2020-11-29T00:00:00Z/11" .

@@ -16,7 +16,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q26782007
 Q34511374
 Q47579411
 Q34168557
@@ -184,39 +183,27 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-UniProt: the universal protein knowledgebase in 2021
+Q102383737
 
-. Yeh AS, Hirschman L, Morgan AA: The evaluation of text data
-mining for database curation: lessons learned from the KDD
-challenge cup. Bioinformatics 2003, 19:i331-i339.
-
-. Hersh WR, Bhuptiraju RT, Johnson P, Cohen AM, Kraemer DF:
-TREC 2004 Genomics Track Overview. Proc of TREC 2004, to
-appear as NIST Special Publication 2005 [http://medir.ohsu.edu/
-~genomics/trec-04-genomics.pdf].
 
 Q36432186
+Q30811199
+Q57372877
+Q35725188
 
-Blaschke, C., Hirschman, L., Valencia, A. and
-Yeh, A. (2005), ‘A critical assessment of text
-mining methods in molecular biology’, BMC
-Bioinformatics, Vol. 6(Suppl 1)
+What we talk about when we talk about wikidata quality: a literature survey
 
- D. Hristovski, A. Kastrin, D. Dinevski, R. Thomas, Towards implementing
-semantic literature-based discovery with a graph databse, in: The Seventh
-International Conference on Advances in Databases, Knowledge, and Data
-Applications, 2015.
+Provenance Information in a Collaborative Knowledge Graph: An Evaluation of Wikidata External References
 
-M.M. Skeels, K. Henning, M.Y. Yildiz, W. Pratt, Interaction design for literaturebased discovery, in: CHI’05 Extended Abstracts on Human Factors in
-Computing Systems, ACM, 2005, pp. 1785–1788
+One Knowledge Graph to Rule Them All? Analyzing the Differences Between DBpedia, YAGO, Wikidata & co.
 
-D.R. Swanson, N.R. Smalheiser, An interactive system for finding
-complementary literatures: a stimulus to scientific discovery, Artif. Intell. 91
-(2) (1997) 183–203.
+What Makes a Good Collaborative Knowledge Graph: Group Composition and Quality in Wikidata
 
-D. Hristovski, C. Friedman, T.C. Rindflesch, B. Peterlin, Exploiting semantic
-relations for literature-based discovery, in: Proceedings of the American
-Medical Informatics Association (AMIA) Annual Symposium, 2006
+Who Models the World? Collaborative Ontology Creation and User Roles in Wikidata
+
+From freebase to wikidata: The great migration
+
+Wikidata: a free collaborative knowledgebase
 
 P. Bruza, R. Cole, D. Song, Z. Bari, Towards operational abduction from a
 cognitive perspective, Logic J. IGPL 14 (2) (2006) 161–177
