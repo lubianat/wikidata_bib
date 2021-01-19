@@ -183,11 +183,12 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Q102383737
+Rutabaga by any other name: extracting biological names.
 
+Evaluation of text-mining systems for biology: overview of the Second BioCreative community challenge.
+BioCreative-2012 virtual issue.
+Overview of the interactive task in BioCreative V
 
-Q36432186
-Q30811199
 Q57372877
 Q35725188
 
