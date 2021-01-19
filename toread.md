@@ -190,7 +190,32 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Rutabaga by any other name: extracting biological names.
+ Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
+
+Blaschke C, Andrade MA, Ouzounis C, Valencia A. Automatic
+extraction of biological information from scientific text: protein–
+protein interactions. Int Conf Intell Syst Mol Biol 1999:60–7.
+
+Blaschke C, Hirschman L, Valencia A. Information extraction
+in molecular biology. Briefings in Bioinformatics 2002;3:154–65.
+
+Fukuda K, Tsunoda T, Tamura A, Takagi T. Toward information extraction: identifying protein names from biological papers.
+Pacific Symp Biocomputing 1998;3:705–16.
+
+Craven M, Kumlien J. Constructing biological knowledge bases
+by extracting information from text sources. In: Proceedings of
+the Seventh International Conference on Intelligent Systems for
+Molecular Biology; 1999. p. 77–86
+
+Proux D, Rechenmann F, Julliard L, Pillet V, Jacq B, Detecting
+gene symbols and names in biological texts: a first step toward
+pertinent information extraction. In: Proceedings of the 9th
+Workshop on Genome Informatics; 1998. p. 72–80.
+
+ http://dx.doi.org/10.1073/pnas.1701742114
+
+
+ The Bari Manifesto: An interoperability framework for essential biodiversity variables. 
 
 Evaluation of text-mining systems for biology: overview of the Second BioCreative community challenge.
 BioCreative-2012 virtual issue.
