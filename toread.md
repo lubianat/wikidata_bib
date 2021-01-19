@@ -22,6 +22,11 @@ Q34168557
 Q34504200
 ## Other
 
+Q&A: What are exosomes, exactly?
+
+Théry C, Witwer KW, Aikawa E, et al. Minimal information
+for studies of extracellular vesicles 2018 (MISEV2018):
+
 Transcriptomes of the major human pancreatic cell types
 
 Finka A, Goloubinoff P. 2013. Proteomic
