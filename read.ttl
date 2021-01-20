@@ -929,6 +929,10 @@ wd:Q57339063 wb:has_notes wbn:Q57339063.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2021-01-05T00:00:00Z/11" .
 
+wd:Q57372877 wb:has_notes wbn:Q57372877.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-01-20T00:00:00Z/11" .
+
 wd:Q57402167 wb:has_notes wbn:Q57402167.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2021-01-08T00:00:00Z/11" .

@@ -11,14 +11,14 @@ Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas schola
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
+
+ Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
+ 
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
-
-Q34168557
 Q34504200
 ## Other
 
@@ -192,7 +192,6 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
- Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
 
 Blaschke C, Andrade MA, Ouzounis C, Valencia A. Automatic
 extraction of biological information from scientific text: protein–
