@@ -13,7 +13,7 @@ Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 
 
 
  Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
- 
+
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
@@ -191,22 +191,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Mapping the physical network of cellular interactions
 # Biocuration
-
-
-Blaschke C, Andrade MA, Ouzounis C, Valencia A. Automatic
+ Automatic
 extraction of biological information from scientific text: protein–
-protein interactions. Int Conf Intell Syst Mol Biol 1999:60–7.
-
-Blaschke C, Hirschman L, Valencia A. Information extraction
-in molecular biology. Briefings in Bioinformatics 2002;3:154–65.
-
-Fukuda K, Tsunoda T, Tamura A, Takagi T. Toward information extraction: identifying protein names from biological papers.
-Pacific Symp Biocomputing 1998;3:705–16.
-
-Craven M, Kumlien J. Constructing biological knowledge bases
-by extracting information from text sources. In: Proceedings of
-the Seventh International Conference on Intelligent Systems for
-Molecular Biology; 1999. p. 77–86
+protein interactions.
 
 Proux D, Rechenmann F, Julliard L, Pillet V, Jacq B, Detecting
 gene symbols and names in biological texts: a first step toward
@@ -222,7 +209,7 @@ Evaluation of text-mining systems for biology: overview of the Second BioCreativ
 BioCreative-2012 virtual issue.
 Overview of the interactive task in BioCreative V
 
-Q57372877
+
 Q35725188
 
 What we talk about when we talk about wikidata quality: a literature survey
