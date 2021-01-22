@@ -11,10 +11,11 @@ from datetime import date, datetime
 def main():
     def get_title_df(wd_id):
         query = """
-        SELECT ?item ?itemLabel
+        SELECT ?item ?itemLabel ?date
         WHERE
         {
-        VALUES ?item {wd:""" + wd_id + """}  
+        VALUES ?item {wd:""" + wd_id + """}
+        OPTIONAL {?item wdt:P577 ?date}.
         SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
         }
         """
@@ -24,10 +25,15 @@ def main():
         return(df)
 
 
-    def create_markdown(file_path, title):
+    def create_markdown(file_path, title, publication_date="None"):
         mdFile = MdUtils(file_name=file_path, title= title)
         
         mdFile.new_line("  [@wikidata:" + wd_id + "]")
+        
+        mdFile.new_line() 
+        if publication_date != "None":
+            mdFile.new_line("Date : " + str(publication_date))
+
         mdFile.new_line() 
         mdFile.new_header(1, "Highlights")
         mdFile.new_header(1, "Comments")
@@ -96,10 +102,18 @@ def main():
    
 
     title = df["itemLabel"][0]
+    try:
+        publication_date = df["date"][0]
+
+        date_in_dateformat = datetime.strptime(publication_date, "%Y-%m-%dT00:00:00Z")
+        publication_date = date_in_dateformat.strftime("%d of %B, %Y")
+    except:
+        publication_date = "None"
+        pass
     file_path = "notes/" + wd_id
     
     print("======= Creating markdown =======")
-    create_markdown(file_path, title)
+    create_markdown(file_path, title, publication_date)
     update_turtle(wd_id)
 
     print("======= Updating dashboard =======")
