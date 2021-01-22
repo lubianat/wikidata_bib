@@ -32,7 +32,7 @@ def main():
         
         mdFile.new_line() 
         if publication_date != "None":
-            mdFile.new_line("Date : " + str(publication_date))
+            mdFile.new_line("Publication date : " + str(publication_date))
 
         mdFile.new_line() 
         mdFile.new_header(1, "Highlights")
