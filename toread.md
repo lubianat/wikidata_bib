@@ -19,7 +19,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q34504200
 ## Other
 
 An era of single-cell genomics consortia
@@ -38,8 +37,6 @@ data from human cell cultures refine mechanisms of chaperone-mediated protein ho
 Molecular Biology of the CellVol. 25, No. 22PerspectivesFree Access
 
 SnapShot: Timescales in Cell Biology
-SnapShot: key numbers in biology
-BioNumbers—the database of key numbers in molecular and cell biology
 A feeling for the numbers in biology
 
 Variability and memory of protein levels in human cells
@@ -191,6 +188,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Mapping the physical network of cellular interactions
 # Biocuration
+
+King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The authors mimicked genuine scientific work through automatic analysis of experimental results, derivation of novel hypotheses and by controlling a robot to execute novel experiments. Text mining and literature analysis played an important part in the interpretation of the results from the data mining step to generate valid hypotheses
+
  Automatic
 extraction of biological information from scientific text: protein–
 protein interactions.
@@ -215,8 +215,6 @@ Q35725188
 What we talk about when we talk about wikidata quality: a literature survey
 
 Provenance Information in a Collaborative Knowledge Graph: An Evaluation of Wikidata External References
-
-One Knowledge Graph to Rule Them All? Analyzing the Differences Between DBpedia, YAGO, Wikidata & co.
 
 What Makes a Good Collaborative Knowledge Graph: Group Composition and Quality in Wikidata
 
@@ -273,7 +271,7 @@ Rzhetsky, A., Seringhaus, M. & Gerstein, M. Seeking a new biology through text m
 
 Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
 
-King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The authors mimicked genuine scientific work through automatic analysis of experimental results, derivation of novel hypotheses and by controlling a robot to execute novel experiments. Text mining and literature analysis played an important part in the interpretation of the results from the data mining step to generate valid hypotheses
+
 
 Rebholz-Schuhmann, D., Arregui, M., Gaudan, S., Kirsch, H. & Jimeno, A. Text processing through web services: calling Whatizit. Bioinformatics 24, 296–298 (2008).
 1.  Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
