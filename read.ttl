@@ -852,6 +852,10 @@ wd:Q48519854 wb:has_notes wbn:Q48519854.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q48563763 wb:has_notes wbn:Q48563763.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-22T00:00:00Z/11" .
+
 wd:Q48839876 wb:has_notes wbn:Q48839876.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-22T00:00:00Z/11" .
