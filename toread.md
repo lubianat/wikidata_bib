@@ -207,21 +207,23 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-King, R. D. et al. The automation of science. Science 324, 85–89 (2009). The authors mimicked genuine scientific work through automatic analysis of experimental results, derivation of novel hypotheses and by controlling a robot to execute novel experiments. Text mining and literature analysis played an important part in the interpretation of the results from the data mining step to generate valid hypotheses
+Machine learning for rediscovering revolutionary ideas of the past
 
- Automatic
-extraction of biological information from scientific text: protein–
-protein interactions.
+Scientific intuition inspired by machine learning generated hypotheses
 
-Proux D, Rechenmann F, Julliard L, Pillet V, Jacq B, Detecting
-gene symbols and names in biological texts: a first step toward
-pertinent information extraction. In: Proceedings of the 9th
-Workshop on Genome Informatics; 1998. p. 72–80.
+Automating drug discovery
 
- http://dx.doi.org/10.1073/pnas.1701742114
+Closed-loop cycles of experiment design, execution, and learning accelerate systems biology model development in yeast
 
+Representation of probabilistic scientific knowledge.
 
- The Bari Manifesto: An interoperability framework for essential biodiversity variables. 
+Representation, simulation, and hypothesis generation in graph and logical models of biological networks.
+
+On the formalization and reuse of scientific research.
+
+The EXACT description of biomedical protocols.
+
+The Bari Manifesto: An interoperability framework for essential biodiversity variables. 
 
 Evaluation of text-mining systems for biology: overview of the Second BioCreative community challenge.
 BioCreative-2012 virtual issue.
