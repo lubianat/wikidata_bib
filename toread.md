@@ -19,14 +19,17 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q89998341
-Q99349840
 
 Q91557912
 Q99418649
 Q48155823
 
 ## Other
+
+Li B, Severson E, Pignon J-C, Zhao H, Li T, Novak J, et al. Comprehensive
+analyses of tumor immunity: implications for cancer immunotherapy.
+Genome Biol. 2016;17:14.
+
 The FANTOM Consortium and the RIKEN PMI and CLST (DGT). A promoter-level
 mammalian expression atlas. Nature http://dx.doi.org/10.1038/nature13182
 (this issue
