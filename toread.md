@@ -19,29 +19,17 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Hon, C. C., Shin, J. W., Carninci, P. & Stubbington, M. J. T. The human cell atlas:
-technical approaches and challenges. Brief Funct. Genom. 17, 283–294 (2018).
+Q89998341
+Q99349840
 
-1. Forrest, A. R. et al. A promoter-level mammalian expression atlas. Nature 507,
-462–470 (2014).
-2. Andersson, R. et al. An atlas of active enhancers across human cell types and
-tissues. Nature 507, 455–461 (2014)
-.
-Kim-Hellmuth, S. et al. Cell type specific genetic regulation of gene expression across human tissues. Preprint at https://www.biorxiv.org/content/
-10.1101/806117v2, https://doi.org/10.1101/806117 (2019).
-
-20. Hou, R., Denisenko, E. & Forrest, A. R. R. scMatch: a single-cell gene expression
-profile annotation tool using reference datasets. Bioinformatics 35,
-4688–4695 (2019).
-21. Abdelaal, T. et al. A comparison of automatic cell identification methods for
-single-cell RNA sequencing data. Genome Biol. 20, 194 (2019).
-
-40. Thul, P. J. et al. A subcellular map of the human proteome. Science 356,
-eaal3321 (2017).
+Q91557912
+Q99418649
+Q48155823
 
 ## Other
-Q99418649
-
+The FANTOM Consortium and the RIKEN PMI and CLST (DGT). A promoter-level
+mammalian expression atlas. Nature http://dx.doi.org/10.1038/nature13182
+(this issue
 
 Théry C, Witwer KW, Aikawa E, et al. Minimal information
 for studies of extracellular vesicles 2018 (MISEV2018):
@@ -214,8 +202,6 @@ Scientific intuition inspired by machine learning generated hypotheses
 Automating drug discovery
 
 Closed-loop cycles of experiment design, execution, and learning accelerate systems biology model development in yeast
-
-Representation of probabilistic scientific knowledge.
 
 Representation, simulation, and hypothesis generation in graph and logical models of biological networks.
 
