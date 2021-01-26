@@ -494,6 +494,10 @@ wd:Q33261434 wb:has_notes wbn:Q33261434.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-26T00:00:00Z/11" .
 
+wd:Q33558314 wb:has_notes wbn:Q33558314.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-25T00:00:00Z/11" .
+
 wd:Q33727235 wb:has_notes wbn:Q33727235.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
@@ -1190,6 +1194,10 @@ wd:Q90617765 wb:has_notes wbn:Q90617765.md ;
 wd:Q90665256 wb:has_notes wbn:Q90665256.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
+
+wd:Q90784336 wb:has_notes wbn:Q90784336.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-01-25T00:00:00Z/11" .
 
 wd:Q91130546 wb:has_notes wbn:Q91130546.md ;
     wb:in_collection wbc:codigo_bonito .

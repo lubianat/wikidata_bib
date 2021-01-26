@@ -19,54 +19,36 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
 Q91557912
 Q99418649
 Q48155823
-
+Q37430849
+Q40205119
+Q30841360
+Q49436822
+Q40436539
 ## Other
 
-Li B, Severson E, Pignon J-C, Zhao H, Li T, Novak J, et al. Comprehensive
-analyses of tumor immunity: implications for cancer immunotherapy.
-Genome Biol. 2016;17:14.
+. Duan B, Zhou C, Zhu C, et al. Model-based understanding
+of single-cell CRISPR screening. Nat Commun 2019;10. doi:
+https://doi.org/10.1038/s41467-019-10216-x.
 
-The FANTOM Consortium and the RIKEN PMI and CLST (DGT). A promoter-level
-mammalian expression atlas. Nature http://dx.doi.org/10.1038/nature13182
-(this issue
+Single-cell
+sequencing-based technologies will revolutionize whole-organism
+science
 
-Théry C, Witwer KW, Aikawa E, et al. Minimal information
-for studies of extracellular vesicles 2018 (MISEV2018):
+0. Aran D, Looney AP, Liu L, et al. Reference-based analysis of
+lung single-cell sequencing reveals a transitional profibrotic
+macrophage. Nat Immunol 2019;20:163–72
 
-Transcriptomes of the major human pancreatic cell types
+ Xie P, Gao M, Wang C, et al. SuperCT: a supervised-learning
+framework for enhanced characterization of single-cell transcriptomic profiles. Nucleic Acids Res 2019;47:e48–8.
 
-Finka A, Goloubinoff P. 2013. Proteomic
-data from human cell cultures refine mechanisms of chaperone-mediated protein homeostasis. Cell Stress Chaperones 18: 591-
-605
+Wagner F, Yanai I. Moana: a robust and scalable cell
+type classification framework for single-cell RNA-Seq data.
+bioRxiv 2018. doi: https://doi.org/10.1101/456129.
 
-Molecular Biology of the CellVol. 25, No. 22PerspectivesFree Access
-
-SnapShot: Timescales in Cell Biology
-A feeling for the numbers in biology
-
-Variability and memory of protein levels in human cells
-
-Models of global gene expression define major domains of cell type and tissue identity 
-
-Genomic and molecular control of cell type and cell type conversions
-
-Proteome half-life dynamics in living human cells
-
-Phylogenetic analysis of cell types using histone modifications
-
-Study of cell differentiation by phylogenetic analysis using histone modification data
-
-Identifying cell types to interpret scRNA-seq data: how, why and more possibilities
-
-Integrating resident memory into T cell differentiation models
-
-Visual cue-related activity of cells in the medial entorhinal cortex during navigation in virtual reality
-
-Inferring cell type innovations by phylogenetic methods-concepts, methods, and limitations Koryu Kin 1 2
+ Koryu Kin 1 2
 
 Principles of Cell Circuits for Tissue Repair and Fibrosis
 
@@ -197,24 +179,26 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Mapping the physical network of cellular interactions
 # Biocuration
+Q47780833
+Q34178056
+Q37921686
+Q38513299
+Q60250756
+Q34844839
+## No QID
 
 Machine learning for rediscovering revolutionary ideas of the past
-
 Scientific intuition inspired by machine learning generated hypotheses
 
-Automating drug discovery
+## Other
 
-Closed-loop cycles of experiment design, execution, and learning accelerate systems biology model development in yeast
 
-Representation, simulation, and hypothesis generation in graph and logical models of biological networks.
 
-On the formalization and reuse of scientific research.
 
-The EXACT description of biomedical protocols.
 
-The Bari Manifesto: An interoperability framework for essential biodiversity variables. 
 
-Evaluation of text-mining systems for biology: overview of the Second BioCreative community challenge.
+
+
 BioCreative-2012 virtual issue.
 Overview of the interactive task in BioCreative V
 
