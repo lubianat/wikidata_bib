@@ -19,7 +19,7 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q91557912
+
 Q99418649
 Q48155823
 Q37430849
@@ -192,11 +192,11 @@ Scientific intuition inspired by machine learning generated hypotheses
 
 ## Other
 
+Q105037759
+Q21092570
 
 
-
-
-
+Topic Pages: PLoS Computational Biology Meets Wikipedia
 
 
 BioCreative-2012 virtual issue.

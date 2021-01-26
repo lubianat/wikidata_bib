@@ -332,3 +332,5 @@ Cell type-specific genetic regulation of gene expression across human tissues,Q9
 xCell: digitally portraying the tissue cellular heterogeneity landscape.,Q46377913
 "Identifying cell types to interpret scRNA-seq data: how, why and more possibilities",Q90784336
 Models of global gene expression define major domains of cell type and tissue identity,Q33558314
+Building a high-quality Human Cell Atlas,Q105080655
+scMatch: a single-cell gene expression profile annotation tool using reference datasets,Q91557912
