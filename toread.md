@@ -202,7 +202,9 @@ BioCreative-2012 virtual issue.
 Overview of the interactive task in BioCreative V
 
 
-
+Sparkes, A. et al. Towards robot scientists for
+autonomous scientific discovery. Autom. Exp. 2, 1
+(2010).
 
 
 Who Models the World? Collaborative Ontology Creation and User Roles in Wikidata
