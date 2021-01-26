@@ -194,26 +194,19 @@ Scientific intuition inspired by machine learning generated hypotheses
 
 Q105037759
 Q21092570
-
-
-Topic Pages: PLoS Computational Biology Meets Wikipedia
-
+Q24074986
+Q35725188
+Q38918394
 
 BioCreative-2012 virtual issue.
 Overview of the interactive task in BioCreative V
 
 
-Q35725188
 
-What we talk about when we talk about wikidata quality: a literature survey
 
-Provenance Information in a Collaborative Knowledge Graph: An Evaluation of Wikidata External References
-
-What Makes a Good Collaborative Knowledge Graph: Group Composition and Quality in Wikidata
 
 Who Models the World? Collaborative Ontology Creation and User Roles in Wikidata
 
-From freebase to wikidata: The great migration
 
 Wikidata: a free collaborative knowledgebase
 
