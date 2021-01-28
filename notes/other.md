@@ -75,3 +75,53 @@ Similar to how Google Scholar works, Dataset Search lets you find datasets where
 Our approach is based on an open standard for describing this information (schema.org) and anybody who publishes data can describe their dataset this way. We encourage dataset providers, large and small, to adopt this common standard so that all datasets are part of this robust ecosystem.
 
 A search tool like this one is only as good as the metadata that data publishers are willing to provide. We hope to see many of you use the open standards to describe your data
+
+# Websites
+
+## The Human Protein Atlas 
+
+### https://www.proteinatlas.org/about/assays+annotation
+
+
+The single cell RNA sequencing dataset is based on meta-analysis of literature on single cell RNA sequencing and single cell databases that include healthy human tissue
+
+In total, single cell transcriptomics data for 13 tissues and peripheral blood mononucleated cells (PBMCs) were analyzed. These datasets were respectively retrieved from the Single Cell Expression Atlas, the Human Cell Atlas, the Gene Expression Omnibus, and the European Genome-phenome Archive. The complete list of references is shown in the table below.
+
+
+Unfiltered data were used as input for downstream analysis with an in-house pipeline using Scanpy (version 1.4.4.post1) in Python 3.7.3
+
+Defining cell types
+
+Each of the 192 different cell type clusters were manually annotated based on an extensive survey of >500 well-known tissue and cell type-specific markers, including both markers from the original publications, and additional markers used in pathology diagnostics. For each cluster, one main cell type was chosen by taking into consideration the expression of different markers. For a few clusters, no main cell type could be selected, and these clusters were not used for classification. The most relevant markers are presented in a heatmap on the Cell Type Atlas, in order to clarify cluster annotation to visitors.
+
+-->           1.4.2.3. Cell label identification
+-->          1.4.2.3.1. Labelling clusters
+
+-->   3.1.  Cell-type markers in Wikidata
+
+Cell type dendrogram
+The cell type dendrogram presented on the Cell Type Atlas shows the relationship between the single cell types based on genome-wide expression. The dendrogram is based on agglomerative clustering of 1 - Spearman's rho between cell types using Ward's criterion. The dendrogram was then transformed into a hierarchical graph, thus where link distances were normalized to emphasize graph connections rather than link distances. Link width is proportional to the distance from the root, and are colored according to cell type group if only one cell type group is present among connected leaves.
+
+--> "cell type group"
+
+
+### https://www.proteinatlas.org/humanproteome/celltype
+
+--> Very granular, specific pages for a number of generic cell types, like "neuronal cells." Lots of descriptions and images, super cool resource. 
+
+
+Classification of all protein-coding genes based on single cell type-specific expression, determining the number of genes elevated (cell type/group enriched, cell type enhanced) in a particular cell type compared to all other cell types.
+
+-> Table containing simple ontology relating each "cell type group"  to many "cell types"
+
+
+
+
+
+--> Site is super queriable!
+
+
+### https://www.proteinatlas.org/search/cell_type_category_rna:any;Cell%20type%20enriched%20AND%20sort_by:tissue%20specific%20score
+
+-->   3.1.  Cell-type markers in Wikidata
+100%

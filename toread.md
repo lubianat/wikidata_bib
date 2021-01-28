@@ -20,8 +20,8 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-Q99418649
-Q48155823
+
+
 Q37430849
 Q40205119
 Q30841360
@@ -179,8 +179,7 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Mapping the physical network of cellular interactions
 # Biocuration
-Q47780833
-Q34178056
+
 Q37921686
 Q38513299
 Q60250756
@@ -200,6 +199,10 @@ Q38918394
 
 BioCreative-2012 virtual issue.
 Overview of the interactive task in BioCreative V
+
+Renear, A. H. & Palmer, C. L. 2009 Strategic reading,
+ontologies, and the future of scientific publishing. Science
+325, 828 –832. (doi:10.1126/science.1157784)
 
 
 Sparkes, A. et al. Towards robot scientists for
