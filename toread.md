@@ -180,7 +180,7 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Q37921686
+
 Q38513299
 Q60250756
 Q34844839
