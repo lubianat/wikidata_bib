@@ -1,0 +1,28 @@
+#!/usr/bin/python3
+
+import sys
+import re
+import os
+
+with open("toread.md", "r") as f:
+    text = f.read()
+
+
+if sys.argv[1] == "bioc":
+    regex = r"Biocuration[\s\S]*?(Q[0-9]*)"
+    code = "biocuration"
+elif sys.argv[1] == "ct":
+    regex = r"Cell types[\s\S]*?(Q[0-9]*)"
+    code = "cell_types"
+else:
+    regex = r"(Q[0-9]*)"
+    code = ""
+
+qid = re.findall(regex, text)[0]
+
+print(qid)
+with open("toread.md", "w+") as f:
+    f.write(text.replace(qid,""))
+os.system(f'bash /home/lubianat/Documents/random/wikidata_bib/wread {qid} {code}')
+
+
