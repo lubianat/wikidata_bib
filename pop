@@ -19,10 +19,16 @@ else:
     code = ""
 
 qid = re.findall(regex, text)[0]
-
 print(qid)
-with open("toread.md", "w+") as f:
-    f.write(text.replace(qid,""))
-os.system(f'bash /home/lubianat/Documents/random/wikidata_bib/wread {qid} {code}')
+
+
+if qid == "Q":
+    print("No QID found.")
+
+else:
+
+    with open("toread.md", "w+") as f:
+        f.write(text.replace(qid,""))
+    os.system(f'bash /home/lubianat/Documents/random/wikidata_bib/wread {qid} {code}')
 
 
