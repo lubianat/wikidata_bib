@@ -21,13 +21,8 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-
-
-
-
-Q49436822
-Q40436539
 ## Other
+
 
 . Duan B, Zhou C, Zhu C, et al. Model-based understanding
 of single-cell CRISPR screening. Nat Commun 2019;10. doi:
@@ -48,7 +43,11 @@ Wagner F, Yanai I. Moana: a robust and scalable cell
 type classification framework for single-cell RNA-Seq data.
 bioRxiv 2018. doi: https://doi.org/10.1101/456129.
 
- Koryu Kin 1 2
+Graf T, Enver T. 2009. Forcing cells to change lineages. Nature
+462:587–594.
+
+Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
+Princeton, NJ: Princeton University Press
 
 Principles of Cell Circuits for Tissue Repair and Fibrosis
 
@@ -181,9 +180,11 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
+Q35725188
+Q38918394
 
 
-Q34844839
+
 ## No QID
 
 Machine learning for rediscovering revolutionary ideas of the past
@@ -191,11 +192,14 @@ Scientific intuition inspired by machine learning generated hypotheses
 
 ## Other
 
-Q105037759
-Q21092570
-Q24074986
-Q35725188
-Q38918394
+Putman TE, Lelong S, Burgstaller-Muehlbacher S, Waagmeester A, Diesh C, Dunn N., Munoz-Torres
+M, Stupp GS, Wu C, Su AI, Good BM (2017) Wikigenomes: an open web application for community
+consumption and curation of gene annotation data in wikidata. Database 2017, bax025, https://doi.org/
+10.1093/database/bax025
+3. Nielsen FÅ, Mietchen D, Willighagen E (2018) Geospatial data and Scholia. Zenodo. http://doi.org/10.
+5281/zenodo.1202256
+4. Thornton K, Seals-Nutt K, Cochrane E, Wilson C (2018) Wikidata for Digital Preservation. Zenodo.
+http://doi.org/10.5281/zenodo.1214319
 
 Tacit Knowledge, Trust and the Q of Sapphire
 
