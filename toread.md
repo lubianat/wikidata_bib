@@ -14,6 +14,8 @@ Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 
 
  Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
 
+Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
+Princeton, NJ: Princeton University Press
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
@@ -21,45 +23,19 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
+Q91045816
+Q64106229
+Q89717434
+Q49436822
+Q96576585
+Q35688096
+Q47661868
+Q90360171
 ## Other
+Learning for single-cell assignment
 
-
-. Duan B, Zhou C, Zhu C, et al. Model-based understanding
-of single-cell CRISPR screening. Nat Commun 2019;10. doi:
-https://doi.org/10.1038/s41467-019-10216-x.
-
-Single-cell
-sequencing-based technologies will revolutionize whole-organism
-science
-
-0. Aran D, Looney AP, Liu L, et al. Reference-based analysis of
-lung single-cell sequencing reveals a transitional profibrotic
-macrophage. Nat Immunol 2019;20:163–72
-
- Xie P, Gao M, Wang C, et al. SuperCT: a supervised-learning
-framework for enhanced characterization of single-cell transcriptomic profiles. Nucleic Acids Res 2019;47:e48–8.
-
-Wagner F, Yanai I. Moana: a robust and scalable cell
+Moana: a robust and scalable cell
 type classification framework for single-cell RNA-Seq data.
-bioRxiv 2018. doi: https://doi.org/10.1101/456129.
-
-Graf T, Enver T. 2009. Forcing cells to change lineages. Nature
-462:587–594.
-
-Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
-Princeton, NJ: Princeton University Press
-
-Principles of Cell Circuits for Tissue Repair and Fibrosis
-
-Genomic and molecular control of cell type and cell type conversions
-
-Cell Atlas of The Human Fovea and Peripheral Retina
-
-Geometry of the Gene Expression Space of Individual Cells
-
-Cell-type deconvolution from DNA methylation: a review of recent applications
-
-Cell-type-specific programs for activity-regulated gene expression
 
 Circular RNA expression in human hematopoietic cells is widespread and cell-type specific
 
@@ -179,50 +155,20 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-
-
-
-
-
+Q33493284
+Q28529449
+Q50813856
+Q21198755
+Q58336167
+Q18507561
 
 ## No QID
 
 Machine learning for rediscovering revolutionary ideas of the past
 Scientific intuition inspired by machine learning generated hypotheses
-
-## Other
-
-Putman TE, Lelong S, Burgstaller-Muehlbacher S, Waagmeester A, Diesh C, Dunn N., Munoz-Torres
-M, Stupp GS, Wu C, Su AI, Good BM (2017) Wikigenomes: an open web application for community
-consumption and curation of gene annotation data in wikidata. Database 2017, bax025, https://doi.org/
-10.1093/database/bax025
-3. Nielsen FÅ, Mietchen D, Willighagen E (2018) Geospatial data and Scholia. Zenodo. http://doi.org/10.
-5281/zenodo.1202256
-4. Thornton K, Seals-Nutt K, Cochrane E, Wilson C (2018) Wikidata for Digital Preservation. Zenodo.
-http://doi.org/10.5281/zenodo.1214319
-
 Tacit Knowledge, Trust and the Q of Sapphire
-
-BioCreative-2012 virtual issue.
-Overview of the interactive task in BioCreative V
-
-Renear, A. H. & Palmer, C. L. 2009 Strategic reading,
-ontologies, and the future of scientific publishing. Science
-325, 828 –832. (doi:10.1126/science.1157784)
-
-
-Sparkes, A. et al. Towards robot scientists for
-autonomous scientific discovery. Autom. Exp. 2, 1
-(2010).
-
-
-Who Models the World? Collaborative Ontology Creation and User Roles in Wikidata
-
-
-Wikidata: a free collaborative knowledgebase
-
-P. Bruza, R. Cole, D. Song, Z. Bari, Towards operational abduction from a
-cognitive perspective, Logic J. IGPL 14 (2) (2006) 161–177
+Towards operational abduction from a
+cognitive perspective
 
 67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
 https://www.journals.uchicago.edu/doi/abs/10.1086/601720
@@ -231,6 +177,12 @@ Undiscovered Public Knowledge: a Ten-Year Update
 https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
+
+## Other
+
+
+
+
 
 
 Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
