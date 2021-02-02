@@ -23,14 +23,15 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-
-Q64106229
-Q89717434
-Q49436822
 Q96576585
 Q35688096
 Q47661868
 Q90360171
+
+
+
+
+
 ## Other
 Learning for single-cell assignment
 
@@ -156,8 +157,8 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
-Q28529449
-Q21198755
+
+
 Q58336167
 Q18507561
 
@@ -179,7 +180,9 @@ WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
 
 ## Other
 
-
+Flach P, Kakas A, Ray O: Abduction, Induction, and the Logic of Scientific
+Knowledge Development. In Workshop on Abduction and Induction in AI
+and Scientific Modelling Citeseer; 2006. 
 
 6. P. Bourne, PLoS Comput. Biol. 1, e34 (2005).
 7. P. Murray-Rust, H. S. Rzepa, J. Digit. Inform. 5, issue 1 (2004)
