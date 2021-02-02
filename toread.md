@@ -23,7 +23,7 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q91045816
+
 Q64106229
 Q89717434
 Q49436822
@@ -155,9 +155,8 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Q33493284
+
 Q28529449
-Q50813856
 Q21198755
 Q58336167
 Q18507561
@@ -182,7 +181,8 @@ WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
 
 
 
-
+6. P. Bourne, PLoS Comput. Biol. 1, e34 (2005).
+7. P. Murray-Rust, H. S. Rzepa, J. Digit. Inform. 5, issue 1 (2004)
 
 
 Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
