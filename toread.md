@@ -159,8 +159,8 @@ Mapping the physical network of cellular interactions
 
 
 
-Q58336167
-Q18507561
+
+
 
 ## No QID
 
@@ -177,24 +177,15 @@ Undiscovered Public Knowledge: a Ten-Year Update
 https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
-
-## Other
-
 Flach P, Kakas A, Ray O: Abduction, Induction, and the Logic of Scientific
 Knowledge Development. In Workshop on Abduction and Induction in AI
 and Scientific Modelling Citeseer; 2006. 
 
-6. P. Bourne, PLoS Comput. Biol. 1, e34 (2005).
-7. P. Murray-Rust, H. S. Rzepa, J. Digit. Inform. 5, issue 1 (2004)
+The Next Big Thing: From Hypermedia to Datuments
+ Improving text mining with controlled natural language: a case study for protein interations.
+## Other
 
 
-Kuhn T, Royer L, Fuchs NE, Schroeder M. 2006. Improving text mining with controlled natural language: a case study for protein interations. In: Proceedings DILS’06. Berlin Heidelberg: Springer
-
-Kuhn T, Barbano PE, Nagy ML, Krauthammer M. 2013. Broadening the scope of nanopublications. In: Proceedings ofESWC 2013. Berlin Heidelberg: Springer, 487–50
-
-Biotea, semantics for Pubmed Central
-
-Making Linked Data SPARQL with the InterMine Biological Data Warehouse
 
 An RDF/OWL knowledge base for query answering and decision support in clinical pharmacogenetics.
 
