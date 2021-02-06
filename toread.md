@@ -21,8 +21,8 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-Q103034964
-Q58779756
+
+
 Q92237112
 Q93103927
 ## No QID
