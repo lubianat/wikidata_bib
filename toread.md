@@ -21,28 +21,17 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
-
-
-Q35688096
-Q47661868
-Q90360171
-
-
-
-
-
-## Other
-Learning for single-cell assignment
-
+Q103034964
+Q58779756
+Q92237112
+Q93103927
+## No QID
 Moana: a robust and scalable cell
 type classification framework for single-cell RNA-Seq data.
+## Other
 
-Circular RNA expression in human hematopoietic cells is widespread and cell-type specific
 
-scReClassify: post hoc cell type classification of single-cell rNA-seq data
 
-TOAST: improving reference-free cell composition estimation by cross-cell type differential analysis
 
 Cell-type deconvolution in epigenome-wide association studies: a review and recommendations
 

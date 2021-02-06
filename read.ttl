@@ -51,6 +51,10 @@ wd:Q101074371 wb:has_notes wbn:Q101074371.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q101132241 wb:has_notes wbn:Q101132241.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-02-05T00:00:00Z/11" .
+
 wd:Q101210731 wb:has_notes wbn:Q101210731.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-23T00:00:00Z/11" .
@@ -945,7 +949,8 @@ wd:Q47579749 wb:has_notes wbn:Q47579749.md ;
 
 wd:Q47661868 wb:has_notes wbn:Q47661868.md ;
     wb:in_collection wbc:cell_types ;
-    wb:read_in "+2021-02-02T00:00:00Z/11" .
+    wb:read_in "+2021-02-02T00:00:00Z/11",
+        "+2021-02-05T00:00:00Z/11" .
 
 wd:Q47780833 wb:has_notes wbn:Q47780833.md ;
     wb:in_collection wbc:biocuration ;
@@ -1315,6 +1320,10 @@ wd:Q90182085 wb:has_notes wbn:Q90182085.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q90360171 wb:has_notes wbn:Q90360171.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-02-05T00:00:00Z/11" .
+
 wd:Q90588777 wb:has_notes wbn:Q90588777.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-20T00:00:00Z/11" .
@@ -1383,6 +1392,10 @@ wd:Q91908361 wb:has_notes wbn:Q91908361.md ;
 wd:Q91997728 wb:has_notes wbn:Q91997728.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-19T00:00:00Z/11" .
+
+wd:Q92644135 wb:has_notes wbn:Q92644135.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-02-05T00:00:00Z/11" .
 
 wd:Q92937241 wb:has_notes wbn:Q92937241.md ;
     wb:in_collection wbc:cell_types ;
