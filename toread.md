@@ -149,7 +149,8 @@ Mapping the physical network of cellular interactions
 
 
 
-
+Q29027414
+Q40065967
 
 ## No QID
 
@@ -172,34 +173,28 @@ and Scientific Modelling Citeseer; 2006.
 
 The Next Big Thing: From Hypermedia to Datuments
  Improving text mining with controlled natural language: a case study for protein interations.
+
+DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
+
+Querying biomedical Linked Data with natural language questions
+
+A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open data
+
+Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
+
 ## Other
 
 
 
-An RDF/OWL knowledge base for query answering and decision support in clinical pharmacogenetics.
 
-À. Bravo, J. Piñero, N. Queralt-Rosinach, M. Rautschka, L.I. Furlong, Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research, BMC Bioinformatics 16 (2015), 55
-DisGeNET RDF: A Gene-Disease Association Linked Open Data Resource
-
-
-https://sn-scigraph.figshare.com/
-Querying biomedical Linked Data with natural language questions
-
-A competency question-oriented approach for the transformation of semi-structured bioinformatics data into linked open da
-Modularisation of Domain Ontologies Implemented in Description Logics and related formalisms including OWL 
 
 Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://ontology.buffalo.edu/smith/articles/Ontologies_life_sciencesEnc.pdf
-Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
 
 http://bioportal.bioontology.org/annotatorplus
 
-Kim, J. J. & Rebholz-Schuhmann, D. Categorization of services for seeking information in biomedical literature: a typology for improvement of practice. Brief. Bioinformat. 9, 452–465 (2008). This manuscript exploits assumptions and observations linked to search behaviour from users of Web pages to judge the information-seeking behaviour of scientists. It judges available text-mining tools according to these assumptions.
-3.
 
 
-Rzhetsky, A., Iossifov, I., Loh, J. M. & White, K. P. Microparadigms: chains of collective reasoning in publications about molecular interactions. Proc. Natl Acad. Sci. USA 103, 4940–4945 (2006). This article explores how authors report on their results and how the collection of reported facts can be traced, compared and evaluated against each other. It gives early indications of what results might be produced if we applied automatic reasoning to the information from scientific literature and other resources.
-
-Rzhetsky, A., Seringhaus, M. & Gerstein, M. Seeking a new biology through text mining. Cell 134, 9–13 (2008). The authors argue that the exploitation of the scientific literature will serve as an additional resource for the generation of hypotheses and the validation of human- driven hypotheses
+Rzhetsky, A., Seringhaus, M. & Gerstein, M. . Cell 134, 9–13 (2008). The authors argue that the exploitation of the scientific literature will serve as an additional resource for the generation of hypotheses and the validation of human- driven hypotheses
 
 Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
 
