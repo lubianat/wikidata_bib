@@ -23,38 +23,20 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-
+Q57897434
+Q94503935
+Q105394114
+Q39314677
+Q47678818
+Q93223327
 
 ## No QID
-Moana: a robust and scalable cell
-type classification framework for single-cell RNA-Seq data.
 ## Other
-
-
-
-
-Cell-type deconvolution in epigenome-wide association studies: a review and recommendations
-
-The selection and function of cell type-specific enhancers.
-
-Cell-type-resolved alternative splicing patterns in mouse liver
 
 https://pubmed.ncbi.nlm.nih.gov/6574104/
 
-J Cell Biol. 1969 Oct 1; 43(1): 32–39.
-doi: 10.1083/jcb.43.1.32
-PMCID: PMC2107835
-PMID: 5824067
-A SIMPLE MODEL OF A STEADY STATE DIFFERENTIATING CELL SYSTEM
-S. I. Rubinow
-
-Discovering Pathway and Cell Type Signatures in Transcriptomic Compendia with Machine Learning
-
-Computational methods for the integrative analysis of single-cell data 
 
 Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse. bioRxiv. doi:10.1101/2020.03.31.016972
-
-
 Fuzik J, Z. 2016. Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 34:175–183. doi:10.1038/nbt.3443
 
 Gala R, 2019. A coupled autoencoder approach for multi-modal analysis of cell types In: Wallach H, Larochelle H, Beygelzimer A, d\textquotesingle Alché-Buc F, Fox E, Garnett R, editors. Advances in Neural Information Processing Systems 32. Curran Associates, Inc. pp. 9267–9276.
@@ -145,13 +127,12 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-
-
-
-
-Q29027414
-Q40065967
-
+Q38431134
+Q38262429
+Q27062470
+Q38514993
+Q28292343
+Q33504367
 ## No QID
 
 Machine learning for rediscovering revolutionary ideas of the past
@@ -182,28 +163,11 @@ A competency question-oriented approach for the transformation of semi-structure
 
 Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
 
-## Other
-
-
-
-
-
 Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://ontology.buffalo.edu/smith/articles/Ontologies_life_sciencesEnc.pdf
 
 http://bioportal.bioontology.org/annotatorplus
 
-
-
-Rzhetsky, A., Seringhaus, M. & Gerstein, M. . Cell 134, 9–13 (2008). The authors argue that the exploitation of the scientific literature will serve as an additional resource for the generation of hypotheses and the validation of human- driven hypotheses
-
-Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
-
-
-
-Rebholz-Schuhmann, D., Arregui, M., Gaudan, S., Kirsch, H. & Jimeno, A. Text processing through web services: calling Whatizit. Bioinformatics 24, 296–298 (2008).
-1.  Shah, N. H. et al. Comparison of concept recognizers for building the open biomedical annotator. BMC Bioinformatics 10, S14 (2009).
-
-Jessop, D. M., Adams, S. E., Willighagen, E. L., Hawizy, L. & Murray-Rust, P. OSCAR4: a flexible architecture for chemical text-mining. J. Cheminform. 3, 41 (2011).
+## Other
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
 
