@@ -128,13 +128,16 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
-Q105079960
+
 Q105428190
 Q27062470
 Q38514993
 Q28292343
 Q33504367
 ## No QID
+Lecue, F. On the role of knowlege graphs in
+explainable AI. Semantic Web 11, 1 (2020), 41–51.
+
 
 Machine learning for rediscovering revolutionary ideas of the past
 Scientific intuition inspired by machine learning generated hypotheses
