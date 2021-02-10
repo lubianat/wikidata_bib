@@ -29,7 +29,7 @@ Q105394114
 Q39314677
 Q47678818
 Q93223327
-
+Q73867340
 ## No QID
 ## Other
 
@@ -127,8 +127,9 @@ Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 Mapping the physical network of cellular interactions
 # Biocuration
 
-Q38431134
-Q38262429
+
+Q105079960
+Q105428190
 Q27062470
 Q38514993
 Q28292343
