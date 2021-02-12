@@ -4,11 +4,19 @@ import sys
 from wikidata2df import wikidata2df
 from mdutils.mdutils import MdUtils
 import pandas as pd
+import urllib.parse
 import os.path
 import rdflib
 from datetime import date, datetime
 
 def main():
+
+    def get_sciopen_url(title):
+    
+        title = urllib.parse.quote(title, safe='')
+        url = f"https://www.scienceopen.com/search#('v'~3_'id'~''_'isExactMatch'~true_'context'~null_'kind'~77_'order'~0_'orderLowestFirst'~false_'query'~'{title}'_'filters'~!*_'hideOthers'~false)"
+        return url
+    
     def get_title_df(wd_id):
         query = """
         SELECT ?item ?itemLabel ?date
@@ -28,6 +36,8 @@ def main():
     def create_markdown(file_path, title, publication_date="None"):
         mdFile = MdUtils(file_name=file_path, title= title)
         
+        sciopen_url = get_sciopen_url(title)
+
         mdFile.new_line("  [@wikidata:" + wd_id + "]")
         
         mdFile.new_line() 
@@ -42,6 +52,7 @@ def main():
         mdFile.new_line(" * [Scholia Profile](https://scholia.toolforge.org/work/" + wd_id + ")")
         mdFile.new_line(" * [Wikidata](https://www.wikidata.org/wiki/" + wd_id + ")")
         mdFile.new_line(" * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/" + wd_id + "/P921%3BP4510)")
+        mdFile.new_line(f" * [ScienceOpen]({sciopen_url})")
         mdFile.new_line() 
         mdFile.create_md_file()
 
@@ -102,6 +113,7 @@ def main():
    
 
     title = df["itemLabel"][0]
+
     try:
         publication_date = df["date"][0]
 

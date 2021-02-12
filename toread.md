@@ -23,9 +23,6 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-
-
-Q105394114
 Q39314677
 Q47678818
 Q93223327
