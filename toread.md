@@ -31,6 +31,7 @@ Q73867340
 ## Other
 
 https://pubmed.ncbi.nlm.nih.gov/6574104/
+Single-cell RNA sequencing reveals SARS-CoV-2 infection dynamics in lungs of African green monkeys
 
 
 Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse. bioRxiv. doi:10.1101/2020.03.31.016972
@@ -322,5 +323,5 @@ A new and rapid colorimetric determination of acetylcholinesterase activity. Ell
 The Protein Data Bank. Berman, H. M. et al. Nucleic Acids Res. 28, 235–242 (2000).
 
 # Random
-
+Q92575623
 POINTS OF VIEW Visualizing biological data NATURE METHODS | VOL.9 NO.12 | DECEMBER 2012 | 1131
