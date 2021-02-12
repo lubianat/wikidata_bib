@@ -23,8 +23,8 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q57897434
-Q94503935
+
+
 Q105394114
 Q39314677
 Q47678818
@@ -129,15 +129,12 @@ Mapping the physical network of cellular interactions
 
 
 
-Q105428190
+Q87813149
 Q27062470
 Q38514993
 Q28292343
 Q33504367
 ## No QID
-Lecue, F. On the role of knowlege graphs in
-explainable AI. Semantic Web 11, 1 (2020), 41–51.
-
 
 Machine learning for rediscovering revolutionary ideas of the past
 Scientific intuition inspired by machine learning generated hypotheses
@@ -172,6 +169,10 @@ Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://
 http://bioportal.bioontology.org/annotatorplus
 
 ## Other
+Wikidata through the eyes of DBpedia
+
+Lecue, F. On the role of knowlege graphs in
+explainable AI. Semantic Web 11, 1 (2020), 41–51.
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
 
