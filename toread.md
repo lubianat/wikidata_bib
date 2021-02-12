@@ -23,12 +23,20 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q39314677
+
 Q47678818
 Q93223327
 Q73867340
 ## No QID
 ## Other
+2 Stunnenberg HG, International Human Epigenome C, Hirst
+M. The International Human Epigenome Consortium:
+a blueprint for scientific collaboration and discovery.
+Cell 167(7), 1897 (2016).
+
+Adams D, Altucci L, Antonarakis SE et al. BLUEPRINT
+to decode the epigenetic signature written in blood. Nat.
+Biotechnol. 30(3), 224–226 (2012).
 
 https://pubmed.ncbi.nlm.nih.gov/6574104/
 Single-cell RNA sequencing reveals SARS-CoV-2 infection dynamics in lungs of African green monkeys
