@@ -137,8 +137,8 @@ Mapping the physical network of cellular interactions
 
 
 
-Q38514993
-Q28292343
+
+
 Q33504367
 ## No QID
 
