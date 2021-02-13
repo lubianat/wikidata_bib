@@ -134,12 +134,11 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
+Q27036443
 
 
 
 
-
-Q33504367
 ## No QID
 
 Machine learning for rediscovering revolutionary ideas of the past
@@ -175,7 +174,6 @@ Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://
 http://bioportal.bioontology.org/annotatorplus
 
 ## Other
-Wikidata through the eyes of DBpedia
 
 Lecue, F. On the role of knowlege graphs in
 explainable AI. Semantic Web 11, 1 (2020), 41–51.
