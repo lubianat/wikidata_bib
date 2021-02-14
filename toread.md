@@ -24,11 +24,13 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q47678818
+
 Q93223327
 Q73867340
 ## No QID
+9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
 ## Other
+
 2 Stunnenberg HG, International Human Epigenome C, Hirst
 M. The International Human Epigenome Consortium:
 a blueprint for scientific collaboration and discovery.
@@ -134,7 +136,7 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
-Q27036443
+
 
 
 
