@@ -175,14 +175,14 @@ Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://
 
 http://bioportal.bioontology.org/annotatorplus
 
+On the role of knowlege graphs in
+explainable AI.
 ## Other
 
-Lecue, F. On the role of knowlege graphs in
-explainable AI. Semantic Web 11, 1 (2020), 41–51.
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
 
-Noy, N. F. et al. Bioportal: ontologies and integrated data resources at the click of a mouse. Nucleic Acids Res. 37, W170–W173 (2009
+Noy, N. F. et al. Nucleic Acids Res. 37, W170–W173 (2009
 
 Himmelstein,D. Integrating resources with disparate licensing into an open network. https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
 
