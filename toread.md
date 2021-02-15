@@ -22,9 +22,8 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-
-
-
+Q101569793
+Q103836863
 
 
 ## No QID
