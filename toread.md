@@ -16,116 +16,52 @@ Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 
 
 Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
 Princeton, NJ: Princeton University Press
+
+Describing Species - Judith Winston
+
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
-
-
-
-Q103836863
-
-
+Q34545064
+Q105516387
+Q31033187
+Q76472348
+Q94487262
+Q22001246
+Q46326031
+Q36776925
+Q47565472
+Q47870911
+Q49192555
+Q64118290
+Q34978215
+Q57945379
+Q37068535
+Q28288068
+Q36625916
+Q30980445
+Q28586183
+Q38771724
+Q35984619
 ## No QID
 9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
-## Other
 
-2 Stunnenberg HG, International Human Epigenome C, Hirst
-M. The International Human Epigenome Consortium:
-a blueprint for scientific collaboration and discovery.
-Cell 167(7), 1897 (2016).
-
-Adams D, Altucci L, Antonarakis SE et al. BLUEPRINT
-to decode the epigenetic signature written in blood. Nat.
-Biotechnol. 30(3), 224–226 (2012).
-
-https://pubmed.ncbi.nlm.nih.gov/6574104/
-Single-cell RNA sequencing reveals SARS-CoV-2 infection dynamics in lungs of African green monkeys
-
-
-Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse. bioRxiv. doi:10.1101/2020.03.31.016972
-Fuzik J, Z. 2016. Integration of electrophysiological recordings with single-cell RNA-seq data identifies neuronal subtypes. Nat Biotechnol 34:175–183. doi:10.1038/nbt.3443
-
-Gala R, 2019. A coupled autoencoder approach for multi-modal analysis of cell types In: Wallach H, Larochelle H, Beygelzimer A, d\textquotesingle Alché-Buc F, Fox E, Garnett R, editors. Advances in Neural Information Processing Systems 32. Curran Associates, Inc. pp. 9267–9276.
-
-Geirsdottir L, Cross-Species Single-Cell Analysis Reveals Divergence of the Primate Microglia Program. Cell 179:1609–1622.e16. doi:10.1016/j.cell.2019.11.010
-
-Haendel MA,  2014. Unification of multi-species vertebrate anatomy ontologies for comparative biology in Uberon. J Biomed Semantics 5:21. doi:10.1186/2041-1480-5-21
-
+Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse
 Yao Z,  2020b. A taxonomy of transcriptomic cell types across the isocortex and hippocampal formation. bioRxiv. doi:10.1101/2020.03.30.015214
-A community-based transcriptomics classification and nomenclature of neocortical cell types. arXiv [q-bioGN].
 
-Zeng H, Sanes JR. 2017. Neuronal cell-type classification: challenges, opportunities and the path forward. Nat Rev Neurosci 18:530–546. doi:10.1038/nrn.2017.85
-
-
-
-### Describing Species - Judith Winston
-[@doi:10.1017/CBO9781107415324.004]
-
-https://portal.brain-map.org/explore/classes
-
-https://github.com/AllenInstitute/nomenclature
-
-This is a collection of resources to be read and parsed.
-
-
-Neves M, Damaschun A, Mah N, Lekschas F, Seltmann S, Stachelscheid H, Fontaine JF, Kurtz A, Leser U. Preliminary evaluation of the CellFinder literature curation pipeline for gene expression in kidney cells and anatomical parts. Database 2013, 2013:bat020. doi:10.1093/database/bat020
-
-https://bmcbioinformatics.biomedcentral.com/articles/supplements/volume-18-supplement-17
-
-Mapping the transcriptional diversity of genetically and anatomically defined cell populations in the mouse brain
-
-In 1957, C.H. Waddington proposed a powerful metaphor for how differentiated cell types emerge from a single, totipotent cell (Waddington 1957). T
-
-https://www.nature.com/scitable/blog/bio2.0/discovering_new_cell_types_one/
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3844401/
-
-https://github.com/kevinrue/Hancock
-
-DE QUEIROZ, K.  1994.  Replacement of an essentialistic perspective on taxonomicdefinitions as exemplified by the definition of "Mammalia."  Syst. Biol. 43: 497-510
- 
-  Replacement of an Essentialistic Perspective on Taxonomic Definitions as Exemplified by the Definition of "Mammalia"
+Replacement of an Essentialistic Perspective on Taxonomic Definitions as Exemplified by the Definition of "Mammalia"
 https://www.sciencedirect.com/science/article/abs/pii/S1369848601000036?via%3Dihub
 
-https://www.pnas.org/content/105/51/20067
-
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2662812/
-
- Molecular taxonomy of major neuronal classes in the adult mouse forebrain 
-\cite{sugino2006molecular
-
-/Genes and homology in nervous system evolution: Comparing gene functions, expression patterns, and cell type molecular fingerprints   \cite{arendt2005genes
-
-Musser, J. M. & Wagner, G. P. Character trees from transcriptome data: origin and individuation of morphological characters and the so-called ‘species signal’. J. Exp. Zool. 324, 588–604 (2015).
-Introduces the phenomenon of concerted transcriptome evolution and shows how it influences the comparison of cell type transcriptomes
-
-Mullen, A. C. et al. Master transcription factors determine cell-type-specific responses to TGF-ß signaling. Cell 147, 565–576 (2011). Demonstrates empirically that cell type terminal selectors are responsible for mediating the cell type-specific response to a common cellular signal.
-
-Hobert, O. Terminal selectors of neuronal identity. Curr. Top. Dev. Biol. 116, 455–475 (2016). Outlines the important role of terminal selector genes in establishing and maintaining cell type identity.
-
-
-Stefanakis, N., Carrera, I. & Hobert, O. Regulatory logic of pan-neuronal gene expression in C. elegans. Neuron 87, 733–750 (2015). A systematic investigation of how different neuronal cell types use both cell type-specific and more general regulatory information to express pan-neuronal genes.
-
-Arendt, D. Genes and homology in nervous system evolution: comparing gene functions, expression patterns, and cell type molecular fingerprints. Theory Biosci. 124, 185-197 (2005). A conceptual review that discusses the different levels of homology in evolutionary developmental biology research; it introduces the concept of molecular fingerprints for cell type comparisons.
-Up next: 
-
-% https://www.the-scientist.com/cover-story/advancing-techniques-reveal-the-brains-impressive-diversity-30197
-% https://www.sciencedirect.com/topics/medicine-and-dentistry/cell-type
-% http://www.diva-portal.org/smash/get/diva2:942241/FULLTEXT01.pdf
-% https://sciencing.com/specialized-cells-definition-types-examples-13718073.html
-% https://www.nature.com/scitable/blog/bio2.0/discovering_new_cell_types_one/
-
-https://senselab.med.yale.edu/NeuronDB
-
-https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3000691
+## Other
 
 ### Discovery of new cell types:
 
 JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
 24. Mrdjen D, Pavlovic A, Hartmann FJ, Schreiner B, Utz SG, Leung BP, Lelios I, Heppner FL, Kipnis J, Merkler D, et al. High-dimensional single-cell mapping of central nervous system immune cells reveals distinct myeloid subsets in health, aging, and disease. Immunity. 2018;48(2):380–95 e386.
-25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus nephritis. JCI Insight. 2017;2(9).
+25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus neph
+    ritis. JCI Insight. 2017;2(9).
 
 26. Villani AC, Satija R, Reynolds G, Sarkizova S, Shekhar K, Fletcher J, Griesbeck M, Butler A, Zheng S, Lazo S, et al. Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors. Science. 2017; 356(6335
 
@@ -138,20 +74,12 @@ Mapping the physical network of cellular interactions
 
 
 
-
+Q105516744
+Q105516839
 
 ## No QID
 
-Machine learning for rediscovering revolutionary ideas of the past
-Scientific intuition inspired by machine learning generated hypotheses
-Tacit Knowledge, Trust and the Q of Sapphire
-Towards operational abduction from a
-cognitive perspective
-
-67.Swanson, D. R. Undiscovered public knowledge, ¿¿er. Q. 56:103-118, 1986.
-https://www.journals.uchicago.edu/doi/abs/10.1086/601720
-
-Undiscovered Public Knowledge: a Ten-Year Update 
+ 
 https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
 WikiUMLS: Aligning UMLS to Wikipedia via Cross-lingual Neural Ranking
@@ -331,4 +259,5 @@ The Protein Data Bank. Berman, H. M. et al. Nucleic Acids Res. 28, 235–242 (20
 
 # Random
 Q92575623
-POINTS OF VIEW Visualizing biological data NATURE METHODS | VOL.9 NO.12 | DECEMBER 2012 | 1131
+Q90696426
+Q33535717
