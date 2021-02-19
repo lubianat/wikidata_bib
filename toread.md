@@ -25,13 +25,13 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-Q34545064
-Q105516387
-Q31033187
-Q76472348
-Q94487262
-Q22001246
-Q46326031
+
+
+
+
+
+
+
 Q36776925
 Q47565472
 Q47870911
