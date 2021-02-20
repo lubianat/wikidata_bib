@@ -78,8 +78,8 @@ Mapping the physical network of cellular interactions
 # Biocuration
 
 
-Q87818346
-Q64261830
+
+
 Q55440752
 Q36625511
 Q91728644
