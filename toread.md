@@ -75,9 +75,10 @@ JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Arm
 Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
 
 Mapping the physical network of cellular interactions
+
 # Biocuration
 
-
+Q31033181
 Q41695166
 Q38678861
 Q55440752
