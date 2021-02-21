@@ -24,20 +24,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 Q57945379
 Q37068535
 Q28288068
@@ -78,14 +64,9 @@ Mapping the physical network of cellular interactions
 
 # Biocuration
 
-<<<<<<< HEAD
-
-=======
-
 Q41695166
 Q38678861
 Q55440752
->>>>>>> 0caf5d6132d8ee31df9f31e1259739092892bc95
 Q36625511
 Q91728644
 Q91804991
