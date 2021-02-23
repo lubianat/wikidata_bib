@@ -22,10 +22,7 @@ Describing Species - Judith Winston
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
-# Cell types
-
-Q57945379
-Q37068535
+# Cell typesr
 Q28288068
 Q36625916
 Q30980445
