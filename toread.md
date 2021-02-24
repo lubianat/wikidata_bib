@@ -66,8 +66,8 @@ Mapping the physical network of cellular interactions
 
 
 
-Q28292614
-Q30002333
+
+
 Q38678861
 Q30002351
 Q55440752
