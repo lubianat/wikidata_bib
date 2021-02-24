@@ -23,7 +23,7 @@ Describing Species - Judith Winston
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell typesr
-Q28288068
+
 Q36625916
 Q30980445
 Q28586183
@@ -68,8 +68,8 @@ Mapping the physical network of cellular interactions
 
 
 
-Q38678861
-Q30002351
+
+
 Q55440752
 Q36625511
 Q91728644
