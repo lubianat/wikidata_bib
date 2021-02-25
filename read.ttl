@@ -1617,6 +1617,10 @@ wd:Q91776830 wb:has_notes wbn:Q91776830.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-02-10T00:00:00Z/11" .
 
+wd:Q91804991 wb:has_notes wbn:Q91804991.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-02-25T00:00:00Z/11" .
+
 wd:Q91866899 wb:has_notes wbn:Q91866899.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-12-28T00:00:00Z/11" .
