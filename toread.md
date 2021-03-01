@@ -24,14 +24,15 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 # Cell typesr
 
-Q36625916
-Q30980445
-Q28586183
-Q38771724
-Q35984619
-Q97557008
+
+
+
+
+
+
 
 ## No QID
+Celltype phylogenetics and the origin of endometrial stromal cells
 9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
 A flagellate-to-amoeboid switch in the closest living relatives of animals
 
@@ -50,7 +51,7 @@ Perspectives on defining cell types in the brain
 
 ### Discovery of new cell types:
 
-JJordao MJC, Sankowski R, Brendecke SM, Sagar LG, Tai YH, Tay TL, Schramm E, Armbruster S, Hagemeyer N, et al. Science 2019;363(6425):eaat7554. https://doi.org/10.1126/science.aat7554.
+
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
 24. Mrdjen D, Pavlovic A, Hartmann FJ, Schreiner B, Utz SG, Leung BP, Lelios I, Heppner FL, Kipnis J, Merkler D, et al. High-dimensional single-cell mapping of central nervous system immune cells reveals distinct myeloid subsets in health, aging, and disease. Immunity. 2018;48(2):380–95 e386.
 25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus neph
@@ -74,13 +75,14 @@ Mapping the physical network of cellular interactions
 
 
 
-Q92043520
-Q91186622
+
+
 Q58587083
 
 
 ## No QID
 
+ Biomedical articles share annotations with their citation neighbors
  
 https://www.aaai.org/Papers/KDD/1996/KDD96-051.pdf
 
