@@ -53,7 +53,6 @@ Perspectives on defining cell types in the brain
 
 
 23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
-24. Mrdjen D, Pavlovic A, Hartmann FJ, Schreiner B, Utz SG, Leung BP, Lelios I, Heppner FL, Kipnis J, Merkler D, et al. High-dimensional single-cell mapping of central nervous system immune cells reveals distinct myeloid subsets in health, aging, and disease. Immunity. 2018;48(2):380–95 e386.
 25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus neph
     ritis. JCI Insight. 2017;2(9).
 
@@ -68,15 +67,7 @@ Mapping the physical network of cellular interactions
 
 
 
-
-
-
-
-
-
-
-
-
+Q33690250
 Q58587083
 
 
@@ -109,6 +100,12 @@ http://bioportal.bioontology.org/annotatorplus
 On the role of knowlege graphs in
 explainable AI.
 ## Other
+
+Smith B, Ceusters W, Köhler J, Kumar A, Lomax J, Mungall CJ, Neuhaus F, Rector A, Rosse C: Relations in biological ontologies.
+Genome Biol 2005 in press
+
+ Winston M, Chaffin R, Herrmann : A taxonomy of part-whole
+relations. Cog Sci 1987, 11:417-444
 
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
