@@ -64,6 +64,17 @@ def render_dashboard(readings):
   <li class="nav-item">
     <a class="nav-link" href="/wikidata_bib/2020/December.html">December 2020</a>
   </li>
+    </li>
+   <li class="nav-item">
+    <a class="nav-link" href="/wikidata_bib/2021/January.html">January 2021</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/wikidata_bib/2021/February.html">February 2021</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="/wikidata_bib/2021/March.html">March 2021</a>
+  </li>
+ 
   <li class="nav-item">
     <a class="nav-link" href="/wikidata_bib/this_week.html">This week</a>
   </li>
