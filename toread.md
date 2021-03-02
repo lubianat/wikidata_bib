@@ -22,14 +22,8 @@ Describing Species - Judith Winston
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
-# Cell typesr
 
-
-
-
-
-
-
+# Cell types
 
 ## No QID
 Celltype phylogenetics and the origin of endometrial stromal cells
@@ -44,31 +38,35 @@ https://www.sciencedirect.com/science/article/abs/pii/S1369848601000036?via%3Dih
 
 ## Other
 
-Tools and Concepts for Interrogating and Defining Cellular Identity
-Perspectives on defining cell types in the brain
+. Li H, Horns F, Wu B, Xie Q, Li J, Li T, Luginbuhl DJ, Quake SR,
+Luo L: Classifying Drosophila olfactory projection neuron
+1220.e22.
+7. Konstantinides N, Kapuralin K, Fadil C, Barboza L, Satija R,
+Desplan C: Phenotypic convergence: distinct transcription
+factors regulate common terminal features. Cell 2018, 174:622-
+635.e13.
+8. Seung HS, Su¨ mbu¨ l U: Neuronal cell types and connectivity:
+lessons from the retina. Neuron 2014, 83:1262-1272.
+9. Sanes JR, Masland RH: The types of retinal ganglion cells:
+current status and implications for neuronal classification.
+Annu Rev Neurosci 2015, 38:221-246
 
+Ensembles,	Dynamics,	and	Cell	Types: Revisiting	the	
+Statistical	Mechanics	Perspective	on	Cellular	Regulation
+Determining Relative Dynamic Stability of Cell States Using Boolean Network Model
 
-
+Balakrishnan R, Harris MA, Huntley R, Van Auken K, Cherry JM: A guide to
+best practices for Gene Ontology (GO) manual annotation. Database
+2013, 2013:bat054.
 ### Discovery of new cell types:
-
-
-23. Gan Y, Li N, Zou G, Xin Y, Guan J. Identification of cancer subtypes from single-cell RNA-seq data using a consensus clustering method. BMC Med Genet. 2018;11(Suppl 6):117.
-25. Der E, Ranabothu S, Suryawanshi H, Akat KM, Clancy R, Morozov P, Kustagi M, Czuppa M, Izmirly P, Belmont HM, et al. Single cell RNA sequencing to dissect the molecular heterogeneity in lupus neph
-    ritis. JCI Insight. 2017;2(9).
-
-26. Villani AC, Satija R, Reynolds G, Sarkizova S, Shekhar K, Fletcher J, Griesbeck M, Butler A, Zheng S, Lazo S, et al. Single-cell RNA-seq reveals new types of human blood dendritic cells, monocytes, and progenitors. Science. 2017; 356(6335
-
-Stevens, C.F. (1998). Neuronal diversity: Too many cell types for comfort
-
-Mapping the physical network of cellular interactions
 
 # Biocuration
 
 
 
 
-Q33690250
-Q58587083
+
+
 
 
 ## No QID
@@ -131,7 +129,6 @@ Lysenko,A., Roznov˘a¸t,I.A., Saqi,M. et al. (2016) Representing and querying d
 
 A behind‐the‐scenes tour of the IEDB curation process: an optimized process empirically integrating automation and human curation efforts
 
-Funding knowledgebases: Towards a sustainable funding model for the UniProt use case
 
 https://academic.oup.com/bioinformatics/article/23/13/i41/238103
 https://academic.oup.com/database/article/doi/10.1093/database/baaa006/5809234

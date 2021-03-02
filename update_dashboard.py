@@ -1,23 +1,16 @@
-import os
-import glob
-import urllib.parse
-import pandas as pd
-import unicodedata
-from wbib.wbib import render_dashboard
-import sys
+from datetime import date, datetime, timedelta
 from wikidata2df import wikidata2df
 from mdutils.mdutils import MdUtils
+import sys
+import unicodedata
 import pandas as pd
+import os
 import os.path
 import rdflib
-from datetime import date, datetime, timedelta
-import os
+from pathlib import Path
 import glob
 import urllib.parse
-import pandas as pd
-import unicodedata
 from wbib.wbib import render_dashboard
-from pathlib import Path
 
 # Set functions
 
