@@ -12,7 +12,7 @@ import glob
 import urllib.parse
 from wbib.wbib import render_dashboard
 
-# Set functions
+# Set functions 
 
 def format_ids(ids):
     formatted_readings = "{"
@@ -36,17 +36,24 @@ with open("notes.html", "w") as f:
 
 ### Update dashboard with queries
 
-txtfiles = []
-for file in glob.glob("./notes/*.md"):
-    txtfiles.append(file)
-    
-array_of_filenames = [md.replace(".md", "")for md in txtfiles]
 
-array_of_qids = []
-for item in array_of_filenames:
-    if "Q" in item:
-        array_of_qids.append(item)
-array_of_qids = [md.replace("./notes/Q", "wd:Q")for md in array_of_qids]
+def get_ids_from_notes_folder():
+    txtfiles = []
+    for file in glob.glob("./notes/*.md"):
+        txtfiles.append(file)
+
+    array_of_filenames = [name.replace(".md", "")for name in txtfiles]
+    
+    
+    array_of_qids = []
+    for item in array_of_filenames:
+        if "Q" in item:
+            array_of_qids.append(item)
+    array_of_qids = [md.replace("./notes/Q", "Q")for md in array_of_qids]
+    return(array_of_qids)
+
+
+array_of_qids = get_ids_from_notes_folder()
 
 formatted_readings = format_ids(array_of_qids)
 
