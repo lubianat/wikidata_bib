@@ -8,7 +8,7 @@ import os
 import os.path
 import rdflib
 from pathlib import Path
-import glob
+from glob import glob
 import urllib.parse
 from wbib.wbib import render_dashboard
 
@@ -39,7 +39,7 @@ with open("notes.html", "w") as f:
 
 def get_ids_from_notes_folder():
     txtfiles = []
-    for file in glob.glob("./notes/*.md"):
+    for file in glob("./notes/*.md"):
         txtfiles.append(file)
 
     array_of_filenames = [name.replace(".md", "")for name in txtfiles]

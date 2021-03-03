@@ -25,6 +25,7 @@ https://seop.illc.uva.nl/entries/models-science/
 
 # Cell types
 
+
 ## No QID
 Celltype phylogenetics and the origin of endometrial stromal cells
 9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
@@ -55,15 +56,13 @@ Ensembles,	Dynamics,	and	Cell	Types: Revisiting	the
 Statistical	Mechanics	Perspective	on	Cellular	Regulation
 Determining Relative Dynamic Stability of Cell States Using Boolean Network Model
 
-Balakrishnan R, Harris MA, Huntley R, Van Auken K, Cherry JM: A guide to
-best practices for Gene Ontology (GO) manual annotation. Database
-2013, 2013:bat054.
+
 ### Discovery of new cell types:
 
 # Biocuration
-Q100766127
 
 
+Q38402355
 
 
 
@@ -108,12 +107,11 @@ relations. Cog Sci 1987, 11:417-444
 
 Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
 
-Noy, N. F. et al. Nucleic Acids Res. 37, W170–W173 (2009
 
 Himmelstein,D. Integrating resources with disparate licensing into an open network. https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
-
---
-Neumann EK, Quan D: Biodash: a semantic web dashboard for drug development. Pac Symp on Biocomput 2006, 11:176-187.
+Balakrishnan R, Harris MA, Huntley R, Van Auken K, Cherry JM: A guide to
+best practices for Gene Ontology (GO) manual annotation. Database
+2013, 2013:bat054.
 --
 
 Dumontier,M., Callahan,A., Cruz-Toledo,J., Ansell,P., Emonet,V. and Belleau,F. (2014) Bio2RDF release 3: a larger connected
