@@ -37,23 +37,20 @@ with open("notes.html", "w") as f:
 ### Update dashboard with queries
 
 
-def get_ids_from_notes_folder():
-    txtfiles = []
-    for file in glob("./notes/*.md"):
-        txtfiles.append(file)
 
-    array_of_filenames = [name.replace(".md", "")for name in txtfiles]
-    
-    
-    array_of_qids = []
-    for item in array_of_filenames:
-        if "Q" in item:
-            array_of_qids.append(item)
-    array_of_qids = [md.replace("./notes/Q", "Q")for md in array_of_qids]
-    return(array_of_qids)
+txtfiles = []
+for file in glob("./notes/*.md"):
+    txtfiles.append(file)
+
+array_of_filenames = [name.replace(".md", "")for name in txtfiles]
 
 
-array_of_qids = get_ids_from_notes_folder()
+array_of_qids = []
+for item in array_of_filenames:
+    if "Q" in item:
+        array_of_qids.append(item)
+array_of_qids = [md.replace("./notes/Q", "Q")for md in array_of_qids]
+
 
 formatted_readings = format_ids(array_of_qids)
 

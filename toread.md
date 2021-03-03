@@ -11,7 +11,6 @@ Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas schola
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
-
  Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
 
 Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
@@ -24,8 +23,11 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 # Cell types
-
-
+Q27021497
+Q47391265
+Q91316993
+Q38432885
+Q58787036
 ## No QID
 Celltype phylogenetics and the origin of endometrial stromal cells
 9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
@@ -39,35 +41,20 @@ https://www.sciencedirect.com/science/article/abs/pii/S1369848601000036?via%3Dih
 
 ## Other
 
-. Li H, Horns F, Wu B, Xie Q, Li J, Li T, Luginbuhl DJ, Quake SR,
-Luo L: Classifying Drosophila olfactory projection neuron
-1220.e22.
-7. Konstantinides N, Kapuralin K, Fadil C, Barboza L, Satija R,
-Desplan C: Phenotypic convergence: distinct transcription
-factors regulate common terminal features. Cell 2018, 174:622-
-635.e13.
-8. Seung HS, Su¨ mbu¨ l U: Neuronal cell types and connectivity:
-lessons from the retina. Neuron 2014, 83:1262-1272.
-9. Sanes JR, Masland RH: The types of retinal ganglion cells:
-current status and implications for neuronal classification.
-Annu Rev Neurosci 2015, 38:221-246
-
-Ensembles,	Dynamics,	and	Cell	Types: Revisiting	the	
-Statistical	Mechanics	Perspective	on	Cellular	Regulation
-Determining Relative Dynamic Stability of Cell States Using Boolean Network Model
-
-
-### Discovery of new cell types:
-
 # Biocuration
 
 
-Q38402355
-
-
-
-
-
+Q19671539
+Q54248976
+Q21146739
+Q36997786
+Q91179320
+Q57281359
+Q19845588
+Q26741378
+Q96947357
+Q34655326
+Q90415774
 ## No QID
 
  Biomedical articles share annotations with their citation neighbors
@@ -94,41 +81,12 @@ Ontologies for the life sciences Steffen Schulze-Kremer and Barry Smith  http://
 
 http://bioportal.bioontology.org/annotatorplus
 
-On the role of knowlege graphs in
-explainable AI.
-## Other
-
-Smith B, Ceusters W, Köhler J, Kumar A, Lomax J, Mungall CJ, Neuhaus F, Rector A, Rosse C: Relations in biological ontologies.
-Genome Biol 2005 in press
-
- Winston M, Chaffin R, Herrmann : A taxonomy of part-whole
-relations. Cog Sci 1987, 11:417-444
-
-
-Extraction of relations between genes and diseases from text and large-scale data analysis: implications for translational research.
-
+On the role of knowlege graphs in explainable AI.
 
 Himmelstein,D. Integrating resources with disparate licensing into an open network. https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
-Balakrishnan R, Harris MA, Huntley R, Van Auken K, Cherry JM: A guide to
-best practices for Gene Ontology (GO) manual annotation. Database
-2013, 2013:bat054.
---
-
-Dumontier,M., Callahan,A., Cruz-Toledo,J., Ansell,P., Emonet,V. and Belleau,F. (2014) Bio2RDF release 3: a larger connected
-
-https://academic.oup.com/nar/article/48/D1/D704/5614574
-
-https://www.nejm.org/doi/full/10.1056/NEJMra1615014
-
- Ratnam,J., Zdrazil,B., Digles,D. et al. (2014) The applica- tion of the open pharmacological concepts triple store (open PHACTS) to support drug discovery research. PLOS ONE, 9, e115460.
-6.
-
-Lysenko,A., Roznov˘a¸t,I.A., Saqi,M. et al. (2016) Representing and querying disease networks using graph databases. BioData Min., 9, 23
-
-A behind‐the‐scenes tour of the IEDB curation process: an optimized process empirically integrating automation and human curation efforts
+## Other
 
 
-https://academic.oup.com/bioinformatics/article/23/13/i41/238103
 https://academic.oup.com/database/article/doi/10.1093/database/baaa006/5809234
 
 
