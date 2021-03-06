@@ -23,9 +23,9 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 # Cell types
-Q27021497
-Q47391265
-Q91316993
+
+
+
 Q38432885
 Q58787036
 ## No QID
@@ -40,11 +40,11 @@ Replacement of an Essentialistic Perspective on Taxonomic Definitions as Exempli
 https://www.sciencedirect.com/science/article/abs/pii/S1369848601000036?via%3Dihub
 
 ## Other
-
+Metabolic stability and epigenesis in randomly constructed genetic nets
 # Biocuration
 
 
-Q19671539
+
 Q54248976
 Q21146739
 Q36997786
@@ -55,6 +55,7 @@ Q26741378
 Q96947357
 Q34655326
 Q90415774
+Q38520561
 ## No QID
 
  Biomedical articles share annotations with their citation neighbors
@@ -87,6 +88,18 @@ Himmelstein,D. Integrating resources with disparate licensing into an open netwo
 ## Other
 
 
+Smith B, Köhler J, Kumar A: On the application of formal princi-ples to life science data: a case study in the Gene Ontology.DILS 2004: Data Integration in the Life Sciences. Lecture Notes in Compu-ter Science 2994 2004:124-139
+
+Editorial: biological ontologies and semantic biology
+https://www.biogateway.eu/ssb/
+
+The emergence of Semantic Systems Biology
+RDFScape: Semantic Web meets systems biology
+Semantic systems biology: enabling integrative biology via semantic web technologies
+Semantic systems biology: formal knowledge representation in systems biology for model construction, retrieval, validation and discovery
+The markup is the model: reasoning about systems biology models in the Semantic Web era
+SBOL-OWL: An ontological approach for formal and semantic representation of synthetic biology information
+The SBOL stack: a platform for storing, publishing, and sharing synthetic biology designs
 https://academic.oup.com/database/article/doi/10.1093/database/baaa006/5809234
 
 
