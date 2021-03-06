@@ -45,7 +45,7 @@ Metabolic stability and epigenesis in randomly constructed genetic nets
 
 
 
-Q54248976
+
 Q21146739
 Q36997786
 Q91179320
