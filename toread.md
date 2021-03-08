@@ -26,8 +26,8 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 
-Q38432885
-Q58787036
+
+
 ## No QID
 Celltype phylogenetics and the origin of endometrial stromal cells
 9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
@@ -46,8 +46,8 @@ Metabolic stability and epigenesis in randomly constructed genetic nets
 
 
 
-Q21146739
-Q36997786
+
+Q34020884
 Q91179320
 Q57281359
 Q19845588
@@ -87,6 +87,7 @@ On the role of knowlege graphs in explainable AI.
 Himmelstein,D. Integrating resources with disparate licensing into an open network. https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
 ## Other
 
+heimpact of focused Gene Ontology curation of specific mammaliansystems.PLoS One,6, e27541.31. Mutowo-Meullenet,P., Huntley,R.P., Dimmer,E.C.et al. (2013) Useof Gene Ontology Annotation to understand the peroxisomeproteome in humans.Database(Oxford),2013, bas062
 
 Smith B, Köhler J, Kumar A: On the application of formal princi-ples to life science data: a case study in the Gene Ontology.DILS 2004: Data Integration in the Life Sciences. Lecture Notes in Compu-ter Science 2994 2004:124-139
 
