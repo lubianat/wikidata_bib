@@ -229,3 +229,5 @@ The Protein Data Bank. Berman, H. M. et al. Nucleic Acids Res. 28, 235–242 (20
 Q92575623
 Q90696426
 Q33535717
+
+Disorders of human consciousness in the Tri-partite synapses
