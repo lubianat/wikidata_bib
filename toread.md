@@ -18,19 +18,21 @@ Princeton, NJ: Princeton University Press
 
 Describing Species - Judith Winston
 
+13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
+14.  
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 # Cell types
 
-
-
+Q90003307
+Q90003401
 
 
 ## No QID
 Celltype phylogenetics and the origin of endometrial stromal cells
-9. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
+1. He, M. et al. Cell-type-based analysis of microRNA profles in the mouse brain. Neuron 73, 35–48 (2012).
 A flagellate-to-amoeboid switch in the closest living relatives of animals
 
 Evolution of cellular diversity in primary motor cortex of human, marmoset monkey, and mouse
@@ -48,8 +50,8 @@ Metabolic stability and epigenesis in randomly constructed genetic nets
 
 
 
-Q91179320
-Q57281359
+
+
 Q19845588
 Q26741378
 Q96947357
