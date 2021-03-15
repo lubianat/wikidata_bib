@@ -5,9 +5,9 @@ https://seop.illc.uva.nl/entries/models-science/
 # Cell types
 
 
-Q57945379
-Q105870478
-Q105870479
+
+
+
 Q105870481
 Q28256189
 ## No QID
@@ -15,8 +15,8 @@ Q28256189
 ## Other
 
 # Biocuration
-Q96947357
-Q34655326
+
+
 Q90415774
 Q38520561
 Q97090036
