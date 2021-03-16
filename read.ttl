@@ -308,6 +308,10 @@ wd:Q105870479 wb:has_notes wbn:Q105870479.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-03-15T00:00:00Z/11" .
 
+wd:Q105969725 wb:has_notes wbn:Q105969725.md ;
+    wb:in_collection wbc:biocuration ;
+    wb:read_in "+2021-03-15T00:00:00Z/11" .
+
 wd:Q1180725 wb:has_notes wbn:Q1180725.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2021-03-01T00:00:00Z/11" .
