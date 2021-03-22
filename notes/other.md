@@ -24,6 +24,52 @@ Unfortunately, “once gene theory took over, it became a biology of things,” 
 “Organisms aren’t just individuated,” he said. “They have access to information about their individuation.” To him, the kind of information that Krakauer and Flack’s framework uses might not be “knowable” to an organism: “It’s not clear to me that the organism could use these information metrics that they define in a way that would allow it to preserve its existence,” he said.
 
 
+
+## (Nano)Publish your research with Python
+https://blog.esciencecenter.nl/nano-publish-your-research-with-python-b81aa54eb1a2
+
+
+1.1.3. Interoperable publication processes: nanopublications
+
+
+How do we formally communicate such findings such that they may be cited and credit attributed accordingly? One means of achieving this is to use ‘nanopublications’.
+
+Today, we proudly present to you the result of this desire: the nanopub Python library.
+
+--> nice
+Assertion: The assertion is the main content of a nanopublication. This is generally some kind of scientific claim (an observation, result, interpretation of someone else’s result etc.)
+
+Provenance: This part describes how the assertion above came to be.
+
+Publication Info: This part contains metadata about the nanopublication as a whole, such as when and by whom it was created.
+
+from nanopub import Publication, NanopubClient
+    client = NanopubClient()
+    results = client.find_nanopubs_with_text('Picoides')
+    for result in results:
+        print(result)
+
+Hold on, I want to publish Nanopublications of my own!
+
+To publish to the nanopub server you need to set up your profile. This allows the nanopub server to identify you. Run the following interactive command (on the command line):
+
+setup_nanopub_profile
+
+client.claim('All cats are gray')
+
+Published to http://purl.org/np/RA47eJP2UBJCWuJ324c6Qw0OwtCb8wCrprwSk39am7xck
+
+Or, to leverage the true power of semantic technologies, you can build your own RDF graph of triples and publish that
+
+--> Nice, uses rdflib
+
+nanotate: Create nanopublications from annotations in PDF-files made with hypothes.is
+
+--> hmm, that is _very_ interesting for both 3.2. Community annotation of texts via Wikidata and  3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
+
+ 
+
+
 # Dataset (Google Advanced Search Engine Optimization)
 
  Google's approach to dataset discovery makes use of schema.org and other metadata standards that can be added to pages that describe datasets

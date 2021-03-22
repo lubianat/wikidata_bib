@@ -8,8 +8,8 @@ The COVID-19 Ontology
 
 
 
-Q105870481
-Q28256189
+
+
 ## No QID
 
 ## Other
@@ -17,9 +17,9 @@ Q28256189
 # Biocuration
 
 
-Q90415774
-Q38520561
-Q97090036
+
+
+
 Q105870538
 Q105870539
 Q105870540
@@ -27,7 +27,7 @@ Q57002691
 Q28259568
 Q91791013
 Q36042745
-Q90415774
+
 Q21092581
 Q30427789
 Q42584832
@@ -51,7 +51,7 @@ Q24793009
 Q101248419
 Q28657448
 Q104450390
-Q38520561
+
 Q105870783
 Q90006632
 Q29169145
@@ -98,6 +98,8 @@ https://scite.ai/
 ## Other
 Bio4j: a high-performance cloud-enabled graph-based data platform.
 Search, access, and explore life sciencenanopublications on the Web
+Micropublication: incentivizing community curation and placing unpublished data into the public domain
+
 # Top 100 papers
 # Random
 Q92575623
