@@ -20,9 +20,9 @@ The COVID-19 Ontology
 
 
 
-Q105870538
-Q105870539
-Q105870540
+
+
+
 Q57002691
 Q28259568
 Q91791013
@@ -96,9 +96,16 @@ https://scite.ai/
 
 
 ## Other
+COELHO, KatiaCardoso. Aquisição de conhecimento especializado para construção de ontologias: um estudo no domínio das ciências da vida. 2012.174f. Dissertação (Mestradoem Ciência da Informação). Escola de Ciência da Informação, Universidade Federal de Minas Gerais, Belo Horizonte, 2012. Disponível em: http://www.bibliotecadigital.ufmg.br/dspace/bitstream/handle/1843/ECID-8XLQS4/disserta__o_katia_cardoso_coelho.pdf?sequence=2. Acesso em: ago.2014
+
 Bio4j: a high-performance cloud-enabled graph-based data platform.
 Search, access, and explore life sciencenanopublications on the Web
 Micropublication: incentivizing community curation and placing unpublished data into the public domain
+
+SCHRIML, Lynn M.; et al. Disease Ontology: a backbone for disease semantic integration. Nucleic Acids Research. v.40. 2012. Disponível em: http://nar.oxfordjournals.org/content/40/D1/D940.full.pdf?keytype=ref&ijkey=oOOVAj4zMzRpayq. Acesso em:21 set 2014
+
+USCHOLD, Mike.Building ontologies: Towards a Unified Methodology (1996). Disponível em:http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.9075. Acesso em:15 fev 2013
+
 
 # Top 100 papers
 # Random
