@@ -334,6 +334,10 @@ wd:Q106114584 wb:has_notes wbn:Q106114584.md ;
 wd:Q106121070 wb:has_notes wbn:Q106121070.md ;
     wb:read_in "+2021-03-22T00:00:00Z/11" .
 
+wd:Q106143534 wb:has_notes wbn:Q106143534.md ;
+    wb:in_collection wbc:cell_types ;
+    wb:read_in "+2021-03-23T00:00:00Z/11" .
+
 wd:Q1180725 wb:has_notes wbn:Q1180725.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2021-03-01T00:00:00Z/11" .
