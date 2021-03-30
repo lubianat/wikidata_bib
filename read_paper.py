@@ -44,7 +44,7 @@ def main():
         mdFile.new_line(" * [Scholia Profile](https://scholia.toolforge.org/work/" + wd_id + ")")
         mdFile.new_line(" * [Wikidata](https://www.wikidata.org/wiki/" + wd_id + ")")
         mdFile.new_line(" * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/" + wd_id + "/P921%3BP4510)")
-        mdFile.new_line(" * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="+ wd_id + "&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+work")
+        mdFile.new_line(" * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="+ wd_id + "&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+work)")
         mdFile.new_line() 
         mdFile.create_md_file()
 
