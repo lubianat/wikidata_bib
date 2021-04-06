@@ -2,8 +2,11 @@
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 The COVID-19 Ontology 
+
 # Cell types
 
+Q106387804
+Q105098701
 
 
 
