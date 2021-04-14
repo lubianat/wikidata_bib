@@ -13,11 +13,12 @@ def main():
 
     def get_title_df(wd_id):
         query = """
-        SELECT ?item ?itemLabel ?date
+        SELECT ?item ?itemLabel ?date ?doi
         WHERE
         {
         VALUES ?item {wd:""" + wd_id + """}
         OPTIONAL {?item wdt:P577 ?date}.
+        OPTIONAL {?item wdt:P356 ?doi} 
         SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
         }
         """
@@ -27,7 +28,7 @@ def main():
         return(df)
 
 
-    def create_markdown(file_path, title, publication_date="None"):
+    def create_markdown(file_path, title, publication_date="None", doi=""):
         mdFile = MdUtils(file_name=file_path, title= title)
         
         mdFile.new_line("  [@wikidata:" + wd_id + "]")
@@ -45,6 +46,8 @@ def main():
         mdFile.new_line(" * [Wikidata](https://www.wikidata.org/wiki/" + wd_id + ")")
         mdFile.new_line(" * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/" + wd_id + "/P921%3BP4510)")
         mdFile.new_line(" * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="+ wd_id + "&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+work)")
+        if doi !="":
+            mdFile.new_line(f" * [DOI](https://doi.org/{doi})")
         mdFile.new_line() 
         mdFile.create_md_file()
 
@@ -114,10 +117,22 @@ def main():
     except:
         publication_date = "None"
         pass
+
+
+
+    try:
+        doi = df["doi"][0]
+    except:
+        doi = ""
+        pass
+
+
+
+
     file_path = "notes/" + wd_id
     
     print("======= Creating markdown =======")
-    create_markdown(file_path, title, publication_date)
+    create_markdown(file_path, title, publication_date, doi)
     update_turtle(wd_id)
 
     print("======= Updating dashboard =======")
