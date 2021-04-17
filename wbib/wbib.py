@@ -4,56 +4,74 @@ import urllib.parse
 import pandas as pd
 import unicodedata
 
+
 def render_dashboard(readings):
 
-
   url1 = get_query_url_for_articles(readings)
+  url1_legend = "Articles read"
   url2 = get_query_url_for_topic_bubble(readings)
-  url3 = get_topics_as_table(readings)
+  url2_legend = "Topics of those articles (as bubbles)"
+#  url3 = get_topics_as_table(readings)
+#  url3_legend = "Map of institutions"
   url4 = get_query_url_for_venues(readings)
-  url5 = get_query_url_for_locations(readings)
-  url6 = get_query_url_for_citing_authors(readings)
-  url7 = get_query_url_for_authors(readings)
+  url4_legend = "Most read journals "
+  url5 = get_query_url_for_authors(readings) 
+  url5_legend = "Authors of papers I've read"
+  url6 = get_query_url_for_locations(readings)
+  url6_legend =  "Map of institutions"
+  url7 =  get_query_url_for_citing_authors(readings)
+  url7_legend = "Map of institutions"
 
+
+  license_statement = '''
+            This content is available under a <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/"> 
+            Creative Commons CC0</a> license.
+  '''
+  code_availability_statement = '''
+  Source code for the website available at <a target="_blank" href="https://github.com/lubianat/wikidata_bib">
+            https://github.com/lubianat/wikidata_bib </a>
+  '''
+
+  scholia_credit_statement = '''
+SPARQL queries adapted from <a target="_blank" href="https://scholia.toolforge.org/">Scholia</a>
+  '''
+
+  creator_statement = '''
+ Dashboard  by <a target="_blank" href="https://www.wikidata.org/wiki/User:TiagoLubiana">TiagoLubiana</a>
+  '''
+
+  site_title = "Wikidata Bib"
+  site_subtitle = ''' Tiago Lubiana's personal reading status'''
   html = """
-
-
-  <!DOCTYPE html>
-  <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Wikidata Bib - Tiago Lubiana</title>
-    <meta property="og:description" content="powered by Wikidata">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  </head>
-    <body>
-    <section class="section">
-          <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-half has-text-centered">
-                  <h1 class="title is-1"> My Readings</h1>
-              </div>
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>""" + site_title + """</title>
+  <meta property="og:description" content="powered by Wikidata">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <h1 class="title is-1"> """ + site_title + """</h1>
+          <h2>""" + site_subtitle +"""</h2>
         </div>
       </div>
-      <div class="column is-half has-text-centered">
-      </section>
-    <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-half has-text-centered">
-            <h4 class="subtitle is-4">
-                  Dashboard of Tiago Lubiana's Readings
-                  </p>
-          </div>
-        </div>
     </div>
-    </br>
-    </br>
+    <div class="column is-half has-text-centered">
+  </section>
+   </section>
 
-  <div role="navigation">
+   <div role="navigation">
 <ul class="nav nav-pills justify-content-center">
   <li class="nav-item">
     <a class="nav-link" aria-current="page" href="/wikidata_bib/">All time</a>
@@ -74,8 +92,7 @@ def render_dashboard(readings):
   <li class="nav-item">
     <a class="nav-link" href="/wikidata_bib/2021/March.html">March 2021</a>
   </li>
- 
-  <li class="nav-item">
+   <li class="nav-item">
     <a class="nav-link" href="/wikidata_bib/this_week.html">This week</a>
   </li>
   <li class="nav-item">
@@ -83,200 +100,54 @@ def render_dashboard(readings):
   </li>
 </ul>
 </div>
-    </br>
-    </br>
-        <div class="columns is-centered">
-        
-            <div class="tabs is-centered">
-                <ul>
-                    <li id="one-tab" class="">
-                        <a onclick="switchToOne()">
-                        <span>Articles</span> 
-                      </a>
-                    </li>
-                    <li id="two-tab">
-                        <a onclick="switchToTwo()">
-                      <span>Topic Bubble</span>
-                      </a>
-                              </li>
-                              <li id="three-tab">
-                                  <a onclick="switchToThree()">
-                                      <span>Topic Count</span>
-                                </a>
-                            </li>
-                            <li id="four-tab">
-                              <a onclick="switchToFour()">
-                                  <span>Venues</span>
-                            </a>
-                        </li>
-                        <li id="five-tab">
-                          <a onclick="switchToFive()">
-                              <span>Author Map</span>
-                        </a>
-                        <li id="six-tab">
-                          <a onclick="switchToSix()">
-                              <span>Citing Authors</span>
-                        </a>
-                        </li> 
-                        <li id="seven-tab">
-                          <a onclick="switchToSeven()">
-                              <span>Authors</span>
-                        </a>
-                        </li>
-                </ul>
-                <!--/tabs is-centered-->
-            </div>
-        </div>
-      </div>
-      </section>
-    <div class="container">
-          <div id="one-tab-content">
-              <h5 class="title is-5" style="text-align:center;"> What I've been reading </h5>
-          <div class="columns is-centered"
-            <p style="text-align: center">
-              <iframe width=92% height="500" src=""" + '"'+ url1 +'"' + """></iframe>
-            </p>
-          </div>
-            </div>
-          <div class="is-hidden" id="two-tab-content">
-              <<h5 class="title is-5" style="text-align:center;"> Topics I've been reading in bubbles </h5>
-          <div class="columns is-centered"
-            <p style="text-align: center">
-              <iframe width=92% height="500" src=""" + '"'+ url2 +'"' + """></iframe>
-            </p>
-          </div>
-                  </div>
-              <div class="is-hidden" id="three-tab-content">
-                      <<h5 class="title is-5" style="text-align:center;"> Topics I've been reading in a table </h5>
-                    <div class="columns is-centered"
-                        <p style="text-align: center">
-                          <iframe width=92% height="500" src=""" + '"'+ url3+'"' + """></iframe>
-                        </p>
-                    </div>
-                    </div>
-              <div class="is-hidden" id="four-tab-content">
-                      <<h5 class="title is-5" style="text-align:center;">  Which journals I've been reading</h5>
-                    <div class="columns is-centered"
-                        <p style="text-align: center">
-                          <iframe width=92% height="500" src=""" + '"'+ url4 +'"' + """></iframe>
-                        </p>
-                    </div>
-                    </div>
-              <div class="is-hidden" id="five-tab-content">
-                      <<h5 class="title is-5" style="text-align:center;"> Where are the authors I've been reading </h5>
-                    <div class="columns is-centered"
-                        <p style="text-align: center">
-                          <iframe width=92% height="500" src=""" + '"'+ url5 +'"' + """></iframe>
-                        </p>
-                    </div>
-                    </div>
-              <div class="is-hidden" id="six-tab-content">
-                      <<h5 class="title is-5" style="text-align:center;"> Who cites what I've been reading </h5>
-                    <div class="columns is-centered"
-                        <p style="text-align: center">
-                          <iframe width=92% height="500" src=""" + '"'+ url6 +'"' + """></iframe>
-                        </p>
-                    </div>
-                    </div>
-              <div class="is-hidden" id="seven-tab-content">
-                      <<h5 class="title is-5" style="text-align:center;"> Who writes what I've been reading </h5>
-                    <div class="columns is-centered"
-                        <p style="text-align: center">
-                          <iframe width=92% height="500" src=""" + '"'+ url7 +'"' + """></iframe>
-                        </p>
-                    </div>
-                    </div>
-      </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script>
-
-      function switchToOne() {
-        removeActive();
-        hideAll();
-        $("#one-tab").addClass("is-active");
-        $("#one-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToTwo() {
-        removeActive();
-        hideAll();
-        $("#two-tab").addClass("is-active");
-        $("#two-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToThree() {
-        removeActive();
-        hideAll();
-        $("#three-tab").addClass("is-active");
-        $("#three-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToFour() {
-        removeActive();
-        hideAll();
-        $("#four-tab").addClass("is-active");
-        $("#four-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToFive() {
-        removeActive();
-        hideAll();
-        $("#five-tab").addClass("is-active");
-        $("#five-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToSix() {
-        removeActive();
-        hideAll();
-        $("#six-tab").addClass("is-active");
-        $("#six-tab-content").removeClass("is-hidden");
-      }
-
-      function switchToSeven() {
-        removeActive();
-        hideAll();
-        $("#seven-tab").addClass("is-active");
-        $("#seven-tab-content").removeClass("is-hidden");
-      }
-
-      function removeActive() {
-        $("li").each(function() {
-          $(this).removeClass("is-active");
-        });
-      }
-
-      function hideAll(){
-        $("#one-tab-content").addClass("is-hidden");
-        $("#two-tab-content").addClass("is-hidden");
-        $("#three-tab-content").addClass("is-hidden");
-        $("#four-tab-content").addClass("is-hidden");
-        $("#five-tab-content").addClass("is-hidden");
-        $("#six-tab-content").addClass("is-hidden");
-        $("#seven-tab-content").addClass("is-hidden");
-        $("#eight-tab-content").addClass("is-hidden");
-      }
-    
-    </script>
-    </br>
-
+      <h5 class="title is-5" style="text-align:center;"> """ + url1_legend + """</h5>
+        <p align="center">
+          <iframe width=75% height="400" src=""" + '"'+ url1 +'"' + """></iframe>
+        </p>
+    <br></br>
+    <h5 class="title is-5" style="text-align:center;">""" + url2_legend + """ </h5>
+        <p align="center">
+        <iframe width=75%  height="400" src=""" + '"'+ url2 +'"' + """></iframe>
+        </p>
+        <br></br>
+      <h5 class="title is-5" style="text-align:center;display:block;"> """ + url4_legend + """</h5>
+                  <p align="center">
+          <iframe width=75%   height="400" src=""" + '"'+ url4 +'"' + """></iframe>
+          </p>
+   <br></br>
+      <h5 class="title is-5" style="text-align:center;"> """ + url5_legend + """  </h5>
+        <p align="center">
+            <iframe width=75%  height="400" src=""" + '"'+ url5+'"' + """></iframe>
+        </p>
+<br></br>
+      <h5 class="title is-5" style="text-align:center;"> """ + url6_legend + """ </h5>
+      <p align="center">
+            <iframe width=75%  height="400" src=""" + '"'+ url6 +'"' + """></iframe>
+      </p>
+<br></br>
+      <h5 class="title is-5" style="text-align:center;"> """ + url7_legend + """ </h5>
+      <p align="center">
+            <iframe width=75%  height="400" src=""" + '"'+ url7 +'"' + """></iframe>
+      </p>
+<br></br>
+  </p>
+  </div>
+ </br>
   <footer class="footer">
     <div class="container">
       <div class="content has-text-centered">
-        <p>
-          The content is licensed <a href="https://creativecommons.org/publicdomain/zero/1.0/">under Creative Commons CC0</a>
-      
-          <p> Wikidata SPARQL Queries adapted from <a href="https://scholia.toolforge.org/">Scholia</a>  </p>
-          <p> <strong>Dashboard</strong> adapted by <a href="https://www.wikidata.org/wiki/User:TiagoLubiana">TiagoLubiana</a>
-      from the <a href="https://wikiproject-india.github.io/covid19dashboard/">COVID-19 in India dashboard </a>
-          <p> To see the links for all notes taken, go to <a href="./notes.html"> this draft page </a>. </p>
-        </p>
+        <p>""" + license_statement + """  </p>
+        <p>""" + code_availability_statement + """ </p>
+        <p>""" + scholia_credit_statement + """</p>
+        <p>""" + creator_statement + """ </p>
       </div>
     </div>
   </footer>
-  </body>
-  </html>
+</body>
+</html>
   """
   return(html)
+
 
 def render_url(query):
   return "https://query.wikidata.org/embed.html#" + urllib.parse.quote(query, safe='')
