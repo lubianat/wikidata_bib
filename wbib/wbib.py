@@ -20,7 +20,7 @@ def render_dashboard(readings):
   url6 = get_query_url_for_locations(readings)
   url6_legend =  "Map of institutions"
   url7 =  get_query_url_for_citing_authors(readings)
-  url7_legend = "Map of institutions"
+  url7_legend = "Authors that cite what I've read"
 
 
   license_statement = '''
