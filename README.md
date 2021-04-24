@@ -8,6 +8,7 @@ You can check some queries on my notes at [lubianat.github.io/wikidata_bib](http
 
 # Repository structure
 - docs
+- src
 - notes
     - Q1123.md
     - Q2234.md
