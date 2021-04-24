@@ -1,5 +1,5 @@
 #!/bin/bash
 
-python3 read_paper.py $@
-python3 get_pdf.py $@
+python3 src/read_paper.py $@
+python3 src/get_pdf.py $@
 code "notes/${1}.md"

@@ -4,14 +4,10 @@ This repo is a propotype for bibliography management using Wikidata.
 
 The overarching goal is to leverage linked open data to navigate your studies and personal notes. 
 
-
 You can check some queries on my notes at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
-
 # Repository structure
-- sparql
 - docs
-- collections
 - notes
     - Q1123.md
     - Q2234.md
