@@ -305,7 +305,7 @@ for pair in set(articles_dataframe["month_year_pair"]):
     year = pair.split("/")[0]
 
     # Create directory for year
-    Path(f"./{year}").mkdir(parents=True, exist_ok=True)
+    Path(f".docs/{year}").mkdir(parents=True, exist_ok=True)
 
     mini_df = articles_dataframe[articles_dataframe["month_year_pair"] == pair]
     ids = [i.split("/")[4] for i in mini_df["item"]]
