@@ -1,40 +1,8 @@
 # Papers to read
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
-The COVID-19 Ontology 
 
 # Cell types
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Q99418649
-Q100491106
-Q100513994
-Q101210731
 Q102206138
 Q104130336
 Q104139713
@@ -68,40 +36,7 @@ Q47263573
 ## Other
 
 # Biocuration
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Q52235186
-
-
+Q104513823
 ## No QID
 
 https://www.biogateway.eu/ssb/
@@ -111,8 +46,6 @@ The Next Big Thing: From Hypermedia to Datuments
 https://www.semanticscholar.org/paper/Ontology-%3A-Foundation-of-biomedical-big-data-and-Jie-Yongqun/e94c4a60a8e58daaf39952e06266d197a81ca24f
 
 https://scite.ai/ 
-
-
 
 ## Other
 COELHO, KatiaCardoso. Aquisição de conhecimento especializado para construção de ontologias: um estudo no domínio das ciências da vida. 2012.174f. Dissertação (Mestradoem Ciência da Informação). Escola de Ciência da Informação, Universidade Federal de Minas Gerais, Belo Horizonte, 2012. Disponível em: http://www.bibliotecadigital.ufmg.br/dspace/bitstream/handle/1843/ECID-8XLQS4/disserta__o_katia_cardoso_coelho.pdf?sequence=2. Acesso em: ago.2014
