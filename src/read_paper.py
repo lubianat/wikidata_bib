@@ -142,7 +142,7 @@ def main():
     update_turtle(wd_id)
 
     print("======= Updating dashboard =======")
-    exec(open("update_dashboard.py").read())
+    exec(open("src/update_dashboard.py").read())
 
     print("======= Done =======")
 
