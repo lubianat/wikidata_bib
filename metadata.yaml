@@ -1,0 +1,28 @@
+title: Wikidata Bib
+
+subtitle: >
+  Reading statistics for Tiago Lubiana
+
+sections:
+# - the name of the query: the label of the query
+# Comment out to remove from dashboard;
+# Change the order to change the order on the dashboard
+  - 100 most recent articles : 100 most recent articles
+  - map of institutions: Map of institutions
+  - list of authors: List of authors
+  - list of topics: List of related topics
+  - list of journals: List of venues where articles were published
+
+license_statement: >
+  This content is available under a 
+  <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/"> 
+  Creative Commons CC0</a> license.
+code_availability_statement: >
+  Source code for the website available at 
+  <a target="_blank" href="https://github.com/lubianat/wikidata_bib">
+  https://github.com/lubianat/wikidata_bib
+  </a>
+scholia_credit: >
+  SPARQL queries adapted from <a target="_blank" href="https://scholia.toolforge.org/">Scholia</a>
+creator_credit: >
+ Dashboard created via <a target="_blank" href="https://github.com/lubianat/wikidata_bib"> Wikidata Bib </a> 
