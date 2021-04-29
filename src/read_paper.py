@@ -11,6 +11,7 @@ from datetime import date, datetime
 import wbib.queries
 
 
+
 def main():
     def get_title_df(wd_id):
         query = (
