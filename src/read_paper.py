@@ -8,6 +8,7 @@ import urllib.parse
 import os.path
 import rdflib
 from datetime import date, datetime
+import wbib.queries
 
 
 def main():

@@ -7,14 +7,17 @@ import os
 with open("toread.md", "r") as f:
     text = f.read()
 
-
-if sys.argv[1] == "bioc":
-    regex = r"Biocuration[\s\S]*?(Q[0-9]*)"
-    code = "biocuration"
-elif sys.argv[1] == "ct":
-    regex = r"Cell types[\s\S]*?(Q[0-9]*)"
-    code = "cell_types"
+if len(sys.argv) == 2:
+    if sys.argv[1] == "bioc":
+        print('====== Pulling first QID in the "Biocuration" list ======')
+        regex = r"Biocuration[\s\S]*?(Q[0-9]*)"
+        code = "biocuration"
+    elif sys.argv[1] == "ct":
+        print('====== Pulling first QID in the "Cell types" list ======')
+        regex = r"Cell types[\s\S]*?(Q[0-9]*)"
+        code = "cell_types"
 else:
+    print("====== Pulling first QID in toread.md ======")
     regex = r"(Q[0-9]*)"
     code = ""
 
