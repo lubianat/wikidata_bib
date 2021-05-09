@@ -3,26 +3,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 # Cell types
-Q99418649
-Q100491106
-Q100513994
-Q101210731
-Q102206138
-Q104130336
-Q104139713
-Q104450592
-Q104450593
-Q104450595
-Q104450596
-Q104450599
-Q104450603
-Q104450608
-Q104450612
-Q104450617
-Q104450621
-Q104450624
-Q104450627
-Q104450629
 Q104450631
 Q104450637
 Q104450645
@@ -36,30 +16,17 @@ Q106272052
 Q106272053
 Q47263573
 Q34164972
+Q106648171
+Q95328107
+Q106686809
 ## No QID
 
 ## Other
+Terminologia histologicainternational terms for human cytology and histologyFederative International Committee on Anatomical Terminology (FICAT)
 
+http://dedalus.usp.br/F/8GPMJ42AQI65MDTA9R1XSB1XVXC1Y9AEYY3P4SU558H8FRN3XP-16162?func=item-global&doc_library=USP01&doc_number=002125570&year=&volume=&sub_library=FM
 # Biocuration
-
-Q104684400
-Q97537095
-Q100676469
-Q91006744
-Q91956285
-Q91078214
-Q96120967
-Q61447691
-Q64071693
-Q98208987
-Q64084067
-Q90025338
-Q99608377
-Q90091195
-Q95293653
-Q94522302
-Q57793805
-Q92202965
+Q92078001
 Q93101366
 Q47639378
 Q64072479
@@ -122,6 +89,8 @@ The Next Big Thing: From Hypermedia to Datuments
 https://www.semanticscholar.org/paper/Ontology-%3A-Foundation-of-biomedical-big-data-and-Jie-Yongqun/e94c4a60a8e58daaf39952e06266d197a81ca24f
 
 https://scite.ai/ 
+
+Comments to the first nomenclature of human cytology: the description of cells and their ultrastructure in the Terminologia Histologica. Which important medical and biological terms are disputable or missing?
 
 ## Other
 COELHO, KatiaCardoso. Aquisição de conhecimento especializado para construção de ontologias: um estudo no domínio das ciências da vida. 2012.174f. Dissertação (Mestradoem Ciência da Informação). Escola de Ciência da Informação, Universidade Federal de Minas Gerais, Belo Horizonte, 2012. Disponível em: http://www.bibliotecadigital.ufmg.br/dspace/bitstream/handle/1843/ECID-8XLQS4/disserta__o_katia_cardoso_coelho.pdf?sequence=2. Acesso em: ago.2014

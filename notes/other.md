@@ -131,7 +131,156 @@ Our approach is based on an open standard for describing this information (schem
 
 A search tool like this one is only as good as the metadata that data publishers are willing to provide. We hope to see many of you use the open standards to describe your data
 
+# GitHub repositories
+
+
+## HCA metadata schemas ( https://github.com/HumanCellAtlas/metadata-schema/blob/master/docs/schema_style_guide.md)
+
+--> Metadata challenges - 1.4. The challenges of the Human Cell Atlas
+
+Introduction
+
+    DISCLAIMER: At this time, the HCA Metadata Standard development team is actively working towards adhering to this style and formatting guide. In some cases, the standard might not yet follow all the guidelines outlined in this document. Your patience is appreciated!
+
+This document describes the style and formatting rules followed by the HCA Metadata Standard for JSON schemas and fields. The goals of the Metadata Standard are to improve the accessibility, (re-)usability, and quality of data submitted to the HCA. In order to develop a high-quality, robust Metadata Standard, we propose the following guidelines and aim to adhere to them as the standard evolves and adapts to changing technologies.
+
+
+
+name: A programmatic, unqualified name for the schema. The name is the name of the schema which should be in all lowercase and snake_case. This attribute is used by the DCP software to identify the schema, and the name should match the filename of the schema absent the .json file extension.
+
+type and properties: The type of the schema (should always be object) followed by the metadata fields (properties).
+
+$id: A persistent URI for the schema. The $id attribute is not included in JSON schemas in GitHub. Instead, it is inserted automatically at the time schemas are published to the HCA Metadata Standard at schema.humancellatlas.org.
+
+Example:
+
+ {
+     "$schema": "http://json-schema.org/draft-07/schema#",
+     "description": "Information about an organoid biomaterial.",
+     "additionalProperties": false,
+     "required": [
+         "describedBy",
+         "schema_type",
+         "biomaterial_core",
+         "model_for_organ"
+     ],
+     "title": "Organoid",
+     "name": "organoid",
+     "type": "object",
+     "properties": {
+         ...
+     }
+ }
+
+
+
+    HCA unqualified field name: diseases
+
+    HCA qualified field name: donor_organism.diseases
+    HCA qualified field name: specimen_from_organism.diseases
+
+Qualified field names need to be unique among all schemas
+
+The following attributes are required for each metadata field in an HCA metadata schema.
+
+    description: A clear, concise statement of the what the metadata field is. The description value will appear in the metadata spreadsheet and be displayed in the Metadata Dictionary on the Data Portal.
+
+    type: The JSON type of value required for the metadata field. The type value will be displayed in the Metadata Dictionary on the Data Portal.
+
+    user-friendly: A user-facing, readable term or phrase for the metadata field name. The user-friendly value will appear in the metadata spreadsheet, be displayed in the Data Browser, and be displayed in the Metadata Dictionary on the Data Portal.
+
+Changing a user-friendly value is a patch change to the schema version and is thus easier and simpler to implement than changing a field name (which is a major change to the schema version).
+
+Special case: Ontology examples
+
+Example values can be supplied for fields that are governed by an ontology by including them in the ontology schema. The text, ontology, and ontology_label fields can all take example valid values.
+
+Example:
+
+ module/ontology/species_ontology.json:
+ 
+ "text": {
+     "description": "The name of the species to which the organism belongs.",
+     "type": "string",
+     "example": "Human",
+     ...
+ },
+ "ontology": {
+     "description": "An ontology term identifier in the form prefix:accession",
+     "type": "string",
+     "example": "NCBITaxon:9606",
+     ...
+ },
+ "ontology_label": {
+     "description": "The preferred label for the ontology term referred to in the ontology field. This may differ from the user-supplied value in the text field.",
+     "type": "string",
+     "example": "Homo sapiens",
+     ...
+ }
+
+Spelling and grammer
+
+    Use American English spelling of words. e.g.: "meter" instead of "metre". This standard is in line with the HCA DCP.
+    Use Oxford comma in lists. Exception is when using a semi-colon to separate multiple example values in the example attribute.
+    Use present tense
+
+### The Human Cell Atlas: Overview of Metadata Structure
+https://github.com/HumanCellAtlas/metadata-schema/blob/master/docs/structure.md
+
+There are five major entities supported by the HCA metadata standard: Projects, Biomaterials (biological samples), Protocols, Processes, and Files
+
+The entities are arranged in units that represent different parts of an experiment. For example, the diagram below is an abstract illustration of an input biomaterial (e.g., a tissue sample) undergoing a process (e.g., dissociation) to produce another biomaterial (e.g., a sample of dissociated cells). The process that was executed followed a specific protocol - or intended plan - to produce the output biomaterial.
+
+Some example URIs include:
+
+http://schema.humancellatlas.org/core/biomaterial/5.0.1/biomaterial_core
+
+#### Field name conventions
+--> Field name conventions from HCA might be useful for MIANCT - 3.10 Minimal Information Abount New Cell Classes
+
+
+Field names should be all lowercase and snake_case.
+
+Field names should be plural if their values are arrays.
+#### Field description tone and voice
+
+Make a statement instead of a demand. For example:
+
+    Use
+
+        "description": "Age of the donor."
+    
+    not
+    
+        "description": "Enter the age of the donor."
+
+Be concise.
+1. Use a formal writing voice. Avoid first-person pronouns, using "you", contractions, and slang.
+#### Field example conventions
+
+1. Include one or two examples per field, when appropriate . Two examples - separated by a semicolon - should be used when a range of values are valid to illustrate potential breadth of values. A single example should be used otherwise to illustrate general usage of the field. 
+2. 
+Do not include instructions for entering a value. Instructions should be entered in the "guidelines" attribute. For example: 
+
+    Use
+    
+        "insdc_study": {
+            "guidelines": "Accession must start with PRJE, PRJN, or PRJD.",
+            "example": "PRJNA000000",
+            ...
+        },
+
+### Ontology vs. enum vs. free text
+
+Metadata fields will benefit from using a controlled vocabulary to restrict valid values. Such restrictions enable data consumers to filter, search, or order fields based on values of interest without having to account for different values that mean the same thing. For example, the `genus_species` field benefits from using a controlled vocabulary so that all human data is annotated with `"genus_species": "Homo sapiens"` instead of with other possible values such as "Human" (colloquial term), "homo sapiens" (different case), "Homo sapeins" (misspelling), or "Hs" (shorthand). 
+
+The HCA Metadata Standard is committed to using controlled vocabularies - in the form of externally maintained **ontologies** and JSON **enums** - to standardize valid values for metadata fields. In most cases, using an ontology is preferred over using a JSON *enum* provided that an appropriate ontology with good or full coverage is available. 
+
+Finally, if the list of valid values for a field is very long - for example more than ten valid values - and does not have an appropriate ontology, a free text field is preferred as it means data submitters will not need to constantly validate against the enum (which can be frustrating).
+
+
 # Websites
+
 
 ## The Human Protein Atlas 
 
