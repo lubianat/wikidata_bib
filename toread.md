@@ -2,6 +2,9 @@
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
+
+C H A P TER 1 WHAT WAS LIFE? Answers from Three Limit Biologies (Helmreich)
+
 # Cell types
 Q99418649
 Q100491106
