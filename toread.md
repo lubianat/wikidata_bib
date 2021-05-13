@@ -4,8 +4,6 @@ https://seop.illc.uva.nl/entries/models-science/
 
 
 # Cell types
-Q106272050
-Q106272052
 Q106272053
 Q47263573
 Q34164972
@@ -21,9 +19,6 @@ http://dedalus.usp.br/F/8GPMJ42AQI65MDTA9R1XSB1XVXC1Y9AEYY3P4SU558H8FRN3XP-16162
 https://link.springer.com/article/10.2478%2Fs11756-019-00214-1
 
 # Biocuration
-Q64075749
-Q91866899
-Q57793773
 Q99557412
 Q50290407
 Q63640419

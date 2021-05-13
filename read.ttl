@@ -1,11 +1,7 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wb: <https://github.com/lubianat/wikidata_bib/tree/main/> .
 @prefix wbc: <https://github.com/lubianat/wikidata_bib/tree/main/collections/> .
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 wd:Q wb:has_notes wbn:Q.md ;
     wb:in_collection wbc:biocuration ;
@@ -484,6 +480,12 @@ wd:Q106272048 wb:has_notes wbn:Q106272048.md ;
 
 wd:Q106272049 wb:has_notes wbn:Q106272049.md ;
     wb:read_in "+2021-05-12T00:00:00Z/11" .
+
+wd:Q106272050 wb:has_notes wbn:Q106272050.md ;
+    wb:read_in "+2021-05-13T00:00:00Z/11" .
+
+wd:Q106272052 wb:has_notes wbn:Q106272052.md ;
+    wb:read_in "+2021-05-13T00:00:00Z/11" .
 
 wd:Q106315467 wb:has_notes wbn:Q106315467.md ;
     wb:in_collection wbc:cell_types ;
@@ -1923,6 +1925,9 @@ wd:Q57774232 wb:has_notes wbn:Q57774232.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-29T00:00:00Z/11" .
 
+wd:Q57793773 wb:has_notes wbn:Q57793773.md ;
+    wb:read_in "+2021-05-13T00:00:00Z/11" .
+
 wd:Q57793805 wb:has_notes wbn:Q57793805.md ;
     wb:read_in "+2021-05-05T00:00:00Z/11" .
 
@@ -2069,6 +2074,9 @@ wd:Q64071693 wb:has_notes wbn:Q64071693.md ;
 
 wd:Q64072479 wb:has_notes wbn:Q64072479.md ;
     wb:read_in "+2021-05-12T00:00:00Z/11" .
+
+wd:Q64075749 wb:has_notes wbn:Q64075749.md ;
+    wb:read_in "+2021-05-13T00:00:00Z/11" .
 
 wd:Q64084067 wb:has_notes wbn:Q64084067.md ;
     wb:read_in "+2021-05-03T00:00:00Z/11" .
