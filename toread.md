@@ -2,15 +2,8 @@
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
+
 # Cell types
-Q104450631
-Q104450637
-Q104450645
-Q104754414
-Q105080655
-Q106272047
-Q106272048
-Q106272049
 Q106272050
 Q106272052
 Q106272053
@@ -25,13 +18,9 @@ Q106686809
 Terminologia histologicainternational terms for human cytology and histologyFederative International Committee on Anatomical Terminology (FICAT)
 
 http://dedalus.usp.br/F/8GPMJ42AQI65MDTA9R1XSB1XVXC1Y9AEYY3P4SU558H8FRN3XP-16162?func=item-global&doc_library=USP01&doc_number=002125570&year=&volume=&sub_library=FM
+https://link.springer.com/article/10.2478%2Fs11756-019-00214-1
+
 # Biocuration
-Q92078001
-Q93101366
-Q47639378
-Q64072479
-Q52586099
-Q92594838
 Q64075749
 Q91866899
 Q57793773
