@@ -3,13 +3,27 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 
+# Blogs to read
+https://bioeticacomplexa.blogspot.com/2020/05/
+https://bioeticacomplexa.blogspot.com/2020/07/
+https://addshore.com/2021/05/wbstack-setting-changes-federated-properties-wikidata-entity-mapping-more/
+https://www.kmjn.org/notes/academic_ancestors_wikidata.html
+# Books to read
+Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
+
+Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas scholastica Book 8. PublishedinSangalli.Trans.Sara L. Uckelman.
+
+Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
+
+ Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
+
+Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
+Princeton, NJ: Princeton University Press
+
+13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q106272053
-Q47263573
-Q34164972
-Q106648171
-Q95328107
-Q106686809
+Q90348985
+Q49169602
 ## No QID
 
 ## Other
@@ -19,9 +33,7 @@ http://dedalus.usp.br/F/8GPMJ42AQI65MDTA9R1XSB1XVXC1Y9AEYY3P4SU558H8FRN3XP-16162
 https://link.springer.com/article/10.2478%2Fs11756-019-00214-1
 
 # Biocuration
-Q99557412
-Q50290407
-Q63640419
+Q106708178
 Q94470608
 Q52311286
 Q97685936
@@ -77,6 +89,10 @@ https://scite.ai/
 Comments to the first nomenclature of human cytology: the description of cells and their ultrastructure in the Terminologia Histologica. Which important medical and biological terms are disputable or missing?
 
 ## Other
+
+https://www.ebi.ac.uk/spot/zooma/
+
+
 COELHO, KatiaCardoso. Aquisição de conhecimento especializado para construção de ontologias: um estudo no domínio das ciências da vida. 2012.174f. Dissertação (Mestradoem Ciência da Informação). Escola de Ciência da Informação, Universidade Federal de Minas Gerais, Belo Horizonte, 2012. Disponível em: http://www.bibliotecadigital.ufmg.br/dspace/bitstream/handle/1843/ECID-8XLQS4/disserta__o_katia_cardoso_coelho.pdf?sequence=2. Acesso em: ago.2014
 
 Bio4j: a high-performance cloud-enabled graph-based data platform.
@@ -89,6 +105,32 @@ USCHOLD, Mike.Building ontologies: Towards a Unified Methodology (1996). Dispon�
 
 The role of trust in knowledge
 
+https://doi.org/10.1093/nar/gks1193
+
+ Colin N. Dewey. 2017. “MetaSRA: Normalized HumanSample-Specific Metadata for the Sequence Read Archive.”Bioinformatics (Oxford, England)33 (18): 2914–23. https://doi.org/10.1093/bioinformatics/btx334.
+
+ https://www.zotero.org/google-docs/?OzuVZW
+
+“Minimum Information about a Microarray Experiment(MIAME)—toward Standards for Microarray Data.”Nature Genetics29 (4): 365–71.https://doi.org/10.1038/ng1201-365.
+
+Galeota, Eugenia, and Mattia Pelizzola. 2017. “Ontology-Based Annotations and SemanticRelations in Large-Scale (Epi)Genomics Data.”Briefings in Bioinformatics18 (3): 403–12.https://doi.org/10.1093/bib/bbw036.
+
+“ALE: Automated LabelExtraction from GEO Metadata.”BMC Bioinformatics18 (14): 509.https://doi.org/10.1186/s12859-017-1888-1.Hadley, Dexter, James Pan, Osama El-Sayed,
+
+Jihad Aljabban, Imad Aljabban, Tej D. Azad,Mohamad O. Hadied, et al. 2017. “Precision Annotation of Digital Samples in NCBI’s GeneExpression Omnibus.”Scientific Data4 (1): 170125. https://doi.org/10.1038/sdata.2017.125.
+
+
+“Ontology-AwareClassification of Tissue and Cell-Type Signals in Gene Expression Profiles across Platforms andTechnologies.”Bioinformatics29 (23): 3036–44. https://doi.org/10.1093/bioinformatics/btt529.
+
+
+“Real-Time Tagging of Biomedical Entities.”BioRxiv, September, 078469. https://doi.org/10.1101/078469.Panahiazar, Maryam, Michel Dumontier, and Olivier Gevaert. 2017. 
+
+“Predicting BiomedicalMetadata in CEDAR: A Study of Gene Expression Omnibus (GEO).”Journal of BiomedicalInformatics72 (August): 132–39. https://doi.org/10.1016/j.jbi.2017.06.017.
+
+
+“Extraction and Analysis ofSignatures from the Gene Expression Omnibus by the Crowd.”Nature Communications7 (1):12846. https://doi.org/10.1038/ncomms12846.
+
+
 # Top 100 papers
 # Random
 Q92575623
@@ -96,24 +138,3 @@ Q90696426
 Q33535717
 Q92575623
 
-# Blogs to read
-https://bioeticacomplexa.blogspot.com/2020/05/
-https://bioeticacomplexa.blogspot.com/2020/07/
-# Books to read
-Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
-
-Popper, K. R.: The open society and its enemies; 4th ed., vol. 1 (Routledge & Kegan Paul, London 1962)
-Antonio D. Descarte’s Error. Vintage Press, 2006; 104–105.
-
-Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas scholastica Book 8. PublishedinSangalli.Trans.Sara L. Uckelman.
-
-Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
-
- Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
-
-Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
-Princeton, NJ: Princeton University Press
-
-Describing Species - Judith Winston
-
-13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
