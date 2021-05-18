@@ -1,14 +1,23 @@
 import requests
 import sys
 from glob import glob
-
+import argparse
+parser = argparse.ArgumentParser()
 # Example queries:
 # Single-cell transcriptomics articles in either nature or science: https://w.wiki/3LhF
 # Run: 
 # $ python3 wadd.py https://w.wiki/3LhF all  
 
-url = sys.argv[1]
-only_new = sys.argv[2]
+parser.add_argument("--url", "-u", help="A short link provided by the Wikidata Query Service", type=str)
+parser.add_argument("--new",
+ help="Select only the articles that are not in the notes folder",
+ action="store_true")
+
+parser.print_help()
+
+args = parser.parse_args()
+url = args.url
+only_new = args.new
 
 
 session = requests.Session()  # so connections are recycled
@@ -26,7 +35,7 @@ df = pd.json_normalize(r.json()["results"]["bindings"])
 
 df["qid"] = [url.split("/")[4] for url in df["work.value"]]
 
-if only_new == "all":
+if not only_new:
     for i in df["qid"]:
         print(i)
 else:

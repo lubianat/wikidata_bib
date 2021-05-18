@@ -3,7 +3,6 @@ https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
 
-<<<<<<< HEAD
 # Blogs to read
 https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
@@ -23,8 +22,6 @@ Princeton, NJ: Princeton University Press
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q90348985
-Q49169602
 Q91668217
 Q91763046
 Q47095124
@@ -144,56 +141,12 @@ Q64008489
 
 ## Other
 Terminologia histologicainternational terms for human cytology and histologyFederative International Committee on Anatomical Terminology (FICAT)
-=======
 C H A P TER 1 WHAT WAS LIFE? Answers from Three Limit Biologies (Helmreich)
-
-# Cell types
-Q99418649
-Q100491106
-Q100513994
-Q101210731
-Q102206138
-Q104130336
-Q104139713
-Q104450592
-Q104450593
-Q104450595
-Q104450596
-Q104450599
-Q104450603
-Q104450608
-Q104450612
-Q104450617
-Q104450621
-Q104450624
-Q104450627
-Q104450629
-Q104450631
-Q104450637
-Q104450645
-Q104754414
-Q105080655
-Q106272047
-Q106272048
-Q106272049
-Q106272050
-Q106272052
-Q106272053
-Q47263573
-Q34164972
-Q57318689
-## No QID
-
-## Other
+Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
->>>>>>> 31d3694f8f92c67b896165f1abec06307da6bc71
-
-http://dedalus.usp.br/F/8GPMJ42AQI65MDTA9R1XSB1XVXC1Y9AEYY3P4SU558H8FRN3XP-16162?func=item-global&doc_library=USP01&doc_number=002125570&year=&volume=&sub_library=FM
-https://link.springer.com/article/10.2478%2Fs11756-019-00214-1
 
 # Biocuration
-Q106708178
-Q94470608
+Q106876268
 Q52311286
 Q97685936
 Q89944322
