@@ -8,6 +8,7 @@ https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
 https://addshore.com/2021/05/wbstack-setting-changes-federated-properties-wikidata-entity-mapping-more/
 https://www.kmjn.org/notes/academic_ancestors_wikidata.html
+https://neo4j.com/blog/ontologies-in-neo4j-semantics-and-knowledge-graphs/
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -22,8 +23,6 @@ Princeton, NJ: Princeton University Press
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q91668217
-Q91763046
 Q47095124
 Q89792286
 Q90911578
@@ -146,8 +145,8 @@ Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q106876268
-Q52311286
+Q89759189
+Q62566491
 Q97685936
 Q89944322
 Q89435784
@@ -201,6 +200,10 @@ https://scite.ai/
 Comments to the first nomenclature of human cytology: the description of cells and their ultrastructure in the Terminologia Histologica. Which important medical and biological terms are disputable or missing?
 
 ## Other
+
+[PDF] Towards a Definition of Knowledge Graphs.
+
+
 
 https://www.ebi.ac.uk/spot/zooma/
 
