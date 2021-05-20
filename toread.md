@@ -23,7 +23,6 @@ Princeton, NJ: Princeton University Press
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q47095124
 Q89792286
 Q90911578
 Q93040438
@@ -145,12 +144,6 @@ Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q89759189
-Q62566491
-Q97685936
-Q89944322
-Q89435784
-Q65002314
 Q91956367
 Q97683003
 Q59538811
