@@ -1,4 +1,44 @@
 # Blog posts and web pages
+
+## WBStack setting changes, Federated properties, Wikidata entity mapping & more
+https://addshore.com/2021/05/wbstack-setting-changes-federated-properties-wikidata-entity-mapping-more/
+
+ WBStack as part of an effort to explore the WBaaS (Wikibase as a service) topic during the year, as outlined by the development plan.
+Here is a quick rundown of what’s new and improved.
+
+The Wikibase team developed an extension called WikibaseManifest in 2020. This extension is now loaded onto all WBStack sites.
+
+One of the manifest features allows mapping of entities on a local wikibase to wikidata entities.
+
+
+## Ontologies in Neo4j: Semantics and Knowledge Graphs 
+https://neo4j.com/blog/ontologies-in-neo4j-semantics-and-knowledge-graphs/#A-brief-introduction
+
+-->  Ontologies in Neo4j: Semantics and Knowledge Graphs  - 1.2.4. Wikidata and Knowledge Graphs
+
+neosemantics (n10s)
+
+neosemantics is a plugin that enables the use of RDF in Neo4j
+https://github.com/neo4j-labs/neosemantics
+
+
+The first characteristic of an ontology is it has to be a formal representation. It has to be machine readable, that’s a key point. It has to have some structured form.
+
+The second characteristic is the ontology is an explicit description of a domain. It
+
+The third characteristic is the notion of consensuated knowledge, it’s a shared vocabulary. This vocabulary is typically shared by a community.
+
+ First, we have Neo4j as the data store and I’m going to use an extension that I’ve been working on and I’ve actively developed called NeoSemantics.
+
+
+Some relatively simply on-map graph matching between different databases
+
+The Wikbase team also developed worked on initial steps toward property federation in 2020, and this functionality is not available on WBStack (though the setting comes with a warning).
+
+This initial property federated step allows use of properties from Wikidata directly on your Wikibase site, currently at the cost of having your own properties.
+
+A next iteration of this functionality is on the Wikibase roadmap for 2021.
+
 ## What Is an Individual? Biology Seeks Clues in Information Theory.
 
 Even on Earth today, it’s clear that nature has a sloppy disregard for boundaries: Viruses rely on host cells to make copies of themselves. Bacteria share and swap genes, while higher-order species hybridize. Thousands of slime mold amoebas cooperatively assemble into towers to spread their spores. Worker ants and bees can be nonreproductive members of social-colony “superorganisms.” Lichens are symbiotic composites of fungi and algae or cyanobacteria. Even humans contain at least as many bacterial cells as “self” cells, the microbes in our gut inextricably linked with our development, physiology and survival.

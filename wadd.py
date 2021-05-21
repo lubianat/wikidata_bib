@@ -53,7 +53,6 @@ if "work" not in url_sparql:
     raise ValueError("SPARQL query needs to select a variable called ?work")
 
 r = requests.get(url_sparql, params={"format": "json"})
-
 import pandas as pd
 
 df = pd.json_normalize(r.json()["results"]["bindings"])

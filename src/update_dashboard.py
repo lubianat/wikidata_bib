@@ -16,245 +16,28 @@ import pandas as pd
 import unicodedata
 import wbib.queries
 import yaml
+from wbib import wbib
 
-query_options = {
-    "map of institutions": {
-        "label": "Map of institutions",
-        "query": wbib.queries.get_query_url_for_locations,
-    },
-    "100 most recent articles": {
-        "label": "100 most recent articles",
-        "query": wbib.queries.get_query_url_for_articles,
-    },
-    "list of authors": {
-        "label": "list of authors",
-        "query": wbib.queries.get_query_url_for_authors,
-    },
-    "list of topics": {
-        "label": "list of co-studied topics",
-        "query": wbib.queries.get_topics_as_table,
-    },
-    "list of journals": {
-        "label": "list of co-studied topics",
-        "query": wbib.queries.get_query_url_for_venues,
-    },
+
+sessions = [
+    "articles",
+    "map of institutions",
+    "list of authors",
+    "list of topics",
+    "list of journals",
+    "curation of author items",
+    "curation of author affiliations",
+]
+
+
+base_directory = "/docs"
+
+PAGES = {
+    "all time": {"name": "all time", "href": f"{base_directory}/"},
+    "last_month": {"name": "past month", "href": f"{base_directory}/past_month.html"},
+    "last week": {"name": "past week", "href": f"{base_directory}/past_week.html"},
+    "last day": {"name": "last day", "href": f"{base_directory}/last_day.html"},
 }
-
-
-with open("metadata.yaml") as f2:
-    config = yaml.load(f2, Loader=yaml.FullLoader)
-
-sections_to_add = []
-
-for query_names in config["sections"]:
-    for key, value in query_names.items():
-        query_options[key]["label"] = value
-        print(value)
-        sections_to_add.append(key)
-
-
-def render_dashboard(readings):
-
-    url1 = wbib.queries.get_query_url_for_articles(readings)
-    url1_legend = "Articles read"
-    url2 = wbib.queries.get_query_url_for_topic_bubble(readings)
-    url2_legend = "Topics of those articles (as bubbles)"
-    url4 = wbib.queries.get_query_url_for_venues(readings)
-    url4_legend = "Most read journals "
-    url5 = wbib.queries.get_query_url_for_authors(readings)
-    url5_legend = "Authors of papers I've read"
-    url6 = wbib.queries.get_query_url_for_locations(readings)
-    url6_legend = "Map of institutions"
-    url7 = wbib.queries.get_query_url_for_citing_authors(readings)
-    url7_legend = "Authors that cite those works"
-
-    license_statement = """
-            This content is available under a <a target="_blank" href="https://creativecommons.org/publicdomain/zero/1.0/"> 
-            Creative Commons CC0</a> license.
-  """
-    code_availability_statement = """
-  Source code for the website available at <a target="_blank" href="https://github.com/lubianat/wikidata_bib">
-            https://github.com/lubianat/wikidata_bib </a>
-  """
-
-    scholia_credit_statement = """
-SPARQL queries adapted from <a target="_blank" href="https://scholia.toolforge.org/">Scholia</a>
-  """
-
-    creator_statement = """
- Dashboard  by <a target="_blank" href="https://www.wikidata.org/wiki/User:TiagoLubiana">TiagoLubiana</a>
-  """
-
-    site_title = "Wikidata Bib"
-    site_subtitle = """ Tiago Lubiana's personal reading status"""
-    html = (
-        """
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>"""
-        + site_title
-        + """</title>
-  <meta property="og:description" content="powered by Wikidata">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link href="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-  <section class="section">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-half has-text-centered">
-          <h1 class="title is-1"> """
-        + site_title
-        + """</h1>
-          <h2>"""
-        + site_subtitle
-        + """</h2>
-        </div>
-      </div>
-    </div>
-    <div class="column is-half has-text-centered">
-  </section>
-   </section>
-
-   <div role="navigation">
-<ul class="nav nav-pills justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link" aria-current="page" href="/wikidata_bib/">All time</a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/2020/November.html">November 2020</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/2020/December.html">December 2020</a>
-  </li>
-    </li>
-   <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/2021/January.html">January 2021</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/2021/February.html">February 2021</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/2021/March.html">March 2021</a>
-  </li>
-   <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/this_week.html">This week</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="/wikidata_bib/last_day.html">Last day</a>
-  </li>
-</ul>
-</div>
-      <h5 class="title is-5" style="text-align:center;"> """
-        + url1_legend
-        + """</h5>
-        <p align="center">
-          <iframe width=75% height="400" src="""
-        + '"'
-        + url1
-        + '"'
-        + """></iframe>
-        </p>
-    <br></br>
-    <h5 class="title is-5" style="text-align:center;">"""
-        + url2_legend
-        + """ </h5>
-        <p align="center">
-        <iframe width=75%  height="400" src="""
-        + '"'
-        + url2
-        + '"'
-        + """></iframe>
-        </p>
-        <br></br>
-      <h5 class="title is-5" style="text-align:center;display:block;"> """
-        + url4_legend
-        + """</h5>
-                  <p align="center">
-          <iframe width=75%   height="400" src="""
-        + '"'
-        + url4
-        + '"'
-        + """></iframe>
-          </p>
-   <br></br>
-      <h5 class="title is-5" style="text-align:center;"> """
-        + url5_legend
-        + """  </h5>
-        <p align="center">
-            <iframe width=75%  height="400" src="""
-        + '"'
-        + url5
-        + '"'
-        + """></iframe>
-        </p>
-<br></br>
-      <h5 class="title is-5" style="text-align:center;"> """
-        + url6_legend
-        + """ </h5>
-      <p align="center">
-            <iframe width=75%  height="400" src="""
-        + '"'
-        + url6
-        + '"'
-        + """></iframe>
-      </p>
-<br></br>
-      <h5 class="title is-5" style="text-align:center;"> """
-        + url7_legend
-        + """ </h5>
-      <p align="center">
-            <iframe width=75%  height="400" src="""
-        + '"'
-        + url7
-        + '"'
-        + """></iframe>
-      </p>
-<br></br>
-  </p>
-  </div>
- </br>
-  <footer class="footer">
-    <div class="container">
-      <div class="content has-text-centered">
-        <p>"""
-        + license_statement
-        + """  </p>
-        <p>"""
-        + code_availability_statement
-        + """ </p>
-        <p>"""
-        + scholia_credit_statement
-        + """</p>
-        <p>"""
-        + creator_statement
-        + """ </p>
-      </div>
-    </div>
-  </footer>
-</body>
-</html>
-  """
-    )
-    return html
-
-
-# Set functions
-
-
-def format_ids(ids):
-    formatted_readings = "{"
-    for i in ids:
-        formatted_readings = formatted_readings + "wd:" + i + " "
-    formatted_readings = formatted_readings + " }"
-    return formatted_readings
 
 
 ### Update table with notes
@@ -273,7 +56,6 @@ with open("docs/notes.html", "w") as f:
 
 ### Update dashboard with queries
 
-
 txtfiles = []
 for file_name in glob("./notes/*.md"):
     txtfiles.append(file_name)
@@ -288,11 +70,15 @@ for item in array_of_filenames:
 array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
 
 
-formatted_readings = format_ids(array_of_qids)
-
-with open("docs/index.html", "w") as f:
-    html = render_dashboard(formatted_readings)
-    f.write(html)
+html = wbib.render_dashboard(
+    info=array_of_qids,
+    mode="basic",
+    filepath="docs/index.html",
+    pages=PAGES,
+    sections_to_add=sessions,
+    site_title="Wikidata Bib",
+    site_subtitle="Dashboard of Tiago Lubiana's readings",
+)
 
 
 g = rdflib.Graph()
@@ -330,28 +116,21 @@ dates_in_date_format = [
 ]
 articles_dataframe["date"] = dates_in_date_format
 
-month_year_pairs = [
-    date.strftime("%Y") + "/" + date.strftime("%B")
-    for date in articles_dataframe["date"]
+month_dat = articles_dataframe[
+    articles_dataframe["date"] > (datetime.today() - timedelta(days=30))
 ]
-articles_dataframe["month_year_pair"] = month_year_pairs
+ids = [i.split("/")[4] for i in month_dat["item"]]
 
 
-for pair in set(articles_dataframe["month_year_pair"]):
-    year = pair.split("/")[0]
-
-    # Create directory for year
-    Path(f".docs/{year}").mkdir(parents=True, exist_ok=True)
-
-    mini_df = articles_dataframe[articles_dataframe["month_year_pair"] == pair]
-    ids = [i.split("/")[4] for i in mini_df["item"]]
-
-    formatted_readings = format_ids(ids)
-
-    with open("docs/" + pair + ".html", "w") as f:
-        html = render_dashboard(formatted_readings)
-
-        f.write(html)
+html = wbib.render_dashboard(
+    info=ids,
+    mode="basic",
+    filepath="docs/past_month.html",
+    pages=PAGES,
+    sections_to_add=sessions,
+    site_title="Wikidata Bib",
+    site_subtitle="Dashboard of Tiago Lubiana's readings",
+)
 
 
 week_dat = articles_dataframe[
@@ -359,12 +138,15 @@ week_dat = articles_dataframe[
 ]
 ids = [i.split("/")[4] for i in week_dat["item"]]
 
-formatted_readings = format_ids(ids)
-
-with open("docs/this_week.html", "w") as f:
-    html = render_dashboard(formatted_readings)
-
-    f.write(html)
+html = wbib.render_dashboard(
+    info=ids,
+    mode="basic",
+    filepath="docs/past_week.html",
+    pages=PAGES,
+    sections_to_add=sessions,
+    site_title="Wikidata Bib",
+    site_subtitle="Dashboard of Tiago Lubiana's readings",
+)
 
 
 last_day = articles_dataframe[
@@ -372,9 +154,13 @@ last_day = articles_dataframe[
 ]
 ids = [i.split("/")[4] for i in last_day["item"]]
 
-formatted_readings = format_ids(ids)
+html = wbib.render_dashboard(
+    info=ids,
+    mode="basic",
+    filepath="docs/last_day.html",
+    pages=PAGES,
+    sections_to_add=sessions,
+    site_title="Wikidata Bib",
+    site_subtitle="Dashboard of Tiago Lubiana's readings",
+)
 
-with open("docs/last_day.html", "w") as f:
-    html = render_dashboard(formatted_readings)
-
-    f.write(html)
