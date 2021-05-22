@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import requests
 import sys
 from glob import glob
@@ -7,7 +9,7 @@ parser = argparse.ArgumentParser()
 # Example queries:
 # Single-cell transcriptomics articles in either nature or science: https://w.wiki/3LhF
 # Run:
-# $ python3 wadd.py --url https://w.wiki/3MDs --new
+# $ ./wadd https://w.wiki/3MDs -p
 
 parser.add_argument(
     "url", help="A short link provided by the Wikidata Query Service", type=str
@@ -34,8 +36,6 @@ parser.add_argument(
 )
 
 
-parser.print_help()
-
 args = parser.parse_args()
 url = args.url
 only_new = args.new
@@ -48,7 +48,6 @@ url_sparql = resp.url.replace(
     "https://query.wikidata.org/#", "https://query.wikidata.org/sparql?query="
 )
 
-print(url_sparql)
 if "work" not in url_sparql:
     raise ValueError("SPARQL query needs to select a variable called ?work")
 
