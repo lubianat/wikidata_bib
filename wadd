@@ -6,6 +6,7 @@ from glob import glob
 import argparse
 
 parser = argparse.ArgumentParser()
+
 # Example queries:
 # Single-cell transcriptomics articles in either nature or science: https://w.wiki/3LhF
 # Run:
@@ -59,22 +60,24 @@ df = pd.json_normalize(r.json()["results"]["bindings"])
 df["qid"] = [url.split("/")[4] for url in df["work.value"]]
 
 print("====== QIDs for the matching works ====== ")
+
 if not only_new:
     for i in df["qid"]:
         print(i)
 else:
-    txtfiles = []
+    files = []
     for file_name in glob("./notes/*.md"):
-        txtfiles.append(file_name)
-
-    array_of_filenames = [name.replace(".md", "") for name in txtfiles]
+        files.append(file_name)
+    array_of_filenames = [name.replace(".md", "") for name in files]
 
     array_of_qids = []
     for item in array_of_filenames:
         if "Q" in item:
             array_of_qids.append(item)
     array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
+
     main_list = list(set(df["qid"]) - set(array_of_qids))
+
     for i in main_list:
         print(i)
 
