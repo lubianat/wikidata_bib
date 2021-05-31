@@ -29,16 +29,6 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q47564808
-Q48163564
-Q48659057
-Q90284294
-Q100560052
-Q34674303
-Q59753943
-Q92370531
-Q50420532
-Q52655768
 Q41730518
 Q91763038
 Q42509225
@@ -130,7 +120,6 @@ Q29615604
 Q92090793
 Q37573627
 Q88561926
-Q48163564
 Q60468470
 Q90658651
 Q91898650
@@ -148,20 +137,6 @@ Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q98223660
-Q94954393
-Q98209024
-Q56815361
-Q59789431
-Q33787495
-Q54898134
-Q94558276
-Q28950350
-Q53838636
-Q90290716
-Q90415774
-Q92358532
-Q56655129
 Q46645138
 Q91566046
 Q98618031
