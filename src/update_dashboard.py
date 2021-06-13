@@ -15,7 +15,6 @@ import urllib.parse
 import pandas as pd
 import unicodedata
 import wbib.queries
-import yaml
 from wbib import wbib
 
 

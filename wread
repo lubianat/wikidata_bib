@@ -1,5 +1,5 @@
 #!/bin/bash
 
 python3 src/read_paper.py $@
-python3 src/get_pdf.py $@
+python3 src/get_pdf.py $1 unpaywall
 code "notes/${1}.md"

@@ -29,11 +29,6 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q41730518
-Q91763038
-Q42509225
-Q94473592
-Q102054102
 Q60128972
 Q42774504
 Q92382884
@@ -131,20 +126,13 @@ Q64008489
 ## No QID
 
 ## Other
+https://azimuth.hubmapconsortium.org/references/#Human%20-%20Pancreas
 Terminologia histologicainternational terms for human cytology and histologyFederative International Committee on Anatomical Terminology (FICAT)
 C H A P TER 1 WHAT WAS LIFE? Answers from Three Limit Biologies (Helmreich)
 Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q46645138
-Q91566046
-Q98618031
-Q91044884
-Q38440697
-Q58161139
-Q64111054
-Q102372282
 Q58587002
 Q101222862
 Q49826285

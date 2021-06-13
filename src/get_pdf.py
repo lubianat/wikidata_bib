@@ -6,6 +6,8 @@ import pandas as pd
 import requests
 import os
 import sys
+import yaml
+import warnings
 
 
 def main():
@@ -29,6 +31,7 @@ def main():
         return df
 
     wd_id = sys.argv[1]
+    source = sys.argv[2]
     doi_df = get_doi_df(wd_id)
 
     print(doi_df)
@@ -37,36 +40,62 @@ def main():
     else:
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
-        download_paper(doi=doi_suffix, path="./downloads/")
+        download_paper(doi=doi_suffix, source=source, path="./downloads/")
 
 
-def download_paper(doi, path="~/Downloads/"):
+def download_paper(doi, source, path="~/Downloads/"):
     """
     Given a DOI, downloads an article to a folder.
 
     Arguments:
         doi: A doi suffix (ex="10.7287/PEERJ.PREPRINTS.3100V1").
+        source: The source to get the pdf from. One of ["sci-hub", "unpaywall"]
         path: The folder where the pdf will be saved.
     """
-    base_url = "https://sci-hub.do/" + doi
-    res = requests.get(base_url, verify=False)
-    s = BeautifulSoup(res.content, "html.parser")
 
-    iframe = s.find("iframe")
-    if iframe:
-        url = iframe.get("src")
+    if source == "sci-hub":
+        base_url = "https://sci-hub.do/" + doi
+        res = requests.get(base_url, verify=False)
+        s = BeautifulSoup(res.content, "html.parser")
 
-    filename = url.split("/")[-1].split("#")[0]
-    filepath = path + filename
+        iframe = s.find("iframe")
+        if iframe:
+            url = iframe.get("src")
 
-    print("====== Dowloading article from Sci-Hub ======")
-    # Warning:
-    # Only use SciHub to get articles tha you already paid for!
+        filename = url.split("/")[-1].split("#")[0]
+        filepath = path + filename
 
-    os.system(f"wget -O {filepath} {url}")
+        print("====== Dowloading article from Sci-Hub ======")
+        # Warning:
+        # Only use SciHub to get articles tha you already paid for!
 
-    print("====== Opening PDF ======")
-    os.system(f"xdg-open {filepath} &")
+        os.system(f"wget -O {filepath} {url}")
+
+        print("====== Opening PDF ======")
+        os.system(f"xdg-open {filepath} &")
+
+    elif source == "unpaywall":
+        base_url = f"https://api.unpaywall.org/v2/{doi}?email=unpaywall_00@example.com"
+        res = requests.get(base_url, verify=False)
+        result = res.json()
+        print(base_url)
+
+        pdf_url = result["best_oa_location"]["url_for_pdf"]
+        if pdf_url is None:
+
+            warnings.warn(
+                "====== Best OA pdf not found. Searching for first OA ====== "
+            )
+            pdf_url = result["first_oa_location"]["url_for_pdf"]
+        print(pdf_url)
+
+        filename = doi.replace("/", "_")
+        filepath = path + filename + ".pdf"
+
+        print("====== Dowloading article from Unpaywall ======")
+        os.system(f"wget -O {filepath} {pdf_url}")
+        print("====== Opening PDF ======")
+        os.system(f"xdg-open {filepath} &")
 
     return 0
 
