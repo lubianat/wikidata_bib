@@ -3,19 +3,19 @@
 import sys
 import re
 import os
+import yaml
 
 with open("toread.md", "r") as f:
     text = f.read()
 
+with open("config.yaml", "r") as c:
+    shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
+
 if len(sys.argv) == 2:
-    if sys.argv[1] == "bioc":
-        print('====== Pulling first QID in the "Biocuration" list ======')
-        regex = r"Biocuration[\s\S]*?(Q[0-9]*)"
-        code = "biocuration"
-    elif sys.argv[1] == "ct":
-        print('====== Pulling first QID in the "Cell types" list ======')
-        regex = r"Cell types[\s\S]*?(Q[0-9]*)"
-        code = "cell_types"
+    print(
+        f'====== Pulling first QID in the "{shortcuts["lists"][sys.argv[1]]}" list ======'
+    )
+    regex = shortcuts["lists"][sys.argv[1]] + r"[\s\S]*?(Q[0-9]*)"
 else:
     print("====== Pulling first QID in toread.md ======")
     regex = r"(Q[0-9]*)"
@@ -29,8 +29,7 @@ if qid == "Q":
     print("No QID found.")
 
 else:
-
     with open("toread.md", "w+") as f:
         f.write(text.replace(qid + "\n", ""))
-    os.system(f"bash /home/lubianat/Documents/random/wikidata_bib/wread {qid} {code}")
+    os.system(f"bash /home/lubianat/Documents/random/wikidata_bib/wread {qid}")
 

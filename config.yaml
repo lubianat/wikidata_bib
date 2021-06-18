@@ -1,0 +1,10 @@
+
+# Each list of articles in the toread.md file
+# Format is shortcut: title
+# The shortcut is used by the ./pop function 
+# To get the first article QID in the toread file 
+# After the title is matched by regular expression.
+lists:
+# - shortcut: Title of header in toread.md  
+  ct: Cell types
+  bioc: Biocuration
