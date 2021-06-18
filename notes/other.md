@@ -1,5 +1,140 @@
 # Blog posts and web pages
 
+# Tagging the Scientific Abstracts with Wikidata Items
+https://dwayzer.netlify.app/posts/2021-06-15-tagging-the-abstracts-with-wikidata-items/
+
+Scholia - a brilliant tool, offers  (https://scholia.toolforge.org/text-to-topics>) convertor, which also requires a manual input. Its open code is available at Github, but my R+/P- phenotype leaves me no chance for its adoption.
+
+There is also an R-solution for text search in Wikidata - a new WikidataR package (still in development) offers a “find item” function. It is a wrapper for Wikimedia API module named wbsearchentities that does a very generic search. Try to do query a term “galaxy” and in addition to an astronomical structure, you will have the LA footbal club, military aircraft, US record label, etc, etc.
+
+the authors usually suggest the keywords (not always good ones though), which could be used for initial setting of subject area;
+
+the indexing services (like Medline, Semantics Scholar, Scopus) also assign the terms (not equally well for all subjects though). Some of them provide free API.
+
+ I utilized CrossRef API example to obtain the abstracts of 5 random articles published after Jan 2020.
+
+The package udpipe offers a set of functions for Tokenization, Parts-of-Speech (POS) tagging, Lemmatization, Dependency Parsing, etc.
+
+
+check against the dictionaries and thesauri (a long chain of wdt:P_ in a code. Some thesauri have direct relations to the scientific concepts (like MeSH - P486, ChEBI ID - P683, Semantic Scholar topic ID - P6611), the others are rather dictionaries and encyclopedias (like Oxford Classical Dictionary - P9106, or Enciclopaedia Britannica - P1417). You should be aware that those terms are also not completely matched to Wikidata items (see Mix’n’Match for particular catallogues).
+
+excludes disambiguation wikimedia pages (Q4167410) - there’s over 1M such pages in Wikidata.
+
+filters only English terms
+
+filters the terms found at least in 3 thesauri
+
+--> Cool method. Will fail for less curated concepts, though. 
+
+ a prototype of checking template - an interactive DT table that:
+
+shows the text excerpts containg the term (+/- 2 words around)
+
+highlights the terms
+
+provides a description of the found Wikidata item
+
+can be edited (right here! Click on ? and change it to “yes” in valid? column)
+
+
+Limitations
+there could be more relevant items for the terms, but I have not found it. Sure. So far this can be viewed as an initial suggestion and a pointer. Each item in the table above directs via URL to a Wikidata page where the related items can further be found.
+
+Another option that I haven’t tried is to check if the items retrieved by initial API request are main subjects, P921 present in any scientific articles, Q13442814 or (more generally) with the items published, P1433 in the academic journals, Q5633421.
+
+
+
+# Biolink Model 
+
+https://biolink.github.io/biolink-model/
+
+The schema is expressed as a YAML, which is translated to:
+
+    Individual pages for each class in the model, e.g https://w3id.org/biolink/vocab/Gene
+    An OWL ontology, also available on BioPortal
+    Python dataclasses, also available on PyPI
+    ShEx (RDF shape constraints)
+    graphql (Experimental)
+    protobuf (Experimental)
+    json-schema (Experimental)
+
+Slots are used to collectively refer to, both, node and edge properties.
+
+There are two types of slots defined in the model,
+
+    node property - all node properties are a sub-class of node property
+    association slot - all edge properties are a sub-class of association slot
+
+Browse the Biolink Model to explore all defined entities, associations, and slots.
+
+--> It sounds a bit weird, I'd imagine then as instances , not subclasses
+
+You can use Biolink Model as a schema for labelled property graphs (Neo4j) or for edge labelled graphs (RDF).
+
+To that end, Biolink Model makes use of linkML (Biolink Modeling Language) for defining the various semantics of the model.
+
+The modeling language provides the following idioms,
+
+    Class definition
+        Used to define classes
+    Slot definition
+        Used to define class properties
+    Type definition
+        Used to define data types
+    Schema definition
+        Used to define properties of the model itself
+
+
+A class represents an entity or an association
+
+Within the Biolink Model there are two hierarchies of classes:
+
+    Named Things (nodes)
+    Associations (edges)
+
+Mixins are classes that contain slots (properties) or slots which embody a generic slot semantic definition, for use across several other classes or slots.
+
+Mixins are abstract classes/slots and they cannot be instantiated by themselves. That is, there cannot be an instance of a mixin class or slot value (e.g. predicate slot) used as ‘data’
+
+Mixins do not contribute to the inheritance hierarchy of the class that uses them.
+
+Slots
+
+In Biolink Model, slots represent properties that a class can have.
+
+A slot is similar to rdf:Property where it can link
+
+    an instance of a class to another instance of a class
+    an instance of a class to a literal/data type
+
+In Biolink Model slots are used to represent
+
+    Predicates
+    Node Properties
+    Edge Properties
+
+n Biolink Model we have several data types.
+
+Data types do not have any inheritance and thus are not arranged in any hierarchy.
+
+For example, iri type is a type defined in the Biolink Model where the value space is constrained to uriorcurie.
+
+Biolink Model has several entity classes like gene, disease, phenotypic feature, chemical substance.
+
+All these classes are arranged in a hierarchy with the root of all entities being the named thing class.
+
+Biolink Model has several Association classes like gene to gene association, gene to disease association, disease to phenotypic feature association.
+
+What are the mapping(s) for this class?
+
+    Mappings are a way of rooting this new association in the context of other ontologies, thesauri, controlled vocabularies and taxonomies
+    Determine the level of granularity for your mappings where they can be divided into 5 types: related_mappings, broad_mappings, narrow_mappings close_mappings, exact_mappings
+
+
+Here we define that the entity class gene is a sub-class of gene or gene product. Note that is_a has the characteristics of homeomorphicity: is_a SHOULD only connect either (1) two mixins (2) two classes (3) two slots.
+
+
+
 ## WBStack setting changes, Federated properties, Wikidata entity mapping & more
 https://addshore.com/2021/05/wbstack-setting-changes-federated-properties-wikidata-entity-mapping-more/
 

@@ -6,9 +6,8 @@ https://seop.illc.uva.nl/entries/models-science/
 # Blogs to read
 https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
-https://addshore.com/2021/05/wbstack-setting-changes-federated-properties-wikidata-entity-mapping-more/
 https://www.kmjn.org/notes/academic_ancestors_wikidata.html
-https://neo4j.com/blog/ontologies-in-neo4j-semantics-and-knowledge-graphs/
+https://uk.pcmag.com/social-media/133755/wikipedia-the-most-reliable-source-on-the-internet
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -29,8 +28,6 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q60128972
-Q42774504
 Q92382884
 Q35185544
 Q104794656
@@ -43,6 +40,7 @@ Q42615577
 Q91739840
 Q50001722
 Q46852287
+Q42290203
 Q52560248
 Q37510607
 Q52718178
@@ -133,10 +131,6 @@ Meta-analytic markers reveal a generalizable 1description of cortical cell types
 Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q58587002
-Q101222862
-Q49826285
-Q58611639
 Q47555736
 Q56992710
 Q37060118
