@@ -25,18 +25,17 @@ def main():
         }
         """
         )
-
         df = wikidata2df(query)
-
         return df
 
     wd_id = sys.argv[1]
     source = sys.argv[2]
     doi_df = get_doi_df(wd_id)
-
+    print("======= Looking for article DOI on Wikidata =======")
     print(doi_df)
     if doi_df.empty == True:
         print("No DOI found for " + wd_id + ".")
+
     else:
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
@@ -55,31 +54,23 @@ def download_paper(doi, source, path="~/Downloads/"):
 
     if source == "sci-hub":
         base_url = "https://sci-hub.do/" + doi
-        res = requests.get(base_url, verify=False)
-        s = BeautifulSoup(res.content, "html.parser")
-
+        response = requests.get(base_url, verify=False)
+        s = BeautifulSoup(response.content, "html.parser")
         iframe = s.find("iframe")
         if iframe:
             url = iframe.get("src")
-
         filename = url.split("/")[-1].split("#")[0]
         filepath = path + filename
-
         print("====== Dowloading article from Sci-Hub ======")
-        # Warning:
-        # Only use SciHub to get articles tha you already paid for!
-
+        # Warning: Only use SciHub to get articles tha you already paid for!
         os.system(f"wget -O {filepath} {url}")
-
         print("====== Opening PDF ======")
         os.system(f"xdg-open {filepath} &")
 
     elif source == "unpaywall":
         base_url = f"https://api.unpaywall.org/v2/{doi}?email=unpaywall_00@example.com"
-        res = requests.get(base_url, verify=False)
-        result = res.json()
-        print(base_url)
-
+        response = requests.get(base_url)
+        result = response.json()
         pdf_url = result["best_oa_location"]["url_for_pdf"]
         if pdf_url is None:
 
@@ -87,11 +78,8 @@ def download_paper(doi, source, path="~/Downloads/"):
                 "====== Best OA pdf not found. Searching for first OA ====== "
             )
             pdf_url = result["first_oa_location"]["url_for_pdf"]
-        print(pdf_url)
-
         filename = doi.replace("/", "_")
         filepath = path + filename + ".pdf"
-
         print("====== Dowloading article from Unpaywall ======")
         os.system(f"wget -O {filepath} {pdf_url}")
         print("====== Opening PDF ======")
