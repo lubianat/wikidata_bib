@@ -1,5 +1,42 @@
 # Blog posts and web pages
 
+# Azimuth References
+https://azimuth.hubmapconsortium.org/references/
+
+
+Human - PBMC
+
+--> species neutral annotations are relatively ok. Some terms are not covered, e.g. ASDC AXL+ Dendritic Cell is mapped to "dendritic cell" only .
+
+Originally described in Bakken et al, bioRxiv 2020, this data was the integrated across the two individual donors to create the Azimuth reference used here. Annotations are provided at the level of class (e.g. GABAergic), subclass (e.g. L2/3 IT), cluster (e.g. Inh L1-2 VIP WNT4), and cross-species cluster (e.g. Sst_6).
+
+--> Interesting; instead of an ontological organization, multiple annotation files. Cell Ontology annotations are very general.
+
+
+Mouse - Motor Cortex
+
+Annotations are provided at the level of class (e.g. GABAergic), subclass (e.g. L2/3 IT), cluster (e.g. L2/3 IT_3), and cross-species cluster (e.g. Sst_6)
+
+Non-Neuronal	Non-neuronal cell	animal cell
+Chandelier	Chandelier neuron	GABAergic neuron	
+
+--> hm, super general labels
+
+Human - Pancreas
+
+--> CL labels seem good
+
+Human - Fetal Development
+
+--> No CL annotation
+
+Human - Lung
+
+--> Relatively good annotations
+
+Annotation is missing for state+type labels.
+
+
 # Tagging the Scientific Abstracts with Wikidata Items
 https://dwayzer.netlify.app/posts/2021-06-15-tagging-the-abstracts-with-wikidata-items/
 

@@ -8,6 +8,10 @@ https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
 https://www.kmjn.org/notes/academic_ancestors_wikidata.html
 https://uk.pcmag.com/social-media/133755/wikipedia-the-most-reliable-source-on-the-internet
+
+https://www.ebi.ac.uk/spot/zooma/about
+
+
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -15,33 +19,15 @@ Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas schola
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
- Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
+Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
 
-Wagner GP. 2014. Homology, Genes, and Evolutionary Innovatoin.
-Princeton, NJ: Princeton University Press
-
-Graph Databases
-Specs
+Wagner GP. 2014. Homology, Genes, and Evolutionary In
 
 By Ian Robinson, Jim Webber and Emil Eifrem
 https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q35185544
-Q104794656
-Q56550183
-Q42774833
-Q37510512
-Q38862522
-Q34404570
-Q42615577
-Q91739840
-Q50001722
-Q46852287
-Q42290203
-Q52560248
-Q37510607
 Q52718178
 Q37056065
 Q47320490
@@ -120,80 +106,46 @@ Q92483956
 Q52353816
 Q58084076
 Q64008489
+Q107297374
+Q107297393
 ## No QID
 
 ## Other
-https://azimuth.hubmapconsortium.org/references/#Human%20-%20Pancreas
-Terminologia histologicainternational terms for human cytology and histologyFederative International Committee on Anatomical Terminology (FICAT)
-C H A P TER 1 WHAT WAS LIFE? Answers from Three Limit Biologies (Helmreich)
-Meta-analytic markers reveal a generalizable 1description of cortical cell types
-Barcoded viral tracing of single-cell interactions in central nervous system inflammation
 
 # Biocuration
-Q56992710
-Q37060118
-Q93337500
-Q58611634
-Q100525924
-Q28646868
+Q36378619
+Q27860569
+Q31090008
+Q47104084
+Q41678419
+Q37327539
+Q29169597
+Q38720319
+Q37315128
+Q107297394
+Q107297395
+Q107297398
+Q107297399
+Q107297400
+Q107297401
+Q107297402
+Q107297403
+Q107297534
+Q107297535
+Q107297536
+Q107297537
+Q107297538
+Q107297539
+Q107297540
+Q107297541
+Q107297542
+Q107297543
+Q38519078
+
 ## No QID
 
-https://www.biogateway.eu/ssb/
-Himmelstein,D. . https://thinklab.com/discussion/integrat ing-resources-with-disparate-licensing-into-an-open-network/ 107#1 (accessed Sep 16, 2016).
-Lmn-2 interacts with Elf-2. On the meaning of common statements in biomedical literature
-The Next Big Thing: From Hypermedia to Datuments
-https://www.semanticscholar.org/paper/Ontology-%3A-Foundation-of-biomedical-big-data-and-Jie-Yongqun/e94c4a60a8e58daaf39952e06266d197a81ca24f
-
-https://scite.ai/ 
-
-Comments to the first nomenclature of human cytology: the description of cells and their ultrastructure in the Terminologia Histologica. Which important medical and biological terms are disputable or missing?
 
 ## Other
-
-[PDF] Towards a Definition of Knowledge Graphs.
-
-
-
-https://www.ebi.ac.uk/spot/zooma/
-
-
-COELHO, KatiaCardoso. Aquisição de conhecimento especializado para construção de ontologias: um estudo no domínio das ciências da vida. 2012.174f. Dissertação (Mestradoem Ciência da Informação). Escola de Ciência da Informação, Universidade Federal de Minas Gerais, Belo Horizonte, 2012. Disponível em: http://www.bibliotecadigital.ufmg.br/dspace/bitstream/handle/1843/ECID-8XLQS4/disserta__o_katia_cardoso_coelho.pdf?sequence=2. Acesso em: ago.2014
-
-Bio4j: a high-performance cloud-enabled graph-based data platform.
-Search, access, and explore life sciencenanopublications on the Web
-Micropublication: incentivizing community curation and placing unpublished data into the public domain
-
-SCHRIML, Lynn M.; et al. Disease Ontology: a backbone for disease semantic integration. Nucleic Acids Research. v.40. 2012. Disponível em: http://nar.oxfordjournals.org/content/40/D1/D940.full.pdf?keytype=ref&ijkey=oOOVAj4zMzRpayq. Acesso em:21 set 2014
-
-USCHOLD, Mike.Building ontologies: Towards a Unified Methodology (1996). Disponível em:http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.9075. Acesso em:15 fev 2013
-
-The role of trust in knowledge
-
-https://doi.org/10.1093/nar/gks1193
-
- Colin N. Dewey. 2017. “MetaSRA: Normalized HumanSample-Specific Metadata for the Sequence Read Archive.”Bioinformatics (Oxford, England)33 (18): 2914–23. https://doi.org/10.1093/bioinformatics/btx334.
-
- https://www.zotero.org/google-docs/?OzuVZW
-
-“Minimum Information about a Microarray Experiment(MIAME)—toward Standards for Microarray Data.”Nature Genetics29 (4): 365–71.https://doi.org/10.1038/ng1201-365.
-
-Galeota, Eugenia, and Mattia Pelizzola. 2017. “Ontology-Based Annotations and SemanticRelations in Large-Scale (Epi)Genomics Data.”Briefings in Bioinformatics18 (3): 403–12.https://doi.org/10.1093/bib/bbw036.
-
-“ALE: Automated LabelExtraction from GEO Metadata.”BMC Bioinformatics18 (14): 509.https://doi.org/10.1186/s12859-017-1888-1.Hadley, Dexter, James Pan, Osama El-Sayed,
-
-Jihad Aljabban, Imad Aljabban, Tej D. Azad,Mohamad O. Hadied, et al. 2017. “Precision Annotation of Digital Samples in NCBI’s GeneExpression Omnibus.”Scientific Data4 (1): 170125. https://doi.org/10.1038/sdata.2017.125.
-
-
-“Ontology-AwareClassification of Tissue and Cell-Type Signals in Gene Expression Profiles across Platforms andTechnologies.”Bioinformatics29 (23): 3036–44. https://doi.org/10.1093/bioinformatics/btt529.
-
-
-“Real-Time Tagging of Biomedical Entities.”BioRxiv, September, 078469. https://doi.org/10.1101/078469.Panahiazar, Maryam, Michel Dumontier, and Olivier Gevaert. 2017. 
-
-“Predicting BiomedicalMetadata in CEDAR: A Study of Gene Expression Omnibus (GEO).”Journal of BiomedicalInformatics72 (August): 132–39. https://doi.org/10.1016/j.jbi.2017.06.017.
-
-
-“Extraction and Analysis ofSignatures from the Gene Expression Omnibus by the Crowd.”Nature Communications7 (1):12846. https://doi.org/10.1038/ncomms12846.
-
 
 # Top 100 papers
 # Random
