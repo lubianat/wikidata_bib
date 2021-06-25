@@ -5,6 +5,9 @@ import re
 import os
 import yaml
 
+# Open file with the QIDs ("toread.md")
+# and the file with the shortcuts ("config.yaml")
+
 with open("toread.md", "r") as f:
     text = f.read()
 
