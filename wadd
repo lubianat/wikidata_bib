@@ -4,6 +4,7 @@ import requests
 import sys
 from glob import glob
 import argparse
+import pandas as pd
 
 parser = argparse.ArgumentParser()
 
@@ -39,30 +40,31 @@ parser.add_argument(
 
 args = parser.parse_args()
 url = args.url
-only_new = args.new
+only_add_articles_that_were_not_read_before = args.new
 category = args.category
 to_print = args.print
 
 session = requests.Session()  # so connections are recycled
-resp = session.head(url, allow_redirects=True)
-url_sparql = resp.url.replace(
+response = session.head(url, allow_redirects=True)
+url_sparql = response.url.replace(
     "https://query.wikidata.org/#", "https://query.wikidata.org/sparql?query="
 )
 
 if "work" not in url_sparql:
     raise ValueError("SPARQL query needs to select a variable called ?work")
 
-r = requests.get(url_sparql, params={"format": "json"})
-import pandas as pd
-
-df = pd.json_normalize(r.json()["results"]["bindings"])
-
-df["qid"] = [url.split("/")[4] for url in df["work.value"]]
+sparql_query_response = requests.get(url_sparql, params={"format": "json"})
+sparql_query_result = pd.json_normalize(
+    sparql_query_response.json()["results"]["bindings"]
+)
+sparql_query_result["qid"] = [
+    url.split("/")[4] for url in sparql_query_result["work.value"]
+]
 
 print("====== QIDs for the matching works ====== ")
 
-if not only_new:
-    for i in df["qid"]:
+if not only_add_articles_that_were_not_read_before:
+    for i in sparql_query_result["qid"]:
         print(i)
 else:
     files = []
@@ -76,7 +78,7 @@ else:
             array_of_qids.append(item)
     array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
 
-    main_list = list(set(df["qid"]) - set(array_of_qids))
+    main_list = list(set(sparql_query_result["qid"]) - set(array_of_qids))
 
     for i in main_list:
         print(i)
@@ -118,5 +120,5 @@ def add_to_file(qids, category, filepath="toread.md"):
 
 if category != None and to_print == False:
     print("====== Appending QIDs to file toread.md ====== ")
-    add_to_file(df["qid"], category)
+    add_to_file(sparql_query_result["qid"], category)
 
