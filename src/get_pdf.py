@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from wikidata2df import wikidata2df
+from helper import wikidata2df
 from bs4 import BeautifulSoup
 import pandas as pd
 import requests

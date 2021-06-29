@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-from wikidata2df import wikidata2df
+from helper import wikidata2df
 from mdutils.mdutils import MdUtils
 import pandas as pd
 import urllib.parse

@@ -1,5 +1,5 @@
 from datetime import date, datetime, timedelta
-from wikidata2df import wikidata2df
+from helper import wikidata2df
 from mdutils.mdutils import MdUtils
 import sys
 import unicodedata

@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 import pandas as pd
-from wikidata2df import wikidata2df
+from src.helper import wikidata2df
 import os
 
+print("hm")
 articles = pd.read_csv("read.csv")
 
 wd_id = articles.tail(1)["wikidata_id"].values[0]
