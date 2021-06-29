@@ -22,21 +22,17 @@ parser.add_argument(
     nargs="?",
     default=None,
 )
-
 parser.add_argument(
     "--new",
     help="Select only the articles that are not in the notes folder",
     action="store_true",
 )
-
-
 parser.add_argument(
     "--print",
     "-p",
     help="Print QIDs instead of adding to the toread file",
     action="store_true",
 )
-
 
 args = parser.parse_args()
 url = args.url

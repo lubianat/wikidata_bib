@@ -10,10 +10,6 @@ import rdflib
 from pathlib import Path
 from glob import glob
 import urllib.parse
-import os
-import urllib.parse
-import pandas as pd
-import unicodedata
 import wbib.queries
 from wbib import wbib
 

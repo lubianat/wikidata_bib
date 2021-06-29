@@ -39,16 +39,16 @@ def main():
         """
 
         if source == "sci-hub":
+            # Warning: Only use SciHub to get articles that you have the rights for!
             base_url = "https://sci-hub.do/" + doi
             response = requests.get(base_url, verify=False)
-            s = BeautifulSoup(response.content, "html.parser")
-            iframe = s.find("iframe")
+            soup = BeautifulSoup(response.content, "html.parser")
+            iframe = soup.find("iframe")
             if iframe:
                 url = iframe.get("src")
             filename = url.split("/")[-1].split("#")[0]
             filepath = path + filename
             print("====== Dowloading article from Sci-Hub ======")
-            # Warning: Only use SciHub to get articles tha you already paid for!
             os.system(f"wget -O {filepath} {url}")
             print("====== Opening PDF ======")
             os.system(f"xdg-open {filepath} &")
