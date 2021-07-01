@@ -10,8 +10,8 @@ https://www.kmjn.org/notes/academic_ancestors_wikidata.html
 https://uk.pcmag.com/social-media/133755/wikipedia-the-most-reliable-source-on-the-internet
 
 https://www.ebi.ac.uk/spot/zooma/about
-
-
+https://github.com/obophenotype/cell-ontology/blob/master/src/patterns/dosdp-patterns/abnormalAnatomicalEntity.yaml
+https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -28,6 +28,9 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
+Q107380389
+Q28681367
+Q107272539
 Q107363147
 Q107363182
 Q92888602
@@ -109,6 +112,10 @@ Q107297374
 Q107297393
 Q99710887
 Q104552259
+Q91291960
+Q98568685
+Q47093532
+Q30816981
 
 ## No QID
 
@@ -117,6 +124,7 @@ Q104552259
 # Biocuration
 Q29169597
 Q38720319
+Q107380429
 Q37315128
 Q107297394
 Q107297395
