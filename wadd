@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser()
 # Example queries:
 # Single-cell transcriptomics articles in either nature or science: https://w.wiki/3LhF
 # Run:
-# $ ./wadd https://w.wiki/3MDs -p
+# $ ./wadd https://w.wiki/3MDs -p --new
 
 parser.add_argument(
     "url", help="A short link provided by the Wikidata Query Service", type=str
@@ -57,7 +57,7 @@ sparql_query_result["qid"] = [
     url.split("/")[4] for url in sparql_query_result["work.value"]
 ]
 
-print("====== QIDs for the matching works ====== ")
+print("====== QIDs for articles matching the query ====== ")
 
 if not only_add_articles_that_were_not_read_before:
     for i in sparql_query_result["qid"]:

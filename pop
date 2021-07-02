@@ -15,10 +15,12 @@ with open("config.yaml", "r") as c:
     shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
 if len(sys.argv) == 2:
+
+    reading_list_code = sys.argv[1]
     print(
-        f'====== Pulling first QID in the "{shortcuts["lists"][sys.argv[1]]}" list ======'
+        f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======'
     )
-    regex = shortcuts["lists"][sys.argv[1]] + r"[\s\S]*?(Q[0-9]*)"
+    regex = shortcuts["lists"]reading_list_code] + r"[\s\S]*?(Q[0-9]*)"
 else:
     print("====== Pulling first QID in toread.md ======")
     regex = r"(Q[0-9]*)"
