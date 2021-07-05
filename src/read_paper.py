@@ -47,17 +47,11 @@ def main():
         mdFile.new_header(2, "Tags")
         mdFile.new_header(1, "Links")
         mdFile.new_line(
-            " * [Scholia Profile](https://scholia.toolforge.org/work/"
-            + wikidata_id
-            + ")"
+            f" * [Scholia Profile](https://scholia.toolforge.org/work/{wikidata_id})"
         )
+        mdFile.new_line(f" * [Wikidata](https://www.wikidata.org/wiki/{wikidata_id})")
         mdFile.new_line(
-            " * [Wikidata](https://www.wikidata.org/wiki/" + wikidata_id + ")"
-        )
-        mdFile.new_line(
-            " * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/"
-            + wikidata_id
-            + "/P921%3BP4510)"
+            f" * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/{wikidata_id}/P921%3BP4510)"
         )
         mdFile.new_line(
             " * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="
@@ -85,20 +79,12 @@ def main():
 
         g.serialize(destination="read.ttl", format="turtle")
 
-        if len(sys.argv) > 2:
-            collections = sys.argv[2:]
-            for collection in collections:
-                if os.path.isfile("collections/" + collection):
-                    s = rdflib.term.URIRef(wd + wikidata_id)
-                    p2 = rdflib.term.URIRef(wb + "in_collection")
-                    g.add((s, p2, o2))
-
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
         s = rdflib.term.URIRef(wd + wikidata_id)
-        p3 = rdflib.term.URIRef(wb + "read_in")
-        o3 = rdflib.term.Literal(d1)
-        g.add((s, p3, o3))
+        p2 = rdflib.term.URIRef(wb + "read_in")
+        o2 = rdflib.term.Literal(d1)
+        g.add((s, p2, o2))
 
         g.serialize(destination="read.ttl", format="turtle")
 

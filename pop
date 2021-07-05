@@ -20,7 +20,7 @@ if len(sys.argv) == 2:
     print(
         f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======'
     )
-    regex = shortcuts["lists"]reading_list_code] + r"[\s\S]*?(Q[0-9]*)"
+    regex = shortcuts["lists"][reading_list_code] + r"[\s\S]*?(Q[0-9]*)"
 else:
     print("====== Pulling first QID in toread.md ======")
     regex = r"(Q[0-9]*)"
