@@ -32,7 +32,7 @@ def main():
         """
         Given a DOI, downloads an article to a folder.
 
-        Arguments:
+        Args:
             doi: A doi suffix (ex="10.7287/PEERJ.PREPRINTS.3100V1").
             source: The source to get the pdf from. One of ["sci-hub", "unpaywall"]
             path: The folder where the pdf will be saved.
@@ -49,9 +49,6 @@ def main():
             filename = url.split("/")[-1].split("#")[0]
             filepath = path + filename
             print("====== Dowloading article from Sci-Hub ======")
-            os.system(f"wget -O {filepath} {url}")
-            print("====== Opening PDF ======")
-            os.system(f"xdg-open {filepath} &")
 
         elif source == "unpaywall":
             base_url = (
@@ -69,9 +66,10 @@ def main():
             filename = doi.replace("/", "_")
             filepath = path + filename + ".pdf"
             print("====== Dowloading article from Unpaywall ======")
-            os.system(f"wget -O {filepath} {pdf_url}")
-            print("====== Opening PDF ======")
-            os.system(f"xdg-open {filepath} &")
+
+        os.system(f"wget -O {filepath} {pdf_url}")
+        print("====== Opening PDF ======")
+        os.system(f"xdg-open {filepath} &")
 
         return 0
 
