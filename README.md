@@ -15,12 +15,19 @@ You can check some queries on my notes at [lubianat.github.io/wikidata_bib](http
 - toread.md
 - read.ttl
 - read.csv
-
+- config.yaml
+- wadd
+- wlog
+- wread
 ### Explanation
 
 - toread.md
 
-A markdown stack/list of titles of papers. It does not need to be formated, it is mostly a dump of articles that you will want to read.
+A markdown stack/list of titles of papers.
+The papers can be organized by sections, with section headers corresponding to the names in the config.yaml file.
+Articles are stored as Wikidata identifiers, to automatically pull the information when actually reading. 
+
+You can, of course, store just the name of the article or other information and eventually locate and update the file with the Wikidata QID. 
 
 - read.ttl
 
@@ -35,15 +42,14 @@ A csv file linking article titles/human readable info to Wikidata ids.
 A folder containing markdown notes for each article. Each article get its on file, named by Wikidata ID. 
 If the material does not fit on Wikidata, just add it as a new header to other.md.
 
-- collections
-A series of URIs for the different topics that I am interested in. 
-
-- sparql
-Wikidata SPARQL queries for the dashboard on `docs`
-
 - docs
   
 The html content for GitHub Pages, providing analytics on what I read. 
+
+- config.yaml
+
+A configuration file mapping shortcuts to use in the command line to categories in the toread.md.
+
 
 ## Notes structure
 
