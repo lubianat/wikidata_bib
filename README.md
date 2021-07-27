@@ -16,10 +16,11 @@ You can check some queries on my notes at [lubianat.github.io/wikidata_bib](http
 - read.ttl
 - read.csv
 - config.yaml
+- pop
 - wadd
 - wlog
 - wread
-### Explanation
+### Scaffolding files
 
 - toread.md
 
@@ -50,6 +51,27 @@ The html content for GitHub Pages, providing analytics on what I read.
 
 A configuration file mapping shortcuts to use in the command line to categories in the toread.md.
 
+### Scripts for use
+
+- wadd
+
+Adds a set of new articles to one of the lists in toread.md. Example for single-cell transcriptomics articles in either Nature or Science: https://w.wiki/3LhF
+`$ ./wadd https://w.wiki/3MDs -p --new`
+
+- wlog
+Adds a commit to git for the articler read and pushes it to GitHub.
+`$ ./wlog`
+
+- wread
+Read an article that is not on the list in toread.md. 
+
+`$ ./wread Q107542983`
+
+- pop
+
+Pops the first QID in one of the lists in the toread.md file. The command is followed by a shortcut, specifying which list to look for (this is set up in the config.yaml file). 
+
+For example, `$ ./pop ct` will remove the first QID from the "Cell Types" list and open the article for note-taking.
 
 ## Notes structure
 
