@@ -4,14 +4,12 @@ import pandas as pd
 from src.helper import wikidata2df
 import os
 
-print("hm")
 articles = pd.read_csv("read.csv")
 
 wd_id = articles.tail(1)["wikidata_id"].values[0]
 
 query = (
     """
-
 SELECT ?item ?itemLabel ?journal ?journalLabel ?date ?alt
 WHERE 
 {
@@ -23,7 +21,6 @@ WHERE
   OPTIONAL {?journal skos:altLabel ?alt}.
   SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
 }
-
 """
 )
 
