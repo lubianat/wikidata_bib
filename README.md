@@ -4,7 +4,7 @@ This repo is a propotype for bibliography management using Wikidata.
 
 The overarching goal is to leverage linked open data to navigate your studies and personal notes. 
 
-You can check some queries on my notes at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
+You can check an example of a query dashboard for readings at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
 # Repository structure
 - docs
@@ -20,11 +20,13 @@ You can check some queries on my notes at [lubianat.github.io/wikidata_bib](http
 - wadd
 - wlog
 - wread
+- 
 ### Scaffolding files
 
 - toread.md
 
 A markdown stack/list of titles of papers.
+
 The papers can be organized by sections, with section headers corresponding to the names in the config.yaml file.
 Articles are stored as Wikidata identifiers, to automatically pull the information when actually reading. 
 
@@ -45,7 +47,7 @@ If the material does not fit on Wikidata, just add it as a new header to other.m
 
 - docs
   
-The html content for GitHub Pages, providing analytics on what I read. 
+The html content for GitHub Pages, providing analytics on what has been read. 
 
 - config.yaml
 

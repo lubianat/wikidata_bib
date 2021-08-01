@@ -1763,6 +1763,9 @@ wd:Q42084918 wb:has_notes wbn:Q42084918.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q42144472 wb:has_notes wbn:Q42144472.md ;
+    wb:read_in "+2021-07-29T00:00:00Z/11" .
+
 wd:Q42156351 wb:has_notes wbn:Q42156351.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-17T00:00:00Z/11" .
