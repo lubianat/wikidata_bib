@@ -15,14 +15,15 @@ def main():
     def get_title_df(wikidata_id):
         query = (
             """
-        SELECT ?item ?itemLabel ?date ?doi
+        SELECT ?item ?itemLabel ?date ?doi ?url
         WHERE
         {
         VALUES ?item {wd:"""
             + wikidata_id
             + """}
         OPTIONAL {?item wdt:P577 ?date}.
-        OPTIONAL {?item wdt:P356 ?doi} 
+        OPTIONAL {?item wdt:P356 ?doi} .
+        OPTIONAL {?item wdt:P953 ?url}
         SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
         }
         """
@@ -32,7 +33,7 @@ def main():
 
         return df
 
-    def create_markdown(file_path, title, publication_date="None", doi=""):
+    def create_markdown(file_path, title, publication_date="None", doi="", url=""):
         mdFile = MdUtils(file_name=file_path, title=title)
 
         mdFile.new_line("  [@wikidata:" + wikidata_id + "]")
@@ -60,6 +61,9 @@ def main():
         )
         if doi != "":
             mdFile.new_line(f" * [DOI](https://doi.org/{doi})")
+
+        if url != "":
+            mdFile.new_line(f" * [Full text URL]({url})")
         mdFile.new_line()
         mdFile.create_md_file()
 
@@ -119,10 +123,15 @@ def main():
         doi = ""
         pass
 
+    try:
+        text_url = df["url"][0]
+    except:
+        text_url = ""
+        pass
     file_path = "notes/" + wikidata_id
 
     print("======= Creating markdown =======")
-    create_markdown(file_path, title, publication_date, doi)
+    create_markdown(file_path, title, publication_date, doi, text_url)
     update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
