@@ -82,25 +82,13 @@ For example, `$ ./pop ct` will remove the first QID from the "Cell Types" list a
 
 ## A header saying "Highlights"
 
-Copy-and-pasted highlighs from the text. Do not highlight too much and no copy right is infringed. 
+Copy-and-pasted highlights from the text. No copy-right claim can be made on this session, and all copy-paste content must fall under fair use guidelines for proprietary content. Basically, that means you should not use the copy-pasted content for anything else other than personal notes.
 
 --> Any comments made by you should be preceeded by an arrow. And
     if they take another line, it is enough that they are indented.
 
-And then you can continue highlighting
+And then you can continue highlighting.
 
 ## A header saying "Comments"
+
 Any general comments that did not fit inlinely. 
-
-(now the explanation is over, back to the README we go)
-
-## Features yet to be implemented
-- Recording of claims: claims and the papers that support them
-- Recording of concepst: concepts and the papers that introduce (or use) them 
-- Clean the code that makes the automatic updates
-
-- Auto update queries in GH Pages 
-I do not know how to embed the queries in the html directly yet.
-
-I am manually getting the urls from the Wikidata Query Service
-using queries in the sparql folder.

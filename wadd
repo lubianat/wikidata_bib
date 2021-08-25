@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 
+# Adds multiple QIDs to a specific category in the toread.md document
+
 import requests
 import sys
 from glob import glob

@@ -8,3 +8,4 @@ lists:
 # - shortcut: Title of header in toread.md  
   ct: Cell types
   bioc: Biocuration
+  other: Other
