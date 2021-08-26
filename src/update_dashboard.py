@@ -78,11 +78,7 @@ html = wbib.render_dashboard(
 
 g = rdflib.Graph()
 result = g.parse("read.ttl", format="ttl")
-wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-wbc = rdflib.Namespace(
-    "https://github.com/lubianat/wikidata_bib/tree/main/collections/"
-)
-wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
+wb = rdflib.Namespace("https://wikidatabib.wiki.opencura.com/wiki/")
 wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 
 query_result = g.query(

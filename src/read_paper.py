@@ -66,15 +66,12 @@ def main():
     def update_turtle(wikidata_id):
         g = rdflib.Graph()
         result = g.parse("read.ttl", format="ttl")
-        wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-        wbn = rdflib.Namespace(
-            "https://github.com/lubianat/wikidata_bib/tree/main/notes/"
-        )
+        wb = rdflib.Namespace("https://wikidatabib.wiki.opencura.com/wiki/")
         wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 
-        s = rdflib.term.URIRef(wd + wikidata_id)
-        p1 = rdflib.term.URIRef(wb + "has_notes")
-        o1 = rdflib.term.URIRef(wbn + wikidata_id + ".md")
+        s = rdflib.term.URIRef("https://wikidatabib.wiki.opencura.com/wiki/Item:Q1")
+        p1 = rdflib.term.URIRef(wb + "Property:P1")
+        o1 = rdflib.term.URIRef(wd + wikidata_id)
         g.add((s, p1, o1))
 
         g.serialize(destination="read.ttl", format="turtle")
@@ -82,7 +79,7 @@ def main():
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
         s = rdflib.term.URIRef(wd + wikidata_id)
-        p2 = rdflib.term.URIRef(wb + "read_in")
+        p2 = rdflib.term.URIRef(wb + "Property:P2")
         o2 = rdflib.term.Literal(d1)
         g.add((s, p2, o2))
 

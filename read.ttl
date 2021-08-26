@@ -1,3 +1,2 @@
-@prefix wb: <https://github.com/lubianat/wikidata_bib/tree/main/> .
-@prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
+@prefix wb: <https://wikidatabib.wiki.opencura.com/wiki/> .
 @prefix wd: <http://www.wikidata.org/entity/> .

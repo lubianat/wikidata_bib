@@ -13,7 +13,6 @@ https://github.com/obophenotype/cell-ontology/blob/master/src/patterns/dosdp-pat
 https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/
 
 # Cell types
-Q75715838
 
 ## No QID
 # Biocuration
