@@ -7,6 +7,17 @@ import sys
 from glob import glob
 import argparse
 import pandas as pd
+import sys
+import yaml
+
+# Open file with the QIDs ("toread.md")
+# and the file with the shortcuts ("config.yaml")
+
+with open("toread.md", "r") as f:
+    text = f.read()
+
+with open("config.yaml", "r") as c:
+    shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
 parser = argparse.ArgumentParser()
 
@@ -20,7 +31,7 @@ parser.add_argument(
 )
 parser.add_argument(
     "category",
-    help="The category to which the list will be appended",
+    help="The shortcut for category to which the list will be appended. Shortcuts are set in the config.yaml file.",
     nargs="?",
     default=None,
 )
@@ -39,7 +50,8 @@ parser.add_argument(
 args = parser.parse_args()
 url = args.url
 only_add_articles_that_were_not_read_before = args.new
-category = args.category
+category_shortcut = args.category
+category = shortcuts["lists"][category_shortcut]
 to_print = args.print
 
 session = requests.Session()  # so connections are recycled

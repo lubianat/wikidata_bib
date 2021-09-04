@@ -69,19 +69,12 @@ def main():
         wb = rdflib.Namespace("https://wikidatabib.wiki.opencura.com/wiki/")
         wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 
-        s = rdflib.term.URIRef("https://wikidatabib.wiki.opencura.com/wiki/Item:Q1")
-        p1 = rdflib.term.URIRef(wb + "Property:P1")
-        o1 = rdflib.term.URIRef(wd + wikidata_id)
-        g.add((s, p1, o1))
-
-        g.serialize(destination="read.ttl", format="turtle")
-
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
         s = rdflib.term.URIRef(wd + wikidata_id)
-        p2 = rdflib.term.URIRef(wb + "Property:P2")
-        o2 = rdflib.term.Literal(d1)
-        g.add((s, p2, o2))
+        p = rdflib.term.URIRef(wb + "Property:P2")
+        o = rdflib.term.Literal(d1)
+        g.add((s, p, o))
 
         g.serialize(destination="read.ttl", format="turtle")
 
