@@ -6,6 +6,28 @@ The overarching goal is to leverage linked open data to navigate your studies an
 
 You can check an example of a query dashboard for readings at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
+# Basic usage
+
+Clone the repository on your machine. 
+
+Setup the execution permissions for the Wikidata Bib scripts:
+
+```bash
+
+cd wikidata_bib
+chmod +w wread
+chmod +x pop
+chmod +x wadd
+chmod +x wlog
+```
+
+Each script has a different function: 
+    - `wread`  reads an article, provided in the form of a Wikidata QID (opens a markdown for notes and, if possible, a pdf of the article)
+    - `pop` reads the first article from the `toread.md` list
+    - `wadd` adds a bunch of new articles based on a user-provided Wikidata query
+    - `wlog` logs the current progress to GitHub
+
+
 # Repository structure
 - docs
 - src
@@ -20,17 +42,23 @@ You can check an example of a query dashboard for readings at [lubianat.github.i
 - wadd
 - wlog
 - wread
-- 
+
 ### Scaffolding files
 
 - toread.md
 
 A markdown stack/list of titles of papers.
 
-The papers can be organized by sections, with section headers corresponding to the names in the config.yaml file.
+The papers can be organized by sections, with section headers corresponding to the names in the `config.yaml` file.
 Articles are stored as Wikidata identifiers, to automatically pull the information when actually reading. 
 
-You can, of course, store just the name of the article or other information and eventually locate and update the file with the Wikidata QID. 
+You can, of course, store just the name of the article or other information and later locate and update the file with the Wikidata QID. 
+
+
+- config.yaml
+
+A configuration file mapping shortcuts to use in the command line to categories in the `toread.md`. These shortcuts are used when invoking the scripts from the command line.
+
 
 - read.ttl
 
@@ -48,10 +76,6 @@ If the material does not fit on Wikidata, just add it as a new header to other.m
 - docs
   
 The html content for GitHub Pages, providing analytics on what has been read. 
-
-- config.yaml
-
-A configuration file mapping shortcuts to use in the command line to categories in the toread.md.
 
 ### Scripts for use
 

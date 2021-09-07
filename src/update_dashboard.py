@@ -1,7 +1,6 @@
 from datetime import date, datetime, timedelta
 from helper import wikidata2df
 from mdutils.mdutils import MdUtils
-import sys
 import unicodedata
 import pandas as pd
 import os
@@ -139,19 +138,23 @@ html = wbib.render_dashboard(
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
 
+try:
+    last_day = articles_dataframe[
+        articles_dataframe["date"] == max(articles_dataframe["date"])
+    ]
+    ids = [i.split("/")[4] for i in last_day["item"]]
 
-last_day = articles_dataframe[
-    articles_dataframe["date"] == max(articles_dataframe["date"])
-]
-ids = [i.split("/")[4] for i in last_day["item"]]
-
-html = wbib.render_dashboard(
-    info=ids,
-    mode="basic",
-    filepath="docs/last_day.html",
-    pages=PAGES,
-    sections_to_add=sessions,
-    site_title="Wikidata Bib",
-    site_subtitle="Dashboard of Tiago Lubiana's readings",
-)
+    html = wbib.render_dashboard(
+        info=ids,
+        mode="basic",
+        filepath="docs/last_day.html",
+        pages=PAGES,
+        sections_to_add=sessions,
+        site_title="Wikidata Bib",
+        site_subtitle="Dashboard of Tiago Lubiana's readings",
+    )
+except ValueError as e:
+    message(
+        "Last day html will be available when Wikidata Bib is used for multiple days"
+    )
 

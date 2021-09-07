@@ -1,6 +1,8 @@
 @prefix wb: <https://wikidatabib.wiki.opencura.com/wiki/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
 
+wd:Q108208862 wb:Property:P2 "+2021-09-07T00:00:00Z/11" .
+
 wb:Item:Q1 wb:Property:P1 wd:Q75715838 .
 
 wd:Q75715838 wb:Property:P2 "+2021-08-26T00:00:00Z/11" .

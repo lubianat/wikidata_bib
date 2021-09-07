@@ -1,5 +1,11 @@
-#!/bin/bash
+#!/usr/bin/python3
 
-python3 src/read_paper.py $@
-python3 src/get_pdf.py $1 unpaywall
-code "notes/${1}.md"
+import os
+import sys
+
+print(sys.argv[1])
+
+
+os.system(f"python3 src/read_paper.py {sys.argv[1]}")
+os.system(f"python3 src/get_pdf.py {sys.argv[1]} unpaywall")
+os.system('code "notes/${1}.md"')
