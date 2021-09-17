@@ -36,5 +36,5 @@ if qid == "Q":
 else:
     with open("toread.md", "w+") as f:
         f.write(text.replace(qid + "\n", ""))
-    os.system(f"bash /home/lubianat/Documents/random/wikidata_bib/wread {qid}")
+    os.system(f"python3 src/read_paper.py {qid}")
 
