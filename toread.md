@@ -8,6 +8,10 @@ https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
 https://www.kmjn.org/notes/academic_ancestors_wikidata.html
 https://uk.pcmag.com/social-media/133755/wikipedia-the-most-reliable-source-on-the-internet
+https://peerj.com/about/policies-and-procedures/#new-species
+https://chanzuckerberg.com/blog/biologys-most-ambitious-map-yet-the-human-cell-atlas/
+
+
 
 https://www.ebi.ac.uk/spot/zooma/about
 https://github.com/obophenotype/cell-ontology/blob/master/src/patterns/dosdp-patterns/abnormalAnatomicalEntity.yaml
@@ -28,13 +32,6 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q46257233
-Q52315063
-Q57318688
-Q59066334
-Q59770869
-Q91969373
-Q41667192
 Q42776089
 Q91523279
 Q91987032
@@ -78,23 +75,45 @@ Q91291960
 Q98568685
 Q47093532
 Q30816981
-
+Q36514300
 ## No QID
 
 ## Other
 
 # Biocuration
-Q56975984
-Q38519078
-Q107338764
-Q73423432
-Q21503281
-Q92783288
-Q28650425
+Q45400968
+Q46196147
+Q46246050
+Q46417626
+Q47672258
+Q42591642
+Q43517325
+Q43554576
+Q48024593
+Q48039976
+Q48072851
+Q48258805
+Q48280985
+Q48282461
+Q48617133
+Q50891534
+Q51827953
+Q53392827
+Q53407798
+Q54390966
+Q55056662
+Q56697993
+Q57689184
+Q59030213
+Q59036360
+Q59044488
+Q59067179
+Q60064962
 ## No QID
 
 
 ## Other
+https://pubmed.ncbi.nlm.nih.gov/34546707/
 
 # Top 100 papers
 # Random
