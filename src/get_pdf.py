@@ -12,6 +12,16 @@ import warnings
 
 def main():
     def get_doi_df(wikidata_id):
+        """
+        Gets a dataframe from Wikidata with the DOI for a given QID
+
+        Args:
+            wikidata_id: The QID for a scholarly work on Wikidata. 
+
+        Returns: 
+            A pandas DataFrame with the DOI values for the work
+
+        """
         query = (
             """
         SELECT ?item ?doi ?itemLabel
