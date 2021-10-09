@@ -1,7 +1,11 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wb: <https://github.com/lubianat/wikidata_bib/tree/main/> .
 @prefix wbc: <https://github.com/lubianat/wikidata_bib/tree/main/collections/> .
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 wd:Q wb:has_notes wbn:Q.md ;
     wb:in_collection wbc:biocuration ;
@@ -1439,6 +1443,9 @@ wd:Q35482351 wb:has_notes wbn:Q35482351.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q35556351 wb:has_notes wbn:Q35556351.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
+
 wd:Q35670188 wb:has_notes wbn:Q35670188.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
@@ -1891,6 +1898,9 @@ wd:Q46137497 wb:has_notes wbn:Q46137497.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-22T00:00:00Z/11" .
 
+wd:Q46196147 wb:has_notes wbn:Q46196147.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
+
 wd:Q46221687 wb:has_notes wbn:Q46221687.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-24T00:00:00Z/11" .
@@ -2287,6 +2297,9 @@ wd:Q57006348 wb:has_notes wbn:Q57006348.md ;
 wd:Q57011346 wb:has_notes wbn:Q57011346.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2020-11-17T00:00:00Z/11" .
+
+wd:Q57039955 wb:has_notes wbn:Q57039955.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
 
 wd:Q57271337 wb:has_notes wbn:Q57271337.md ;
     wb:read_in "+2021-07-04T00:00:00Z/11" .
@@ -2978,6 +2991,9 @@ wd:Q92078001 wb:has_notes wbn:Q92078001.md ;
 
 wd:Q92104055 wb:has_notes wbn:Q92104055.md ;
     wb:read_in "+2021-04-28T00:00:00Z/11" .
+
+wd:Q92185170 wb:has_notes wbn:Q92185170.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
 
 wd:Q92202965 wb:has_notes wbn:Q92202965.md ;
     wb:read_in "+2021-05-05T00:00:00Z/11" .
