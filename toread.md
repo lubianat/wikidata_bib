@@ -23,7 +23,7 @@ Lorhard, J. (1606). Diagraph of Metaphysic or Ontology.St. Gallen: Ogdoas schola
 
 Popper, K. R. Objective Knowledge: An Evolutionary Approach. Oxford: Clarendon, 1975.
 
-Elton CS. 1927. Animal Ecology. https://doi.org/10.5962/bhl.title.7435 
+Elton CS. 1927. Animal Ecology. 10.5962/bhl.title.7435 
 
 Wagner GP. 2014. Homology, Genes, and Evolutionary In
 
@@ -75,18 +75,20 @@ Q47093532
 Q30816981
 Q36514300
 Q37055970
+Q108840141
+Q108840142
+Q108840153
+Q108840158
+Q108840163
+Q26852799
+Q90361677
+
 ## No QID
 
 ## Other
-https://doi.org/10.1038/s41586-021-03970-w
-https://doi.org/10.1038/s41586-021-03500-8
-https://doi.org/10.1038/s41586-021-03705-x
-https://doi.org/10.1038/s41586-021-03955-9
-https://doi.org/10.1038/s41586-021-03941-1
-https://doi.org/10.1038/s41586-020-03182-8
-https://doi.org/10.1038/s41586-021-03604-1
-https://doi.org/10.1038/s41586-021-03223-w
-https://doi.org/10.1038/s41586-021-03813-8
+10.1038/s41586-021-03604-1
+10.1038/s41586-021-03223-w
+10.1038/s41586-021-03813-8
 # Biocuration
 Q46196147
 Q46246050

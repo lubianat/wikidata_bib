@@ -697,6 +697,12 @@ wd:Q108807256 wb:has_notes wbn:Q108807256.md ;
 wd:Q108816879 wb:has_notes wbn:Q108816879.md ;
     wb:read_in "+2021-10-06T00:00:00Z/11" .
 
+wd:Q108840135 wb:has_notes wbn:Q108840135.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
+
+wd:Q108840167 wb:has_notes wbn:Q108840167.md ;
+    wb:read_in "+2021-10-08T00:00:00Z/11" .
+
 wd:Q1180725 wb:has_notes wbn:Q1180725.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2021-03-01T00:00:00Z/11" .
