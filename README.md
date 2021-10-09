@@ -14,6 +14,7 @@ Setup the execution permissions for the Wikidata Bib scripts:
 
 ```bash
 
+gh repo clone lubianat/wikidata_bib
 cd wikidata_bib
 chmod +w wread
 chmod +x pop
