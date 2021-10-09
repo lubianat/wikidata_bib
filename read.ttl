@@ -1,11 +1,7 @@
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
-@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix wb: <https://github.com/lubianat/wikidata_bib/tree/main/> .
 @prefix wbc: <https://github.com/lubianat/wikidata_bib/tree/main/collections/> .
 @prefix wbn: <https://github.com/lubianat/wikidata_bib/tree/main/notes/> .
 @prefix wd: <http://www.wikidata.org/entity/> .
-@prefix xml: <http://www.w3.org/XML/1998/namespace> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 wd:Q wb:has_notes wbn:Q.md ;
     wb:in_collection wbc:biocuration ;
@@ -2983,6 +2979,9 @@ wd:Q91960464 wb:has_notes wbn:Q91960464.md ;
 
 wd:Q91969373 wb:has_notes wbn:Q91969373.md ;
     wb:read_in "+2021-09-23T00:00:00Z/11" .
+
+wd:Q91987032 wb:has_notes wbn:Q91987032.md ;
+    wb:read_in "+2021-10-09T00:00:00Z/11" .
 
 wd:Q91997728 wb:has_notes wbn:Q91997728.md ;
     wb:in_collection wbc:cell_types ;
