@@ -1,0 +1,3 @@
+PyYAML==5.4.1
+mdutils
+wbib

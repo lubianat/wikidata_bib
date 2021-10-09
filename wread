@@ -8,4 +8,4 @@ print(sys.argv[1])
 
 os.system(f"python3 src/read_paper.py {sys.argv[1]}")
 os.system(f"python3 src/get_pdf.py {sys.argv[1]} unpaywall")
-os.system('code "notes/${1}.md"')
+os.system(f'code "notes/${sys.argv[1]}.md"')
