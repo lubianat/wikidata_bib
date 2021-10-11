@@ -52,7 +52,7 @@ def main():
 
         elif source == "unpaywall":
             base_url = (
-                f"https://api.unpaywall.org/v2/{doi}?email=unpaywall_00@example.com"
+                f"https://api.unpaywall.org/v2/{doi}?email=tiago.lubiana.alves@usp.br"
             )
             response = requests.get(base_url)
             result = response.json()
@@ -89,4 +89,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
