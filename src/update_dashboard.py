@@ -154,7 +154,4 @@ try:
         site_subtitle="Dashboard of Tiago Lubiana's readings",
     )
 except ValueError as e:
-    message(
-        "Last day html will be available when Wikidata Bib is used for multiple days"
-    )
-
+    print("Last day html will be available when Wikidata Bib is used for multiple days")

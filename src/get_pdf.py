@@ -16,9 +16,9 @@ def main():
         Gets a dataframe from Wikidata with the DOI for a given QID
 
         Args:
-            wikidata_id: The QID for a scholarly work on Wikidata. 
+            wikidata_id: The QID for a scholarly work on Wikidata.
 
-        Returns: 
+        Returns:
             A pandas DataFrame with the DOI values for the work
 
         """
@@ -66,6 +66,12 @@ def main():
             )
             response = requests.get(base_url)
             result = response.json()
+
+            if result["HTTP_status_code"] == 422:
+                raise ValueError(
+                    "The email used for the Unpaywall API needs to be changed for the requests to go through"
+                )
+
             pdf_url = result["best_oa_location"]["url_for_pdf"]
             if pdf_url is None:
 
@@ -99,4 +105,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
