@@ -7,6 +7,8 @@ wd:Q47564808 wb:Property:P2 "+2021-10-11T00:00:00Z/11" .
 
 wd:Q48163564 wb:Property:P2 "+2021-10-11T00:00:00Z/11" .
 
+wd:Q48659057 wb:Property:P2 "+2021-10-13T00:00:00Z/11" .
+
 wb:Item:Q1 wb:Property:P1 wd:Q75715838 .
 
 wd:Q75715838 wb:Property:P2 "+2021-08-26T00:00:00Z/11" .

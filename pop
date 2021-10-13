@@ -37,5 +37,5 @@ else:
     with open("toread.md", "w+") as f:
         f.write(text.replace(qid + "\n", ""))
     os.system(f"python3 src/read_paper.py {qid}")
-    os.system(f"python3 src/get_pdf.py {sys.argv[1]} unpaywall")
-    os.system(f'code "notes/{sys.argv[1]}.md"')
+    os.system(f"python3 src/get_pdf.py {qid} unpaywall")
+    os.system(f'code "notes/{qid}.md"')
