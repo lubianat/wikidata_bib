@@ -32,8 +32,6 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 # Cell types
-Q35556351
-Q52576606
 Q91734742
 Q90284285
 Q92932854
@@ -87,10 +85,6 @@ Q90361677
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q48024593
-Q48039976
-Q48072851
-Q48258805
 Q48280985
 Q48282461
 Q48617133
