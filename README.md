@@ -28,7 +28,6 @@ Each script has a different function:
     - `wadd` adds a bunch of new articles based on a user-provided Wikidata query
     - `wlog` logs the current progress to GitHub
 
-
 # Repository structure
 - docs
 - src
