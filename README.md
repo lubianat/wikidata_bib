@@ -16,10 +16,16 @@ Setup the execution permissions for the Wikidata Bib scripts:
 
 gh repo clone lubianat/wikidata_bib
 cd wikidata_bib
-chmod +w wread
+chmod +x wread
 chmod +x pop
 chmod +x wadd
 chmod +x wlog
+```
+
+The scripts are written in Python3. To install the requirements, run:
+
+```bash
+pip3 install -r requirements.txt
 ```
 
 Each script has a different function: 
