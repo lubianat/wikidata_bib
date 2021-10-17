@@ -34,6 +34,19 @@ Each script has a different function:
     - `wadd` adds a bunch of new articles based on a user-provided Wikidata query
     - `wlog` logs the current progress to GitHub
 
+For reading an independent paper, get its Q-ID on [Wikidata][https://wikidata.org] and run it like this:
+
+
+```bash
+./wread Q108766311
+```
+
+This will open the notes file for the paper [Representing COVID-19 information in collaborative knowledge graphs: The case of Wikidata (Q108766311)
+](https://www.wikidata.org/wiki/Q108766311). Most biomedical articles are currently represented on Wikidata, and should be easy to find via Wikidata's search box. 
+
+If your article of interest is not on Wikidata, you can add the info there directly on [Wikidata's interface](https://www.wikidata.org/wiki/Special:NewItem) or, if you are an experienced user, by searching the DOI/arXiv ID at the [Scholia][https://scholia.toolforge.org] and following the instructions. 
+
+
 # Repository structure
 - docs
 - src
