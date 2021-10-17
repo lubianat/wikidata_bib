@@ -1,4 +1,5 @@
 technotype
-downloads
+downloads/*
+!downloads/README.txt
 phd_thesis
 notes/*
