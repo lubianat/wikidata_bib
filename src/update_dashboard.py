@@ -24,7 +24,7 @@ sessions = [
 ]
 
 
-base_directory = "/docs"
+base_directory = "/wikidata_bib"
 
 PAGES = {
     "all time": {"name": "all time", "href": f"{base_directory}/"},
