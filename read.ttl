@@ -1066,6 +1066,9 @@ wd:Q28650204 wb:has_notes wbn:Q28650204.md ;
 wd:Q28650425 wb:has_notes wbn:Q28650425.md ;
     wb:read_in "+2021-09-22T00:00:00Z/11" .
 
+wd:Q28650454 wb:has_notes wbn:Q28650454.md ;
+    wb:read_in "+2021-10-18T00:00:00Z/11" .
+
 wd:Q28657448 wb:has_notes wbn:Q28657448.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2021-04-09T00:00:00Z/11" .
@@ -2218,6 +2221,12 @@ wd:Q52720499 wb:has_notes wbn:Q52720499.md ;
 wd:Q52724376 wb:has_notes wbn:Q52724376.md ;
     wb:read_in "+2021-04-28T00:00:00Z/11" .
 
+wd:Q53392827 wb:has_notes wbn:Q53392827.md ;
+    wb:read_in "+2021-10-17T00:00:00Z/11" .
+
+wd:Q53407798 wb:has_notes wbn:Q53407798.md ;
+    wb:read_in "+2021-10-18T00:00:00Z/11" .
+
 wd:Q53748361 wb:has_notes wbn:Q53748361.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-13T00:00:00Z/11" .
@@ -2237,6 +2246,9 @@ wd:Q54370168 wb:has_notes wbn:Q54370168.md ;
     wb:in_collection wbc:biocuration,
         wbc:cellosaurus ;
     wb:read_in "+2020-12-25T00:00:00Z/11" .
+
+wd:Q54390966 wb:has_notes wbn:Q54390966.md ;
+    wb:read_in "+2021-10-18T00:00:00Z/11" .
 
 wd:Q54655231 wb:has_notes wbn:Q54655231.md ;
     wb:in_collection wbc:biocuration ;
