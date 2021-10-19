@@ -51,9 +51,6 @@ def main():
         )
         mdFile.new_line(f" * [Wikidata](https://www.wikidata.org/wiki/{wikidata_id})")
         mdFile.new_line(
-            f" * [TABernacle](https://tabernacle.toolforge.org/?#/tab/manual/{wikidata_id}/P921%3BP4510)"
-        )
-        mdFile.new_line(
             " * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="
             + wikidata_id
             + "&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+work)"
