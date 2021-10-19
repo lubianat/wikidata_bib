@@ -103,4 +103,4 @@ Any general comments that did not fit inlinely.
 I do not know how to embed the queries in the html directly yet.
 
 I am manually getting the urls from the Wikidata Query Service
-using queries in the sparql folder.
+using queries in the sparql folder.     

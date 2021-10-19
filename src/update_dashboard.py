@@ -25,7 +25,7 @@ sessions = [
 ]
 
 
-base_directory = "/docs"
+base_directory = "/wikidata_bib"
 
 PAGES = {
     "all time": {"name": "all time", "href": f"{base_directory}/"},
@@ -158,4 +158,3 @@ html = wbib.render_dashboard(
     site_title="Wikidata Bib",
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
-
