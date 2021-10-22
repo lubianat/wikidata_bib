@@ -12,7 +12,6 @@ import urllib.parse
 import wbib.queries
 from wbib import wbib
 
-
 sessions = [
     "articles",
     "map of institutions",
@@ -23,7 +22,6 @@ sessions = [
     "curation of author affiliations",
 ]
 
-
 base_directory = "/wikidata_bib"
 
 PAGES = {
@@ -33,36 +31,29 @@ PAGES = {
     "last day": {"name": "last day", "href": f"{base_directory}/last_day.html"},
 }
 
-
 ### Update table with notes
 
-
 articles = pd.read_csv("read.csv")
-articles = articles
 articles["wikidata_id"] = [
     "<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]
 ]
 test = articles.to_html(escape="True")
 test = test.replace("&lt;", " <").replace("&gt;", ">")
-
 with open("docs/notes.html", "w") as f:
     f.write(test)
 
-### Update dashboard with queries
+### Update main dashboard with queries
 
 txtfiles = []
 for file_name in glob("./notes/*.md"):
     txtfiles.append(file_name)
-
 array_of_filenames = [name.replace(".md", "") for name in txtfiles]
-
 
 array_of_qids = []
 for item in array_of_filenames:
     if "Q" in item:
         array_of_qids.append(item)
 array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
-
 
 html = wbib.render_dashboard(
     info=array_of_qids,
@@ -74,12 +65,12 @@ html = wbib.render_dashboard(
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
 
+### Update dashboard for last month, week and day
 
 g = rdflib.Graph()
 result = g.parse("read.ttl", format="ttl")
 wb = rdflib.Namespace("https://wikidatabib.wiki.opencura.com/wiki/")
 wd = rdflib.Namespace("http://www.wikidata.org/entity/")
-
 query_result = g.query(
     """
     SELECT DISTINCT ?a ?time
@@ -87,10 +78,7 @@ query_result = g.query(
           ?a wb:read_in ?time .
        }"""
 )
-
-
 cols = ["item", "date_string"]
-
 articles_dataframe = pd.DataFrame(columns=cols)
 for row in query_result:
     qid = str(row[0])
@@ -98,14 +86,13 @@ for row in query_result:
     articles_dataframe = articles_dataframe.append(
         {"item": qid, "date_string": date_string}, ignore_index=True
     )
-
-
 dates_in_date_format = [
     datetime.strptime(i, "+%Y-%m-%dT00:00:00Z/11")
     for i in articles_dataframe["date_string"]
 ]
 articles_dataframe["date"] = dates_in_date_format
 
+### Update last month
 month_dat = articles_dataframe[
     articles_dataframe["date"] > (datetime.today() - timedelta(days=30))
 ]
@@ -122,11 +109,12 @@ html = wbib.render_dashboard(
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
 
-
+### Update last week
 week_dat = articles_dataframe[
     articles_dataframe["date"] > (datetime.today() - timedelta(days=7))
 ]
 ids = [i.split("/")[4] for i in week_dat["item"]]
+
 
 html = wbib.render_dashboard(
     info=ids,
@@ -138,6 +126,7 @@ html = wbib.render_dashboard(
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
 
+### Update last day
 try:
     last_day = articles_dataframe[
         articles_dataframe["date"] == max(articles_dataframe["date"])
