@@ -9,7 +9,6 @@ import rdflib
 from pathlib import Path
 from glob import glob
 import urllib.parse
-import wbib.queries
 from wbib import wbib
 
 sessions = [
@@ -114,7 +113,6 @@ week_dat = articles_dataframe[
     articles_dataframe["date"] > (datetime.today() - timedelta(days=7))
 ]
 ids = [i.split("/")[4] for i in week_dat["item"]]
-
 
 html = wbib.render_dashboard(
     info=ids,
