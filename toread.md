@@ -31,9 +31,9 @@ By Ian Robinson, Jim Webber and Emil Eifrem
 https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
+
 # Cell types
-Q57173237
-Q89686928
+Q109264954
 Q92548431
 Q39281660
 Q44169496
@@ -83,8 +83,6 @@ Q59133412
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q57689184
-Q59030213
 Q59036360
 Q59044488
 Q59067179
@@ -92,8 +90,10 @@ Q60064962
 Q35861593
 Q108928585
 Q108925548
-## No QID
+Q57310096)
 
+## No QID
+http://inf.ufes.br/~gguizzardi/ER2014-keynote-CR.pdf
 
 ## Other
 https://pubmed.ncbi.nlm.nih.gov/34546707/
