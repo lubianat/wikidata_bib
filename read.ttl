@@ -714,6 +714,9 @@ wd:Q108926456 wb:has_notes wbn:Q108926456.md ;
 wd:Q108929315 wb:has_notes wbn:Q108929315.md ;
     wb:read_in "+2021-10-19T00:00:00Z/11" .
 
+wd:Q109264954 wb:has_notes wbn:Q109264954.md ;
+    wb:read_in "+2021-10-27T00:00:00Z/11" .
+
 wd:Q1180725 wb:has_notes wbn:Q1180725.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2021-03-01T00:00:00Z/11" .
@@ -1770,6 +1773,9 @@ wd:Q39002947 wb:has_notes wbn:Q39002947.md ;
 wd:Q39062528 wb:has_notes wbn:Q39062528.md ;
     wb:read_in "+2021-04-13T00:00:00Z/11" .
 
+wd:Q39281660 wb:has_notes wbn:Q39281660.md ;
+    wb:read_in "+2021-10-28T00:00:00Z/11" .
+
 wd:Q39314677 wb:has_notes wbn:Q39314677.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-02-12T00:00:00Z/11" .
@@ -2520,6 +2526,12 @@ wd:Q58980278 wb:has_notes wbn:Q58980278.md ;
 wd:Q59030213 wb:has_notes wbn:Q59030213.md ;
     wb:read_in "+2021-10-26T00:00:00Z/11" .
 
+wd:Q59036360 wb:has_notes wbn:Q59036360.md ;
+    wb:read_in "+2021-10-27T00:00:00Z/11" .
+
+wd:Q59044488 wb:has_notes wbn:Q59044488.md ;
+    wb:read_in "+2021-10-27T00:00:00Z/11" .
+
 wd:Q59050242 wb:has_notes wbn:Q59050242.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-03-02T00:00:00Z/11" .
@@ -2534,6 +2546,9 @@ wd:Q59063943 wb:has_notes wbn:Q59063943.md ;
 
 wd:Q59066334 wb:has_notes wbn:Q59066334.md ;
     wb:read_in "+2021-09-21T00:00:00Z/11" .
+
+wd:Q59067179 wb:has_notes wbn:Q59067179.md ;
+    wb:read_in "+2021-10-28T00:00:00Z/11" .
 
 wd:Q59068540 wb:has_notes wbn:Q59068540.md ;
     wb:in_collection wbc:cell_types ;
