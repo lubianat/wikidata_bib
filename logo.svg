@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo.svg"
+   inkscape:export-filename="/home/lubianat/Documents/wiki_related/wikidata_bib/logo.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="482.82749"
+     inkscape:cy="839.04689"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1920"
+     inkscape:window-height="1051"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <rect
+       style="fill:#806600;fill-opacity:0;stroke:#806600;stroke-width:1.60949361;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect815"
+       width="106.55579"
+       height="20.826994"
+       x="47.902615"
+       y="31.716629" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:16.14874649px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.40371871"
+       x="64.256851"
+       y="47.523739"
+       id="text819"><tspan
+         sodipodi:role="line"
+         x="64.256851"
+         y="47.523739"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Caladea;-inkscape-font-specification:Caladea;stroke-width:0.40371871"
+         id="tspan821">WikidataBib</tspan></text>
+    <rect
+       style="fill:#008000;fill-opacity:1;stroke:#008000;stroke-width:1.43216777;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect825"
+       width="3.9289746"
+       height="7.8579493"
+       x="55.124184"
+       y="36.464413" />
+    <rect
+       style="fill:#0000ff;fill-opacity:1;stroke:#0000ff;stroke-width:1.38913953;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect850"
+       width="4.626832"
+       height="4.7096148"
+       x="57.430939"
+       y="42.118092" />
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:1.17923605;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect825-7"
+       width="6.7964067"
+       height="3.0798016"
+       x="50.088905"
+       y="39.220226" />
+  </g>
+</svg>
