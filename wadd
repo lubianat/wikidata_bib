@@ -5,6 +5,7 @@ import sys
 from glob import glob
 import argparse
 import pandas as pd
+import re
 
 parser = argparse.ArgumentParser()
 
@@ -17,7 +18,7 @@ parser.add_argument(
     "url", help="A short link provided by the Wikidata Query Service", type=str
 )
 parser.add_argument(
-    "category",
+    "--category",
     help="The category to which the list will be appended",
     nargs="?",
     default=None,
@@ -33,6 +34,41 @@ parser.add_argument(
     help="Print QIDs instead of adding to the toread file",
     action="store_true",
 )
+
+
+def add_to_file(qids, category, filepath="toread.md"):
+    """Adds a list of qids to a file
+
+    Inserts each qids as a newline after the category is found.
+
+    Attributes:
+        filepath (str): The path to the file to be modified
+        qids (list): A list of qids to be added to the file as newlines
+        category (str): A word matching a header in the file, below it the
+        newlines shall be added
+    """
+    # read the file into a list of lines
+    with open(filepath, "r") as f:
+        lines = f.read().split("\n")
+
+    for i, line in enumerate(lines):
+        if category in line:  # or word in line.split() to search for full words
+            print('- Category "{}" found in line {}'.format(category, i + 1))
+            start_line = i + 1
+
+    with open(filepath, "r") as f:
+        to_read = f.readlines()
+
+    newlines = []
+    for i in qids:
+        newlines.append(i + "\n")
+
+    print(f"- {str(len(newlines))} QIDs inserted")
+
+    to_read = to_read[:start_line] + newlines + to_read[start_line:]
+    with open(filepath, "w") as f2:
+        f2.writelines(to_read)
+
 
 args = parser.parse_args()
 url = args.url
@@ -63,6 +99,8 @@ if not only_add_articles_that_were_not_read_before:
     for i in sparql_query_result["qid"]:
         print(i)
 else:
+
+    # Ignore articles read before
     files = []
     for file_name in glob("./notes/*.md"):
         files.append(file_name)
@@ -79,42 +117,14 @@ else:
     for i in main_list:
         print(i)
 
+    # Ignore articles in toread.md
+    with open("toread.md", "r") as f:
+        articles_file = f.read()
 
-def add_to_file(qids, category, filepath="toread.md"):
-    """ Adds a list of qids to a file 
-
-    Inserts each qids as a newline after the category is found.
-
-    Attributes:
-        filepath (str): The path to the file to be modified
-        qids (list): A list of qids to be added to the file as newlines
-        category (str): A word matching a header in the file, below it the
-        newlines shall be added 
-    """
-    # read the file into a list of lines
-    with open(filepath, "r") as f:
-        lines = f.read().split("\n")
-
-    for i, line in enumerate(lines):
-        if category in line:  # or word in line.split() to search for full words
-            print('- Category "{}" found in line {}'.format(category, i + 1))
-            start_line = i + 1
-
-    with open(filepath, "r") as f:
-        to_read = f.readlines()
-
-    newlines = []
-    for i in qids:
-        newlines.append(i + "\n")
-
-    print(f"- {str(len(newlines))} QIDs inserted")
-
-    to_read = to_read[:start_line] + newlines + to_read[start_line:]
-    with open(filepath, "w") as f2:
-        f2.writelines(to_read)
-
+    logged_articles = re.findall("Q[0-9]*", articles_file)
+    print(logged_articles)
+    main_list = list(set(main_list) - set(logged_articles))
 
 if category != None and to_print == False:
     print("====== Appending QIDs to file toread.md ====== ")
-    add_to_file(sparql_query_result["qid"], category)
-
+    add_to_file(main_list, category)
