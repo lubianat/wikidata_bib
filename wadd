@@ -76,22 +76,29 @@ only_add_articles_that_were_not_read_before = args.new
 category = args.category
 to_print = args.print
 
-session = requests.Session()  # so connections are recycled
-response = session.head(url, allow_redirects=True)
-url_sparql = response.url.replace(
-    "https://query.wikidata.org/#", "https://query.wikidata.org/sparql?query="
-)
 
-if "work" not in url_sparql:
-    raise ValueError("SPARQL query needs to select a variable called ?work")
+def get_sparql_query_result(url):
+    session = requests.Session()  # so connections are recycled
+    response = session.head(url, allow_redirects=True)
+    url_sparql = response.url.replace(
+        "https://query.wikidata.org/#", "https://query.wikidata.org/sparql?query="
+    )
 
-sparql_query_response = requests.get(url_sparql, params={"format": "json"})
-sparql_query_result = pd.json_normalize(
-    sparql_query_response.json()["results"]["bindings"]
-)
-sparql_query_result["qid"] = [
-    url.split("/")[4] for url in sparql_query_result["work.value"]
-]
+    if "work" not in url_sparql:
+        raise ValueError("SPARQL query needs to select a variable called ?work")
+
+    sparql_query_response = requests.get(url_sparql, params={"format": "json"})
+    sparql_query_result = pd.json_normalize(
+        sparql_query_response.json()["results"]["bindings"]
+    )
+    sparql_query_result["qid"] = [
+        url.split("/")[4] for url in sparql_query_result["work.value"]
+    ]
+
+    return sparql_query_result
+
+
+sparql_query_result = get_sparql_query_result(url)
 
 print("====== QIDs for articles matching the query ====== ")
 
