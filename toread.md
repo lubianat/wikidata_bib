@@ -16,6 +16,8 @@ https://chanzuckerberg.com/blog/biologys-most-ambitious-map-yet-the-human-cell-a
 https://www.ebi.ac.uk/spot/zooma/about
 https://github.com/obophenotype/cell-ontology/blob/master/src/patterns/dosdp-patterns/abnormalAnatomicalEntity.yaml
 https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/
+
+
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -32,9 +34,10 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 13.  Robinson  PN,  Bauer  S.  Introduction  to  biol-ontologies.  Boca  Raton,  FL:    CRC  Press, 2011
 
+Reviewing the knowledge management literature: towards a taxonomy
+
+
 # Cell types
-Q104739739
-Q50647447
 Q90572524
 Q101212124
 Q92755189
@@ -183,7 +186,6 @@ Q33695552
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q35159495
 Q30485632
 Q106714802
 Q36896401
