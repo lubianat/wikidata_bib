@@ -20,12 +20,11 @@ def main():
             category (str): A word matching a header in the file, below it the
             newlines shall be added
         """
-        # read the file into a list of lines
         with open(filepath, "r") as f:
             lines = f.read().split("\n")
 
         for i, line in enumerate(lines):
-            if category in line:  # or word in line.split() to search for full words
+            if category in line:
                 print('- Category "{}" found in line {}'.format(category, i + 1))
                 start_line = i + 1
 
