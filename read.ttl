@@ -1304,6 +1304,9 @@ wd:Q33558314 wb:has_notes wbn:Q33558314.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-25T00:00:00Z/11" .
 
+wd:Q33625951 wb:has_notes wbn:Q33625951.md ;
+    wb:read_in "+2021-11-16T00:00:00Z/11" .
+
 wd:Q33664675 wb:has_notes wbn:Q33664675.md ;
     wb:read_in "+2021-04-11T00:00:00Z/11" .
 
@@ -1734,6 +1737,9 @@ wd:Q38435922 wb:has_notes wbn:Q38435922.md ;
 
 wd:Q38440697 wb:has_notes wbn:Q38440697.md ;
     wb:read_in "+2021-06-11T00:00:00Z/11" .
+
+wd:Q38462964 wb:has_notes wbn:Q38462964.md ;
+    wb:read_in "+2021-11-16T00:00:00Z/11" .
 
 wd:Q38490266 wb:has_notes wbn:Q38490266.md ;
     wb:read_in "+2021-07-20T00:00:00Z/11" .
@@ -2691,6 +2697,9 @@ wd:Q63664483 wb:has_notes wbn:Q63664483.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-29T00:00:00Z/11" .
 
+wd:Q63709729 wb:has_notes wbn:Q63709729.md ;
+    wb:read_in "+2021-11-17T00:00:00Z/11" .
+
 wd:Q63979660 wb:has_notes wbn:Q63979660.md ;
     wb:read_in "+2021-09-17T00:00:00Z/11" .
 
@@ -2894,6 +2903,9 @@ wd:Q89686928 wb:has_notes wbn:Q89686928.md ;
 wd:Q89717434 wb:has_notes wbn:Q89717434.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-02-02T00:00:00Z/11" .
+
+wd:Q89743157 wb:has_notes wbn:Q89743157.md ;
+    wb:read_in "+2021-11-16T00:00:00Z/11" .
 
 wd:Q89748559 wb:has_notes wbn:Q89748559.md ;
     wb:in_collection wbc:cell_types ;
@@ -3205,12 +3217,18 @@ wd:Q92260004 wb:has_notes wbn:Q92260004.md ;
 wd:Q92267490 wb:has_notes wbn:Q92267490.md ;
     wb:read_in "+2021-05-01T00:00:00Z/11" .
 
+wd:Q92303660 wb:has_notes wbn:Q92303660.md ;
+    wb:read_in "+2021-11-16T00:00:00Z/11" .
+
 wd:Q92354852 wb:has_notes wbn:Q92354852.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-04-16T00:00:00Z/11" .
 
 wd:Q92358532 wb:has_notes wbn:Q92358532.md ;
     wb:read_in "+2021-05-31T00:00:00Z/11" .
+
+wd:Q92382884 wb:has_notes wbn:Q92382884.md ;
+    wb:read_in "+2021-11-17T00:00:00Z/11" .
 
 wd:Q92539085 wb:has_notes wbn:Q92539085.md ;
     wb:in_collection wbc:cell_types ;
