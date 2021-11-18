@@ -38,7 +38,6 @@ Reviewing the knowledge management literature: towards a taxonomy
 
 
 # Cell types
-Q57814130
 Q91627529
 Q98388185
 Q92817489
@@ -178,7 +177,6 @@ Q33695552
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q47098165
 Q28681141
 Q68471881
 Q30356547
