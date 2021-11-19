@@ -40,6 +40,7 @@ Order may be changed at a later step.
 - 1.3.2.3. Bio2RDF and semantic databases
 -
 - 1.3.3. Wikidata as a platform for representation of biological knowledge
+- 1.3.3.1 Life sciences projects that use Wikidata
 -
 - 1.3.4 Semantic Systems Biology
    

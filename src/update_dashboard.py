@@ -1,15 +1,11 @@
 from datetime import date, datetime, timedelta
 from helper import wikidata2df
 from mdutils.mdutils import MdUtils
-import sys
-import unicodedata
 import pandas as pd
-import os
 import os.path
 import rdflib
 from pathlib import Path
 from glob import glob
-import urllib.parse
 import wbib.queries
 from wbib import wbib
 

@@ -4,7 +4,6 @@ import sys
 from helper import wikidata2df
 from mdutils.mdutils import MdUtils
 import pandas as pd
-import urllib.parse
 import os.path
 import rdflib
 from datetime import date, datetime

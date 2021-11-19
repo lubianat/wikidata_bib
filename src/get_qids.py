@@ -1,6 +1,5 @@
 import pandas as pd
 import requests
-import sys
 from helper import wikidata2df
 import argparse
 from glob import glob

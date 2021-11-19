@@ -6,7 +6,6 @@ import pandas as pd
 import requests
 import os
 import sys
-import yaml
 import warnings
 
 
