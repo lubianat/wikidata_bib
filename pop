@@ -27,8 +27,6 @@ else:
     code = ""
 
 qid = re.findall(regex, text)[0]
-print(qid)
-
 
 if qid == "Q":
     print("No QID found.")
@@ -37,4 +35,3 @@ else:
     with open("toread.md", "w+") as f:
         f.write(text.replace(qid + "\n", ""))
     os.system(f"python3 wread {qid}")
-
