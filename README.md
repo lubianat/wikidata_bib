@@ -20,7 +20,7 @@ You can check an example of a query dashboard for readings at [lubianat.github.i
 - wadd
 - wlog
 - wread
-- 
+
 ### Scaffolding files
 
 - toread.md

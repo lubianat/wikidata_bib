@@ -7,7 +7,6 @@ import pandas as pd
 import os.path
 import rdflib
 from datetime import date, datetime
-import wbib.queries
 
 
 def main():
