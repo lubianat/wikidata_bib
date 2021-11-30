@@ -1895,6 +1895,9 @@ wd:Q40436539 wb:has_notes wbn:Q40436539.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-01-31T00:00:00Z/11" .
 
+wd:Q40545886 wb:has_notes wbn:Q40545886.md ;
+    wb:read_in "+2021-11-30T00:00:00Z/11" .
+
 wd:Q40844035 wb:has_notes wbn:Q40844035.md ;
     wb:read_in "+2021-11-26T00:00:00Z/11" .
 
