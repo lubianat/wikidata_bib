@@ -17,7 +17,8 @@ https://www.ebi.ac.uk/spot/zooma/about
 https://github.com/obophenotype/cell-ontology/blob/master/src/patterns/dosdp-patterns/abnormalAnatomicalEntity.yaml
 https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-operational-textual-definitions/
 
-
+https://github.com/blazegraph/database/wiki/QueryHints
+https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/query_optimization
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -38,8 +39,6 @@ Reviewing the knowledge management literature: towards a taxonomy
 
 
 # Cell types
-Q107363182
-Q107272879
 Q40545886
 Q92017855
 Q41483547
@@ -172,6 +171,12 @@ Q33695552
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
+Q73684086
+Q56836006
+Q73858433
+Q30483829
+Q28239464
+Q109829598
 Q36519052
 Q46149709
 Q47564965

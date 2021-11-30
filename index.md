@@ -16,6 +16,7 @@ Order may be changed at a later step.
 - 1.1. The quest for interoperable knowledge
 - 1.1.1. Literature Based Discovery, hidden knowledge and text-mining
 - 1.1.1.1. Literature Based Discovery (explicitly)
+- 1.1.1.2. Hidden knowledge (explicitly)
 - 1.1.2. Interoperable data: dataset integration
 - 1.1.3. Interoperable publication processes: nanopublications 
 
