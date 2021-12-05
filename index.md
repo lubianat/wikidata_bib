@@ -22,6 +22,7 @@ Order may be changed at a later step.
 
 - 1.2. Formal representation of knowledge
 - 1.2.1. Descriptional logic and its historical context
+- 1.2.1.1 Multi-level theory (MLT)
 - 1.2.2. Computational ontologies and their methods
 - 1.2.3. Web of Data and Linked Open Data
 - 1.2.4. Wikidata and Knowledge Graphs
