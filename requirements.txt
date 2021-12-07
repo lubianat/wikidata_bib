@@ -1,1 +1,3 @@
 inquirer
+pandas
+pyyaml

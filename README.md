@@ -11,14 +11,13 @@ For a template version __IN CONSTRUCTION__ check <https://github.com/wikidatabib
 - docs
 - src
 - notes
-    - Q1123.md
-    - Q2234.md
 - toread.md
 - read.ttl
 - read.csv
 - config.yaml
 - pop
 - wadd
+- wadd_all
 - wlog
 - wread
 
@@ -60,6 +59,12 @@ A configuration file mapping shortcuts to use in the command line to categories 
 
 Adds a set of new articles to one of the lists in toread.md. Example for single-cell transcriptomics articles in either Nature or Science: https://w.wiki/3LhF
 `$ ./wadd https://w.wiki/3MDs -p --new`
+
+- wadd_all
+
+Adds multiple sets of new articles to your lists based on the Wikidata queries listed in config.yaml. 
+`$ ./wadd_all`
+
 
 - wlog
 Adds a commit to git for the articler read and pushes it to GitHub.
