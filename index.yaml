@@ -66,54 +66,59 @@
       - 2.1.4.1. Allele x gene
       - 2.1.4.2. Gene as individual and gene as a class
           
-- 2.2. The concept of "taxon"
-- 2.2.1. Lines of thought about the taxon concept
-- 2.2.1.1. Cladistics and the PhyloCode
-- 2.2.1.2. Phenetics and Numeric Taxonomy
-- 2.2.2. Bacteria, cell lines and the plurality of the concept of taxon
+  - 2.2. The concept of "taxon":
+    - 2.2.1. Lines of thought about the taxon concept:
+      - 2.2.1.1. Cladistics and the PhyloCode
+      - 2.2.1.2. Phenetics and Numeric Taxonomy
+    - 2.2.2. Bacteria, cell lines and the plurality of the concept of taxon
    
-- 2.3. The concept of "cell"
-- 2.3.1. Historical perspective
-- 2.3.2. Boundaries of the concept in the context of this thesis
--    
-- 2.4 The concept of "cell type"
-- 2.4.1. Historical perspective and the morphological cell type
-- 2.4.2. Modern perspectives of classification of cells
-- 2.4.2.1. Classification
-- 2.4.2.1.1 Evolutionary cell types
-- 2.4.2.2. Identification
-- 2.4.2.2.1. Transgenic animals and marker-based identification
-- 2.4.2.2.2. A posteriori identification in high-throughput metodologies
-- 2.4.2.3. Nomenclature
-- 2.4.3. States, identities, fates, attractors and phenotypical continuity
-- 2.4.4. A pragmatic definition of cell type
-- 2.4.4.1. 3+1 rules for defining one type
-- 2.4.4.1.1 Cell types must have explicit definitions
-- 2.4.4.1.2 Cell types must have a taxonomic scope
-- 2.4.4.1.3 Cell types must be useful
-- 2.4.4.1.4 Cell types should be inserted in an ontology 
-- 2.4.4.2. Names for different classes of types
-- 2.4.4.2.1 The cell archetype
-- 2.4.4.2.2 The sensu stricto cell type
-- 2.4.4.2.3 The infratype
-- 2.4.4.2.4 The technotype
-- 2.4.4.3. Logical implications of the definition
-- 2.4.4.4. Practical implications of the definition
-- 2.4.4.5. Less-strict, literature based definitions for immediate use
-- 2.4.5.1. The use of the concept in the literature
-- 2.4.5.2. The use of the concept in metadata and knowledgebases
-- 2.4.5.3. The use of the concept in ontologies
-- 2.4.5.4. Wikidata and consensus-determined rigorously undefined concepts
-- 2.4.6. Claims of novel cell types
-- 2.4.7. Levels of classification of cells
-- 2.4.7.1 Differentia for cell classes (biological sex)
-- 2.4.7.2 Differentia for cell classes (strains and subspecific groups)
-- 2.4.7.3 Differentia for cell classes (age and life stage)
-- 2.4.7.4 Differentia for cell classes (circadian clock)
-- 2.4.7.5 Differentia for cell classes (presence in organ)
-- 2.4.7.5 Differentia for cell classes (sub-organ regions)
-- 2.4.7.6 Differentia for cell classes (disease condition)
-    
+  - 2.3. The concept of "cell":
+    - 2.3.1. Historical perspective
+    - 2.3.2. Boundaries of the concept in the context of this thesis
+   
+  - 2.4 The concept of "cell type":
+    - 2.4.1. Historical perspective and the morphological cell type
+
+    - 2.4.2. Modern perspectives of classification of cells:
+      - 2.4.2.1. Classification:
+        - 2.4.2.1.1 Evolutionary cell types
+      - 2.4.2.2. Identification:
+        - 2.4.2.2.1. Transgenic animals and marker-based identification
+        - 2.4.2.2.2. A posteriori identification in high-throughput metodologies
+      - 2.4.2.3. Nomenclature
+    - 2.4.3. States, identities, fates, attractors and phenotypical continuity
+
+    - 2.4.4. A pragmatic definition of cell type:
+      - 2.4.4.1. 3+1 rules for defining one type:
+        - 2.4.4.1.1 Cell types must have explicit definitions
+        - 2.4.4.1.2 Cell types must have a taxonomic scope
+        - 2.4.4.1.3 Cell types must be useful
+        - 2.4.4.1.4 Cell types should be inserted in an ontology 
+      - 2.4.4.2. Names for different classes of types:
+        - 2.4.4.2.1 The cell archetype
+        - 2.4.4.2.2 The sensu stricto cell type
+        - 2.4.4.2.3 The infratype
+        - 2.4.4.2.4 The technotype
+      - 2.4.4.3. Logical implications of the definition
+      - 2.4.4.4. Practical implications of the definition
+
+    - 2.4.5. Less-strict, literature based definitions for immediate use:
+      - 2.4.5.1. The use of the concept in the literature
+      - 2.4.5.2. The use of the concept in metadata and knowledgebases
+      - 2.4.5.3. The use of the concept in ontologies
+      - 2.4.5.4. Wikidata and consensus-determined rigorously undefined concepts
+
+    - 2.4.6. Claims of novel cell types
+
+    - 2.4.7. Levels of classification of cells:
+      - 2.4.7.1 Differentia for cell classes (biological sex)
+      - 2.4.7.2 Differentia for cell classes (strains and subspecific groups)
+      - 2.4.7.3 Differentia for cell classes (age and life stage)
+      - 2.4.7.4 Differentia for cell classes (circadian clock)
+      - 2.4.7.5 Differentia for cell classes (presence in organ)
+      - 2.4.7.5 Differentia for cell classes (sub-organ regions)
+      - 2.4.7.6 Differentia for cell classes (disease condition)
+      
 - 2.5. The concept of "protein"
 - 2.5.1. Proteins, proteins families and protein molecules
 - 2.5.2. Protein complexes and their details
