@@ -32,6 +32,10 @@ Articles are stored as Wikidata identifiers, to automatically pull the informati
 
 You can, of course, store just the name of the article or other information and eventually locate and update the file with the Wikidata QID. 
 
+- index.md
+
+An index of 
+
 - read.ttl
 
 An RDF file linking the wikidata URIs for the articles you are reading to your notes. 
@@ -98,15 +102,5 @@ And then you can continue highlighting
 ## A header saying "Comments"
 Any general comments that did not fit inlinely. 
 
-(now the explanation is over, back to the README we go)
+## A header saying "Tags"
 
-## Features yet to be implemented
-- Recording of claims: claims and the papers that support them
-- Recording of concepst: concepts and the papers that introduce (or use) them 
-- Clean the code that makes the automatic updates
-
-- Auto update queries in GH Pages 
-I do not know how to embed the queries in the html directly yet.
-
-I am manually getting the urls from the Wikidata Query Service
-using queries in the sparql folder.     
