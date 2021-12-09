@@ -40,7 +40,6 @@ Reviewing the knowledge management literature: towards a taxonomy
 https://kgbook.org/
 
 # Cell types
-Q57025360
 Q93137685
 Q34492731
 Q98614795
@@ -171,6 +170,7 @@ Q43499204
 Q106638265
 Q38450607
 Q80200364
+Q109990743
 Q83145239
 Q34685767
 Q70207223
