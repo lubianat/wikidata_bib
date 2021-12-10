@@ -119,30 +119,30 @@
       - 2.4.7.5 Differentia for cell classes (sub-organ regions)
       - 2.4.7.6 Differentia for cell classes (disease condition)
       
-- 2.5. The concept of "protein"
-- 2.5.1. Proteins, proteins families and protein molecules
-- 2.5.2. Protein complexes and their details
-- 2.5.3. Protein forms
+  - 2.5. The concept of "protein":
+    - 2.5.1. Proteins, proteins families and protein molecules
+    - 2.5.2. Protein complexes and their details
+    - 2.5.3. Protein forms
 
-- 2.6. The concept of "transcript"
-- 2.6.1. Transcript expression x gene expression x protein expression
+  - 2.6. The concept of "transcript":
+    - 2.6.1. Transcript expression x gene expression x protein expression
 
-- 2.7. The concept of "cell marker"
+  - 2.7. The concept of "cell marker"
 
-- 3. Practical Projects
+- 3. Practical Projects:
    
-- 3.1.  Cell-type markers in Wikidata
-- 3.1.1. PanglaoDB
-- 3.1.2. Other bases of markers
-- 3.1.3. WikidataMarkers: a website and an R packase for cell type gene sets
-- 3.1.4. Cell-Disease networks via Wikidata
+  - 3.1.  Cell-type markers in Wikidata:
+    - 3.1.1. PanglaoDB
+    - 3.1.2. Other bases of markers
+    - 3.1.3. WikidataMarkers (a website and an R package for cell type gene sets)
+    - 3.1.4. Cell-Disease networks via Wikidata
    
-- 3.2. Community annotation of texts via Wikidata 
-- 3.2.1. Pilot: Annotation of the Human Cell Atlas corpus
-- 3.2.2. Community curation and gamified science
-- 3.2.2.1. ANN
-- 3.2.3. Text mining and Wikidata community curation
-   
+  - 3.2. Community annotation of texts via Wikidata: 
+    - 3.2.1. Pilot annotation of the Human Cell Atlas corpus
+    - 3.2.2. Community curation and gamified science:
+      - 3.2.2.1. ANN
+    - 3.2.3. Text mining and Wikidata community curation
+    
 - 3.3. Cellosaurus cell-lines to Wikidata
    
 - 3.4. Single-cell RNA-seq data reconciliation to Wikidata

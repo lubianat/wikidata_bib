@@ -38,9 +38,9 @@ https://neo4j.com/graph-databases-book/?ref=blog
 Reviewing the knowledge management literature: towards a taxonomy
 
 https://kgbook.org/
+https://philarchive.org/archive/MUNAOA-2
 
 # Cell types
-Q93137685
 Q34492731
 Q98614795
 Q52374114
@@ -160,8 +160,6 @@ Q33695552
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q59811523
-Q36372990
 Q67753104
 Q33900904
 Q70976928
