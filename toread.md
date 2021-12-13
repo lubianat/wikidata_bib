@@ -39,11 +39,9 @@ Reviewing the knowledge management literature: towards a taxonomy
 
 https://kgbook.org/
 https://philarchive.org/archive/MUNAOA-2
+https://manubot.github.io/manufesto/
 
 # Cell types
-Q34492731
-Q98614795
-Q52374114
 Q58840753
 Q93151331
 Q83232134
@@ -152,6 +150,7 @@ Q26852799
 Q90361677
 Q59133412
 Q33695552
+Q110086591
 
 ## No QID
 
@@ -160,11 +159,6 @@ Q33695552
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q67753104
-Q33900904
-Q70976928
-Q57027696
-Q43499204
 Q106638265
 Q38450607
 Q80200364
