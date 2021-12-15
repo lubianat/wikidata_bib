@@ -2054,6 +2054,9 @@ wd:Q42778383 wb:has_notes wbn:Q42778383.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-11-25T00:00:00Z/11" .
 
+wd:Q42790699 wb:has_notes wbn:Q42790699.md ;
+    wb:read_in "+2021-12-15T00:00:00Z/11" .
+
 wd:Q42914236 wb:has_notes wbn:Q42914236.md ;
     wb:read_in "+2021-04-26T00:00:00Z/11" .
 
