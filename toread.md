@@ -42,6 +42,7 @@ https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
+Q48373178
 Q58840753
 Q93151331
 Q83232134
@@ -159,7 +160,6 @@ Q110086591
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q106638265
 Q38450607
 Q80200364
 Q109990743
