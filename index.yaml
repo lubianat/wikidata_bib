@@ -44,6 +44,7 @@
         - 1.4.2.1.1 Bias introduced by different scRNA-seq methods
       - 1.4.2.2. Computational analysis of scRNA-seq data:
         - 1.4.2.2.1. Clustering algorithms
+        - 1.4.2.2.2. Visualization of scRNAseq data
       - 1.4.2.3. Cell label identification:
         - 1.4.2.3.1. Labelling clusters
         - 1.4.2.3.2. Labelling events
