@@ -57,7 +57,7 @@
 
     - 1.4.5. Goals of this project
 
-- 2. Definitions:
+2. Definitions:
 
   - 2.1. The concept of "gene":
     - 2.1.1. Gene as phenotype x gene as DNA
@@ -130,7 +130,7 @@
 
   - 2.7. The concept of "cell marker"
 
-- 3. Practical Projects:
+3. Practical Projects:
    
   - 3.1.  Cell-type markers in Wikidata:
     - 3.1.1. PanglaoDB
@@ -144,44 +144,43 @@
       - 3.2.2.1. ANN
     - 3.2.3. Text mining and Wikidata community curation
     
-- 3.3. Cellosaurus cell-lines to Wikidata
+  - 3.3. Cellosaurus cell-lines to Wikidata
    
-- 3.4. Single-cell RNA-seq data reconciliation to Wikidata:
-  - 3.4.1. Integration of single-cell RNA-seq bibliometric data to Scholia
-  - 3.4.2. scRNA-seq metadata reconciliation:
-    - 3.4.2.1. COVID-19 cell types collection
-    - 3.4.2.2. Other single-cell RNA-seq datasets
-    - 3.4.2.3. Cell-disease networks inferred from Wikidata
-         
-- 3.5. Practical applications of a pragmatic cell type definition in 2.4.4:
-  - 3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers
-  - 3.5.2. R package for suggestion of cell-type rules based on Seurat clusters
-  - 3.5.3. R package for rule-based identification of cell types:
-    - 3.5.3.1. Data model and development
-    - 3.5.3.2. Large scale application to many datasets
-            
-- 3.6. Wikidata Bib and scientific practice as a first-class citizen in the knowledge world:
-  - 3.6.1. The Wikidata Bib platform and the formalization of a reading discipline
-  - 3.6.2. Linked Open Data for personalized analysis of bibliography
-  - 3.6.3. Sowing the seeds of knowledge (meta contributions to Wikidata during the PhD)
+  - 3.4. Single-cell RNA-seq data reconciliation to Wikidata:
+    - 3.4.1. Integration of single-cell RNA-seq bibliometric data to Scholia
+    - 3.4.2. scRNA-seq metadata reconciliation:
+      - 3.4.2.1. COVID-19 cell types collection
+      - 3.4.2.2. Other single-cell RNA-seq datasets
+      - 3.4.2.3. Cell-disease networks inferred from Wikidata
+          
+  - 3.5. Practical applications of a pragmatic cell type definition in 2.4.4:
+    - 3.5.1. Basic dictionary for cell type identification based on regular expression of cell type markers
+    - 3.5.2. R package for suggestion of cell-type rules based on Seurat clusters
+    - 3.5.3. R package for rule-based identification of cell types:
+      - 3.5.3.1. Data model and development
+      - 3.5.3.2. Large scale application to many datasets
+              
+  - 3.6. Wikidata Bib and scientific practice as a first-class citizen in the knowledge world:
+    - 3.6.1. The Wikidata Bib platform and the formalization of a reading discipline
+    - 3.6.2. Linked Open Data for personalized analysis of bibliography
+    - 3.6.3. Sowing the seeds of knowledge (meta contributions to Wikidata during the PhD)
 
-- 3.7. Scholarly and metascientific information on Scholia/Wikidata
+  - 3.7. Scholarly and metascientific information on Scholia/Wikidata
 
-- 3.8. The long tail of biocuration
+  - 3.8. The long tail of biocuration
 
-- 3.9. Semantic Systems and Synthetic Biology
+  - 3.9. Semantic Systems and Synthetic Biology
 
-- 3.10. Minimal Information About New Cell Classes
+  - 3.10. Minimal Information About New Cell Classes
 
-- 3.11 The Cell Wiki Project
+  - 3.11 The Cell Wiki Project
 
-- 3.12 Linked GEO and curation of transcriptomics datasets
-      
-- 0 Master's projects:
+  - 3.12 Linked GEO and curation of transcriptomics datasets
+
+0 Master's projects:
   - 0.1 fcoex & FCBF
   - 0.2 Alexa
   - 0.3 PubScore
     
-# Other tags
-
-- X.1 Phrase to quote
+X Other tags:
+  - X.1 Phrase to quote
