@@ -13,7 +13,7 @@ def main():
     def get_title_df(wikidata_id):
         query = (
             """
-        SELECT ?item ?itemLabel ?date ?doi ?url
+        SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id
         WHERE
         {
         VALUES ?item {wd:"""
@@ -22,6 +22,7 @@ def main():
         OPTIONAL {?item wdt:P577 ?date}.
         OPTIONAL {?item wdt:P356 ?doi} .
         OPTIONAL {?item wdt:P953 ?url}
+        OPTIONAL {?item wdt:P818 ?arxiv_id}
         SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
         }
         """
@@ -31,7 +32,9 @@ def main():
 
         return df
 
-    def create_markdown(file_path, title, publication_date="None", doi="", url=""):
+    def create_markdown(
+        file_path, title, publication_date="None", doi="", url="", arxiv_id=""
+    ):
         mdFile = MdUtils(file_name=file_path, title=title)
 
         mdFile.new_line("  [@wikidata:" + wikidata_id + "]")
@@ -59,6 +62,9 @@ def main():
 
         if url != "":
             mdFile.new_line(f" * [Full text URL]({url})")
+
+        if arxiv_id != "":
+            mdFile.new_line(f" * [arXiv ID](https://arxiv.org/pdf/{arxiv_id}.pdf)")
         mdFile.new_line()
         mdFile.create_md_file()
 
@@ -123,10 +129,17 @@ def main():
     except:
         text_url = ""
         pass
+
+    try:
+        arxiv_id = df["arxiv_id"][0]
+    except:
+        arxiv_id = ""
+        pass
+
     file_path = "notes/" + wikidata_id
 
     print("======= Creating markdown =======")
-    create_markdown(file_path, title, publication_date, doi, text_url)
+    create_markdown(file_path, title, publication_date, doi, text_url, arxiv_id)
     update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
