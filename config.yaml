@@ -10,7 +10,7 @@ lists:
 
 queries:
   ct:
-    - https://w.wiki/4LHr # CNS + eLife Papers on single-cell transcriptomics
+    - https://w.wiki/4eub # CNS + eLife + Nat Comm Papers on single-cell transcriptomics
   bioc:
     - https://w.wiki/4LHi # Papers on Biocuration
     - https://w.wiki/4af4 # Papers by selected must-read authors

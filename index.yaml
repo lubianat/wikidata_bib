@@ -1,6 +1,6 @@
 ## Index
 
-1. Introduction:
+- 1. Introduction:
   - 1.1. The quest for interoperable knowledge: 
     - 1.1.1. Literature Based Discovery, hidden knowledge and text-mining:
       - 1.1.1.1. Literature Based Discovery (explicitly)
@@ -57,7 +57,7 @@
 
     - 1.4.5. Goals of this project
 
-2. Definitions:
+- 2. Definitions:
 
   - 2.1. The concept of "gene":
     - 2.1.1. Gene as phenotype x gene as DNA
@@ -130,7 +130,7 @@
 
   - 2.7. The concept of "cell marker"
 
-3. Practical Projects:
+- 3. Practical Projects:
    
   - 3.1.  Cell-type markers in Wikidata:
     - 3.1.1. PanglaoDB
@@ -177,10 +177,10 @@
 
   - 3.12 Linked GEO and curation of transcriptomics datasets
 
-0 Master's projects:
+- 0 Master's projects:
   - 0.1 fcoex & FCBF
   - 0.2 Alexa
   - 0.3 PubScore
     
-X Other tags:
+- X Other tags:
   - X.1 Phrase to quote
