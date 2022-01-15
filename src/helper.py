@@ -32,3 +32,36 @@ def wikidata2df(query):
     )
 
     return results_df
+
+
+def add_to_file(qids, category, filepath="toread.md"):
+    """Adds a list of qids to a file
+
+    Inserts each qids as a newline after the category is found.
+
+    Attributes:
+        filepath (str): The path to the file to be modified
+        qids (list): A list of qids to be added to the file as newlines
+        category (str): A word matching a header in the file, below it the
+        newlines shall be added
+    """
+    with open(filepath, "r") as f:
+        lines = f.read().split("\n")
+
+    for i, line in enumerate(lines):
+        if category in line:
+            print('- Category "{}" found in line {}'.format(category, i + 1))
+            start_line = i + 1
+
+    with open(filepath, "r") as f:
+        to_read = f.readlines()
+
+    newlines = []
+    for i in qids:
+        newlines.append(i + "\n")
+
+    print(f"- {str(len(newlines))} QIDs inserted")
+
+    to_read = to_read[:start_line] + newlines + to_read[start_line:]
+    with open(filepath, "w") as f2:
+        f2.writelines(to_read)
