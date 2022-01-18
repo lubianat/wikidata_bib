@@ -16,7 +16,6 @@ with open("config.yaml", "r") as c:
     shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
 if len(sys.argv) == 2:
-
     reading_list_code = sys.argv[1]
     print(
         f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======'
@@ -38,4 +37,5 @@ else:
     import os
 
     os.system(f"python3 src/get_pdf.py {sys.argv[1]} unpaywall")
+
     # Add logic to move to add entry to move qid "Saved PDFs" list if successful and ignore otherwise.
