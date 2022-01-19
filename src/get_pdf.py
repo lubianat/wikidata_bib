@@ -1,13 +1,8 @@
 #!/usr/bin/python3
 
 from helper import wikidata2df
-from bs4 import BeautifulSoup
-import pandas as pd
-import requests
-import os
 import sys
-import warnings
-from src.helper import download_paper, get_doi_df
+from helper import download_paper, get_doi_df
 
 
 def main():

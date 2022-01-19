@@ -5,6 +5,7 @@ import re
 import os
 import yaml
 from src.helper import add_to_file
+from src.helper import download_paper, get_doi_df
 
 # Open file with the QIDs ("toread.md")
 # and the file with the shortcuts ("config.yaml")
@@ -36,6 +37,15 @@ else:
         f.write(text.replace(qid + "\n", ""))
     import os
 
-    os.system(f"python3 src/get_pdf.py {sys.argv[1]} unpaywall")
+    # Select "unpaywall" or "sci-hub"
+    source = "sci-hub"
+    doi_df = get_doi_df(qid)
+    print("======= Looking for article DOI on Wikidata =======")
+    print(doi_df)
+    if doi_df.empty == True:
+        print("No DOI found for " + qid + ".")
 
-    # Add logic to move to add entry to move qid "Saved PDFs" list if successful and ignore otherwise.
+    else:
+        doi_suffix = doi_df["doi"].values[0]
+        print("DOI: " + doi_suffix)
+        download_paper(doi=doi_suffix, source=source, path="./downloads/")

@@ -2,6 +2,11 @@ import requests
 import pandas as pd
 from collections import defaultdict
 from itertools import product, chain
+import requests
+import os
+import warnings
+from bs4 import BeautifulSoup
+import pandas as pd
 
 # Based on https://github.com/jvfe/wikidata2df/blob/master/wikidata2df/wikidata2df.py
 # Workaround due to user agent problems leading to 403
@@ -124,7 +129,7 @@ def download_paper(doi, source, path="~/Downloads/"):
         filepath = path + filename + ".pdf"
         print("====== Dowloading article from Unpaywall ======")
 
-    os.system(f"wget -O {filepath} {pdf_url}")
+    os.system(f"wget -O {filepath} {pdf_url} --no-clobber ")
     print("====== Opening PDF ======")
     os.system(f"xdg-open {filepath} &")
 
