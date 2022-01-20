@@ -33,12 +33,10 @@ if qid == "Q":
     print("No QID found.")
 
 else:
-    with open("toread.md", "w+") as f:
-        f.write(text.replace(qid + "\n", ""))
     import os
 
     # Select "unpaywall" or "sci-hub"
-    source = "sci-hub"
+    source = "unpaywall"
     doi_df = get_doi_df(qid)
     print("======= Looking for article DOI on Wikidata =======")
     print(doi_df)
@@ -48,4 +46,13 @@ else:
     else:
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
-        download_paper(doi=doi_suffix, source=source, path="./downloads/")
+        a = download_paper(
+            doi=doi_suffix, source=source, path="./downloads/", prepop=True
+        )
+        print(a)
+
+        if a["saved"]:
+            with open("toread.md", "w+") as f:
+                f.write(text.replace(qid + "\n", ""))
+        else:
+            # Implement recursive logic to get next valid QID

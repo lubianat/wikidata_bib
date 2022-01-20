@@ -90,7 +90,7 @@ def get_doi_df(wikidata_id):
     return df
 
 
-def download_paper(doi, source, path="~/Downloads/"):
+def download_paper(doi, source, path="~/Downloads/", prepop=False):
     """
     Given a DOI, downloads an article to a folder.
 
@@ -130,7 +130,14 @@ def download_paper(doi, source, path="~/Downloads/"):
         print("====== Dowloading article from Unpaywall ======")
 
     os.system(f"wget -O {filepath} {pdf_url} --no-clobber ")
-    print("====== Opening PDF ======")
-    os.system(f"xdg-open {filepath} &")
+
+    if prepop:
+        if os.path.exists(filepath):
+            return {"saved": True}
+        else:
+            return {"saved": False}
+    else:
+        print("====== Opening PDF ======")
+        os.system(f"xdg-open {filepath} &")
 
     return 0
