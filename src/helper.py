@@ -129,7 +129,7 @@ def download_paper(doi, source, path="~/Downloads/", prepop=False):
         filepath = path + filename + ".pdf"
         print("====== Dowloading article from Unpaywall ======")
 
-    os.system(f"wget -O {filepath} {pdf_url} --no-clobber ")
+    os.system(f"wget -O {filepath} -q --show-progress {pdf_url} --no-clobber ")
 
     if prepop:
         if os.path.exists(filepath):
