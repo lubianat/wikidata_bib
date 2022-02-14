@@ -792,6 +792,9 @@ wd:Q109361717 wb:has_notes wbn:Q109361717.md ;
 wd:Q109361945 wb:has_notes wbn:Q109361945.md ;
     wb:read_in "+2021-11-02T00:00:00Z/11" .
 
+wd:Q109583780 wb:has_notes wbn:Q109583780.md ;
+    wb:read_in "+2022-02-14T00:00:00Z/11" .
+
 wd:Q109615707 wb:has_notes wbn:Q109615707.md ;
     wb:read_in "+2021-11-17T00:00:00Z/11" .
 
@@ -3481,6 +3484,9 @@ wd:Q90835368 wb:has_notes wbn:Q90835368.md ;
 wd:Q90911578 wb:has_notes wbn:Q90911578.md ;
     wb:read_in "+2021-05-20T00:00:00Z/11" .
 
+wd:Q90950243 wb:has_notes wbn:Q90950243.md ;
+    wb:read_in "+2022-02-14T00:00:00Z/11" .
+
 wd:Q90961362 wb:has_notes wbn:Q90961362.md ;
     wb:read_in "+2021-11-15T00:00:00Z/11" .
 
@@ -3745,6 +3751,9 @@ wd:Q92766837 wb:has_notes wbn:Q92766837.md ;
 
 wd:Q92783288 wb:has_notes wbn:Q92783288.md ;
     wb:read_in "+2021-09-21T00:00:00Z/11" .
+
+wd:Q92797023 wb:has_notes wbn:Q92797023.md ;
+    wb:read_in "+2022-02-14T00:00:00Z/11" .
 
 wd:Q92817489 wb:has_notes wbn:Q92817489.md ;
     wb:read_in "+2021-11-21T00:00:00Z/11" .
