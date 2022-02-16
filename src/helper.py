@@ -8,6 +8,42 @@ import warnings
 from bs4 import BeautifulSoup
 import pandas as pd
 
+
+def pmid_to_wikidata_qid(list_of_pmids):
+
+    endpoint_url = "https://query.wikidata.org/sparql"
+
+    values = ""
+    for pmid in list_of_pmids:
+        values = values + f' "{pmid}"'
+
+    query = f"""
+    SELECT 
+      ?qid 
+    WHERE 
+    {{
+      VALUES ?pmid {{ {values} }} .
+      ?qid wdt:P698 ?pmid .
+    }}
+    """
+
+    response = requests.get(
+        endpoint_url,
+        params={"query": query, "format": "json"},
+        headers={
+            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+        },
+    )
+    query_result = response.json()
+
+    qids = []
+    for row in query_result["results"]["bindings"]:
+        qid = row["qid"].split("/")[-1]
+        qids.append(qid)
+
+    return qids
+
+
 # Based on https://github.com/jvfe/wikidata2df/blob/master/wikidata2df/wikidata2df.py
 # Workaround due to user agent problems leading to 403
 def wikidata2df(query):
