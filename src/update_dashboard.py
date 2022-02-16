@@ -96,9 +96,9 @@ articles_dataframe = pd.DataFrame(columns=cols)
 for row in query_result:
     qid = str(row[0])
     date_string = row[1]
-    articles_dataframe = articles_dataframe.append(
-        {"item": qid, "date_string": date_string}, ignore_index=True
-    )
+    new_row = pd.DataFrame({"item": qid, "date_string": date_string}, index=[0])
+
+    articles_dataframe = pd.concat([articles_dataframe, new_row])
 
 
 dates_in_date_format = [

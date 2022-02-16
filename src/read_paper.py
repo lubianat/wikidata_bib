@@ -96,7 +96,9 @@ def main():
     def update_csv(df):
         df_stored = pd.read_csv("read.csv")
         new_row = {"human_id": df["itemLabel"][0], "wikidata_id": df["item"][0]}
-        df_stored = df_stored.append(new_row, ignore_index=True)
+        new_row = pd.DataFrame(new_row, index=[0])
+        df_stored = pd.concat([df_stored, new_row], ignore_index=True)
+
         df_stored = df_stored.drop_duplicates()
         print(df_stored)
         df_stored.to_csv("read.csv", index=False)
