@@ -19,6 +19,12 @@ https://douroucouli.wordpress.com/2019/07/08/ontotip-write-simple-concise-clear-
 
 https://github.com/blazegraph/database/wiki/QueryHints
 https://www.wikidata.org/wiki/Wikidata:SPARQL_query_service/query_optimization
+
+http://openbel.org/language/version_2.0/bel_specification_
+version_2.0.html and http://language.bel.bio as well as additional
+guidelines from https://github.com/pharmacome/curation.
+
+
 # Books to read
 Huxley, J. S.: The new systematics (Oxford Univ. Press, Oxford 1940).
 
@@ -45,7 +51,6 @@ https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
-Q47321523
 Q59326833
 Q51415870
 Q93063965
@@ -189,7 +194,6 @@ Q38976437
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
-Q90643177
 Q90197164
 Q106489077
 Q108126839
