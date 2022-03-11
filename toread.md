@@ -51,7 +51,6 @@ https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
-Q91558351
 Q58569656
 Q30276962
 Q98623473
@@ -487,7 +486,6 @@ Q61135997
 Q93039099
 
 # Literature-Based Discovery
-Q31172385
 Q56510913
 Q94937526
 Q62489472
