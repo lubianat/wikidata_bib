@@ -10,6 +10,15 @@ import pandas as pd
 
 
 def pmid_to_wikidata_qid(list_of_pmids):
+        """Queries the Wikidata SPARQL endpoint.
+
+    Args:
+        query (str): A SPARQL query formatted for the Wikidata query service.
+
+    Returns:
+        (pd.DataFrame): A table with the Wikidata results.
+
+    """
 
     endpoint_url = "https://query.wikidata.org/sparql"
 
@@ -47,6 +56,15 @@ def pmid_to_wikidata_qid(list_of_pmids):
 # Based on https://github.com/jvfe/wikidata2df/blob/master/wikidata2df/wikidata2df.py
 # Workaround due to user agent problems leading to 403
 def wikidata2df(query):
+    """Queries the Wikidata SPARQL endpoint.
+
+    Args:
+        query (str): A SPARQL query formatted for the Wikidata query service.
+
+    Returns:
+        (pd.DataFrame): A table with the Wikidata results.
+
+    """
 
     endpoint_url = "https://query.wikidata.org/sparql"
 
@@ -80,11 +98,12 @@ def add_to_file(qids, category, filepath="toread.md"):
 
     Inserts each qids as a newline after the category is found.
 
-    Attributes:
+    Args:
         filepath (str): The path to the file to be modified
         qids (list): A list of qids to be added to the file as newlines
         category (str): A word matching a header in the file, below it the
         newlines shall be added
+
     """
     with open(filepath, "r") as f:
         lines = f.read().split("\n")

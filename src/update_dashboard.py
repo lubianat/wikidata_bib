@@ -33,7 +33,6 @@ PAGES = {
 
 ### Update table with notes
 
-
 articles = pd.read_csv("read.csv")
 articles = articles
 articles["wikidata_id"] = [
@@ -52,7 +51,6 @@ for file_name in glob("./notes/*.md"):
     txtfiles.append(file_name)
 
 array_of_filenames = [name.replace(".md", "") for name in txtfiles]
-
 
 array_of_qids = []
 for item in array_of_filenames:
@@ -88,7 +86,6 @@ query_result = g.query(
           ?a wb:read_in ?time .
        }"""
 )
-
 
 cols = ["item", "date_string"]
 
@@ -138,7 +135,6 @@ html = wbib.render_dashboard(
     site_title="Wikidata Bib",
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
-
 
 last_day = articles_dataframe[
     articles_dataframe["date"] == max(articles_dataframe["date"])
