@@ -7,10 +7,34 @@ import os
 import warnings
 from bs4 import BeautifulSoup
 import pandas as pd
+from glob import glob
+
+
+def remove_read_qids(list_of_qids):
+    """
+    Removes ther read QIDs from a list of qids.
+    """
+    # Ignore articles read before
+    files = []
+    for file_name in glob("./notes/*.md"):
+        files.append(file_name)
+    array_of_filenames = [name.replace(".md", "") for name in files]
+
+    array_of_qids = []
+    for item in array_of_filenames:
+        if "Q" in item:
+            array_of_qids.append(item)
+    array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
+
+    main_list = list(set(list_of_qids) - set(array_of_qids))
+
+    return main_list
 
 
 def pmid_to_wikidata_qid(list_of_pmids):
-        """Queries the Wikidata SPARQL endpoint.
+
+    """
+    Obtains a list of QIDs from Wikidata given a list of Pubmed IDs.
 
     Args:
         query (str): A SPARQL query formatted for the Wikidata query service.
@@ -44,10 +68,10 @@ def pmid_to_wikidata_qid(list_of_pmids):
         },
     )
     query_result = response.json()
-
+    print(query_result)
     qids = []
     for row in query_result["results"]["bindings"]:
-        qid = row["qid"].split("/")[-1]
+        qid = row["qid"]["value"].split("/")[-1]
         qids.append(qid)
 
     return qids

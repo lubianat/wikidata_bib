@@ -2,7 +2,6 @@
 
 import sys
 import re
-import os
 import yaml
 from src.helper import add_to_file
 from src.helper import download_paper, get_doi_df
@@ -33,8 +32,6 @@ if qid == "Q":
     print("No QID found.")
 
 else:
-    import os
-
     # Select "unpaywall" or "sci-hub"
     source = "unpaywall"
     doi_df = get_doi_df(qid)

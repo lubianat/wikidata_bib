@@ -5,7 +5,7 @@ from glob import glob
 import argparse
 import pandas as pd
 import re
-from src.helper import add_to_file
+from src.helper import add_to_file, remove_read_qids
 
 
 def main():
@@ -30,21 +30,9 @@ def main():
         return sparql_query_result
 
     def get_final_list_of_articles(sparql_query_result):
+        list_of_qids = sparql_query_result["qid"]
 
-        # Ignore articles read before
-        files = []
-        for file_name in glob("./notes/*.md"):
-            files.append(file_name)
-        array_of_filenames = [name.replace(".md", "") for name in files]
-
-        array_of_qids = []
-        for item in array_of_filenames:
-            if "Q" in item:
-                array_of_qids.append(item)
-        array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
-
-        main_list = list(set(sparql_query_result["qid"]) - set(array_of_qids))
-
+        main_list = remove_read_qids(list_of_qids)
         for i in main_list:
             print(i)
 

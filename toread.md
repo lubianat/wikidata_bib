@@ -43,15 +43,36 @@ https://neo4j.com/graph-databases-book/?ref=blog
 
 Reviewing the knowledge management literature: towards a taxonomy
 
-Naisbitt J (1982) Megatrends: ten new directions transforming our lives. Warner Books, New
-York.
+Naisbitt J (1982) Megatrends: ten new directions transforming our lives. Warner Books, New York.
 
 https://kgbook.org/
 https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
-Q98778521
+Q94492361
+Q99720190
+Q98206334
+Q101124086
+Q98164366
+Q91862140
+Q104564690
+Q42004626
+Q64108372
+Q57149117
+Q42737633
+Q63976669
+Q37624780
+Q92856630
+Q33709610
+Q59805101
+Q22001212
+Q58573118
+Q99571943
+Q83228139
+Q34171287
+Q91506659
+Q90110358
 Q93063767
 Q94474158
 Q96576345
@@ -481,7 +502,6 @@ Q61135997
 Q93039099
 
 # Literature-Based Discovery
-Q62489472
 Q57372419
 Q64062406
 Q92663755
