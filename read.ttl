@@ -2838,6 +2838,9 @@ wd:Q57339063 wb:has_notes wbn:Q57339063.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2021-01-05T00:00:00Z/11" .
 
+wd:Q57372419 wb:has_notes wbn:Q57372419.md ;
+    wb:read_in "+2022-03-18T00:00:00Z/11" .
+
 wd:Q57372549 wb:has_notes wbn:Q57372549.md ;
     wb:read_in "+2022-03-04T00:00:00Z/11" .
 
@@ -3999,6 +4002,9 @@ wd:Q94470608 wb:has_notes wbn:Q94470608.md ;
 
 wd:Q94473592 wb:has_notes wbn:Q94473592.md ;
     wb:read_in "+2021-06-13T00:00:00Z/11" .
+
+wd:Q94492361 wb:has_notes wbn:Q94492361.md ;
+    wb:read_in "+2022-03-18T00:00:00Z/11" .
 
 wd:Q94503935 wb:has_notes wbn:Q94503935.md ;
     wb:in_collection wbc:cell_types ;
