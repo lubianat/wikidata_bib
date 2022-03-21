@@ -7,31 +7,10 @@ import pandas as pd
 import os.path
 import rdflib
 from datetime import date, datetime
+from helper import get_title_df
 
 
 def main():
-    def get_title_df(wikidata_id):
-        query = (
-            """
-        SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id
-        WHERE
-        {
-        VALUES ?item {wd:"""
-            + wikidata_id
-            + """}
-        OPTIONAL {?item wdt:P577 ?date}.
-        OPTIONAL {?item wdt:P356 ?doi} .
-        OPTIONAL {?item wdt:P953 ?url}
-        OPTIONAL {?item wdt:P818 ?arxiv_id}
-        SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
-        }
-        """
-        )
-
-        df = wikidata2df(query)
-
-        return df
-
     def create_markdown(
         file_path, title, publication_date="None", doi="", url="", arxiv_id=""
     ):

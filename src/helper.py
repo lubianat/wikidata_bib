@@ -10,6 +10,52 @@ import pandas as pd
 from glob import glob
 
 
+def get_tweet_df(wikidata_id):
+    query = (
+        """
+    SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id ?author ?twitter_id
+    WHERE
+    {
+    VALUES ?item {wd:"""
+        + wikidata_id
+        + """}
+    ?item wdt:P356 ?doi .
+    ?item wdt:P50 ?author . 
+    ?author wdt:P2002 ?twitter_id . 
+
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    """
+    )
+
+    df = wikidata2df(query)
+    print(df)
+    return df
+
+
+def get_title_df(wikidata_id):
+    query = (
+        """
+    SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id
+    WHERE
+    {
+    VALUES ?item {wd:"""
+        + wikidata_id
+        + """}
+    OPTIONAL {?item wdt:P577 ?date}.
+    OPTIONAL {?item wdt:P356 ?doi} .
+    OPTIONAL {?item wdt:P953 ?url}
+    OPTIONAL {?item wdt:P818 ?arxiv_id}
+    SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+    }
+    """
+    )
+
+    df = wikidata2df(query)
+
+    return df
+
+
 def remove_read_qids(list_of_qids):
     """
     Removes ther read QIDs from a list of qids.
