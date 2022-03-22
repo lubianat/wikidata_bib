@@ -2,10 +2,23 @@ from helper import get_tweet_df
 import sys
 import pandas as pd
 
-qid = sys.argv[1]
+import pandas as pd
+
+
+if len(sys.argv) == 1:
+    df = pd.read_csv("read.csv")
+    entries = list(df["wikidata_id"])
+    qid = entries[-1]
+    print(qid)
+else:
+    qid = sys.argv[1]
 
 
 df = get_tweet_df(qid)
+
+if df.empty:
+    print("No data available for building the tweet.")
+    quit()
 
 title = df["itemLabel"][0]
 doi = df["doi"][0]
@@ -16,19 +29,15 @@ https://doi.org/{doi}
 
 """
 
-print(tweet)
-
 for i, row in df.iterrows():
     tweet = tweet + f"""@{row["twitter_id"]} """
 
-
-print()
 
 tweet = (
     tweet
     + """
     
-(prototype of auto-tweet generated using Wikidata)
+(auto-tweet powered by Wikidata)
 """
 )
 
