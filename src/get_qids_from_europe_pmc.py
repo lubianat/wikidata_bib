@@ -1,7 +1,6 @@
 import urllib.parse
 import requests
 from helper import (
-    pmid_to_wikidata_qid,
     add_to_file,
     remove_read_qids,
     get_qids_from_europe_pmc,

@@ -24,7 +24,7 @@ title = df["itemLabel"][0]
 doi = df["doi"][0]
 tweet = f"""
 
-I've just read "{title}" using Wikidata Bib!
+I've just read "{title}"
 https://doi.org/{doi}
 
 """

@@ -10,6 +10,29 @@ import pandas as pd
 from glob import glob
 
 
+def get_qids_from_europe_pmc(query):
+    endpoint = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+
+    params = {"query": query, "format": "json", "pageSize": "1000"}
+    response = requests.get(
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search", params
+    )
+
+    data = response.json()
+    pmids = []
+
+    for article in data["resultList"]["result"]:
+        try:
+            pmid = article["pmid"]
+            print(pmid)
+            pmids.append(pmid)
+        except:
+            continue
+
+    main_list = pmid_to_wikidata_qid(pmids)
+    return main_list
+
+
 def get_tweet_df(wikidata_id):
     query = (
         """
