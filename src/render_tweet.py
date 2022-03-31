@@ -2,9 +2,6 @@ from helper import get_tweet_df
 import sys
 import pandas as pd
 
-import pandas as pd
-
-
 if len(sys.argv) == 1:
     df = pd.read_csv("read.csv")
     entries = list(df["wikidata_id"])
@@ -12,7 +9,6 @@ if len(sys.argv) == 1:
     print(qid)
 else:
     qid = sys.argv[1]
-
 
 df = get_tweet_df(qid)
 
@@ -31,8 +27,6 @@ https://doi.org/{doi}
 
 for i, row in df.iterrows():
     tweet = tweet + f"""@{row["twitter_id"]} """
-
-
 tweet = (
     tweet
     + """

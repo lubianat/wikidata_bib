@@ -1,6 +1,5 @@
 #!/usr/bin/python3
 
-from helper import wikidata2df
 import sys
 from helper import download_paper, get_doi_df
 

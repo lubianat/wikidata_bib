@@ -1,14 +1,9 @@
-from datetime import date, datetime, timedelta
-from helper import wikidata2df
-from mdutils.mdutils import MdUtils
+from datetime import datetime, timedelta
 import pandas as pd
-import os.path
 import rdflib
-from pathlib import Path
 from glob import glob
 import wbib.queries
 from wbib import wbib
-
 
 sessions = [
     "articles",
@@ -19,7 +14,6 @@ sessions = [
     "curation of author items",
     "curation of author affiliations",
 ]
-
 
 base_directory = "/wikidata_bib"
 

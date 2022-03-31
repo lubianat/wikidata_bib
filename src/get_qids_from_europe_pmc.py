@@ -1,5 +1,3 @@
-import urllib.parse
-import requests
 from helper import (
     add_to_file,
     remove_read_qids,
