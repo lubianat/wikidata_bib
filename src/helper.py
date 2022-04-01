@@ -44,7 +44,7 @@ def get_tweet_df(wikidata_id):
         + """}
     ?item wdt:P356 ?doi .
     ?item wdt:P50 ?author . 
-    ?author wdt:P2002 ?twitter_id . 
+    OPTIONAL { ?author wdt:P2002 ?twitter_id . } 
 
     SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
     }

@@ -25,12 +25,15 @@ https://doi.org/{doi}
 
 """
 
-for i, row in df.iterrows():
-    tweet = tweet + f"""@{row["twitter_id"]} """
+if "twitter_id" in df.index:
+    for i, row in df.iterrows():
+        if row["twitter_id"] == row["twitter_id"]:  # Test for NaN
+            tweet = tweet + f"""@{row["twitter_id"]} """
+
 tweet = (
     tweet
     + """
-    
+
 (auto-tweet powered by Wikidata)
 """
 )
