@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import sys
-from helper import wikidata2df
 from mdutils.mdutils import MdUtils
 import pandas as pd
 import os.path
