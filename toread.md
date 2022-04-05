@@ -2,7 +2,8 @@
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
-
+Expressing High-Level Scientific Claims with Formal Semantics
+https://arxiv.org/abs/2203.01608
 # Blogs to read
 https://bioeticacomplexa.blogspot.com/2020/05/
 https://bioeticacomplexa.blogspot.com/2020/07/
