@@ -2,7 +2,6 @@
 https://plato.stanford.edu/archives/win2019/entries/truth-revision/
 https://seop.illc.uva.nl/entries/models-science/
 
-Expressing High-Level Scientific Claims with Formal Semantics
 https://arxiv.org/abs/2203.01608
 # Blogs to read
 https://bioeticacomplexa.blogspot.com/2020/05/
@@ -51,9 +50,6 @@ https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
-Q111441182
-Q22001212
-Q58573118
 Q99571943
 Q83228139
 Q34171287
@@ -190,6 +186,7 @@ Q38976437
 10.1038/s41586-021-03223-w
 10.1038/s41586-021-03813-8
 # Biocuration
+Q77308981
 Q91751732
 Q62565206
 Q95612599
@@ -480,8 +477,6 @@ Q61135997
 Q93039099
 
 # Literature-Based Discovery
-Q33960059
-Q34147400
 Q92643756
 Q38840054
 Q33784314
