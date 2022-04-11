@@ -48,7 +48,7 @@ def main():
 
     def update_turtle(wikidata_id):
         g = rdflib.Graph()
-        result = g.parse("read.ttl", format="ttl")
+        result = g.parse("src/data/read.ttl", format="ttl")
         wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
         wbn = rdflib.Namespace(
             "https://github.com/lubianat/wikidata_bib/tree/main/notes/"
@@ -60,7 +60,7 @@ def main():
         o1 = rdflib.term.URIRef(wbn + wikidata_id + ".md")
         g.add((s, p1, o1))
 
-        g.serialize(destination="read.ttl", format="turtle")
+        g.serialize(destination="src/data/read.ttl", format="turtle")
 
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
@@ -69,17 +69,17 @@ def main():
         o2 = rdflib.term.Literal(d1)
         g.add((s, p2, o2))
 
-        g.serialize(destination="read.ttl", format="turtle")
+        g.serialize(destination="src/data/read.ttl", format="turtle")
 
     def update_csv(df):
-        df_stored = pd.read_csv("read.csv")
+        df_stored = pd.read_csv("src/data/read.csv")
         new_row = {"human_id": df["itemLabel"][0], "wikidata_id": df["item"][0]}
         new_row = pd.DataFrame(new_row, index=[0])
         df_stored = pd.concat([df_stored, new_row], ignore_index=True)
 
         df_stored = df_stored.drop_duplicates()
         print(df_stored)
-        df_stored.to_csv("read.csv", index=False)
+        df_stored.to_csv("src/data/read.csv", index=False)
 
     wikidata_id = sys.argv[1]
 
@@ -123,7 +123,7 @@ def main():
     update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
-    exec(open("src/update_dashboard.py").read())
+    exec(open("src/wikidata_bib/update_dashboard.py").read())
 
     print("======= Done =======")
 

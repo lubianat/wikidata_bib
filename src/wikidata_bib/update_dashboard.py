@@ -27,7 +27,7 @@ PAGES = {
 
 ### Update table with notes
 
-articles = pd.read_csv("read.csv")
+articles = pd.read_csv("src/data/read.csv")
 articles = articles
 articles["wikidata_id"] = [
     "<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]
@@ -65,7 +65,7 @@ html = wbib.render_dashboard(
 
 
 g = rdflib.Graph()
-result = g.parse("read.ttl", format="ttl")
+result = g.parse("src/data/read.ttl", format="ttl")
 wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
 wbc = rdflib.Namespace(
     "https://github.com/lubianat/wikidata_bib/tree/main/collections/"

@@ -6,10 +6,10 @@ import yaml
 from src.helper import add_to_file
 from src.helper import download_paper, get_doi_df
 
-# Open file with the QIDs ("toread.md")
+# Open file with the QIDs ("src/data/toread.md")
 # and the file with the shortcuts ("config.yaml")
 
-with open("toread.md", "r") as f:
+with open("src/data/toread.md", "r") as f:
     text = f.read()
 
 with open("config.yaml", "r") as c:
@@ -49,7 +49,7 @@ else:
         print(a)
 
         if a["saved"]:
-            with open("toread.md", "w+") as f:
+            with open("src/data/toread.md", "w+") as f:
                 f.write(text.replace(qid + "\n", ""))
 
             add_to_file([qid], "Saved PDFs")

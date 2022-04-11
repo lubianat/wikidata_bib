@@ -186,7 +186,7 @@ def wikidata2df(query):
     return results_df
 
 
-def add_to_file(qids, category, filepath="toread.md"):
+def add_to_file(qids, category, filepath="src/data/toread.md"):
     """Adds a list of qids to a file
 
     Inserts each qids as a newline after the category is found.

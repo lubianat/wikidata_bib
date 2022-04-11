@@ -83,7 +83,7 @@ def main():
         main_list = get_final_list_of_articles(sparql_query_result)
 
         # Ignore articles in toread.md
-        with open("toread.md", "r") as f:
+        with open("src/data/toread.md", "r") as f:
             articles_file = f.read()
 
         logged_articles = re.findall("Q[0-9]*", articles_file)

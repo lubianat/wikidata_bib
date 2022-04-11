@@ -7,7 +7,7 @@ import pandas as pd
 import os
 import rdflib
 
-df = pd.read_csv("read.csv")
+df = pd.read_csv("src/data/read.csv")
 
 entries = list(df["wikidata_id"])
 last_entry = entries[-1]
@@ -16,7 +16,7 @@ print(f"Dropping {last_entry}")
 os.system(f"rm notes/{last_entry}.md")
 
 g = rdflib.Graph()
-result = g.parse("read.ttl", format="ttl")
+result = g.parse("src/data/read.ttl", format="ttl")
 wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
 wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
 wd = rdflib.Namespace("http://www.wikidata.org/entity/")
@@ -24,4 +24,4 @@ wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 s = rdflib.term.URIRef(wd + last_entry)
 
 g.remove((s, None, None))  # remove all triples about the QID
-g.serialize(destination="read.ttl", format="turtle")
+g.serialize(destination="src/data/read.ttl", format="turtle")

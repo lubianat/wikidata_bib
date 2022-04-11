@@ -3,7 +3,7 @@ import sys
 import pandas as pd
 
 if len(sys.argv) == 1:
-    df = pd.read_csv("read.csv")
+    df = pd.read_csv("src/data/read.csv")
     entries = list(df["wikidata_id"])
     qid = entries[-1]
     print(qid)

@@ -11,7 +11,7 @@ query = '"catalog of cell types"'
 main_list = get_qids_from_europe_pmc(query)
 
 # Ignore articles in toread.md
-with open("toread.md", "r") as f:
+with open("src/data/toread.md", "r") as f:
     articles_file = f.read()
 
 logged_articles = re.findall("Q[0-9]*", articles_file)

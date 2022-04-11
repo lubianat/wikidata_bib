@@ -4,7 +4,7 @@ import pandas as pd
 from src.helper import wikidata2df
 import os
 
-articles = pd.read_csv("read.csv")
+articles = pd.read_csv("src/data/read.csv")
 
 wd_id = articles.tail(1)["wikidata_id"].values[0]
 

@@ -5,10 +5,10 @@ import re
 import os
 import yaml
 
-# Open file with the QIDs ("toread.md")
+# Open file with the QIDs ("src/data/toread.md")
 # and the file with the shortcuts ("config.yaml")
 
-with open("toread.md", "r") as f:
+with open("src/data/toread.md", "r") as f:
     text = f.read()
 
 with open("config.yaml", "r") as c:
@@ -32,6 +32,6 @@ if qid == "Q":
     print("No QID found.")
 
 else:
-    with open("toread.md", "w+") as f:
+    with open("src/data/toread.md", "w+") as f:
         f.write(text.replace(qid + "\n", ""))
     os.system(f"python3 wread {qid}")
