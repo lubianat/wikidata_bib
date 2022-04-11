@@ -7,12 +7,13 @@ import os.path
 import rdflib
 from datetime import date, datetime
 from helper import get_title_df
+from pathlib import Path
+
+HERE = Path(__file__).parent.resolve()
 
 
 def main():
-    def create_markdown(
-        file_path, title, publication_date="None", doi="", url="", arxiv_id=""
-    ):
+    def create_markdown(file_path, title, publication_date="None", doi="", url="", arxiv_id=""):
         mdFile = MdUtils(file_name=file_path, title=title)
 
         mdFile.new_line("  [@wikidata:" + wikidata_id + "]")
@@ -26,9 +27,7 @@ def main():
         mdFile.new_header(1, "Comments")
         mdFile.new_header(2, "Tags")
         mdFile.new_header(1, "Links")
-        mdFile.new_line(
-            f" * [Scholia Profile](https://scholia.toolforge.org/work/{wikidata_id})"
-        )
+        mdFile.new_line(f" * [Scholia Profile](https://scholia.toolforge.org/work/{wikidata_id})")
         mdFile.new_line(f" * [Wikidata](https://www.wikidata.org/wiki/{wikidata_id})")
         mdFile.new_line(
             " * [Author Disambiguator](https://author-disambiguator.toolforge.org/work_item_oauth.php?id="
@@ -48,11 +47,9 @@ def main():
 
     def update_turtle(wikidata_id):
         g = rdflib.Graph()
-        result = g.parse("src/data/read.ttl", format="ttl")
+        result = g.parse(f"{HERE}/../data/read.ttl", format="ttl")
         wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-        wbn = rdflib.Namespace(
-            "https://github.com/lubianat/wikidata_bib/tree/main/notes/"
-        )
+        wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
         wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 
         s = rdflib.term.URIRef(wd + wikidata_id)
@@ -60,7 +57,7 @@ def main():
         o1 = rdflib.term.URIRef(wbn + wikidata_id + ".md")
         g.add((s, p1, o1))
 
-        g.serialize(destination="src/data/read.ttl", format="turtle")
+        g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
 
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
@@ -69,17 +66,17 @@ def main():
         o2 = rdflib.term.Literal(d1)
         g.add((s, p2, o2))
 
-        g.serialize(destination="src/data/read.ttl", format="turtle")
+        g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
 
     def update_csv(df):
-        df_stored = pd.read_csv("src/data/read.csv")
+        df_stored = pd.read_csv(f"{HERE}/../data/read.csv")
         new_row = {"human_id": df["itemLabel"][0], "wikidata_id": df["item"][0]}
         new_row = pd.DataFrame(new_row, index=[0])
         df_stored = pd.concat([df_stored, new_row], ignore_index=True)
 
         df_stored = df_stored.drop_duplicates()
         print(df_stored)
-        df_stored.to_csv("src/data/read.csv", index=False)
+        df_stored.to_csv(f"{HERE}/../data/read.csv", index=False)
 
     wikidata_id = sys.argv[1]
 
@@ -116,14 +113,14 @@ def main():
         arxiv_id = ""
         pass
 
-    file_path = "notes/" + wikidata_id
+    file_path = f"{HERE}/../notes/" + wikidata_id
 
     print("======= Creating markdown =======")
     create_markdown(file_path, title, publication_date, doi, text_url, arxiv_id)
     update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
-    exec(open("src/wikidata_bib/update_dashboard.py").read())
+    exec(open(f"{HERE}/update_dashboard.py").read())
 
     print("======= Done =======")
 
@@ -131,7 +128,7 @@ def main():
 if __name__ == "__main__":
     wikidata_id = sys.argv[1]
     assert wikidata_id[0] == "Q"
-    filename = "notes/" + wikidata_id + ".md"
+    filename = f"{HERE}/../notes/" + wikidata_id + ".md"
 
     if os.path.isfile(filename):
         print("Article has already been read")

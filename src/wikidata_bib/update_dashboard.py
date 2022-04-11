@@ -4,6 +4,9 @@ import rdflib
 from glob import glob
 import wbib.queries
 from wbib import wbib
+from pathlib import Path
+
+HERE = Path(__file__).parent.resolve()
 
 sessions = [
     "articles",
@@ -27,7 +30,7 @@ PAGES = {
 
 ### Update table with notes
 
-articles = pd.read_csv("src/data/read.csv")
+articles = pd.read_csv(f"{HERE}/../data/read.csv")
 articles = articles
 articles["wikidata_id"] = [
     "<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]
@@ -35,13 +38,13 @@ articles["wikidata_id"] = [
 test = articles.to_html(escape="True")
 test = test.replace("&lt;", " <").replace("&gt;", ">")
 
-with open("docs/notes.html", "w") as f:
+with open(f"{HERE}/../../docs/notes.html", "w") as f:
     f.write(test)
 
 ### Update dashboard with queries
 
 txtfiles = []
-for file_name in glob("./notes/*.md"):
+for file_name in glob(f"{HERE}/../../notes/*.md"):
     txtfiles.append(file_name)
 
 array_of_filenames = [name.replace(".md", "") for name in txtfiles]
@@ -50,13 +53,13 @@ array_of_qids = []
 for item in array_of_filenames:
     if "Q" in item:
         array_of_qids.append(item)
-array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
+array_of_qids = [md.replace("{HERE}/../../notes/Q", "Q") for md in array_of_qids]
 
 
 html = wbib.render_dashboard(
     info=array_of_qids,
     mode="basic",
-    filepath="docs/index.html",
+    filepath=f"{HERE}/../../docs/index.html",
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
@@ -65,11 +68,9 @@ html = wbib.render_dashboard(
 
 
 g = rdflib.Graph()
-result = g.parse("src/data/read.ttl", format="ttl")
+result = g.parse(f"{HERE}/../data/read.ttl", format="ttl")
 wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-wbc = rdflib.Namespace(
-    "https://github.com/lubianat/wikidata_bib/tree/main/collections/"
-)
+wbc = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/collections/")
 wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
 wd = rdflib.Namespace("http://www.wikidata.org/entity/")
 
@@ -93,21 +94,18 @@ for row in query_result:
 
 
 dates_in_date_format = [
-    datetime.strptime(i, "+%Y-%m-%dT00:00:00Z/11")
-    for i in articles_dataframe["date_string"]
+    datetime.strptime(i, "+%Y-%m-%dT00:00:00Z/11") for i in articles_dataframe["date_string"]
 ]
 articles_dataframe["date"] = dates_in_date_format
 
-month_dat = articles_dataframe[
-    articles_dataframe["date"] > (datetime.today() - timedelta(days=30))
-]
+month_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=30))]
 ids = [i.split("/")[4] for i in month_dat["item"]]
 
 
 html = wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath="docs/past_month.html",
+    filepath=f"{HERE}/../../docs/past_month.html",
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
@@ -115,30 +113,26 @@ html = wbib.render_dashboard(
 )
 
 
-week_dat = articles_dataframe[
-    articles_dataframe["date"] > (datetime.today() - timedelta(days=7))
-]
+week_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=7))]
 ids = [i.split("/")[4] for i in week_dat["item"]]
 
 html = wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath="docs/past_week.html",
+    filepath=f"{HERE}/../../docs/past_week.html",
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
     site_subtitle="Dashboard of Tiago Lubiana's readings",
 )
 
-last_day = articles_dataframe[
-    articles_dataframe["date"] == max(articles_dataframe["date"])
-]
+last_day = articles_dataframe[articles_dataframe["date"] == max(articles_dataframe["date"])]
 ids = [i.split("/")[4] for i in last_day["item"]]
 
 html = wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath="docs/last_day.html",
+    filepath=f"{HERE}/../../docs/last_day.html",
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",

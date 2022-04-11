@@ -2,6 +2,9 @@
 
 import sys
 from helper import download_paper, get_doi_df
+from pathlib import Path
+
+HERE = Path(__file__).parent.resolve()
 
 
 def main():
@@ -16,7 +19,7 @@ def main():
     else:
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
-        download_paper(doi=doi_suffix, source=source, path="./downloads/")
+        download_paper(doi=doi_suffix, source=source, path=f"{HERE}/../../downloads/")
 
 
 if __name__ == "__main__":
