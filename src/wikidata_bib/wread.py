@@ -9,8 +9,12 @@ HERE = Path(__file__).parent.resolve()
 
 
 @click.command(name="wread")
-@click.option("--qid", prompt=True, help="The QID of the paper of interest")
+@click.argument("qid")
 def main(qid: str):
+    """Reads a paper on demand.
+
+    Given the QID for the article, wread runs the Wikidata Bib workflow.
+    """
     os.system(f"python3 {HERE}/read_paper.py {qid}")
     os.system(f"python3 {HERE}/get_pdf.py {qid} unpaywall")
     os.system(f'code "{HERE}../../notes/{qid}.md"')

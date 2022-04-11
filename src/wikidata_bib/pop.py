@@ -11,8 +11,12 @@ HERE = Path(__file__).parent.resolve()
 
 
 @click.command(name="pop")
-@click.option("--category", prompt=True, help="The category shortcut for the list of interest")
+@click.argument("category")
 def main(category: str):
+    """
+    Pops the first article of the reading list into wread.
+
+    """
     text = Path(f"{HERE}/../data/toread.md").read_text()
 
     with open(f"{HERE}/../data/config.yaml", "r") as c:
@@ -30,7 +34,7 @@ def main(category: str):
     else:
         with open(f"{HERE}/../data/toread.md", "w+") as f:
             f.write(text.replace(qid + "\n", ""))
-        os.system(f"bib wread --qid {qid}")
+        os.system(f"bib wread {qid}")
 
 
 if __name__ == "__main__":
