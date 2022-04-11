@@ -3,10 +3,16 @@
 import os
 import sys
 
-qid = sys.argv[1]
-os.system(f"python3 src/read_paper.py {qid}")
-os.system(f"python3 src/get_pdf.py {qid} unpaywall")
-os.system(f'code "notes/{qid}.md"')
 
-url = f"https://author-disambiguator.toolforge.org/work_item_oauth.php?id={qid}&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+wor"
-os.system(f"xdg-open {url}")
+def main():
+    qid = sys.argv[1]
+    os.system(f"python3 src/read_paper.py {qid}")
+    os.system(f"python3 src/get_pdf.py {qid} unpaywall")
+    os.system(f'code "notes/{qid}.md"')
+
+    url = f"https://author-disambiguator.toolforge.org/work_item_oauth.php?id={qid}&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+wor"
+    os.system(f"xdg-open {url}")
+
+
+if __name__ == "__main__":
+    main()
