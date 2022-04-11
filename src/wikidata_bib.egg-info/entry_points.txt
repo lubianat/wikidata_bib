@@ -1,2 +1,2 @@
 [console_scripts]
-wikidata_bib = wikidata_bib.cli:cli
+bib = wikidata_bib.cli:cli

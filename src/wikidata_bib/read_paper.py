@@ -47,7 +47,6 @@ def main():
 
     def update_turtle(wikidata_id):
         g = rdflib.Graph()
-        result = g.parse(f"{HERE}/../data/read.ttl", format="ttl")
         wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
         wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
         wd = rdflib.Namespace("http://www.wikidata.org/entity/")

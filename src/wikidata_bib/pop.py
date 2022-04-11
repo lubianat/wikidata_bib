@@ -4,34 +4,34 @@ import sys
 import re
 import os
 import yaml
+import click
+from pathlib import Path
 
-# Open file with the QIDs ("src/data/toread.md")
-# and the file with the shortcuts ("config.yaml")
+HERE = Path(__file__).parent.resolve()
 
-with open("src/data/toread.md", "r") as f:
-    text = f.read()
 
-with open("config.yaml", "r") as c:
-    shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
+@click.command(name="pop")
+@click.option("--category", prompt=True, help="The category shortcut for the list of interest")
+def main(category: str):
+    text = Path(f"{HERE}/../data/toread.md").read_text()
 
-if len(sys.argv) == 2:
+    with open(f"{HERE}/../data/config.yaml", "r") as c:
+        shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
-    reading_list_code = sys.argv[1]
-    print(
-        f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======'
-    )
+    reading_list_code = category
+    print(f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======')
     regex = shortcuts["lists"][reading_list_code] + r"[\s\S]*?(Q[0-9]*)"
-else:
-    print("====== Pulling first QID in toread.md ======")
-    regex = r"(Q[0-9]*)"
-    code = ""
 
-qid = re.findall(regex, text)[0]
+    qid = re.findall(regex, text)[0]
 
-if qid == "Q":
-    print("No QID found.")
+    if qid == "Q":
+        print("No QID found.")
 
-else:
-    with open("src/data/toread.md", "w+") as f:
-        f.write(text.replace(qid + "\n", ""))
-    os.system(f"python3 wread {qid}")
+    else:
+        with open(f"{HERE}/../data/toread.md", "w+") as f:
+            f.write(text.replace(qid + "\n", ""))
+        os.system(f"bib wread --qid {qid}")
+
+
+if __name__ == "__main__":
+    main()
