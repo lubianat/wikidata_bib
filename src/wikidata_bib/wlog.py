@@ -34,9 +34,8 @@ def main():
     df = wikidata2df(query)
     message = "read: " + df["itemLabel"].values[0]
 
-    bash_command = f'cd {HERE}/../.. && git add . && git commit -m "{message}"'
+    bash_command = f'cd {HERE}/../.. && git add . && git commit -m "{message}" && git push'
     os.system(bash_command)
-    os.system("git push")
 
 
 if __name__ == "__main__":
