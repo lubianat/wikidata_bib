@@ -4195,6 +4195,9 @@ wd:Q94470608 wb:has_notes wbn:Q94470608.md ;
 wd:Q94473592 wb:has_notes wbn:Q94473592.md ;
     wb:read_in "+2021-06-13T00:00:00Z/11" .
 
+wd:Q94474158 wb:has_notes wbn:Q94474158.md ;
+    wb:read_in "+2022-04-12T00:00:00Z/11" .
+
 wd:Q94492361 wb:has_notes wbn:Q94492361.md ;
     wb:read_in "+2022-03-18T00:00:00Z/11" .
 

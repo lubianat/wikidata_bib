@@ -6,22 +6,29 @@
 import pandas as pd
 import os
 import rdflib
+import click
+from pathlib import Path
 
-df = pd.read_csv("src/data/read.csv")
+HERE = Path(__file__).parent.resolve()
 
-entries = list(df["wikidata_id"])
-last_entry = entries[-1]
-print(f"Dropping {last_entry}")
 
-os.system(f"rm notes/{last_entry}.md")
+@click.command(name="drop_last")
+def main():
+    df = pd.read_csv(f"{HERE}/../data/read.csv")
 
-g = rdflib.Graph()
-result = g.parse("src/data/read.ttl", format="ttl")
-wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
-wd = rdflib.Namespace("http://www.wikidata.org/entity/")
+    entries = list(df["wikidata_id"])
+    last_entry = entries[-1]
+    print(f"Dropping {last_entry}")
 
-s = rdflib.term.URIRef(wd + last_entry)
+    os.system(f"rm {HERE}/../notes/{last_entry}.md")
 
-g.remove((s, None, None))  # remove all triples about the QID
-g.serialize(destination="src/data/read.ttl", format="turtle")
+    g = rdflib.Graph()
+    g.parse(f"{HERE}/../data/read.ttl", format="ttl")
+    wd = rdflib.Namespace("http://www.wikidata.org/entity/")
+    s = rdflib.term.URIRef(wd + last_entry)
+    g.remove((s, None, None))  # remove all triples about the QID
+    g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
+
+
+if __name__ == "__main__":
+    main()
