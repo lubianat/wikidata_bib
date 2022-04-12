@@ -43,30 +43,6 @@ with open(f"{HERE}/../../docs/notes.html", "w") as f:
 
 ### Update dashboard with queries
 
-txtfiles = []
-for file_name in glob(f"{HERE}/../../notes/*.md"):
-    txtfiles.append(file_name)
-
-array_of_filenames = [name.replace(".md", "") for name in txtfiles]
-
-array_of_qids = []
-for item in array_of_filenames:
-    if "Q" in item:
-        array_of_qids.append(item)
-array_of_qids = [md.replace("{HERE}/../../notes/Q", "Q") for md in array_of_qids]
-
-
-html = wbib.render_dashboard(
-    info=array_of_qids,
-    mode="basic",
-    filepath=f"{HERE}/../../docs/index.html",
-    pages=PAGES,
-    sections_to_add=sessions,
-    site_title="Wikidata Bib",
-    site_subtitle="Dashboard of Tiago Lubiana's readings",
-)
-
-
 g = rdflib.Graph()
 result = g.parse(f"{HERE}/../data/read.ttl", format="ttl")
 wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
@@ -83,7 +59,6 @@ query_result = g.query(
 )
 
 cols = ["item", "date_string"]
-
 articles_dataframe = pd.DataFrame(columns=cols)
 for row in query_result:
     qid = str(row[0])
@@ -98,11 +73,23 @@ dates_in_date_format = [
 ]
 articles_dataframe["date"] = dates_in_date_format
 
+ids = [i.split("/")[4] for i in articles_dataframe["item"]]
+wbib.render_dashboard(
+    info=ids,
+    mode="basic",
+    filepath=f"{HERE}/../../docs/index.html",
+    pages=PAGES,
+    sections_to_add=sessions,
+    site_title="Wikidata Bib",
+    site_subtitle="Dashboard of Tiago Lubiana's readings",
+)
+
+
 month_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=30))]
 ids = [i.split("/")[4] for i in month_dat["item"]]
 
 
-html = wbib.render_dashboard(
+wbib.render_dashboard(
     info=ids,
     mode="basic",
     filepath=f"{HERE}/../../docs/past_month.html",
@@ -116,7 +103,7 @@ html = wbib.render_dashboard(
 week_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=7))]
 ids = [i.split("/")[4] for i in week_dat["item"]]
 
-html = wbib.render_dashboard(
+wbib.render_dashboard(
     info=ids,
     mode="basic",
     filepath=f"{HERE}/../../docs/past_week.html",
@@ -129,7 +116,7 @@ html = wbib.render_dashboard(
 last_day = articles_dataframe[articles_dataframe["date"] == max(articles_dataframe["date"])]
 ids = [i.split("/")[4] for i in last_day["item"]]
 
-html = wbib.render_dashboard(
+wbib.render_dashboard(
     info=ids,
     mode="basic",
     filepath=f"{HERE}/../../docs/last_day.html",
