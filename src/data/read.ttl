@@ -3314,6 +3314,9 @@ wd:Q64052031 wb:has_notes wbn:Q64052031.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2021-02-01T00:00:00Z/11" .
 
+wd:Q64054850 wb:has_notes wbn:Q64054850.md ;
+    wb:read_in "+2022-04-12T00:00:00Z/11" .
+
 wd:Q64062406 wb:has_notes wbn:Q64062406.md ;
     wb:read_in "+2022-03-23T00:00:00Z/11" .
 
