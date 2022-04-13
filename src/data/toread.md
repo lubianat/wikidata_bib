@@ -50,7 +50,6 @@ https://philarchive.org/archive/MUNAOA-2
 https://manubot.github.io/manufesto/
 
 # Cell types
-Q90009406
 Q92642889
 Q90170556
 Q97568942

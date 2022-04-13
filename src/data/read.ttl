@@ -3670,6 +3670,9 @@ wd:Q90006632 wb:has_notes wbn:Q90006632.md ;
     wb:in_collection wbc:biocuration ;
     wb:read_in "+2021-04-11T00:00:00Z/11" .
 
+wd:Q90009406 wb:has_notes wbn:Q90009406.md ;
+    wb:read_in "+2022-04-13T00:00:00Z/11" .
+
 wd:Q90025338 wb:has_notes wbn:Q90025338.md ;
     wb:read_in "+2021-05-04T00:00:00Z/11" .
 
