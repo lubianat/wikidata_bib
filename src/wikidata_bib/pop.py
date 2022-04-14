@@ -14,7 +14,7 @@ HERE = Path(__file__).parent.resolve()
 @click.argument("category")
 def main(category: str):
     """
-    Pops the first article of the reading list into wread.
+    Pops the first article of the reading list into read.
 
     """
     text = Path(f"{HERE}/../data/toread.md").read_text()
@@ -34,7 +34,7 @@ def main(category: str):
     else:
         with open(f"{HERE}/../data/toread.md", "w+") as f:
             f.write(text.replace(qid + "\n", ""))
-        os.system(f"bib wread {qid}")
+        os.system(f"bib read {qid}")
 
 
 if __name__ == "__main__":

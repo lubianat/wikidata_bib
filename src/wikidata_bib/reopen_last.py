@@ -9,4 +9,4 @@ entries = list(df["wikidata_id"])
 last_entry = entries[-1]
 print(last_entry)
 
-os.system(f"python3 wread {last_entry}")
+os.system(f"python3 read {last_entry}")

@@ -28,7 +28,7 @@ For a template version __IN CONSTRUCTION__ check <https://github.com/wikidatabib
 - wadd
 - wadd_all
 - wlog
-- wread
+- read
 
 ### Scaffolding files
 
@@ -83,10 +83,10 @@ Adds multiple sets of new articles to your lists based on the Wikidata queries l
 Adds a commit to git for the articler read and pushes it to GitHub.
 `$ ./wlog`
 
-- wread
+- read
 Read an article that is not on the list in toread.md. 
 
-`$ ./wread Q107542983`
+`$ ./read Q107542983`
 
 - pop
 

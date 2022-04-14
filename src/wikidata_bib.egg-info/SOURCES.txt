@@ -18,7 +18,7 @@ src/wikidata_bib/reopen_last.py
 src/wikidata_bib/update_dashboard.py
 src/wikidata_bib/wadd.py
 src/wikidata_bib/wlog.py
-src/wikidata_bib/wread.py
+src/wikidata_bib/read.py
 src/wikidata_bib.egg-info/PKG-INFO
 src/wikidata_bib.egg-info/SOURCES.txt
 src/wikidata_bib.egg-info/dependency_links.txt
