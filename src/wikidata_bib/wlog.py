@@ -9,8 +9,11 @@ import click
 HERE = Path(__file__).parent.resolve()
 
 
-@click.command(name="wlog")
+@click.command(name="log")
 def main():
+    """
+    Opens the platform for a paper on demand
+    """
     articles = pd.read_csv(f"{HERE}/../data/read.csv")
 
     wd_id = articles.tail(1)["wikidata_id"].values[0]

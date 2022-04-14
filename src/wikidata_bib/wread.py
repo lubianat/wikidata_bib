@@ -8,7 +8,7 @@ from pathlib import Path
 HERE = Path(__file__).parent.resolve()
 
 
-@click.command(name="wread")
+@click.command(name="read")
 @click.argument("qid")
 def main(qid: str):
     """Reads a paper on demand.

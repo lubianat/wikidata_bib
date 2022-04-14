@@ -5,7 +5,7 @@ from . import wread, pop, wlog, drop_last
 
 @click.group()
 def cli():
-    """PyORCIDator."""
+    """Wikidata Bib, a Wikidata-based, CLI-oriented pacakage for reading articles."""
 
 
 cli.add_command(wread.main)

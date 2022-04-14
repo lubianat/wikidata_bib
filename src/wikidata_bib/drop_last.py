@@ -14,6 +14,9 @@ HERE = Path(__file__).parent.resolve()
 
 @click.command(name="drop_last")
 def main():
+    """
+    Drops the metadata on the last read article.
+    """
     df = pd.read_csv(f"{HERE}/../data/read.csv")
 
     entries = list(df["wikidata_id"])
