@@ -8,15 +8,16 @@ import warnings
 from bs4 import BeautifulSoup
 import pandas as pd
 from glob import glob
+from pathlib import Path
+
+HERE = Path(__file__).parent.resolve()
 
 
 def get_qids_from_europe_pmc(query):
     endpoint = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
     params = {"query": query, "format": "json", "pageSize": "1000"}
-    response = requests.get(
-        "https://www.ebi.ac.uk/europepmc/webservices/rest/search", params
-    )
+    response = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search", params)
 
     data = response.json()
     pmids = []
@@ -186,7 +187,7 @@ def wikidata2df(query):
     return results_df
 
 
-def add_to_file(qids, category, filepath="src/data/toread.md"):
+def add_to_file(qids, category, filepath=f"{HERE}/../data/toread.md"):
     """Adds a list of qids to a file
 
     Inserts each qids as a newline after the category is found.
@@ -261,17 +262,13 @@ def download_paper(doi, source, path="~/Downloads/", prepop=False):
         print("====== Dowloading article from Sci-Hub ======")
 
     elif source == "unpaywall":
-        base_url = (
-            f"https://api.unpaywall.org/v2/{doi}?email=tiago.lubiana.alves@usp.br"
-        )
+        base_url = f"https://api.unpaywall.org/v2/{doi}?email=tiago.lubiana.alves@usp.br"
         response = requests.get(base_url)
         result = response.json()
         pdf_url = result["best_oa_location"]["url_for_pdf"]
         if pdf_url is None:
 
-            warnings.warn(
-                "====== Best OA pdf not found. Searching for first OA ====== "
-            )
+            warnings.warn("====== Best OA pdf not found. Searching for first OA ====== ")
             pdf_url = result["first_oa_location"]["url_for_pdf"]
         filename = doi.replace("/", "_")
         filepath = path + filename + ".pdf"
