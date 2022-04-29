@@ -7,7 +7,7 @@ Platform: UNKNOWN
 Description-Content-Type: text/markdown
 License-File: LICENSE
 
-# Wikidata Bib Manager v0
+# Wikidata Bib Manager
 
 This repo is a propotype for bibliography management using Wikidata. 
 
@@ -16,102 +16,15 @@ The overarching goal is to leverage linked open data to navigate your studies an
 You can check an example of a query dashboard for readings at [lubianat.github.io/wikidata_bib](https://lubianat.github.io/wikidata_bib).
 
 For a template version __IN CONSTRUCTION__ check <https://github.com/wikidatabib/rootstock>. 
-# Repository structure
-- docs
-- src
-- notes
-- toread.md
-- read.ttl
-- read.csv
-- config.yaml
-- pop
-- wadd
-- wadd_all
-- wlog
-- read
 
-### Scaffolding files
+# Usage 
 
-- toread.md
+This is a draft of usage. Note that if you follow that, you will also copy my writing stats and config files. 
 
-A markdown stack/list of titles of papers.
-
-The papers can be organized by sections, with section headers corresponding to the names in the config.yaml file.
-Articles are stored as Wikidata identifiers, to automatically pull the information when actually reading. 
-
-You can, of course, store just the name of the article or other information and eventually locate and update the file with the Wikidata QID. 
-
-- index.md
-
-An index of 
-
-- read.ttl
-
-An RDF file linking the wikidata URIs for the articles you are reading to your notes. 
-Each note file will have an URI. For now I`ll use the property wb:has_notes, where wb is this repository URL
-
-- read.csv 
-
-A csv file linking article titles/human readable info to Wikidata ids.
-
-- notes
-A folder containing markdown notes for each article. Each article get its on file, named by Wikidata ID. 
-If the material does not fit on Wikidata, just add it as a new header to other.md.
-
-- docs
-  
-The html content for GitHub Pages, providing analytics on what has been read. 
-
-- config.yaml
-
-A configuration file mapping shortcuts to use in the command line to categories in the toread.md.
-
-### Scripts for use
-
-- wadd
-
-Adds a set of new articles to one of the lists in toread.md. Example for single-cell transcriptomics articles in either Nature or Science: https://w.wiki/3LhF
-`$ ./wadd https://w.wiki/3MDs -p --new`
-
-- wadd_all
-
-Adds multiple sets of new articles to your lists based on the Wikidata queries listed in config.yaml. 
-`$ ./wadd_all`
-
-
-- wlog
-Adds a commit to git for the articler read and pushes it to GitHub.
-`$ ./wlog`
-
-- read
-Read an article that is not on the list in toread.md. 
-
-`$ ./read Q107542983`
-
-- pop
-
-Pops the first QID in one of the lists in the toread.md file. The command is followed by a shortcut, specifying which list to look for (this is set up in the config.yaml file). 
-
-For example, `$ ./pop ct` will remove the first QID from the "Cell Types" list and open the article for note-taking.
-
-## Notes structure
-
-# The title of the work
-    The citation in [Manubot](https://manubot.org/) syntax
-
-## A header saying "Highlights"
-
-Copy-and-pasted highlighs from the text. Do not highlight too much and no copy right is infringed. 
-
---> Any comments made by you should be preceeded by an arrow. And
-    if they take another line, it is enough that they are indented.
-
-And then you can continue highlighting
-
-## A header saying "Comments"
-Any general comments that did not fit inlinely. 
-
-## A header saying "Tags"
-
+```bash
+gh repo clone lubianat/wikidata_bib
+cd wikidata_bib
+pip install -e . 
+```
 
 

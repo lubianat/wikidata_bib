@@ -1,6 +1,6 @@
 import click
 
-from . import read, pop, wlog, drop_last, push
+from . import read, pop, wlog, drop_last, push, get_index
 
 
 @click.group()
@@ -13,6 +13,7 @@ cli.add_command(pop.main)
 cli.add_command(wlog.main)
 cli.add_command(drop_last.main)
 cli.add_command(push.main)
+cli.add_command(get_index.main)
 
 if __name__ == "__main__":
     cli()
