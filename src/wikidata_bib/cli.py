@@ -1,6 +1,8 @@
 import click
 
-from . import read, pop, wlog, drop_last, push, get_index
+from wikidata_bib import reopen_last
+
+from . import read, pop, wlog, drop_last, push, get_index, reopen_last
 
 
 @click.group()
@@ -14,6 +16,7 @@ cli.add_command(wlog.main)
 cli.add_command(drop_last.main)
 cli.add_command(push.main)
 cli.add_command(get_index.main)
+cli.add_command(reopen_last.main)
 
 if __name__ == "__main__":
     cli()

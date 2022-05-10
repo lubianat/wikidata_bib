@@ -3,10 +3,21 @@
 import pandas as pd
 import os
 import rdflib
+import click
+from pathlib import Path
 
-df = pd.read_csv("src/data/read.csv")
-entries = list(df["wikidata_id"])
-last_entry = entries[-1]
-print(last_entry)
+HERE = Path(__file__).parent.resolve()
 
-os.system(f"python3 read {last_entry}")
+
+@click.command(name="reopen")
+def main():
+    df = pd.read_csv(f"{HERE}/../data/read.csv")
+    entries = list(df["wikidata_id"])
+    last_entry = entries[-1]
+    print(last_entry)
+
+    os.system(f"bib read {last_entry}")
+
+
+if __name__ == "__main__":
+    main()

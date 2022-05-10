@@ -14,6 +14,9 @@ HERE = Path(__file__).parent.resolve()
 
 def main():
     def create_markdown(file_path, title, publication_date="None", doi="", url="", arxiv_id=""):
+        """
+        Creates a markdown file for notes from the Wikidata ID.
+        """
         mdFile = MdUtils(file_name=file_path, title=title)
 
         mdFile.new_line("  [@wikidata:" + wikidata_id + "]")
@@ -46,6 +49,10 @@ def main():
         mdFile.create_md_file()
 
     def update_turtle(wikidata_id):
+        """
+        Opens and updates the local RDF database int Turtle format
+        that records the articles that have been read.
+        """
         g = rdflib.Graph()
         g.parse(f"{HERE}/../data/read.ttl", format="ttl")
         wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
@@ -69,6 +76,9 @@ def main():
         g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
 
     def update_csv(df):
+        """
+        Updates the CSV log of all articles read.
+        """
         df_stored = pd.read_csv(f"{HERE}/../data/read.csv")
         new_row = {"human_id": df["itemLabel"][0], "wikidata_id": df["item"][0]}
         new_row = pd.DataFrame(new_row, index=[0])
@@ -91,25 +101,25 @@ def main():
 
         date_in_dateformat = datetime.strptime(publication_date, "%Y-%m-%dT00:00:00Z")
         publication_date = date_in_dateformat.strftime("%d of %B, %Y")
-    except:
+    except Exception:
         publication_date = "None"
         pass
 
     try:
         doi = df["doi"][0]
-    except:
+    except Exception:
         doi = ""
         pass
 
     try:
         text_url = df["url"][0]
-    except:
+    except Exception:
         text_url = ""
         pass
 
     try:
         arxiv_id = df["arxiv_id"][0]
-    except:
+    except Exception:
         arxiv_id = ""
         pass
 
