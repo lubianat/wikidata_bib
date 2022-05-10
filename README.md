@@ -1,3 +1,5 @@
+![Wikidata Bib Logo](https://github.com/wikibib/rootstock/blob/main/images/logo.png?raw=true)
+
 # Wikidata Bib Manager
 
 This repo is a propotype for bibliography management using Wikidata. 
