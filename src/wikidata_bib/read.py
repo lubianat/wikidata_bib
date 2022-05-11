@@ -10,13 +10,21 @@ HERE = Path(__file__).parent.resolve()
 
 @click.command(name="read")
 @click.argument("qid")
-def main(qid: str):
+@click.option(
+    "--no-download",
+    is_flag=True,
+    show_default=True,
+    default=False,
+    help="Skip the download of a PDF.",
+)
+def main(qid: str, no_download: bool):
     """Reads a paper on demand.
 
     Given the QID for the article, read runs the Wikidata Bib workflow.
     """
     os.system(f"python3 {HERE}/read_paper.py {qid}")
-    os.system(f"python3 {HERE}/get_pdf.py {qid} unpaywall")
+    if no_download == False:
+        os.system(f"python3 {HERE}/get_pdf.py {qid} unpaywall")
     os.system(f'code "{HERE}../../notes/{qid}.md"')
 
     url = f"https://author-disambiguator.toolforge.org/work_item_oauth.php?id={qid}&batch_id=&match=1&author_list_id=&doit=Get+author+links+for+wor"

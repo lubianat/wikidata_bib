@@ -12,7 +12,7 @@ from pathlib import Path
 HERE = Path(__file__).parent.resolve()
 
 
-@click.command(name="drop_last")
+@click.command(name="drop")
 def main():
     """
     Drops the metadata on the last read article.
