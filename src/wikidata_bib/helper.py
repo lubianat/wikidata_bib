@@ -133,10 +133,9 @@ def pmid_to_wikidata_qid(list_of_pmids):
     response = requests.get(
         endpoint_url,
         params={"query": query, "format": "json"},
-        headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
-        },
+        headers={"User-Agent": "Wikidata Bib https://github.com/lubianat/wikidata_bib"},
     )
+    print(response)
     query_result = response.json()
     print(query_result)
     qids = []

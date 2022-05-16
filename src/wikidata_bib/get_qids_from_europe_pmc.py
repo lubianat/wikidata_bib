@@ -1,23 +1,39 @@
-from helper import (
+from unicodedata import category
+from .helper import (
     add_to_file,
     remove_read_qids,
     get_qids_from_europe_pmc,
 )
 import re
+import click
+from pathlib import Path
+import yaml
 
-category = "Cell types"
-query = '"catalog of cell types"'
+HERE = Path(__file__).parent.resolve()
 
-main_list = get_qids_from_europe_pmc(query)
 
-# Ignore articles in toread.md
-with open("src/data/toread.md", "r") as f:
-    articles_file = f.read()
+@click.command(name="querypmc")
+@click.argument("shortcut")
+@click.argument("query")
+def main(shortcut: str, query: str):
+    main_list = get_qids_from_europe_pmc(f'"{query}"')
 
-logged_articles = re.findall("Q[0-9]*", articles_file)
-main_list = list(set(main_list) - set(logged_articles))
+    with open(f"{HERE}/../data/config.yaml", "r") as c:
+        shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
-main_list = remove_read_qids(main_list)
-if category != None:
-    print("====== Appending QIDs to file toread.md ====== ")
-    add_to_file(main_list, category)
+    category = shortcuts["lists"][shortcut]
+    # Ignore articles in toread.md
+    with open(f"{HERE}/../data/toread.md", "r") as f:
+        articles_file = f.read()
+
+    logged_articles = re.findall("Q[0-9]*", articles_file)
+    main_list = list(set(main_list) - set(logged_articles))
+
+    main_list = remove_read_qids(main_list)
+    if category != None:
+        print("====== Appending QIDs to file toread.md ====== ")
+        add_to_file(main_list, category)
+
+
+if __name__ == "__main__":
+    main()

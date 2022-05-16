@@ -4,6 +4,7 @@ lists:
   bioc: Biocuration
   saved: Saved PDFs
   lbd: Literature-Based Discovery
+  cl: Cell Ontology
 
 queries:
   ct:

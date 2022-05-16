@@ -10,7 +10,7 @@ HERE = Path(__file__).parent.resolve()
 
 @click.command(name="read")
 @click.argument("qid")
-@click.option(
+@click.option("-nd",
     "--no-download",
     is_flag=True,
     show_default=True,
