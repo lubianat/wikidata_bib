@@ -6,9 +6,10 @@ import click
 HERE = Path(__file__).parent.resolve()
 
 click.command(name="tweet")
-
-
 def main():
+   """
+   Renders a tweet for the last read article.
+   """
     df = pd.read_csv(f"{HERE}/../data/read.csv")
     entries = list(df["wikidata_id"])
     qid = entries[-1]
@@ -42,3 +43,6 @@ def main():
     )
 
     print(tweet)
+
+if __name__ == "__main__":
+  main()
