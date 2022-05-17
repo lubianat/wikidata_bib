@@ -1,6 +1,6 @@
 import click
 
-from wikidata_bib import reopen_last
+from wikidata_bib import render_tweet, reopen_last
 
 from . import read, pop, wlog, drop_last, push, get_index, reopen_last, get_qids_from_europe_pmc
 
@@ -18,5 +18,6 @@ cli.add_command(push.main)
 cli.add_command(get_index.main)
 cli.add_command(reopen_last.main)
 cli.add_command(get_qids_from_europe_pmc.main)
+cli.add_command(render_tweet.main)
 if __name__ == "__main__":
     cli()
