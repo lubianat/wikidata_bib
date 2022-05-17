@@ -32,9 +32,9 @@ def main():
   """
 
     if "twitter_id" in df.index:
-        for i, row in df.iterrows():
-            if row["twitter_id"] == row["twitter_id"]:  # Test for NaN
-                tweet = tweet + f"""@{row["twitter_id"]} """
+        for row in df.itertuples():
+            if getattr(row, "twitter_id") == getattr(row, "twitter_id"):  # Test for NaN
+                tweet = tweet + f"""@{getattr(row, "twitter_id")} """
 
     tweet = (
         tweet
