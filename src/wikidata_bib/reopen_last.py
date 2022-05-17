@@ -11,6 +11,9 @@ HERE = Path(__file__).parent.resolve()
 
 @click.command(name="reopen")
 def main():
+    """
+    Reopens last read paper.
+    """
     df = pd.read_csv(f"{HERE}/../data/read.csv")
     entries = list(df["wikidata_id"])
     last_entry = entries[-1]

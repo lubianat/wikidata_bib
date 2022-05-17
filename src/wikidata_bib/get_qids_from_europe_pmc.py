@@ -16,6 +16,9 @@ HERE = Path(__file__).parent.resolve()
 @click.argument("shortcut")
 @click.argument("query")
 def main(shortcut: str, query: str):
+    """
+    Queries EuropePMC and adds articles to the reading list
+    """
     main_list = get_qids_from_europe_pmc(f'"{query}"')
 
     with open(f"{HERE}/../data/config.yaml", "r") as c:

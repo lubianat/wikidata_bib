@@ -12,7 +12,7 @@ HERE = Path(__file__).parent.resolve()
 @click.command(name="log")
 def main():
     """
-    Opens the platform for a paper on demand
+    Updates the GitHub repository with the recent data.
     """
     articles = pd.read_csv(f"{HERE}/../data/read.csv")
 
