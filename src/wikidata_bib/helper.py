@@ -1,3 +1,4 @@
+from black import diff
 import requests
 import pandas as pd
 from collections import defaultdict
@@ -14,6 +15,9 @@ HERE = Path(__file__).parent.resolve()
 
 
 def get_qids_from_europe_pmc(query):
+    """
+    Pulls a list of Wikidata QIDs ordered by date (newest first) from Europe PMC.
+    """
     endpoint = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
 
     params = {"query": query, "format": "json", "pageSize": "1000"}
@@ -84,6 +88,8 @@ def remove_read_qids(list_of_qids):
     """
     Removes ther read QIDs from a list of qids.
     """
+    print(list_of_qids)
+
     # Ignore articles read before
     files = []
     for file_name in glob("./notes/*.md"):
@@ -96,7 +102,10 @@ def remove_read_qids(list_of_qids):
             array_of_qids.append(item)
     array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
 
-    main_list = list(set(list_of_qids) - set(array_of_qids))
+    diff = list(set(list_of_qids) - set(array_of_qids))
+
+    print(list_of_qids)
+    main_list = [o for o in list_of_qids if o in diff]
 
     return main_list
 
@@ -105,6 +114,7 @@ def pmid_to_wikidata_qid(list_of_pmids):
 
     """
     Obtains a list of QIDs from Wikidata given a list of Pubmed IDs.
+    The list is sorted by publication date, newest first.
 
     Args:
         query (str): A SPARQL query formatted for the Wikidata query service.
@@ -122,26 +132,25 @@ def pmid_to_wikidata_qid(list_of_pmids):
 
     query = f"""
     SELECT 
-      ?qid 
+      ?qid ?publication_date
     WHERE 
     {{
       VALUES ?pmid {{ {values} }} .
       ?qid wdt:P698 ?pmid .
+      ?qid wdt:P577 ?publication_date .
     }}
+    ORDER BY
+      DESC (?publication_date)
     """
 
-    response = requests.get(
-        endpoint_url,
-        params={"query": query, "format": "json"},
-        headers={"User-Agent": "Wikidata Bib https://github.com/lubianat/wikidata_bib"},
-    )
-    print(response)
-    query_result = response.json()
-    print(query_result)
-    qids = []
-    for row in query_result["results"]["bindings"]:
-        qid = row["qid"]["value"].split("/")[-1]
-        qids.append(qid)
+    print(query)
+
+    df = wikidata2df(query)
+
+    print(df)
+    qids = df["qid"].values
+
+    print(qids)
 
     return qids
 

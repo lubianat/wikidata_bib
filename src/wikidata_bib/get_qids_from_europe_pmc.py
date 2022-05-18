@@ -30,7 +30,11 @@ def main(shortcut: str, query: str):
         articles_file = f.read()
 
     logged_articles = re.findall("Q[0-9]*", articles_file)
-    main_list = list(set(main_list) - set(logged_articles))
+
+    diff = list(set(main_list) - set(logged_articles))
+
+    print(main_list)
+    main_list = [o for o in main_list if o in diff]
 
     main_list = remove_read_qids(main_list)
     if category != None:
