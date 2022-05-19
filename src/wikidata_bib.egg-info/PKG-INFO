@@ -3,9 +3,10 @@ Name: wikidata-bib
 Version: 0.0.1.dev0
 Summary: Read scientific articles using Wikidata
 License: MIT
-Platform: UNKNOWN
 Description-Content-Type: text/markdown
 License-File: LICENSE
+
+![Wikidata Bib Logo](https://github.com/wikibib/rootstock/blob/main/images/logo.png?raw=true)
 
 # Wikidata Bib Manager
 
@@ -26,5 +27,3 @@ gh repo clone lubianat/wikidata_bib
 cd wikidata_bib
 pip install -e . 
 ```
-
-

@@ -1,4 +1,3 @@
-from unicodedata import category
 from .helper import (
     add_to_file,
     remove_read_qids,
@@ -25,6 +24,7 @@ def main(shortcut: str, query: str):
         shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
     category = shortcuts["lists"][shortcut]
+
     # Ignore articles in toread.md
     with open(f"{HERE}/../data/toread.md", "r") as f:
         articles_file = f.read()
@@ -32,8 +32,6 @@ def main(shortcut: str, query: str):
     logged_articles = re.findall("Q[0-9]*", articles_file)
 
     diff = list(set(main_list) - set(logged_articles))
-
-    print(main_list)
     main_list = [o for o in main_list if o in diff]
 
     main_list = remove_read_qids(main_list)
