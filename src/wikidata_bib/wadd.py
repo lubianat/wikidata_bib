@@ -5,7 +5,7 @@ from glob import glob
 import argparse
 import pandas as pd
 import re
-from src.helper import add_to_file, remove_read_qids
+from .helper import add_to_file, remove_read_qids, get_qids_in_reading_list
 
 
 def main():
@@ -20,9 +20,7 @@ def main():
             raise ValueError("SPARQL query needs to select a variable called ?work")
 
         sparql_query_response = requests.get(url_sparql, params={"format": "json"})
-        sparql_query_result = pd.json_normalize(
-            sparql_query_response.json()["results"]["bindings"]
-        )
+        sparql_query_result = pd.json_normalize(sparql_query_response.json()["results"]["bindings"])
         sparql_query_result["qid"] = [
             url.split("/")[4] for url in sparql_query_result["work.value"]
         ]
@@ -45,9 +43,7 @@ def main():
     # Run:
     # $ ./wadd https://w.wiki/3MDs -p --new
 
-    parser.add_argument(
-        "url", help="A short link provided by the Wikidata Query Service", type=str
-    )
+    parser.add_argument("url", help="A short link provided by the Wikidata Query Service", type=str)
     parser.add_argument(
         "--category",
         help="The category to which the list will be appended",
@@ -82,12 +78,7 @@ def main():
 
         main_list = get_final_list_of_articles(sparql_query_result)
 
-        # Ignore articles in toread.md
-        with open("src/data/toread.md", "r") as f:
-            articles_file = f.read()
-
-        logged_articles = re.findall("Q[0-9]*", articles_file)
-        print(logged_articles)
+        logged_articles = get_qids_in_reading_list()
         main_list = list(set(main_list) - set(logged_articles))
 
     if category != None and to_print == False:

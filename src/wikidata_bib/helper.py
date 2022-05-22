@@ -1,4 +1,3 @@
-from black import diff
 import requests
 import pandas as pd
 from collections import defaultdict
@@ -10,8 +9,19 @@ from bs4 import BeautifulSoup
 import pandas as pd
 from glob import glob
 from pathlib import Path
+import yaml
 
 HERE = Path(__file__).parent.resolve()
+
+
+def get_qids_in_reading_list():
+    with open(f"{HERE}/../data/toread.yaml", "r") as c:
+        toread = yaml.load(c.read(), Loader=yaml.FullLoader)
+
+    logged_articles = []
+    for cat in toread["articles"]:
+        logged_articles.extend(toread["articles"][cat])
+    return logged_articles
 
 
 def get_qids_from_europe_pmc(query):
@@ -195,38 +205,23 @@ def wikidata2df(query):
     return results_df
 
 
-def add_to_file(qids, category, filepath=f"{HERE}/../data/toread.md"):
+def add_to_file(qids, category):
     """Adds a list of qids to a file
 
-    Inserts each qids as a newline after the category is found.
+    Inserts qids into a category in the toread.yaml file.
 
     Args:
-        filepath (str): The path to the file to be modified
         qids (list): A list of qids to be added to the file as newlines
-        category (str): A word matching a header in the file, below it the
-        newlines shall be added
-
+        category (str): The key of the list to append the ids.
     """
-    with open(filepath, "r") as f:
-        lines = f.read().split("\n")
 
-    for i, line in enumerate(lines):
-        if category in line:
-            print('- Category "{}" found in line {}'.format(category, i + 1))
-            start_line = i + 1
+    with open(f"{HERE}/../data/toread.yaml", "r") as c:
+        toread = yaml.load(c.read(), Loader=yaml.FullLoader)
 
-    with open(filepath, "r") as f:
-        to_read = f.readlines()
+    toread["articles"][category] = toread["articles"][category].append(qids)
 
-    newlines = []
-    for i in qids:
-        newlines.append(i + "\n")
-
-    print(f"- {str(len(newlines))} QIDs inserted")
-
-    to_read = to_read[:start_line] + newlines + to_read[start_line:]
-    with open(filepath, "w") as f2:
-        f2.writelines(to_read)
+    with open(f"{HERE}/../data/toread.yaml", "w") as f:
+        yaml.dump(toread, f)
 
 
 def get_doi_df(wikidata_id):

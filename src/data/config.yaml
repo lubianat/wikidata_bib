@@ -1,5 +1,5 @@
 lists:
-# - shortcut: Title of header in toread.md  
+# - shortcut: Title of header in toread.yaml  
   ct: Cell types
   bioc: Biocuration
   saved: Saved PDFs

@@ -2,8 +2,8 @@ from .helper import (
     add_to_file,
     remove_read_qids,
     get_qids_from_europe_pmc,
+    get_qids_in_reading_list,
 )
-import re
 import click
 from pathlib import Path
 import yaml
@@ -25,18 +25,14 @@ def main(shortcut: str, query: str):
 
     category = shortcuts["lists"][shortcut]
 
-    # Ignore articles in toread.md
-    with open(f"{HERE}/../data/toread.md", "r") as f:
-        articles_file = f.read()
-
-    logged_articles = re.findall("Q[0-9]*", articles_file)
+    logged_articles = get_qids_in_reading_list()
 
     diff = list(set(main_list) - set(logged_articles))
     main_list = [o for o in main_list if o in diff]
 
     main_list = remove_read_qids(main_list)
     if category != None:
-        print("====== Appending QIDs to file toread.md ====== ")
+        print("====== Appending QIDs to file toread.yaml ====== ")
         add_to_file(main_list, category)
 
 
