@@ -217,8 +217,8 @@ def add_to_file(qids, category):
 
     with open(f"{HERE}/../data/toread.yaml", "r") as c:
         toread = yaml.load(c.read(), Loader=yaml.FullLoader)
-
-    toread["articles"][category] = toread["articles"][category].append(qids)
+    print(toread)
+    toread["articles"][category].extend(qids)
 
     with open(f"{HERE}/../data/toread.yaml", "w") as f:
         yaml.dump(toread, f)
