@@ -2,7 +2,6 @@
 
 import pandas as pd
 import os
-import rdflib
 import click
 from pathlib import Path
 
@@ -18,7 +17,6 @@ def main():
     entries = list(df["wikidata_id"])
     last_entry = entries[-1]
     print(last_entry)
-
     os.system(f"bib read {last_entry}")
 
 

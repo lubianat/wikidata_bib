@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 import os
-import sys
 import click
 from pathlib import Path
 
@@ -10,7 +9,8 @@ HERE = Path(__file__).parent.resolve()
 
 @click.command(name="read")
 @click.argument("qid")
-@click.option("-nd",
+@click.option(
+    "-nd",
     "--no-download",
     is_flag=True,
     show_default=True,
@@ -23,7 +23,7 @@ def main(qid: str, no_download: bool):
     Given the QID for the article, read runs the Wikidata Bib workflow.
     """
     os.system(f"python3 {HERE}/read_paper.py {qid}")
-    if no_download == False:
+    if no_download is False:
         os.system(f"python3 {HERE}/get_pdf.py {qid} unpaywall")
     os.system(f'code "{HERE}../../notes/{qid}.md"')
 

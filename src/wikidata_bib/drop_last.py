@@ -24,7 +24,6 @@ def main():
     print(f"Dropping {last_entry}")
 
     os.system(f"rm {HERE}/../notes/{last_entry}.md")
-
     g = rdflib.Graph()
     g.parse(f"{HERE}/../data/read.ttl", format="ttl")
     wd = rdflib.Namespace("http://www.wikidata.org/entity/")

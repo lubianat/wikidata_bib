@@ -31,7 +31,7 @@ def main(shortcut: str, query: str):
     main_list = [o for o in main_list if o in diff]
 
     main_list = remove_read_qids(main_list)
-    if category != None:
+    if category is not None:
         print("====== Appending QIDs to file toread.yaml ====== ")
         add_to_file(main_list, category)
 

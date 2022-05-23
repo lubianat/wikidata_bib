@@ -23,9 +23,7 @@ def get_answer(index, selected="none"):
             options.append(item)
 
     inquirer_question = [
-        inquirer.List(
-            "search", message="What topic are you looking for?", choices=options
-        ),
+        inquirer.List("search", message="What topic are you looking for?", choices=options),
     ]
 
     answer = inquirer.prompt(inquirer_question)
@@ -65,8 +63,7 @@ try:
     else:
         search_string = text = input("Add your search string:")
 
-
-except:
+except Exception:
     print("ERROR")
     search_string = input("Add your search string:")
     pass

@@ -28,8 +28,6 @@ def get_qids_from_europe_pmc(query):
     """
     Pulls a list of Wikidata QIDs ordered by date (newest first) from Europe PMC.
     """
-    endpoint = "https://www.ebi.ac.uk/europepmc/webservices/rest/search"
-
     params = {"query": query, "format": "json", "pageSize": "1000"}
     response = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search", params)
 
@@ -121,7 +119,6 @@ def remove_read_qids(list_of_qids):
 
 
 def pmid_to_wikidata_qid(list_of_pmids):
-
     """
     Obtains a list of QIDs from Wikidata given a list of Pubmed IDs.
     The list is sorted by publication date, newest first.
@@ -133,8 +130,6 @@ def pmid_to_wikidata_qid(list_of_pmids):
         (pd.DataFrame): A table with the Wikidata results.
 
     """
-
-    endpoint_url = "https://query.wikidata.org/sparql"
 
     values = ""
     for pmid in list_of_pmids:
@@ -152,16 +147,8 @@ def pmid_to_wikidata_qid(list_of_pmids):
     ORDER BY
       DESC (?publication_date)
     """
-
-    print(query)
-
     df = wikidata2df(query)
-
-    print(df)
     qids = df["qid"].values
-
-    print(qids)
-
     return qids
 
 
