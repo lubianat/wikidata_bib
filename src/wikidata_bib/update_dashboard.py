@@ -29,8 +29,8 @@ PAGES = {
 
 
 ### Update table with notes
-
-articles = pd.read_csv(f"{HERE}/../data/read.csv")
+read_path = HERE.parent.joinpath("data/read.csv").resolve()
+articles = pd.read_csv(read_path)
 articles = articles
 articles["wikidata_id"] = [
     "<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]
@@ -38,13 +38,14 @@ articles["wikidata_id"] = [
 test = articles.to_html(escape="True")
 test = test.replace("&lt;", " <").replace("&gt;", ">")
 
-with open(f"{HERE}/../../docs/notes.html", "w") as f:
-    f.write(test)
+notes_path = HERE.parent.parent.joinpath("docs/notes.html").resolve()
+notes_path.write_text(test)
 
 ### Update dashboard with queries
 
 g = rdflib.Graph()
-result = g.parse(f"{HERE}/../data/read.ttl", format="ttl")
+result = read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
+g.parse(read_ttl_path, format="ttl")
 wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
 wbc = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/collections/")
 wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
@@ -74,10 +75,14 @@ dates_in_date_format = [
 articles_dataframe["date"] = dates_in_date_format
 
 ids = [i.split("/")[4] for i in articles_dataframe["item"]]
+
+docs_path = HERE.parent.parent.joinpath("docs").resolve()
+
+index_path = docs_path.joinpath("index.html").resolve()
 wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath=f"{HERE}/../../docs/index.html",
+    filepath=index_path,
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
@@ -88,11 +93,11 @@ wbib.render_dashboard(
 month_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=30))]
 ids = [i.split("/")[4] for i in month_dat["item"]]
 
-
+past_month_path = docs_path.joinpath("past_month.html").resolve()
 wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath=f"{HERE}/../../docs/past_month.html",
+    filepath=past_month_path,
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
@@ -103,10 +108,11 @@ wbib.render_dashboard(
 week_dat = articles_dataframe[articles_dataframe["date"] > (datetime.today() - timedelta(days=7))]
 ids = [i.split("/")[4] for i in week_dat["item"]]
 
+past_week_path = docs_path.joinpath("past_week.html").resolve()
 wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath=f"{HERE}/../../docs/past_week.html",
+    filepath=past_week_path,
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",
@@ -115,11 +121,11 @@ wbib.render_dashboard(
 
 last_day = articles_dataframe[articles_dataframe["date"] == max(articles_dataframe["date"])]
 ids = [i.split("/")[4] for i in last_day["item"]]
-
+last_day_path = docs_path.joinpath("last_day.html").resolve()
 wbib.render_dashboard(
     info=ids,
     mode="basic",
-    filepath=f"{HERE}/../../docs/last_day.html",
+    filepath=last_day_path,
     pages=PAGES,
     sections_to_add=sessions,
     site_title="Wikidata Bib",

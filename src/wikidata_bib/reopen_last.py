@@ -13,7 +13,8 @@ def main():
     """
     Reopens last read paper.
     """
-    df = pd.read_csv(f"{HERE}/../data/read.csv")
+    read_path = HERE.parent.joinpath("data/read.csv").resolve()
+    df = pd.read_csv(read_path)
     entries = list(df["wikidata_id"])
     last_entry = entries[-1]
     print(last_entry)

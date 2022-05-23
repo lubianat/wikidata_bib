@@ -15,7 +15,9 @@ HERE = Path(__file__).parent.resolve()
 
 
 def get_qids_in_reading_list():
-    with open(f"{HERE}/../data/toread.yaml", "r") as c:
+
+    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+    with open(toread_path, "r") as c:
         toread = yaml.load(c.read(), Loader=yaml.FullLoader)
 
     logged_articles = []
@@ -202,12 +204,14 @@ def add_to_file(qids, category):
         category (str): The key of the list to append the ids.
     """
 
-    with open(f"{HERE}/../data/toread.yaml", "r") as c:
+    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+    with open(toread_path, "r") as c:
         toread = yaml.load(c.read(), Loader=yaml.FullLoader)
     print(toread)
     toread["articles"][category].extend(qids)
 
-    with open(f"{HERE}/../data/toread.yaml", "w") as f:
+    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+    with open(toread_path, "w") as f:
         yaml.dump(toread, f)
 
 

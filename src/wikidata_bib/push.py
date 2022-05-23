@@ -14,7 +14,8 @@ def main(category: str, qid: str):
     """
     Pushes an article to the top of a reading list.
     """
-    with open(f"{HERE}/../data/config.yaml", "r") as c:
+    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
+    with open(config_path, "r") as c:
         shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
     list_name = shortcuts["lists"][category]

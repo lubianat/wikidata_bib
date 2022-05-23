@@ -14,7 +14,8 @@ def main():
     """
     Updates the GitHub repository with the recent data.
     """
-    articles = pd.read_csv(f"{HERE}/../data/read.csv")
+    read_path = HERE.parent.joinpath("data/read.csv").resolve()
+    articles = pd.read_csv(read_path)
 
     wd_id = articles.tail(1)["wikidata_id"].values[0]
 
@@ -36,8 +37,8 @@ def main():
 
     df = wikidata2df(query)
     message = "read: " + df["itemLabel"].values[0]
-
-    bash_command = f'cd {HERE}/../.. && git add . && git commit -m "{message}" && git push'
+    parent_path = HERE.parent.parent.resolve()
+    bash_command = f'cd {parent_path} && git add . && git commit -m "{message}" && git push'
     os.system(bash_command)
 
 

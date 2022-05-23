@@ -21,7 +21,6 @@ def main():
 
         mdFile.new_line("  [@wikidata:" + wikidata_id + "]")
         mdFile.new_line()
-
         if publication_date != "None":
             mdFile.new_line("Publication date : " + str(publication_date))
 
@@ -54,7 +53,8 @@ def main():
         that records the articles that have been read.
         """
         g = rdflib.Graph()
-        g.parse(f"{HERE}/../data/read.ttl", format="ttl")
+        read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
+        g.parse(read_ttl_path, format="ttl")
         wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
         wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
         wd = rdflib.Namespace("http://www.wikidata.org/entity/")
@@ -64,7 +64,8 @@ def main():
         o1 = rdflib.term.URIRef(wbn + wikidata_id + ".md")
         g.add((s, p1, o1))
 
-        g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
+        read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
+        g.serialize(destination=read_ttl_path, format="turtle")
 
         today = date.today()
         d1 = today.strftime("+%Y-%m-%dT00:00:00Z/11")
@@ -73,20 +74,23 @@ def main():
         o2 = rdflib.term.Literal(d1)
         g.add((s, p2, o2))
 
-        g.serialize(destination=f"{HERE}/../data/read.ttl", format="turtle")
+        read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
+        g.serialize(destination=read_ttl_path, format="turtle")
 
     def update_csv(df):
         """
         Updates the CSV log of all articles read.
         """
-        df_stored = pd.read_csv(f"{HERE}/../data/read.csv")
+        read_path = HERE.parent.joinpath("data/read.csv").resolve()
+
+        df_stored = pd.read_csv(read_path)
         new_row = {"human_id": df["itemLabel"][0], "wikidata_id": df["item"][0]}
         new_row = pd.DataFrame(new_row, index=[0])
         df_stored = pd.concat([df_stored, new_row], ignore_index=True)
 
         df_stored = df_stored.drop_duplicates()
         print(df_stored)
-        df_stored.to_csv(f"{HERE}/../data/read.csv", index=False)
+        df_stored.to_csv(read_path, index=False)
 
     wikidata_id = sys.argv[1]
 
@@ -123,14 +127,16 @@ def main():
         arxiv_id = ""
         pass
 
-    file_path = f"{HERE}/../notes/" + wikidata_id
-
+    file_path = HERE.parent.joinpath(f"notes/{wikidata_id}").resolve().absolute().as_posix()
+    print(file_path)
     print("======= Creating markdown =======")
     create_markdown(file_path, title, publication_date, doi, text_url, arxiv_id)
     update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
-    exec(open(f"{HERE}/update_dashboard.py").read())
+
+    update_path = HERE.joinpath("update_dashboard.py").resolve()
+    exec(open(f"{update_path}").read())
 
     print("======= Done =======")
 
@@ -138,7 +144,7 @@ def main():
 if __name__ == "__main__":
     wikidata_id = sys.argv[1]
     assert wikidata_id[0] == "Q"
-    filename = f"{HERE}/../notes/" + wikidata_id + ".md"
+    filename = HERE.parent.joinpath(f"notes/{wikidata_id}.md").resolve()
 
     if os.path.isfile(filename):
         print("Article has already been read")

@@ -11,7 +11,8 @@ def main():
     """
     Renders a tweet for the last read article.
     """
-    df = pd.read_csv(f"{HERE}/../data/read.csv")
+    read_path = HERE.parent.joinpath("data/read.csv").resolve()
+    df = pd.read_csv(read_path)
     entries = list(df["wikidata_id"])
     qid = entries[-1]
     print(qid)

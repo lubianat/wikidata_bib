@@ -20,7 +20,8 @@ def main(shortcut: str, query: str):
     """
     main_list = get_qids_from_europe_pmc(f'"{query}"')
 
-    with open(f"{HERE}/../data/config.yaml", "r") as c:
+    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
+    with open(config_path, "r") as c:
         shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
     category = shortcuts["lists"][shortcut]

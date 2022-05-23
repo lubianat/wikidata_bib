@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 import sys
-from helper import download_paper, get_doi_df
+from wikidata_bib.helper import download_paper, get_doi_df
 from pathlib import Path
 import webbrowser
 
@@ -21,7 +21,9 @@ def main():
         doi_suffix = doi_df["doi"].values[0]
         webbrowser.open(f"https://doi.org/{doi_suffix}")
         print("DOI: " + doi_suffix)
-        download_paper(doi=doi_suffix, source=source, path=f"{HERE}/../../downloads/")
+
+        downloads_path = HERE.parent.parent.joinpath("downloads/").resolve().as_posix()
+        download_paper(doi=doi_suffix, source=source, path=downloads_path)
 
 
 if __name__ == "__main__":

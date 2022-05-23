@@ -24,10 +24,12 @@ def main(category: str, no_download: bool):
     Pops the first article of the reading list into read.
 
     """
-    with open(f"{HERE}/../data/toread.yaml", "r") as c:
+    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+    with open(toread_path, "r") as c:
         toread = yaml.load(c.read(), Loader=yaml.FullLoader)
 
-    with open(f"{HERE}/../data/config.yaml", "r") as c:
+    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
+    with open(config_path, "r") as c:
         shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
 
     list_name = shortcuts["lists"][category]
@@ -37,7 +39,8 @@ def main(category: str, no_download: bool):
         qid = toread["articles"][list_name][0]
         toread["articles"][list_name] = toread["articles"][list_name][1:]
 
-        with open(f"{HERE}/../data/toread.yaml", "w") as f:
+        toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+        with open(toread_path, "w") as f:
             yaml.dump(toread, f)
 
         if no_download:
