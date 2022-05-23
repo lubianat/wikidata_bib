@@ -2,3 +2,4 @@ technotype
 downloads/*
 !downloads/README.txt
 phd_thesisquali_phd
+*pycache*
