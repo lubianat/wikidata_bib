@@ -10,14 +10,14 @@ HERE = Path(__file__).parent.resolve()
 @click.command(name="read")
 @click.argument("qid")
 @click.option(
-    "-nd",
-    "--no-download",
+    "-d",
+    "--download",
     is_flag=True,
     show_default=True,
     default=False,
-    help="Skip the download of a PDF.",
+    help="Downloads and opens the PDF.",
 )
-def main(qid: str, no_download: bool):
+def main(qid: str, download: bool):
     """Reads a paper on demand.
 
     Given the QID for the article, read runs the Wikidata Bib workflow.
@@ -26,7 +26,7 @@ def main(qid: str, no_download: bool):
     os.system(f"python3 {read_paper_path} {qid}")
 
     get_pdf_path = HERE.joinpath("get_pdf.py").resolve()
-    if no_download is False:
+    if download is True:
         os.system(f"python3 {get_pdf_path} {qid} unpaywall")
 
     notes_path = HERE.parent.joinpath(f"notes/{qid}.md").resolve()
