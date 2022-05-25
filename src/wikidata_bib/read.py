@@ -3,6 +3,8 @@
 import os
 import click
 from pathlib import Path
+import webbrowser
+from .helper import get_doi_df
 
 HERE = Path(__file__).parent.resolve()
 
@@ -25,8 +27,14 @@ def main(qid: str, download: bool):
     read_paper_path = HERE.joinpath("read_paper.py").resolve()
     os.system(f"python3 {read_paper_path} {qid}")
 
-    get_pdf_path = HERE.joinpath("get_pdf.py").resolve()
+    doi_df = get_doi_df(qid)
+    if doi_df.empty == True:
+        print("No DOI found for " + qid + ".")
+    else:
+        doi_suffix = doi_df["doi"].values[0]
+        webbrowser.open(f"https://doi.org/{doi_suffix}")
     if download is True:
+        get_pdf_path = HERE.joinpath("get_pdf.py").resolve()
         os.system(f"python3 {get_pdf_path} {qid} unpaywall")
 
     notes_path = HERE.parent.joinpath(f"notes/{qid}.md").resolve()
