@@ -23,7 +23,7 @@ def main():
         print("DOI: " + doi_suffix)
 
         downloads_path = HERE.parent.parent.joinpath("downloads/").resolve().as_posix()
-        download_paper(doi=doi_suffix, source=source, path=downloads_path)
+        download_paper(doi=doi_suffix, source=source, path=downloads_path + "/")
 
 
 if __name__ == "__main__":

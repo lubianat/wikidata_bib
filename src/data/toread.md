@@ -35,20 +35,3 @@ https://manubot.github.io/manufesto/
 10.1038/s41586-021-03813-8
 http://inf.ufes.br/~gguizzardi/ER2014-keynote-CR.pdf
 https://pubmed.ncbi.nlm.nih.gov/34546707/
-
-# Top 100 papers
-# Random
-Q92575623
-Q90696426
-Q33535717
-Q92575623
-
-# Saved PDFs
-Q61135997
-Q93039099
-
-# Literature-Based Discovery
-Q101236576
-Q57287503
-Q51978899
-Q35312043

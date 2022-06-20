@@ -1454,3 +1454,121 @@ Identification of disease treatment mechanisms through the multiscale interactom
 HiDeF: identifying persistent structures in multiscale 'omics data,Q104793828
 Opportunities and Challenges in Democratizing Immunology Datasets,Q108126881
 The status of causality in biological databases: data resources and data retrieval possibilities to support logical modeling,Q104619209
+Common cell type nomenclature for the mammalian brain,Q104610410
+"Structural Variability, Expression Profile, and Pharmacogenetic Properties of TMPRSS2 Gene as a Potential Target for COVID-19 Therapy",Q104614740
+Knowledge Organization Systems for Systematic Chemical Assessments,Q104566070
+Towards semantic interoperability: finding and repairing hidden contradictions in biomedical ontologies,Q104473755
+The Gene Ontology resource: enriching a GOld mine,Q104130127
+Transcriptional Architecture of Synaptic Communication Delineates GABAergic Neuron Identity.,Q47752725
+GTRD: an integrated view of transcription regulation,Q102372335
+FANTOM enters 20th year: expansion of transcriptomic atlases and functional annotation of non-coding RNAs,Q102205704
+CSEA-DB: an omnibus for human complex trait and cell type associations,Q102205746
+Therapeutic potential of miRNAs targeting SARS-CoV-2 host cell receptor ACE2,Q102327395
+"An integrative knowledge graph for rare diseases, derived from the Genetic and Rare Diseases Information Center (GARD)",Q102052567
+Transcriptional Regulation of NK Cell Development by mTOR Complexes,Q102978475
+Automatic Gene Function Prediction in the 2020's,Q101117580
+The mouse Gene Expression Database (GXD): 2021 update,Q100997575
+Glycyrrhizin Blocks the Detrimental Effects of HMGB1 on Cortical Neurogenesis After Traumatic Neuronal Injury,Q100956675
+Comparative Toxicogenomics Database (CTD): update 2021,Q100696072
+The genetics-BIDS extension: Easing the search for genetic data associated with human brain imaging,Q100695457
+CMNPD: a comprehensive marine natural products database towards facilitating drug discovery from the ocean,Q100311080
+SIMPLEs: a single-cell RNA sequencing imputation strategy preserving gene modules and cell clusters variation,Q100493043
+Genetic mapping of etiologic brain cell types for obesity,Q99587937
+Modelling kidney disease using ontology: insights from the Kidney Precision Medicine Project,Q99557513
+Tempora: Cell trajectory inference using time-series single-cell RNA sequencing data,Q99237401
+Serum Free Immunoglobulins Light Chains: A Common Feature of Common Variable Immunodeficiency?,Q98735616
+ImmunoGlobe: enabling systems immunology with a manually curated intercellular immune interaction network,Q98300753
+Designing Evolutionary Based Interception Strategies to Block the Transition from Precursor Phases to Multiple Myeloma,Q98219295
+"Integrating Deep Supervised, Self-Supervised and Unsupervised Learning for Single-Cell RNA-seq Clustering and Annotation",Q97565395
+A user guide for the online exploration and visualization of PCAWG data,Q97418110
+Identification of unique and shared mitochondrial DNA mutations in neurodegeneration and cancer by single-cell mitochondrial DNA structural variation sequencing (MitoSV-seq),Q97094862
+Structural cells are key regulators of organ-specific immune responses,Q96952470
+Jupyter notebook-based tools for building structured datasets from the Sequence Read Archive,Q99630531
+Single-cell transcriptome reveals the novel role of T-bet in suppressing the immature NK gene signature,Q94677873
+Adipogenesis of skeletal muscle fibro/adipogenic progenitors is affected by the WNT5a/GSK3/β-catenin axis,Q94550856
+NCATS Inxight Drugs: a comprehensive and curated portal for translational research,Q112130996
+Applying knowledge-driven mechanistic inference to toxicogenomics,Q94590849
+A scoping review and proposed workflow for multi-omic rare disease research,Q94450954
+SciBet as a portable and fast single cell type identifier,Q91891462
+Q112144126,Q112144126
+Formal axioms in biomedical ontologies improve analysis and interpretation of associated data,Q91843905
+Semantic characterization of adverse outcome pathways,Q91825442
+The IUPHAR Guide to Immunopharmacology: connecting immunology and pharmacology,Q89534525
+DNA methylation changes on immune cells in Systemic Lupus Erythematosus,Q89530200
+Confounding Patient Factors Affecting the Proper Interpretation of the Periostin Level as a Biomarker in Asthma Development,Q89537667
+SEAweb: the small RNA Expression Atlas web application,Q90622139
+Expression Atlas update: from tissues to single cells,Q91007034
+The IUPHAR/BPS Guide to PHARMACOLOGY in 2020: extending immunopharmacology content and introducing the IUPHAR/MMV Guide to MALARIA PHARMACOLOGY,Q91135369
+Glycan Reactive Natural Antibodies and Viral Immunity,Q92087128
+Establishment of normative ranges of the healthy human immune system with comprehensive polychromatic flow cytometry profiling,Q91878711
+cellHarmony: cell-level matching and holistic comparison of single-cell transcriptomes,Q90139918
+The Alliance of Genome Resources: Building a Modern Data Ecosystem for Model Organism Databases,Q91654942
+Murine single-cell RNA-seq reveals cell-identity- and tissue-specific trajectories of aging,Q91385655
+Single-cell RNA-sequencing reveals distinct patterns of cell state heterogeneity in mouse models of breast cancer,Q98718297
+TMRS: an algorithm for computing the time to the most recent substitution event from a multiple alignment column,Q91936385
+The LOTUS initiative for open knowledge management in natural products research,Q112143478
+Lung Single-Cell Signaling Interaction Map Reveals Basophil Role in Macrophage Imprinting,Q57489977
+Comprehensive anatomic ontologies for lung development: A comparison of alveolar formation and maturation within mouse and human lung,Q90939015
+Scientist and data architect collaborate to curate and archive an inner ear electrophysiology data collection,Q90797063
+IKAP-Identifying K mAjor cell Population groups in single-cell RNA-sequencing analysis,Q90414564
+Myo-REG: A Portal for Signaling Interactions in Muscle Regeneration,Q90704812
+Phenotypic Convergence: Distinct Transcription Factors Regulate Common Terminal Features,Q89128831
+Using Large Datasets to Understand Nanotechnology,Q92719115
+Treg Cells Promote the SREBP1-Dependent Metabolic Fitness of Tumor-Promoting Macrophages via Repression of CD8+ T Cell-Derived Interferon-γ,Q92213306
+Genomic signatures defining responsiveness to allopurinol and combination therapy for lung cancer identified by systems therapeutics analyses,Q64216172
+Where to search top-K biomedical ontologies?,Q64125311
+Renal-Tubule Epithelial Cell Nomenclature for Single-Cell RNA-Sequencing Studies,Q93115184
+Circulating T cell-monocyte complexes are markers of immune perturbations.,Q64899223
+Organizing phenotypic data-a semantic data model for anatomy.,Q64941090
+Multi-domain semantic similarity in biomedical research.,Q64936246
+GREIN: An Interactive Web Platform for Re-analyzing GEO RNA-seq Data,Q64268360
+Dynamic balance between vesicle transport and microtubule growth enables neurite outgrowth,Q91668275
+An ontology for representing hematologic malignancies: the cancer cell ontology.,Q64999464
+Genome-wide maps of nuclear lamina interactions in single human cells,Q36094851
+OSCI: standardized stem cell ontology representation and use cases for stem cell investigation.,Q63846546
+"The cell line ontology-based representation, integration and analysis of cell lines used in China",Q91613856
+Molecular Pathways of Colon Inflammation Induced by Cancer Immunotherapy,Q96828908
+Muscle functions as a connective tissue and source of extracellular matrix in planarians,Q64067726
+Single-Cell Transcriptomic Analysis of Primary and Metastatic Tumor Ecosystems in Head and Neck Cancer.,Q46249272
+Owlready: Ontology-oriented programming in Python with automatic classification and high level constructs for biomedical ontologies.,Q38371991
+The Pediatric Cell Atlas: Defining the Growth Phase of Human Development at Single-Cell Resolution,Q64112163
+Wikipedia for multilingual COVID-19 vaccine education at scale,Q107281306
+Too many tags spoil the metadata: investigating the knowledge management of scientific research with semantic web technologies,Q63349890
+YY1 Is a Structural Regulator of Enhancer-Promoter Loops.,Q47311078
+Evaluation of methods to assign cell type labels to cell clusters from single-cell RNA-sequencing data,Q90052808
+CellSim: a novel software to calculate cell similarity and identify their co-regulation networks,Q64066273
+Towards Building a Plant Cell Atlas,Q91687334
+Levels and building blocks-toward a domain granularity framework for the life sciences,Q61443281
+OGER++: hybrid multi-type entity recognition,Q91150115
+Molecular Diversity and Specializations among the Cells of the Adult Mouse Brain,Q90872162
+UVA School of Data Science Open Access Guidelines and Recommendations,Q107363272
+"OMeta: an ontology-based, data-driven metadata tracking system",Q60918292
+Antisense Transcription in Loci Associated to Hereditary Neurodegenerative Diseases,Q90897908
+Epstein-Barr Virus (EBV)-Related Lymphoproliferative Disorders in Ataxia Telangiectasia: Does ATM Regulate EBV Life Cycle?,Q60920702
+Data-Driven Flow Cytometry Analysis,Q91935937
+Lymph nodes are innervated by a unique population of sensory neurons with immunomodulatory potential,Q104492479
+GTRD: a database on gene transcription regulation-2019 update.,Q64949098
+Using association rule mining and ontologies to generate metadata recommendations from multiple biomedical databases,Q92834675
+Author response: Wikidata as a knowledge graph for the life sciences,Q98129494
+iProX: an integrated proteome resource.,Q64969288
+Transcriptional and Functional Programming of Decidual Innate Lymphoid Cells,Q89621143
+Introducing WikiPathways as a Data-Source to Support Adverse Outcome Pathways for Regulatory Risk Assessment of Chemicals and Nanomaterials,Q60029582
+MicroRNA-22 Controls Aberrant Neurogenesis and Changes in Neuronal Morphology After Status Epilepticus,Q60959991
+Knowledge model for emergency response based on contingency planning system of China,Q91903900
+Ontology-based semantic mapping of chemical toxicities,Q93370066
+"Human Disease Ontology 2018 update: classification, content and workflow expansion",Q58587067
+An ontology-based method for assessing batch effect adjustment approaches in heterogeneous datasets,Q58757833
+CEDAR OnDemand: a browser extension to generate ontology-based scientific metadata,Q62608260
+Single-Cell Map of Diverse Immune Phenotypes in the Breast Tumor Microenvironment,Q89367617
+Lipid-Associated Macrophages Control Metabolic Homeostasis in a Trem2-Dependent Manner,Q93137723
+GIANT 2.0: genome-scale integrated analysis of gene networks in tissues.,Q55497654
+The nf-core framework for community-curated bioinformatics pipelines,Q89702089
+Gene expression variability across cells and species shapes innate immunity,Q57793623
+A Unique Microglia Type Associated with Restricting Development of Alzheimer's Disease.,Q38672340
+Extending the DIDEO ontology to include entities from the natural product drug interaction domain of discourse.,Q55128465
+Droplet barcoding for single-cell transcriptomics applied to embryonic stem cells.,Q40912054
+Optimal-Transport Analysis of Single-Cell Gene Expression Identifies Developmental Trajectories in Reprogramming,Q92229644
+Regenerative Metaplastic Clones in COPD Lung Drive Inflammation and Fibrosis,Q91989344
+Chromatin accessibility dynamics and single cell RNA-Seq reveal new regulators of regeneration in neural progenitors,Q93253568
+DAFi: A directed recursive data filtering and clustering approach for improving and interpreting data clustering identification of cell populations from polychromatic flow cytometry data.,Q52582833
+The Hard Way towards an Antibody-Based HIV-1 Env Vaccine: Lessons from Other Viruses.,Q52584646
