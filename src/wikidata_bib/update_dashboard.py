@@ -1,7 +1,6 @@
 from datetime import datetime, timedelta
 import pandas as pd
 import rdflib
-from glob import glob
 import wbib.queries
 from wbib import wbib
 from pathlib import Path

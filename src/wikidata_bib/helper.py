@@ -207,8 +207,10 @@ def add_to_file(qids, category):
     toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
     with open(toread_path, "r") as c:
         toread = yaml.load(c.read(), Loader=yaml.FullLoader)
-    print(toread)
-    toread["articles"][category].extend(qids)
+
+    old_articles = toread["articles"][category]
+    qids.extend(old_articles)
+    toread["articles"][category] = qids
 
     toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
     with open(toread_path, "w") as f:
