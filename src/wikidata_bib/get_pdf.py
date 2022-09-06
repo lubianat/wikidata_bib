@@ -1,4 +1,6 @@
-#!/usr/bin/python3
+"""
+Downloads a pdf for the article of interest given its QID.
+"""
 
 import sys
 import webbrowser
@@ -10,12 +12,15 @@ HERE = Path(__file__).parent.resolve()
 
 
 def main():
+    """
+    Downloads a pdf for the article of interest given its QID.
+    """
     wikidata_id = sys.argv[1]
     source = sys.argv[2]
     doi_df = get_doi_df(wikidata_id)
     print("======= Looking for article DOI on Wikidata =======")
     print(doi_df)
-    if doi_df.empty == True:
+    if doi_df.empty is True:
         print("No DOI found for " + wikidata_id + ".")
 
     else:

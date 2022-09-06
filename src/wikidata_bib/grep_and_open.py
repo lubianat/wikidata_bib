@@ -1,17 +1,29 @@
 #!/usr/bin/python3
-
+"""
+Runs "grep" for the notes and opens the matches on VS Code.
+"""
 import os
 import re
 import sys
 
+from pathlib import Path
 import inquirer
 import yaml
 
-with open("index.yaml", "r") as f:
-    index = yaml.load(f.read())
+HERE = Path(__file__).parent.resolve()
+index_path = HERE.parent.joinpath("data/index.yaml").resolve()
+yaml_string = index_path.read_text(encoding="UTF-8")
+INDEX = yaml.safe_load(yaml_string)
 
 
-def get_answer(index, selected="none"):
+def get_tag_for_grep_search(index=INDEX, selected_lookup="none"):
+    """
+    After prompting the user with the index, returns the selected tag.
+    Args:
+      index (dict): A nested dictionary containing the tags as keys.
+      selected_lookup (str): The lookup tag/key to open a lower
+      level of the nested dict.
+    """
 
     options = []
     for item in index:
@@ -28,32 +40,28 @@ def get_answer(index, selected="none"):
     ]
 
     answer = inquirer.prompt(inquirer_question)
-
-    selected = answer["search"]
-
+    selected_lookup = answer["search"]
     search_at_level = input("Search at this level? (y/n)")
 
     if search_at_level == "y":
-        return selected
-    else:
-        print("Searching down the tree")
-        for i, item in enumerate(index):
-            if selected in item:
-                if isinstance(item, str):
-                    print(f"No more levels below. Searching for {selected}")
-                    return selected
-                else:
-                    selected = get_answer(item[selected], selected=selected)
+        return selected_lookup
+    print("Searching down the tree")
+    for _, item in enumerate(index):
+        if selected_lookup in item:
+            if isinstance(item, str):
+                print(f"No more levels below. Searching for {selected_lookup}")
+                return selected_lookup
+            selected_lookup = get_tag_for_grep_search(
+                item[selected_lookup], selected_lookup=selected_lookup
+            )
 
-    return selected
+    return selected_lookup
 
 
 try:
-    sys.argv[1]
     if sys.argv[1] == "ls":
 
-        selected = get_answer(index)
-
+        selected = get_tag_for_grep_search(INDEX)
         print("-----------")
         print(selected)
         print("-----------")
@@ -67,7 +75,7 @@ try:
 except Exception:
     print("ERROR")
     search_string = input("Add your search string:")
-    pass
+
 
 print("If there are notes they should appear below:")
 

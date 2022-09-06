@@ -1,7 +1,6 @@
-#! /usr/bin/python3
-
-# Drops the last article read with Wikidata Bib from the dashboard
-# Note: info is kept on read.csv.
+"""
+Drops the last article read with Wikidata Bib from the dashboard
+"""
 
 import os
 from pathlib import Path
@@ -20,21 +19,21 @@ def main():
     """
 
     csv_path = HERE.parent.joinpath("data/read.csv").resolve()
-    df = pd.read_csv(csv_path)
+    reading_dataframe = pd.read_csv(csv_path)
 
-    entries = list(df["wikidata_id"])
+    entries = list(reading_dataframe["wikidata_id"])
     last_entry = entries[-1]
     print(f"Dropping {last_entry}")
 
     os.system(f"rm {HERE}/../notes/{last_entry}.md")
-    g = rdflib.Graph()
+    rdf_database = rdflib.Graph()
     read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
-    g.parse(read_ttl_path, format="ttl")
-    wd = rdflib.Namespace("http://www.wikidata.org/entity/")
-    s = rdflib.term.URIRef(wd + last_entry)
-    g.remove((s, None, None))  # remove all triples about the QID
+    rdf_database.parse(read_ttl_path, format="ttl")
+    wd_prefix = rdflib.Namespace("http://www.wikidata.org/entity/")
+    statement = rdflib.term.URIRef(wd_prefix + last_entry)
+    rdf_database.remove((statement, None, None))  # remove all triples about the QID
     read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
-    g.serialize(destination=read_ttl_path, format="turtle")
+    rdf_database.serialize(destination=read_ttl_path, format="turtle")
 
 
 if __name__ == "__main__":
