@@ -4,6 +4,7 @@ Pushes an article to the top of a reading list.
 from pathlib import Path
 
 import click
+
 from .helper import add_to_file, get_config_dict
 
 HERE = Path(__file__).parent.resolve()

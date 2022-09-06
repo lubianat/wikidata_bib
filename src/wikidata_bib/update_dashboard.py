@@ -1,3 +1,6 @@
+"""
+Updates the Wikidata Bib dashboard.
+"""
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -6,9 +9,22 @@ import rdflib
 import wbib.queries
 from wbib import wbib
 
+HERE = Path(__file__).parent.resolve()
+
+BASE_DIR = "/wikidata_bib"
+
+PAGES = {
+    "all time": {"name": "all time", "href": f"{BASE_DIR}/"},
+    "last_month": {"name": "past month", "href": f"{BASE_DIR}/past_month.html"},
+    "last week": {"name": "past week", "href": f"{BASE_DIR}/past_week.html"},
+    "last day": {"name": "last day", "href": f"{BASE_DIR}/last_day.html"},
+}
+
 
 def main():
-    HERE = Path(__file__).parent.resolve()
+    """
+    Updates the Wikidata Bib dashboard.
+    """
 
     sessions = [
         "articles",
@@ -20,39 +36,25 @@ def main():
         "curation of author affiliations",
     ]
 
-    base_directory = "/wikidata_bib"
-
-    PAGES = {
-        "all time": {"name": "all time", "href": f"{base_directory}/"},
-        "last_month": {"name": "past month", "href": f"{base_directory}/past_month.html"},
-        "last week": {"name": "past week", "href": f"{base_directory}/past_week.html"},
-        "last day": {"name": "last day", "href": f"{base_directory}/last_day.html"},
-    }
-
     ### Update table with notes
     read_path = HERE.parent.joinpath("data/read.csv").resolve()
     articles = pd.read_csv(read_path)
-    articles = articles
     articles["wikidata_id"] = [
         "<a href=./notes/" + i + ".md> " + i + "</a>" for i in articles["wikidata_id"]
     ]
-    test = articles.to_html(escape="True")
-    test = test.replace("&lt;", " <").replace("&gt;", ">")
+    basic_list_of_notes = articles.to_html(escape="True")
+    basic_list_of_notes = basic_list_of_notes.replace("&lt;", " <").replace("&gt;", ">")
 
     notes_path = HERE.parent.parent.joinpath("docs/notes.html").resolve()
-    notes_path.write_text(test)
+    notes_path.write_text(basic_list_of_notes, encoding="UTF-8")
 
     ### Update dashboard with queries
 
-    g = rdflib.Graph()
-    result = read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
-    g.parse(read_ttl_path, format="ttl")
-    wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-    wbc = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/collections/")
-    wbn = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/notes/")
-    wd = rdflib.Namespace("http://www.wikidata.org/entity/")
+    graph = rdflib.Graph()
+    read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
+    graph.parse(read_ttl_path, format="ttl")
 
-    query_result = g.query(
+    query_result = graph.query(
         """
       SELECT DISTINCT ?a ?time
         WHERE {
@@ -66,7 +68,6 @@ def main():
         qid = str(row[0])
         date_string = row[1]
         new_row = pd.DataFrame({"item": qid, "date_string": date_string}, index=[0])
-
         papers_df = pd.concat([papers_df, new_row])
 
     dates_in_date_format = [

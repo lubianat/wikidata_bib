@@ -1,3 +1,7 @@
+"""
+Renders a basic tweet about the last read paper.
+"""
+import sys
 from pathlib import Path
 
 import click
@@ -14,19 +18,19 @@ def main():
     Renders a tweet for the last read article.
     """
     read_path = HERE.parent.joinpath("data/read.csv").resolve()
-    df = pd.read_csv(read_path)
-    entries = list(df["wikidata_id"])
+    read_articles_dataframe = pd.read_csv(read_path)
+    entries = list(read_articles_dataframe["wikidata_id"])
     qid = entries[-1]
     print(qid)
 
-    df = get_tweet_df(qid)
+    tweet_dataframe = get_tweet_df(qid)
 
-    if df.empty:
+    if tweet_dataframe.empty:
         print("No data available for building the tweet.")
-        quit()
+        sys.exit()
 
-    title = df["itemLabel"][0]
-    doi = df["doi"][0]
+    title = tweet_dataframe["itemLabel"][0]
+    doi = tweet_dataframe["doi"][0]
     tweet = f"""
 
   I've just read "{title}"
@@ -34,8 +38,8 @@ def main():
 
   """
 
-    if "twitter_id" in df.index:
-        for i, row in df.iterrows():
+    if "twitter_id" in tweet_dataframe.index:
+        for _, row in tweet_dataframe.iterrows():
             if row["twitter_id"] == row["twitter_id"]:  # Test for NaN
                 tweet = tweet + f"""@{row["twitter_id"]} """
 

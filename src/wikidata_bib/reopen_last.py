@@ -1,4 +1,6 @@
-#! /usr/bin/python3
+"""
+Reopens last read paper.
+"""
 
 import os
 from pathlib import Path
@@ -15,8 +17,8 @@ def main():
     Reopens last read paper.
     """
     read_path = HERE.parent.joinpath("data/read.csv").resolve()
-    df = pd.read_csv(read_path)
-    entries = list(df["wikidata_id"])
+    read_articles_dataframe = pd.read_csv(read_path)
+    entries = list(read_articles_dataframe["wikidata_id"])
     last_entry = entries[-1]
     print(last_entry)
     os.system(f"bib read {last_entry}")
