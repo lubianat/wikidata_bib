@@ -1,15 +1,14 @@
-import requests
-import pandas as pd
-from collections import defaultdict
-from itertools import product, chain
-import requests
 import os
 import warnings
-from bs4 import BeautifulSoup
-import pandas as pd
+from collections import defaultdict
 from glob import glob
+from itertools import chain, product
 from pathlib import Path
+
+import pandas as pd
+import requests
 import yaml
+from bs4 import BeautifulSoup
 
 HERE = Path(__file__).parent.resolve()
 

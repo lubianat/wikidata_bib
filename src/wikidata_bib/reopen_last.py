@@ -1,9 +1,10 @@
 #! /usr/bin/python3
 
-import pandas as pd
 import os
-import click
 from pathlib import Path
+
+import click
+import pandas as pd
 
 HERE = Path(__file__).parent.resolve()
 

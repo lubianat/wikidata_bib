@@ -1,11 +1,13 @@
 #!/usr/bin/python3
 
-import requests
-from glob import glob
 import argparse
-import pandas as pd
 import re
-from .helper import add_to_file, remove_read_qids, get_qids_in_reading_list
+from glob import glob
+
+import pandas as pd
+import requests
+
+from .helper import add_to_file, get_qids_in_reading_list, remove_read_qids
 
 
 def main():

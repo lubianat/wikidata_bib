@@ -2,7 +2,7 @@ import click
 
 from wikidata_bib import render_tweet, reopen_last
 
-from . import read, pop, wlog, drop_last, push, get_index, reopen_last, get_qids_from_europe_pmc
+from . import drop_last, get_index, get_qids_from_europe_pmc, pop, push, read, reopen_last, wlog
 
 
 @click.group()

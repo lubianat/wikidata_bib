@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 import os
-import sys
-import inquirer
 import re
+import sys
+
+import inquirer
 import yaml
 
 with open("index.yaml", "r") as f:

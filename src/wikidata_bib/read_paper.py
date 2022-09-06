@@ -1,13 +1,14 @@
 #!/usr/bin/python3
 
-import sys
-from mdutils.mdutils import MdUtils
-import pandas as pd
 import os.path
-import rdflib
+import sys
 from datetime import date, datetime
-from helper import get_title_df
 from pathlib import Path
+
+import pandas as pd
+import rdflib
+from helper import get_title_df
+from mdutils.mdutils import MdUtils
 
 HERE = Path(__file__).parent.resolve()
 

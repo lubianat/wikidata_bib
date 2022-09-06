@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 import os
+
 import yaml
 
 # Open file with the QIDs ("src/data/toread.md")

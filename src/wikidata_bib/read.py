@@ -1,9 +1,11 @@
 #!/usr/bin/python3
 
 import os
-import click
-from pathlib import Path
 import webbrowser
+from pathlib import Path
+
+import click
+
 from .helper import get_doi_df
 
 HERE = Path(__file__).parent.resolve()

@@ -1,11 +1,12 @@
 #!/usr/bin/python3
 
-import sys
-import re
 import os
-import yaml
-import click
+import re
+import sys
 from pathlib import Path
+
+import click
+import yaml
 
 HERE = Path(__file__).parent.resolve()
 

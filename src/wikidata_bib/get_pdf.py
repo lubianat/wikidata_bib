@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 
 import sys
-from wikidata_bib.helper import download_paper, get_doi_df
-from pathlib import Path
 import webbrowser
+from pathlib import Path
+
+from wikidata_bib.helper import download_paper, get_doi_df
 
 HERE = Path(__file__).parent.resolve()
 

@@ -1,8 +1,10 @@
 #!/usr/bin/python3
-from .helper import add_to_file
-import click
 from pathlib import Path
+
+import click
 import yaml
+
+from .helper import add_to_file
 
 HERE = Path(__file__).parent.resolve()
 

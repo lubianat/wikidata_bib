@@ -1,9 +1,10 @@
 from datetime import datetime, timedelta
+from pathlib import Path
+
 import pandas as pd
 import rdflib
 import wbib.queries
 from wbib import wbib
-from pathlib import Path
 
 
 def main():

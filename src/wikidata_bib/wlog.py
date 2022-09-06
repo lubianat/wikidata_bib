@@ -1,10 +1,12 @@
 #!/usr/bin/python3
 
-import pandas as pd
-from .helper import wikidata2df
 import os
 from pathlib import Path
+
 import click
+import pandas as pd
+
+from .helper import wikidata2df
 
 HERE = Path(__file__).parent.resolve()
 

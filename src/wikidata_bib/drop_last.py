@@ -3,11 +3,12 @@
 # Drops the last article read with Wikidata Bib from the dashboard
 # Note: info is kept on read.csv.
 
-import pandas as pd
 import os
-import rdflib
-import click
 from pathlib import Path
+
+import click
+import pandas as pd
+import rdflib
 
 HERE = Path(__file__).parent.resolve()
 

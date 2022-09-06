@@ -1,10 +1,10 @@
 #!/usr/bin/python3
 
-import sys
 import re
+import sys
+
 import yaml
-from src.helper import add_to_file
-from src.helper import download_paper, get_doi_df
+from src.helper import add_to_file, download_paper, get_doi_df
 
 # Open file with the QIDs ("src/data/toread.md")
 # and the file with the shortcuts ("config.yaml")
