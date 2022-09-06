@@ -1,3 +1,7 @@
+"""
+Helper private functions for Wikidata Bib
+
+"""
 import os
 import warnings
 from collections import defaultdict
@@ -14,15 +18,36 @@ HERE = Path(__file__).parent.resolve()
 
 
 def get_qids_in_reading_list():
+    """
+    Returns a list of QIDs from the "to read" list.
+    """
 
-    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
-    with open(toread_path, "r") as c:
-        toread = yaml.load(c.read(), Loader=yaml.FullLoader)
+    toread = get_toread_dict()
 
     logged_articles = []
     for cat in toread["articles"]:
         logged_articles.extend(toread["articles"][cat])
     return logged_articles
+
+
+def get_config_dict():
+    """
+    Gets the dict of the config YAML file.
+    """
+    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
+    with open(config_path, "r") as c:
+        shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
+    return shortcuts
+
+
+def get_toread_dict():
+    """
+    Gets the dict of the toread YAML file.
+    """
+    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
+    toread_string = toread_path.read_text(encoding="UTF-8")
+    toread = yaml.safe_load(toread_string)
+    return toread
 
 
 def get_qids_from_europe_pmc(query):
@@ -48,6 +73,10 @@ def get_qids_from_europe_pmc(query):
 
 
 def get_tweet_df(wikidata_id):
+    """
+    Retrieves a pandas DataFrame from Wikidata with twitter
+    information for the authors of an article.
+    """
     query = (
         """
     SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id ?author ?twitter_id
@@ -65,12 +94,15 @@ def get_tweet_df(wikidata_id):
     """
     )
 
-    df = wikidata2df(query)
-    print(df)
-    return df
+    tweet_dataframe = wikidata2df(query)
+    return tweet_dataframe
 
 
 def get_title_df(wikidata_id):
+    """
+    Returns a pandas DataFrame with the title and other
+    basic information for an article.
+    """
     query = (
         """
     SELECT ?item ?itemLabel ?date ?doi ?url ?arxiv_id
@@ -88,9 +120,9 @@ def get_title_df(wikidata_id):
     """
     )
 
-    df = wikidata2df(query)
+    basic_info_dataframe = wikidata2df(query)
 
-    return df
+    return basic_info_dataframe
 
 
 def remove_read_qids(list_of_qids):
@@ -148,8 +180,8 @@ def pmid_to_wikidata_qid(list_of_pmids):
     ORDER BY
       DESC (?publication_date)
     """
-    df = wikidata2df(query)
-    qids = df["qid"].values
+    qid_dataframe = wikidata2df(query)
+    qids = qid_dataframe["qid"].values
     return qids
 
 
@@ -172,7 +204,11 @@ def wikidata2df(query):
         endpoint_url,
         params={"query": query, "format": "json"},
         headers={
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36"
+            "User-Agent": (
+                "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5)"
+                "AppleWebKit/537.36 (KHTML, like Gecko)"
+                "Chrome/50.0.2661.102 Safari/537.36"
+            )
         },
     )
     print(response)
@@ -204,19 +240,20 @@ def add_to_file(qids, category):
     """
 
     toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
-    with open(toread_path, "r") as c:
-        toread = yaml.load(c.read(), Loader=yaml.FullLoader)
+    toread_string = toread_path.read_text(encoding="UTF-8")
+    toread = yaml.safe_load(toread_string)
 
     old_articles = toread["articles"][category]
     qids.extend(old_articles)
     toread["articles"][category] = qids
 
-    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
-    with open(toread_path, "w") as f:
-        yaml.dump(toread, f)
+    toread_path.write_text(yaml.dump(toread), encoding="UTF-8")
 
 
 def get_doi_df(wikidata_id):
+    """
+    Returns a DOI-containing dataframe for a Wikidata ID.
+    """
     query = (
         """
     SELECT ?item ?doi ?itemLabel
@@ -230,8 +267,8 @@ def get_doi_df(wikidata_id):
     }
     """
     )
-    df = wikidata2df(query)
-    return df
+    doi_df = wikidata2df(query)
+    return doi_df
 
 
 def download_paper(doi, source, path="~/Downloads/", prepop=False):
@@ -274,10 +311,8 @@ def download_paper(doi, source, path="~/Downloads/", prepop=False):
     if prepop:
         if os.path.exists(filepath):
             return {"saved": True}
-        else:
-            return {"saved": False}
-    else:
-        print("====== Opening PDF ======")
-        os.system(f"xdg-open {filepath} &")
+        return {"saved": False}
+    print("====== Opening PDF ======")
+    os.system(f"xdg-open {filepath} &")
 
     return 0

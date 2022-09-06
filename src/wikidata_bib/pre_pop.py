@@ -4,7 +4,8 @@ import re
 import sys
 
 import yaml
-from src.helper import add_to_file, download_paper, get_doi_df
+
+from .helper import add_to_file, download_paper, get_doi_df, get_toread_dict
 
 # Open file with the QIDs ("src/data/toread.md")
 # and the file with the shortcuts ("config.yaml")
@@ -17,9 +18,7 @@ with open("config.yaml", "r") as c:
 
 if len(sys.argv) == 2:
     reading_list_code = sys.argv[1]
-    print(
-        f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======'
-    )
+    print(f'====== Pulling first QID in the "{shortcuts["lists"][reading_list_code]}" list ======')
     regex = shortcuts["lists"][reading_list_code] + r"[\s\S]*?(Q[0-9]*)"
 else:
     print("====== Pulling first QID in toread.md ======")
@@ -43,9 +42,7 @@ else:
     else:
         doi_suffix = doi_df["doi"].values[0]
         print("DOI: " + doi_suffix)
-        a = download_paper(
-            doi=doi_suffix, source=source, path="./downloads/", prepop=True
-        )
+        a = download_paper(doi=doi_suffix, source=source, path="./downloads/", prepop=True)
         print(a)
 
         if a["saved"]:

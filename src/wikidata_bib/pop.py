@@ -1,12 +1,13 @@
-#!/usr/bin/python3
-
+"""
+Pops the first article in one of the reading lists.
+"""
 import os
-import re
-import sys
 from pathlib import Path
 
 import click
 import yaml
+
+from .helper import get_config_dict, get_toread_dict
 
 HERE = Path(__file__).parent.resolve()
 
@@ -25,24 +26,17 @@ def main(category: str, no_download: bool):
     Pops the first article of the reading list into read.
 
     """
-    toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
-    with open(toread_path, "r") as c:
-        toread = yaml.load(c.read(), Loader=yaml.FullLoader)
+    toread = get_toread_dict()
 
-    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
-    with open(config_path, "r") as c:
-        shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
-
+    shortcuts = get_config_dict()
     list_name = shortcuts["lists"][category]
     print(f'====== Pulling first QID in the "{list_name}" list ======')
 
     if len(toread["articles"][list_name]) > 0:
         qid = toread["articles"][list_name][0]
         toread["articles"][list_name] = toread["articles"][list_name][1:]
-
         toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
-        with open(toread_path, "w") as f:
-            yaml.dump(toread, f)
+        toread_path.write_text(yaml.dump(toread), encoding="UTF-8")
 
         if no_download:
             os.system(f"bib read {qid} --no-download")
@@ -50,7 +44,3 @@ def main(category: str, no_download: bool):
             os.system(f"bib read {qid}")
     else:
         print("No QID found.")
-
-
-if __name__ == "__main__":
-    main()

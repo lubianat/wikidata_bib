@@ -5,8 +5,8 @@ Runs "grep" for the notes and opens the matches on VS Code.
 import os
 import re
 import sys
-
 from pathlib import Path
+
 import inquirer
 import yaml
 

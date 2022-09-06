@@ -1,10 +1,10 @@
-#!/usr/bin/python3
+"""
+Pushes an article to the top of a reading list.
+"""
 from pathlib import Path
 
 import click
-import yaml
-
-from .helper import add_to_file
+from .helper import add_to_file, get_config_dict
 
 HERE = Path(__file__).parent.resolve()
 
@@ -16,14 +16,6 @@ def main(category: str, qid: str):
     """
     Pushes an article to the top of a reading list.
     """
-    config_path = HERE.parent.joinpath("data/config.yaml").resolve()
-    with open(config_path, "r") as c:
-        shortcuts = yaml.load(c.read(), Loader=yaml.FullLoader)
-
+    shortcuts = get_config_dict()
     list_name = shortcuts["lists"][category]
-
     add_to_file(qids=[qid], category=list_name)
-
-
-if __name__ == "__main__":
-    main()
