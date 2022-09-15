@@ -10,7 +10,7 @@ import pandas as pd
 import rdflib
 from mdutils.mdutils import MdUtils
 
-from .helper import get_title_df
+from helper import get_title_df
 
 HERE = Path(__file__).parent.resolve()
 
@@ -113,13 +113,13 @@ def update_turtle(wikidata_id):
     read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
     g.parse(read_ttl_path, format="ttl")
     wb = rdflib.Namespace("https://github.com/lubianat/wikidata_bib/tree/main/")
-    add_read_today_triple(wikidata_id, g, wb)
-
+    g = add_read_today_triple(wikidata_id, g, wb)
+    print(g)
     read_ttl_path = HERE.parent.joinpath("data/read.ttl").resolve()
     g.serialize(destination=read_ttl_path, format="turtle")
 
 
-def add_read_today_triple(wikidata_id, graph, read_in_prefix, wikidata_prefix):
+def add_read_today_triple(wikidata_id, graph, read_in_prefix):
     """
     Adds a triple to the graph stating that the QID was read today.
     """
@@ -130,6 +130,7 @@ def add_read_today_triple(wikidata_id, graph, read_in_prefix, wikidata_prefix):
     p2 = rdflib.term.URIRef(read_in_prefix + "read_in")
     o2 = rdflib.term.Literal(d1)
     graph.add((s, p2, o2))
+    return graph
 
 
 def update_csv(df):
