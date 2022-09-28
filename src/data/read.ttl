@@ -2462,6 +2462,8 @@ wd:Q37510607 wb:has_notes wbn:Q37510607.md ;
 wd:Q37551215 wb:has_notes wbn:Q37551215.md ;
     wb:read_in "+2022-04-01T00:00:00Z/11" .
 
+wd:Q37573627 wb:read_in "+2022-09-28T00:00:00Z/11" .
+
 wd:Q37624780 wb:has_notes wbn:Q37624780.md ;
     wb:read_in "+2022-03-28T00:00:00Z/11" .
 
