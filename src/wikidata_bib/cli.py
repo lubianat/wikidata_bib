@@ -4,17 +4,8 @@ Top level script for the click CLI framework.
 """
 import click
 
-from . import (
-    drop_last,
-    get_index,
-    get_qids_from_europe_pmc,
-    pop,
-    push,
-    read,
-    render_tweet,
-    reopen_last,
-    wlog,
-)
+from . import (drop_last, get_index, get_qids_from_europe_pmc, pop, push, read,
+               render_tweet, reopen_last, wlog)
 
 
 @click.group()

@@ -8,9 +8,8 @@ from pathlib import Path
 
 import pandas as pd
 import rdflib
-from mdutils.mdutils import MdUtils
-
 from helper import get_title_df
+from mdutils.mdutils import MdUtils
 
 HERE = Path(__file__).parent.resolve()
 
