@@ -19,7 +19,6 @@ def main():
     source = sys.argv[2]
     doi_df = get_doi_df(wikidata_id)
     print("======= Looking for article DOI on Wikidata =======")
-    print(doi_df)
     if doi_df.empty is True:
         print("No DOI found for " + wikidata_id + ".")
 

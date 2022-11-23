@@ -6,8 +6,12 @@ from pathlib import Path
 import click
 import yaml
 
-from .helper import (add_to_file, get_qids_from_europe_pmc,
-                     get_qids_in_reading_list, remove_read_qids)
+from .helper import (
+    add_to_file,
+    get_qids_from_europe_pmc,
+    get_qids_in_reading_list,
+    remove_read_qids,
+)
 
 HERE = Path(__file__).parent.resolve()
 

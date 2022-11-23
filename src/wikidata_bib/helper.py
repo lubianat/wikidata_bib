@@ -54,7 +54,7 @@ def get_qids_from_europe_pmc(query):
     """
     Pulls a list of Wikidata QIDs ordered by date (newest first) from Europe PMC.
     """
-    params = {"query": query, "format": "json", "pageSize": "1000"}
+    params = {"query": query, "format": "json", "pageSize": "100"}
     response = requests.get("https://www.ebi.ac.uk/europepmc/webservices/rest/search", params)
 
     data = response.json()
@@ -63,7 +63,6 @@ def get_qids_from_europe_pmc(query):
     for article in data["resultList"]["result"]:
         try:
             pmid = article["pmid"]
-            print(pmid)
             pmids.append(pmid)
         except:
             continue
@@ -129,7 +128,6 @@ def remove_read_qids(list_of_qids):
     """
     Removes ther read QIDs from a list of qids.
     """
-    print(list_of_qids)
 
     # Ignore articles read before
     files = []
@@ -145,7 +143,6 @@ def remove_read_qids(list_of_qids):
 
     diff = list(set(list_of_qids) - set(array_of_qids))
 
-    print(list_of_qids)
     main_list = [o for o in list_of_qids if o in diff]
 
     return main_list
@@ -180,6 +177,7 @@ def pmid_to_wikidata_qid(list_of_pmids):
     ORDER BY
       DESC (?publication_date)
     """
+    print(query)
     qid_dataframe = wikidata2df(query)
     qids = qid_dataframe["qid"].values
     return qids
@@ -242,7 +240,7 @@ def add_to_file(qids, category):
     toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
     toread_string = toread_path.read_text(encoding="UTF-8")
     toread = yaml.safe_load(toread_string)
-
+    print(toread)
     old_articles = toread["articles"][category]
     qids.extend(old_articles)
     toread["articles"][category] = qids

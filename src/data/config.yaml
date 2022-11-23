@@ -5,6 +5,7 @@ lists:
   saved: Saved PDFs
   lbd: Literature-Based Discovery
   cl: Cell Ontology
+  inat: iNaturalist
 
 queries:
   ct:
