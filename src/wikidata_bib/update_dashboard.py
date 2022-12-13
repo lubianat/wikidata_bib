@@ -7,7 +7,7 @@ from pathlib import Path
 import pandas as pd
 import rdflib
 import wbib.queries
-from wbib import wbib
+from wbib import render_dashboard
 
 HERE = Path(__file__).parent.resolve()
 
@@ -80,7 +80,7 @@ def main():
     docs_path = HERE.parent.parent.joinpath("docs").resolve()
 
     index_path = docs_path.joinpath("index.html").resolve()
-    wbib.render_dashboard(
+    render_dashboard(
         info=ids,
         mode="basic",
         filepath=index_path,
@@ -94,7 +94,7 @@ def main():
     ids = [i.split("/")[4] for i in month_dat["item"]]
 
     past_month_path = docs_path.joinpath("past_month.html").resolve()
-    wbib.render_dashboard(
+    render_dashboard(
         info=ids,
         mode="basic",
         filepath=past_month_path,
@@ -108,7 +108,7 @@ def main():
     ids = [i.split("/")[4] for i in week_dat["item"]]
 
     past_week_path = docs_path.joinpath("past_week.html").resolve()
-    wbib.render_dashboard(
+    render_dashboard(
         info=ids,
         mode="basic",
         filepath=past_week_path,
@@ -121,7 +121,7 @@ def main():
     last_day = papers_df[papers_df["date"] == max(papers_df["date"])]
     ids = [i.split("/")[4] for i in last_day["item"]]
     last_day_path = docs_path.joinpath("last_day.html").resolve()
-    wbib.render_dashboard(
+    render_dashboard(
         info=ids,
         mode="basic",
         filepath=last_day_path,
