@@ -5476,6 +5476,8 @@ wd:Q98164366 wb:has_notes wbn:Q98164366.md ;
 wd:Q98166912 wb:has_notes wbn:Q98166912.md ;
     wb:read_in "+2021-03-29T00:00:00Z/11" .
 
+wd:Q98184597 wb:read_in "+2022-12-21T00:00:00Z/11" .
+
 wd:Q98196903 wb:has_notes wbn:Q98196903.md ;
     wb:in_collection wbc:cell_types ;
     wb:read_in "+2020-12-15T00:00:00Z/11" .
