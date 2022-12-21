@@ -3,7 +3,6 @@ lists:
   ct: Cell types
   bioc: Biocuration
   saved: Saved PDFs
-  lbd: Literature-Based Discovery
   cl: Cell Ontology
   inat: iNaturalist
 
@@ -13,7 +12,3 @@ queries:
   bioc:
     - https://w.wiki/4LHi # Papers on Biocuration
     - https://w.wiki/4af4 # Papers by selected must-read authors
-  lbd:
-    - https://w.wiki/4hZK # Papers on Literature-Based Discovery
-
-  

@@ -11,6 +11,7 @@ from .helper import (
     get_qids_from_europe_pmc,
     get_qids_in_reading_list,
     remove_read_qids,
+    remove_read_and_reading_list,
 )
 
 HERE = Path(__file__).parent.resolve()
@@ -34,12 +35,7 @@ def main(shortcut: str, query: str):
 
     category = shortcuts["lists"][shortcut]
 
-    logged_articles = get_qids_in_reading_list()
-
-    diff = list(set(main_list) - set(logged_articles))
-    main_list = [o for o in main_list if o in diff]
-
-    main_list = remove_read_qids(main_list)
+    main_list = remove_read_and_reading_list(main_list)
     if category is not None:
         print("====== Appending QIDs to file toread.yaml ====== ")
         add_to_file(main_list, category)

@@ -128,21 +128,10 @@ def remove_read_qids(list_of_qids):
     """
     Removes ther read QIDs from a list of qids.
     """
-
-    # Ignore articles read before
-    files = []
-    for file_name in glob("./notes/*.md"):
-        files.append(file_name)
-    array_of_filenames = [name.replace(".md", "") for name in files]
-
-    array_of_qids = []
-    for item in array_of_filenames:
-        if "Q" in item:
-            array_of_qids.append(item)
-    array_of_qids = [md.replace("./notes/Q", "Q") for md in array_of_qids]
-
-    diff = list(set(list_of_qids) - set(array_of_qids))
-
+    read_path = HERE.parent.joinpath("data/read.csv").resolve()
+    articles = pd.read_csv(read_path)
+    old_articles = list(articles["wikidata_id"])
+    diff = list(set(list_of_qids) - set(old_articles))
     main_list = [o for o in list_of_qids if o in diff]
 
     return main_list
@@ -227,6 +216,17 @@ def wikidata2df(query):
     return results_df
 
 
+def remove_read_and_reading_list(main_list):
+
+    logged_articles = get_qids_in_reading_list()
+
+    diff = list(set(main_list) - set(logged_articles))
+    main_list = [o for o in main_list if o in diff]
+
+    main_list = remove_read_qids(main_list)
+    return main_list
+
+
 def add_to_file(qids, category):
     """Adds a list of qids to a file
 
@@ -240,7 +240,6 @@ def add_to_file(qids, category):
     toread_path = HERE.parent.joinpath("data/toread.yaml").resolve()
     toread_string = toread_path.read_text(encoding="UTF-8")
     toread = yaml.safe_load(toread_string)
-    print(toread)
     old_articles = toread["articles"][category]
     qids.extend(old_articles)
     toread["articles"][category] = qids
