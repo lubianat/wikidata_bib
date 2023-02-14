@@ -1,7 +1,0 @@
-inquirer
-pandas
-pyyaml
-beautifulsoup4
-mdutils
-rdflib
-wbib
