@@ -22,7 +22,7 @@ def get_tag_for_grep_search(index=INDEX, selected_lookup="none"):
     Args:
       index (dict): A nested dictionary containing the tags as keys.
       selected_lookup (str): The lookup tag/key to open a lower
-      level of the nested dict.
+        level of the nested dict.
     """
 
     options = []
@@ -60,7 +60,6 @@ def get_tag_for_grep_search(index=INDEX, selected_lookup="none"):
 
 try:
     if sys.argv[1] == "ls":
-
         selected = get_tag_for_grep_search(INDEX)
         print("-----------")
         print(selected)

@@ -1,0 +1,39 @@
+site_name: Wikidata Bibliography
+site_description: Bibliography management using Wikidata
+site_author: Tiago Lubiana
+docs_dir: mkdocs
+nav:
+  - Home: index.md
+  - Contributing: contributing.md
+  - Code of Conduct: code_of_conduct.md
+  - Reference:
+    - CLI: reference/cli.md
+    - Drop Last: reference/drop_last.md
+    - Get Index: reference/get_index.md
+    - Get PDF: reference/get_pdf.md
+    - Get QIDs from Europe PMC: reference/get_qids_from_europe_pmc.md
+    - Get QIDs from SPARQL: reference/get_qids_from_sparql.md
+    - Grep and Open: reference/grep_and_open.md
+    - Helper: reference/helper.md
+    - Pop: reference/pop.md
+    - Pre-pop: reference/pre_pop.md
+    - Push: reference/push.md
+    - Read: reference/read.md
+    - Read Paper: reference/read_paper.md
+    - Render Tweet: reference/render_tweet.md
+    - Reopen last: reference/reopen_last.md
+    - Update Dashboard: reference/update_dashboard.md
+    - W-Log: reference/wlog.md
+repo_url: https://github.com/lubianat/wikidata_bib
+theme:
+  name: "readthedocs"
+extra_css:
+  - assets/extra.css
+plugins:
+  - search
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            show_root_toc_entry: false
+            heading_level: 3

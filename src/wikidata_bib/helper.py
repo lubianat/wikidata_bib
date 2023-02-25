@@ -143,10 +143,10 @@ def pmid_to_wikidata_qid(list_of_pmids):
     The list is sorted by publication date, newest first.
 
     Args:
-        query (str): A SPARQL query formatted for the Wikidata query service.
+        list_of_pmids (List[str]): A list of Pubmed IDs.
 
     Returns:
-        (pd.DataFrame): A table with the Wikidata results.
+        (List[str]): A list of QIDs.
 
     """
 
@@ -217,7 +217,6 @@ def wikidata2df(query):
 
 
 def remove_read_and_reading_list(main_list):
-
     logged_articles = get_qids_in_reading_list()
 
     diff = list(set(main_list) - set(logged_articles))
@@ -273,9 +272,10 @@ def download_paper(doi, source, path="~/Downloads/", prepop=False):
     Given a DOI, downloads an article to a folder.
 
     Args:
-        doi: A doi suffix (ex="10.7287/PEERJ.PREPRINTS.3100V1").
-        source: The source to get the pdf from. One of ["sci-hub", "unpaywall"]
-        path: The folder where the pdf will be saved.
+        doi (str): A doi suffix (ex="10.7287/PEERJ.PREPRINTS.3100V1").
+        source (str): The source to get the pdf from. One of ["sci-hub", "unpaywall"]
+        path (str): The folder where the pdf will be saved.
+        prepop (bool): Wether to return 'saved' dictionary.
     """
 
     if source == "sci-hub":
@@ -296,7 +296,6 @@ def download_paper(doi, source, path="~/Downloads/", prepop=False):
         result = response.json()
         pdf_url = result["best_oa_location"]["url_for_pdf"]
         if pdf_url is None:
-
             warnings.warn("====== Best OA pdf not found. Searching for first OA ====== ")
             pdf_url = result["first_oa_location"]["url_for_pdf"]
         filename = doi.replace("/", "_")
