@@ -51,11 +51,11 @@ def main():
     except Exception:
         arxiv_id = ""
 
-    file_path = HERE.parent.joinpath(f"notes/{wikidata_id}").resolve().absolute().as_posix()
+    file_path = HERE.parent.joinpath(f"notes/{wikidata_id}.md")
 
     print("======= Creating markdown =======")
     create_markdown(file_path, title, wikidata_id, publication_date, doi, text_url, arxiv_id)
-    update_turtle(wikidata_id)
+    update_turtle(wikidata_id)  
 
     print("======= Updating dashboard =======")
 
@@ -71,7 +71,7 @@ def create_markdown(
     Creates a markdown file for notes from the Wikidata ID.
     """
     markdown_file = MdUtils(file_name=file_path, title=title)
-
+    print(filename)
     markdown_file.new_line("  [@wikidata:" + wikidata_id + "]")
     markdown_file.new_line()
     if publication_date != "None":
@@ -100,7 +100,7 @@ def create_markdown(
     if arxiv_id != "":
         markdown_file.new_line(f" * [arXiv ID](https://arxiv.org/pdf/{arxiv_id}.pdf)")
     markdown_file.new_line()
-    markdown_file.create_md_file()
+    file_path.write_text(markdown_file.get_md_text())
 
 
 def update_turtle(wikidata_id):
