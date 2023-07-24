@@ -82,9 +82,6 @@ def create_markdown(
     markdown_file.new_line()
     markdown_file.new_header(1, "Highlights")
     markdown_file.new_header(1, "Comments")
-    markdown_file.new_header(1, "Reading dates")
-    reading_date = date.today().isoformat()  # format: YYYY-MM-DD
-    markdown_file.new_line(f" * {reading_date}")
     markdown_file.new_header(2, "Tags")
     markdown_file.new_header(1, "Links")
     markdown_file.new_line(
@@ -105,6 +102,10 @@ def create_markdown(
     if arxiv_id != "":
         markdown_file.new_line(f" * [arXiv ID](https://arxiv.org/pdf/{arxiv_id}.pdf)")
     markdown_file.new_line()
+
+    markdown_file.new_header(1, "Reading dates")
+    reading_date = date.today().isoformat()  # format: YYYY-MM-DD
+    markdown_file.new_line(f" * {reading_date}\n")
     file_path.write_text(markdown_file.get_md_text())
 
 
