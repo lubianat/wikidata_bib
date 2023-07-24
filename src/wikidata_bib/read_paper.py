@@ -55,7 +55,7 @@ def main():
 
     print("======= Creating markdown =======")
     create_markdown(file_path, title, wikidata_id, publication_date, doi, text_url, arxiv_id)
-    update_turtle(wikidata_id)  
+    update_turtle(wikidata_id)
 
     print("======= Updating dashboard =======")
 
@@ -77,9 +77,14 @@ def create_markdown(
     if publication_date != "None":
         markdown_file.new_line("Publication date : " + str(publication_date))
 
+    # Reading dates
+
     markdown_file.new_line()
     markdown_file.new_header(1, "Highlights")
     markdown_file.new_header(1, "Comments")
+    markdown_file.new_header(1, "Reading dates")
+    reading_date = date.today().isoformat()  # format: YYYY-MM-DD
+    markdown_file.new_line(f" * {reading_date}")
     markdown_file.new_header(2, "Tags")
     markdown_file.new_header(1, "Links")
     markdown_file.new_line(
@@ -148,6 +153,48 @@ def update_csv(df):
     df_stored.to_csv(read_path, index=False)
 
 
+def add_reading_date_to_existing_markdown(file_path):
+    # Read in the existing markdown file
+    with open(file_path, "r") as file:
+        lines = file.readlines()
+
+    # Prepare the new reading date
+    reading_date = f" * {date.today().isoformat()}\n"
+
+    # Find the lines with "Reading dates" heading and with dates
+    reading_dates_index = next((i for i, line in enumerate(lines) if "Reading dates" in line), None)
+    dates_indices = [
+        i for i, line in enumerate(lines) if line.startswith(" * ") and i > reading_dates_index
+    ]
+
+    # Check if the reading date already exists in the file to avoid duplicate dates
+    if reading_date in lines:
+        print("Today's reading date already exists in the file.")
+    else:
+        # If "Reading dates" heading is found, append new reading date under this section
+        if reading_dates_index is not None:
+            if dates_indices:  # if there are already some dates
+                lines.insert(
+                    dates_indices[-1] + 1, reading_date
+                )  # insert new date after the last existing date
+            else:  # if there are no dates yet
+                lines.insert(
+                    reading_dates_index + 1, reading_date
+                )  # insert new date right after the section heading
+        # If not found, add "Reading dates" heading at the end and append new reading date
+        else:
+            new_section = [
+                "\n# Reading dates\n",
+                "  > Reading dates functionality became available on July 24, 2023\n",
+                reading_date,
+            ]
+            lines.extend(new_section)
+
+    # Write the updated lines back to the markdown file
+    with open(file_path, "w") as file:
+        file.writelines(lines)
+
+
 if __name__ == "__main__":
     wikidata_id_outer_scope = sys.argv[1]
     assert wikidata_id_outer_scope[0] == "Q"
@@ -155,5 +202,6 @@ if __name__ == "__main__":
 
     if os.path.isfile(filename):
         print("Article has already been read")
+        add_reading_date_to_existing_markdown(filename)
     else:
         main()
