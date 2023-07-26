@@ -162,11 +162,15 @@ def add_reading_date_to_existing_markdown(file_path):
     # Prepare the new reading date
     reading_date = f" * {date.today().isoformat()}\n"
 
-    # Find the lines with "Reading dates" heading and with dates
+    # Find the lines with "Reading dates" heading
     reading_dates_index = next((i for i, line in enumerate(lines) if "Reading dates" in line), None)
-    dates_indices = [
-        i for i, line in enumerate(lines) if line.startswith(" * ") and i > reading_dates_index
-    ]
+
+    # Find the lines with dates
+    dates_indices = []
+    if reading_dates_index is not None:
+        dates_indices = [
+            i for i, line in enumerate(lines) if line.startswith(" * ") and i > reading_dates_index
+        ]
 
     # Check if the reading date already exists in the file to avoid duplicate dates
     if reading_date in lines:
