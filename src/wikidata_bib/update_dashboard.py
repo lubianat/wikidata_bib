@@ -6,9 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 import rdflib
-import wbib.queries
-from wbib import render_dashboard
-
+from wbib.wbib import render_dashboard
 HERE = Path(__file__).parent.resolve()
 
 BASE_DIR = "/wikidata_bib"
@@ -75,7 +73,14 @@ def main():
     ]
     papers_df["date"] = dates_in_date_format
 
-    ids = [i.split("/")[4] for i in papers_df["item"]]
+    # Sorting the dataframe by date
+    papers_df_sorted = papers_df.sort_values(by='date', ascending=False)
+
+    # Extracting the ids if the number of ids is less than 800, otherwise get only the 1000 most recent
+    if len(papers_df_sorted) < 800:
+        ids = [i.split("/")[4] for i in papers_df_sorted["item"]]
+    else:
+        ids = [i.split("/")[4] for i in papers_df_sorted["item"][:800]]
 
     docs_path = HERE.parent.parent.joinpath("docs").resolve()
 

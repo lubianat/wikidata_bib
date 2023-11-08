@@ -1510,6 +1510,16 @@ wd:Q121603215 wb:read_in "+2023-08-18T00:00:00Z/11" .
 
 wd:Q121789756 wb:read_in "+2023-08-23T00:00:00Z/11" .
 
+wd:Q122464582 wb:read_in "+2023-09-13T00:00:00Z/11" .
+
+wd:Q122518681 wb:read_in "+2023-09-14T00:00:00Z/11" .
+
+wd:Q122826322 wb:read_in "+2023-09-25T00:00:00Z/11" .
+
+wd:Q123023119 wb:read_in "+2023-10-12T00:00:00Z/11" .
+
+wd:Q123362109 wb:read_in "+2023-11-07T00:00:00Z/11" .
+
 wd:Q1620799 wb:has_notes wbn:Q1620799.md ;
     wb:in_collection wbc:filosofia ;
     wb:read_in "+2021-03-01T00:00:00Z/11" .
@@ -3890,6 +3900,10 @@ wd:Q58547062 wb:has_notes wbn:Q58547062.md ;
 
 wd:Q58547071 wb:has_notes wbn:Q58547071.md ;
     wb:read_in "+2022-07-14T00:00:00Z/11" .
+
+wd:Q58562969 wb:read_in "+2023-11-01T00:00:00Z/11" .
+
+wd:Q58562976 wb:read_in "+2023-11-01T00:00:00Z/11" .
 
 wd:Q58569656 wb:has_notes wbn:Q58569656.md ;
     wb:read_in "+2022-03-12T00:00:00Z/11" .
